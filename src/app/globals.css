@@ -36,3 +36,15 @@ body {
   background: #da291c;
   color: #ffffff;
 }
+
+/* the "Scroll" label on the intro gently bounces */
+@keyframes intro-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-7px); }
+}
+.intro-bounce {
+  animation: intro-bounce 1.3s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .intro-bounce { animation: none; }
+}

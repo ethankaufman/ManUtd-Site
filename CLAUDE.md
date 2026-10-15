@@ -63,7 +63,11 @@ After deleting `data/app.db`, restart `npm run dev`.
 
 - **Phase 0, setup: ✅ local.** Next.js + Drizzle/SQLite, colour tokens, branded placeholder homepage reading the
   tagline from the database. **LIVE** at https://ethankaufman.github.io/ManUtd-Site/ (public repo ethankaufman/ManUtd-Site, GitHub Pages via Actions). Commit email is the GitHub noreply address: keep it that way (git config is set in this repo).
-- Phase 1, look and intro: layout, scroll sections, Old Trafford zoom intro, photo slideshow
+- **Phase 1, look and intro: in progress.** DONE: graphic-novel Old Trafford zoom intro (`src/components/intro/`: scroll-driven
+  SVG illustration, procedural city, comic captions/speed lines/title banner; `?p=0.5` freezes it for screenshots).
+  TODO: rest of the layout and scroll sections, photo slideshow. Fonts: Anton (titles), Bangers (sound effects), Comic Neue (captions).
+  Illustration facts to keep true: Old Trafford opened 1910; over 74,000 seats; nickname "Theatre of Dreams"; address Sir Matt Busby Way, Stretford.
+  The city/streets are a stylised drawing, NOT a real map: never label it as one.
 - Phase 2, current-season hub (reuse ideas/scripts from ~/PL-History-Dashboard/scripts/update_current_season.py)
 - Phase 3, squad and player pages
 - Phase 4, match pages (1992 onward data already exists in ~/PL-History-Dashboard/data: filter to Manchester United)
