@@ -253,6 +253,14 @@ export default function Intro() {
             </div>
           </div>
 
+          {/* skip button */}
+          <a
+            href="#chapters"
+            className="absolute right-3 top-3 border-[3px] border-black bg-white px-3 py-1 font-caption text-xs font-bold uppercase tracking-wider text-black shadow-[3px_3px_0_#000] transition hover:bg-united-gold sm:text-sm"
+          >
+            Skip intro ▸
+          </a>
+
           {/* scroll hint */}
           <div ref={hintRef} className="pointer-events-none absolute bottom-[5%] left-1/2 -translate-x-1/2">
             <div className="intro-bounce border-[3px] border-black bg-white px-4 py-1.5 font-[family-name:var(--font-comic)] text-sm font-bold uppercase tracking-widest text-black shadow-[4px_4px_0_#000]">

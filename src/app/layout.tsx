@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Anton, Bangers, Comic_Neue, Geist, Geist_Mono } from "next/font/google";
+import Footer from "@/components/Footer";
+import SiteNav from "@/components/SiteNav";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -18,7 +20,7 @@ const bangers = Bangers({ weight: "400", variable: "--font-bangers", subsets: ["
 const comicNeue = Comic_Neue({ weight: ["400", "700"], variable: "--font-comic", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Manchester United: every match, trophy and legend",
+  title: { default: "Manchester United: every match, trophy and legend", template: "%s | Manchester United fan site" },
   description: "An unofficial Manchester United fan site: the current season, every match, honours, managers, Old Trafford and more.",
 };
 
@@ -28,7 +30,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${anton.variable} ${bangers.variable} ${comicNeue.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <SiteNav />
+        <div className="flex-1">{children}</div>
+        <Footer />
+      </body>
     </html>
   );
 }

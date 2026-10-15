@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
   // Build the whole site into plain HTML files (the "out" folder) so GitHub Pages can host it for free.
   // The database is read while building; nothing needs a server afterwards.
   output: "export",
+  // Every page becomes a folder with an index.html, so both /history and /history/ work on GitHub Pages.
+  trailingSlash: true,
   // The site lives at https://ethankaufman.github.io/ManUtd-Site/, so every link needs that prefix.
   basePath: process.env.NEXT_PUBLIC_BASE_PATH ?? "",
   images: { unoptimized: true },

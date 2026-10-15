@@ -13,6 +13,9 @@
   --color-united-grey: #1d1d1d;
   --color-united-white: #ffffff;
   --color-united-gold: #fbe122;
+  --font-display: var(--font-anton);
+  --font-sfx: var(--font-bangers);
+  --font-caption: var(--font-comic);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }

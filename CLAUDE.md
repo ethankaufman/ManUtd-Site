@@ -17,8 +17,14 @@ walk through work step by step. This is a separate project from the class PL His
 - Squad page and a page per player; a page per match (line-ups, scorers, assists, cards)
 - Intro: a top-down zoom into Old Trafford. Centre-page scrolling. Slideshow of famous
   United victories (free-licensed photos with credits only, e.g. Wikimedia Commons; or photos Ethan supplies)
-- A 3D interactive model of Wayne Rooney's overhead kick (Man Utd 2-1 Man City, Old Trafford, 12 Feb 2011:
-  verify every fact before showing it). Stylised player in a red kit built in three.js, no real face
+- **Overhead Kicks: its OWN tab/page (`/overhead-kicks`)**: 3D interactive models of Wayne Rooney's overhead kick
+  (Man Utd 2-1 Man City, Old Trafford, 12 Feb 2011) AND Alejandro Garnacho's Puskas-winning overhead kick (v Everton).
+  For EACH: the distance (from goal) and a match summary. Research and verify every fact/number from sources before
+  showing it; if no reliable distance exists, say it is an estimate and how it was made. Stylised player in a red kit
+  built in three.js, no real face
+- Slideshow: AT LEAST 7 HIGH-QUALITY (high resolution) free-licensed photos of famous United wins, each with credit/licence
+- "Red Devils" (the club nickname): Ethan wants some red-devil styling but is not sure how far to take it. First pass is
+  subtle (horns badge, pitchfork divider, drawn in the same ink style). Do NOT use the club crest. Ask before going bigger
 - Extra ideas to offer later: head-to-head vs rivals, Munich 1958 memorial, 1999 Treble, Class of '92,
   captains, shirt numbers, kits through the years, "On this day"
 
@@ -65,7 +71,7 @@ After deleting `data/app.db`, restart `npm run dev`.
   tagline from the database. **LIVE** at https://ethankaufman.github.io/ManUtd-Site/ (public repo ethankaufman/ManUtd-Site, GitHub Pages via Actions). Commit email is the GitHub noreply address: keep it that way (git config is set in this repo).
 - **Phase 1, look and intro: in progress.** DONE: graphic-novel Old Trafford zoom intro (`src/components/intro/`: scroll-driven
   SVG illustration, procedural city, comic captions/speed lines/title banner; `?p=0.5` freezes it for screenshots).
-  TODO: rest of the layout and scroll sections, photo slideshow. Fonts: Anton (titles), Bangers (sound effects), Comic Neue (captions).
+  DONE: chapter layout (`src/lib/chapters.ts` is the one list; home chapters section, top nav with phone menu, footer disclaimer, a placeholder page per chapter incl. `/overhead-kicks`; trailingSlash is ON so /x and /x/ both work on GitHub Pages; first-pass red-devil touches = horns badge + pitchfork divider/footer). TODO: photo slideshow (>=7 high-res free-licensed photos). Fonts: Anton (titles), Bangers (sound effects), Comic Neue (captions).
   Illustration facts to keep true: Old Trafford opened 1910; over 74,000 seats; nickname "Theatre of Dreams"; address Sir Matt Busby Way, Stretford.
   The city/streets are a stylised drawing, NOT a real map: never label it as one.
 - Phase 2, current-season hub (reuse ideas/scripts from ~/PL-History-Dashboard/scripts/update_current_season.py)
