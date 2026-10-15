@@ -6,7 +6,7 @@ import { Horns, PitchforkDivider } from "./DevilIcons";
 /** The home page's list of chapters: big comic panels, one under the other, down the middle of the page. */
 export default function Chapters() {
   return (
-    <section id="chapters" className="relative overflow-hidden bg-black px-5 pb-28 pt-24">
+    <section id="chapters" className="relative overflow-hidden bg-[#050505] px-5 pb-28 pt-24">
       {/* a strip of red halftone dots along the top edge */}
       <div
         aria-hidden="true"
@@ -35,14 +35,14 @@ export default function Chapters() {
           <li key={c.slug}>
             <Link
               href={`/${c.slug}`}
-              className={`group relative block border-4 border-black p-6 text-left shadow-[10px_10px_0_#DA291C] transition duration-200 hover:-translate-y-1 hover:shadow-[14px_14px_0_#FBE122] sm:p-8 ${
-                c.featured ? "bg-united-red text-white" : "bg-white text-black"
+              className={`group relative block border-4 p-6 text-left shadow-[10px_10px_0_#DA291C] transition duration-200 hover:-translate-y-1 hover:shadow-[14px_14px_0_#FBE122] sm:p-8 ${
+                c.featured ? "border-white bg-united-red text-white" : "border-white/90 bg-[#0c0c0c] text-white"
               } ${i % 2 ? "rotate-[0.7deg]" : "-rotate-[0.7deg]"}`}
             >
               <div className="flex items-start gap-5">
                 <span
                   className={`font-display text-6xl leading-none sm:text-7xl ${c.featured ? "text-black" : "text-united-red"}`}
-                  style={c.featured ? { textShadow: "3px 3px 0 #fff" } : { textShadow: "3px 3px 0 #000" }}
+                  style={c.featured ? { textShadow: "3px 3px 0 #fff" } : { textShadow: "3px 3px 0 #fff" }}
                   aria-hidden="true"
                 >
                   {c.number}

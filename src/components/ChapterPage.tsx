@@ -20,7 +20,7 @@ export default function ChapterPage({ chapter }: { chapter: Chapter }) {
       </h1>
       <p className="mt-5 max-w-xl text-lg text-white/75">{chapter.teaser}</p>
 
-      <div className="mt-10 w-full -rotate-1 border-4 border-black bg-white p-6 text-left text-black shadow-[10px_10px_0_#DA291C] sm:p-8">
+      <div className="mt-10 w-full -rotate-1 border-4 border-white/90 bg-[#0c0c0c] p-6 text-left text-white shadow-[10px_10px_0_#DA291C] sm:p-8">
         <p className="font-sfx text-3xl uppercase tracking-wide text-united-red">Coming soon!</p>
         <p className="mt-2 font-caption text-base font-bold uppercase">What this chapter will have:</p>
         <ul className="mt-3 space-y-2 font-caption text-base">

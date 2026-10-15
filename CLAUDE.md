@@ -69,9 +69,17 @@ After deleting `data/app.db`, restart `npm run dev`.
 
 - **Phase 0, setup: ✅ local.** Next.js + Drizzle/SQLite, colour tokens, branded placeholder homepage reading the
   tagline from the database. **LIVE** at https://ethankaufman.github.io/ManUtd-Site/ (public repo ethankaufman/ManUtd-Site, GitHub Pages via Actions). Commit email is the GitHub noreply address: keep it that way (git config is set in this repo).
-- **Phase 1, look and intro: in progress.** DONE: graphic-novel Old Trafford zoom intro (`src/components/intro/`: scroll-driven
-  SVG illustration, procedural city, comic captions/speed lines/title banner; `?p=0.5` freezes it for screenshots).
-  DONE: chapter layout (`src/lib/chapters.ts` is the one list; home chapters section, top nav with phone menu, footer disclaimer, a placeholder page per chapter incl. `/overhead-kicks`; trailingSlash is ON so /x and /x/ both work on GitHub Pages; first-pass red-devil touches = horns badge + pitchfork divider/footer). TODO: photo slideshow (>=7 high-res free-licensed photos). Fonts: Anton (titles), Bangers (sound effects), Comic Neue (captions).
+- **Phase 1, look and intro: in progress.** DONE: (1) chapter layout (`src/lib/chapters.ts` is the one list; home chapters
+  section, top nav with phone menu, footer disclaimer, a placeholder page per chapter incl. `/overhead-kicks`; trailingSlash is ON
+  so /x and /x/ both work on GitHub Pages; red-devil touches = horns badge + pitchfork divider/footer); (2) DARK theme (night,
+  noir comic: black pages, charcoal cards with white outline + red offset shadow); (3) the intro is now a NIGHT-TIME 3D FLIGHT
+  (`src/components/intro3d/`, three.js, loaded on demand): through the flyer's eyes (no character drawn: Superman/DC marks are
+  not used), a level run over the city, a banked sideways swoop, a tightening spiral round the stadium, a dive over the south
+  stand, landing at the tunnel mouth facing the pitch. Files: layout.ts (data + flight waypoints), scenery.ts (city/roads/canal,
+  window shader), stadium3d.ts (lofted bowl, crowd, pitch), flight.ts (camera path + banking), comic.ts (halftone/posterise
+  post-effect), scene3d.ts, Intro3D.tsx (scroll controller + comic overlays). `?p=0.5` freezes it for screenshots. Verified with
+  puppeteer-core + Chrome/SwiftShader only: NOT tested on a real GPU. If it stutters, lower crowd points/instances or MSAA.
+  TODO: photo slideshow (>=7 high-res free-licensed photos). Fonts: Anton (titles), Bangers (sound effects), Comic Neue (captions).
   Illustration facts to keep true: Old Trafford opened 1910; over 74,000 seats; nickname "Theatre of Dreams"; address Sir Matt Busby Way, Stretford.
   The city/streets are a stylised drawing, NOT a real map: never label it as one.
 - Phase 2, current-season hub (reuse ideas/scripts from ~/PL-History-Dashboard/scripts/update_current_season.py)
