@@ -62,7 +62,7 @@ After deleting `data/app.db`, restart `npm run dev`.
 ## Phase plan
 
 - **Phase 0, setup: ✅ local.** Next.js + Drizzle/SQLite, colour tokens, branded placeholder homepage reading the
-  tagline from the database. Pushed to private repo ethankaufman/ManUtd-Site. Going live on GitHub Pages: needs the repo made public + Pages source set to GitHub Actions.
+  tagline from the database. **LIVE** at https://ethankaufman.github.io/ManUtd-Site/ (public repo ethankaufman/ManUtd-Site, GitHub Pages via Actions). Commit email is the GitHub noreply address: keep it that way (git config is set in this repo).
 - Phase 1, look and intro: layout, scroll sections, Old Trafford zoom intro, photo slideshow
 - Phase 2, current-season hub (reuse ideas/scripts from ~/PL-History-Dashboard/scripts/update_current_season.py)
 - Phase 3, squad and player pages
