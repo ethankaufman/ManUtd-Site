@@ -30,14 +30,19 @@ Ask Ethan before introducing any other colour.
 
 ## Stack
 
-Next.js 16.4 (App Router, Turbopack, **Cache Components on**) · TypeScript · Tailwind v4 ·
-Drizzle ORM + libsql: local SQLite file `data/app.db`, production = Turso (free) ·
-Hosting plan: Vercel Hobby (free; non-commercial use only: no ads or selling) · private GitHub repo.
+Next.js 16.4 (App Router, Turbopack) as a **static export** (`output: "export"`) · TypeScript · Tailwind v4 ·
+Drizzle ORM + libsql reading a local SQLite file `data/app.db` **at build time**.
+Hosting: **GitHub Pages** (free), like the PL History Dashboard: `.github/workflows/deploy.yml` builds on every
+push to main and publishes `out/` to https://ethankaufman.github.io/ManUtd-Site/ (needs a PUBLIC repo on a free
+GitHub plan). No Turso/Vercel: visitors never touch the database; the pages are plain files.
 
-Cache Components rules (this is not the Next.js you know; read `node_modules/next/dist/docs/` first):
-route segment configs like `export const dynamic = ...` are NOT allowed. Database reads live in
-async functions marked `"use cache"` with a `cacheLife(...)` (see `src/lib/data.ts`); anything
-reading cookies/headers/request data must sit inside `<Suspense>`.
+Static-export rules (this is not the Next.js you know; read `node_modules/next/dist/docs/` first, esp.
+`01-app/02-guides/static-exports.md`): no server features (no route handlers that read requests, cookies,
+headers, middleware, ISR, `next/image` optimisation). Cache Components/PPR are OFF because they cannot be
+combined with export. Dynamic routes (player/match pages) need `generateStaticParams`. Everything is built with
+`basePath` = `NEXT_PUBLIC_BASE_PATH` (`/ManUtd-Site` in production, empty locally), so use `next/link` and
+prefix static asset URLs with the base path. Anything interactive (search, filters, 3D) runs in the browser.
+Freshness: a scheduled GitHub Action re-ingests data and rebuilds the site (like the dashboard's weekly job).
 
 ## Conventions
 
@@ -57,7 +62,7 @@ After deleting `data/app.db`, restart `npm run dev`.
 ## Phase plan
 
 - **Phase 0, setup: ✅ local.** Next.js + Drizzle/SQLite, colour tokens, branded placeholder homepage reading the
-  tagline from the database. TODO: private GitHub repo (done when pushed), Turso database, Vercel deploy (needs Ethan's logins).
+  tagline from the database. Pushed to private repo ethankaufman/ManUtd-Site. Going live on GitHub Pages: needs the repo made public + Pages source set to GitHub Actions.
 - Phase 1, look and intro: layout, scroll sections, Old Trafford zoom intro, photo slideshow
 - Phase 2, current-season hub (reuse ideas/scripts from ~/PL-History-Dashboard/scripts/update_current_season.py)
 - Phase 3, squad and player pages
