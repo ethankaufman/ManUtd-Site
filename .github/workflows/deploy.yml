@@ -34,7 +34,7 @@ jobs:
 
       # The site is built from a local database file, so create and fill it first.
       - name: Prepare the database
-        run: npm run db:migrate
+        run: npm run db:migrate && npm run db:seed
 
       - name: Build the site
         run: npm run build

@@ -1,0 +1,7894 @@
+{
+ "season": "2026-27",
+ "updated": "2026-10-16T02:49Z",
+ "source": "ESPN public soccer service (unofficial)",
+ "competitions": [
+  {
+   "slug": "premier-league",
+   "espn": "eng.1",
+   "name": "Premier League",
+   "kind": "league",
+   "has_table": true,
+   "matches": 38
+  },
+  {
+   "slug": "champions-league",
+   "espn": "uefa.champions",
+   "name": "UEFA Champions League",
+   "kind": "europe",
+   "has_table": true,
+   "matches": 8
+  },
+  {
+   "slug": "carabao-cup",
+   "espn": "eng.league_cup",
+   "name": "Carabao Cup",
+   "kind": "cup",
+   "has_table": false,
+   "matches": 1
+  },
+  {
+   "slug": "fa-cup",
+   "espn": "eng.fa",
+   "name": "FA Cup",
+   "kind": "cup",
+   "has_table": false,
+   "matches": 0
+  },
+  {
+   "slug": "friendlies",
+   "espn": "club.friendly",
+   "name": "Pre-season friendlies",
+   "kind": "friendly",
+   "has_table": false,
+   "matches": 6
+  }
+ ],
+ "tables": {
+  "uefa.champions": [
+   {
+    "rank": 1,
+    "team": "Paris Saint-Germain",
+    "p": 2,
+    "w": 2,
+    "d": 0,
+    "l": 0,
+    "gf": 10,
+    "ga": 3,
+    "pts": 6,
+    "zone": "Qualifies for round of 16"
+   },
+   {
+    "rank": 2,
+    "team": "Barcelona",
+    "p": 2,
+    "w": 2,
+    "d": 0,
+    "l": 0,
+    "gf": 9,
+    "ga": 2,
+    "pts": 6,
+    "zone": "Qualifies for round of 16"
+   },
+   {
+    "rank": 3,
+    "team": "Aston Villa",
+    "p": 2,
+    "w": 2,
+    "d": 0,
+    "l": 0,
+    "gf": 9,
+    "ga": 2,
+    "pts": 6,
+    "zone": "Qualifies for round of 16"
+   },
+   {
+    "rank": 4,
+    "team": "VfB Stuttgart",
+    "p": 2,
+    "w": 2,
+    "d": 0,
+    "l": 0,
+    "gf": 6,
+    "ga": 1,
+    "pts": 6,
+    "zone": "Qualifies for round of 16"
+   },
+   {
+    "rank": 5,
+    "team": "Liverpool",
+    "p": 2,
+    "w": 2,
+    "d": 0,
+    "l": 0,
+    "gf": 8,
+    "ga": 4,
+    "pts": 6,
+    "zone": "Qualifies for round of 16"
+   },
+   {
+    "rank": 6,
+    "team": "Sporting CP",
+    "p": 2,
+    "w": 2,
+    "d": 0,
+    "l": 0,
+    "gf": 5,
+    "ga": 1,
+    "pts": 6,
+    "zone": "Qualifies for round of 16"
+   },
+   {
+    "rank": 7,
+    "team": "Arsenal",
+    "p": 2,
+    "w": 2,
+    "d": 0,
+    "l": 0,
+    "gf": 4,
+    "ga": 0,
+    "pts": 6,
+    "zone": "Qualifies for round of 16"
+   },
+   {
+    "rank": 8,
+    "team": "Real Madrid",
+    "p": 2,
+    "w": 2,
+    "d": 0,
+    "l": 0,
+    "gf": 6,
+    "ga": 4,
+    "pts": 6,
+    "zone": "Qualifies for round of 16"
+   },
+   {
+    "rank": 9,
+    "team": "Real Betis",
+    "p": 2,
+    "w": 2,
+    "d": 0,
+    "l": 0,
+    "gf": 6,
+    "ga": 4,
+    "pts": 6,
+    "zone": "Knockout phase playoffs - seeded"
+   },
+   {
+    "rank": 10,
+    "team": "Bayern Munich",
+    "p": 2,
+    "w": 1,
+    "d": 1,
+    "l": 0,
+    "gf": 8,
+    "ga": 3,
+    "pts": 4,
+    "zone": "Knockout phase playoffs - seeded"
+   },
+   {
+    "rank": 11,
+    "team": "Shakhtar Donetsk",
+    "p": 2,
+    "w": 1,
+    "d": 1,
+    "l": 0,
+    "gf": 4,
+    "ga": 2,
+    "pts": 4,
+    "zone": "Knockout phase playoffs - seeded"
+   },
+   {
+    "rank": 12,
+    "team": "Como",
+    "p": 2,
+    "w": 1,
+    "d": 0,
+    "l": 1,
+    "gf": 6,
+    "ga": 4,
+    "pts": 3,
+    "zone": "Knockout phase playoffs - seeded"
+   },
+   {
+    "rank": 13,
+    "team": "Manchester United",
+    "p": 2,
+    "w": 1,
+    "d": 0,
+    "l": 1,
+    "gf": 4,
+    "ga": 2,
+    "pts": 3,
+    "zone": "Knockout phase playoffs - seeded"
+   },
+   {
+    "rank": 14,
+    "team": "Villarreal",
+    "p": 2,
+    "w": 1,
+    "d": 0,
+    "l": 1,
+    "gf": 5,
+    "ga": 4,
+    "pts": 3,
+    "zone": "Knockout phase playoffs - seeded"
+   },
+   {
+    "rank": 15,
+    "team": "Atlético Madrid",
+    "p": 2,
+    "w": 1,
+    "d": 0,
+    "l": 1,
+    "gf": 3,
+    "ga": 2,
+    "pts": 3,
+    "zone": "Knockout phase playoffs - seeded"
+   },
+   {
+    "rank": 16,
+    "team": "Club Brugge",
+    "p": 2,
+    "w": 1,
+    "d": 0,
+    "l": 1,
+    "gf": 6,
+    "ga": 6,
+    "pts": 3,
+    "zone": "Knockout phase playoffs - seeded"
+   },
+   {
+    "rank": 17,
+    "team": "Manchester City",
+    "p": 2,
+    "w": 1,
+    "d": 0,
+    "l": 1,
+    "gf": 4,
+    "ga": 4,
+    "pts": 3,
+    "zone": "Knockout phase playoffs - unseeded"
+   },
+   {
+    "rank": 18,
+    "team": "Borussia Dortmund",
+    "p": 2,
+    "w": 1,
+    "d": 0,
+    "l": 1,
+    "gf": 3,
+    "ga": 3,
+    "pts": 3,
+    "zone": "Knockout phase playoffs - unseeded"
+   },
+   {
+    "rank": 19,
+    "team": "Lens",
+    "p": 2,
+    "w": 1,
+    "d": 0,
+    "l": 1,
+    "gf": 3,
+    "ga": 4,
+    "pts": 3,
+    "zone": "Knockout phase playoffs - unseeded"
+   },
+   {
+    "rank": 20,
+    "team": "AEK Athens",
+    "p": 2,
+    "w": 1,
+    "d": 0,
+    "l": 1,
+    "gf": 2,
+    "ga": 3,
+    "pts": 3,
+    "zone": "Knockout phase playoffs - unseeded"
+   },
+   {
+    "rank": 21,
+    "team": "RB Leipzig",
+    "p": 2,
+    "w": 1,
+    "d": 0,
+    "l": 1,
+    "gf": 2,
+    "ga": 4,
+    "pts": 3,
+    "zone": "Knockout phase playoffs - unseeded"
+   },
+   {
+    "rank": 22,
+    "team": "Sabah FK",
+    "p": 2,
+    "w": 1,
+    "d": 0,
+    "l": 1,
+    "gf": 2,
+    "ga": 4,
+    "pts": 3,
+    "zone": "Knockout phase playoffs - unseeded"
+   },
+   {
+    "rank": 23,
+    "team": "Feyenoord Rotterdam",
+    "p": 2,
+    "w": 1,
+    "d": 0,
+    "l": 1,
+    "gf": 4,
+    "ga": 7,
+    "pts": 3,
+    "zone": "Knockout phase playoffs - unseeded"
+   },
+   {
+    "rank": 24,
+    "team": "Bodo/Glimt",
+    "p": 2,
+    "w": 1,
+    "d": 0,
+    "l": 1,
+    "gf": 1,
+    "ga": 5,
+    "pts": 3,
+    "zone": "Knockout phase playoffs - unseeded"
+   },
+   {
+    "rank": 25,
+    "team": "AS Roma",
+    "p": 2,
+    "w": 0,
+    "d": 1,
+    "l": 1,
+    "gf": 4,
+    "ga": 5,
+    "pts": 1,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 26,
+    "team": "PSV Eindhoven",
+    "p": 2,
+    "w": 0,
+    "d": 1,
+    "l": 1,
+    "gf": 1,
+    "ga": 2,
+    "pts": 1,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 27,
+    "team": "VIKING FK",
+    "p": 2,
+    "w": 0,
+    "d": 1,
+    "l": 1,
+    "gf": 4,
+    "ga": 6,
+    "pts": 1,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 28,
+    "team": "Fenerbahce",
+    "p": 2,
+    "w": 0,
+    "d": 1,
+    "l": 1,
+    "gf": 1,
+    "ga": 7,
+    "pts": 1,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 29,
+    "team": "Internazionale",
+    "p": 2,
+    "w": 0,
+    "d": 0,
+    "l": 2,
+    "gf": 4,
+    "ga": 6,
+    "pts": 0,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 30,
+    "team": "FC Porto",
+    "p": 2,
+    "w": 0,
+    "d": 0,
+    "l": 2,
+    "gf": 2,
+    "ga": 5,
+    "pts": 0,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 31,
+    "team": "Slavia Prague",
+    "p": 2,
+    "w": 0,
+    "d": 0,
+    "l": 2,
+    "gf": 2,
+    "ga": 5,
+    "pts": 0,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 32,
+    "team": "Napoli",
+    "p": 2,
+    "w": 0,
+    "d": 0,
+    "l": 2,
+    "gf": 1,
+    "ga": 4,
+    "pts": 0,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 33,
+    "team": "LASK Linz",
+    "p": 2,
+    "w": 0,
+    "d": 0,
+    "l": 2,
+    "gf": 3,
+    "ga": 7,
+    "pts": 0,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 34,
+    "team": "Lille",
+    "p": 2,
+    "w": 0,
+    "d": 0,
+    "l": 2,
+    "gf": 2,
+    "ga": 6,
+    "pts": 0,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 35,
+    "team": "Galatasaray",
+    "p": 2,
+    "w": 0,
+    "d": 0,
+    "l": 2,
+    "gf": 2,
+    "ga": 7,
+    "pts": 0,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 36,
+    "team": "Slovan Bratislava",
+    "p": 2,
+    "w": 0,
+    "d": 0,
+    "l": 2,
+    "gf": 1,
+    "ga": 9,
+    "pts": 0,
+    "zone": "Eliminated"
+   }
+  ],
+  "eng.1": [
+   {
+    "rank": 1,
+    "team": "Manchester City",
+    "p": 6,
+    "w": 6,
+    "d": 0,
+    "l": 0,
+    "gf": 16,
+    "ga": 5,
+    "pts": 18,
+    "zone": "Champions League"
+   },
+   {
+    "rank": 2,
+    "team": "Arsenal",
+    "p": 6,
+    "w": 5,
+    "d": 0,
+    "l": 1,
+    "gf": 10,
+    "ga": 5,
+    "pts": 15,
+    "zone": "Champions League"
+   },
+   {
+    "rank": 3,
+    "team": "Brighton & Hove Albion",
+    "p": 6,
+    "w": 4,
+    "d": 1,
+    "l": 1,
+    "gf": 18,
+    "ga": 5,
+    "pts": 13,
+    "zone": "Champions League"
+   },
+   {
+    "rank": 4,
+    "team": "Brentford",
+    "p": 6,
+    "w": 2,
+    "d": 4,
+    "l": 0,
+    "gf": 12,
+    "ga": 6,
+    "pts": 10,
+    "zone": "Champions League"
+   },
+   {
+    "rank": 5,
+    "team": "Everton",
+    "p": 6,
+    "w": 2,
+    "d": 4,
+    "l": 0,
+    "gf": 8,
+    "ga": 5,
+    "pts": 10,
+    "zone": "Europa League"
+   },
+   {
+    "rank": 6,
+    "team": "Chelsea",
+    "p": 6,
+    "w": 3,
+    "d": 1,
+    "l": 2,
+    "gf": 15,
+    "ga": 13,
+    "pts": 10,
+    "zone": null
+   },
+   {
+    "rank": 7,
+    "team": "Leeds United",
+    "p": 6,
+    "w": 2,
+    "d": 3,
+    "l": 1,
+    "gf": 8,
+    "ga": 5,
+    "pts": 9,
+    "zone": null
+   },
+   {
+    "rank": 8,
+    "team": "Hull City",
+    "p": 6,
+    "w": 2,
+    "d": 3,
+    "l": 1,
+    "gf": 8,
+    "ga": 6,
+    "pts": 9,
+    "zone": null
+   },
+   {
+    "rank": 9,
+    "team": "Liverpool",
+    "p": 6,
+    "w": 2,
+    "d": 3,
+    "l": 1,
+    "gf": 7,
+    "ga": 7,
+    "pts": 9,
+    "zone": null
+   },
+   {
+    "rank": 10,
+    "team": "Ipswich Town",
+    "p": 6,
+    "w": 3,
+    "d": 0,
+    "l": 3,
+    "gf": 9,
+    "ga": 12,
+    "pts": 9,
+    "zone": null
+   },
+   {
+    "rank": 11,
+    "team": "Newcastle United",
+    "p": 6,
+    "w": 2,
+    "d": 2,
+    "l": 2,
+    "gf": 10,
+    "ga": 13,
+    "pts": 8,
+    "zone": null
+   },
+   {
+    "rank": 12,
+    "team": "Crystal Palace",
+    "p": 6,
+    "w": 2,
+    "d": 1,
+    "l": 3,
+    "gf": 9,
+    "ga": 12,
+    "pts": 7,
+    "zone": null
+   },
+   {
+    "rank": 13,
+    "team": "Manchester United",
+    "p": 6,
+    "w": 1,
+    "d": 3,
+    "l": 2,
+    "gf": 9,
+    "ga": 9,
+    "pts": 6,
+    "zone": null
+   },
+   {
+    "rank": 14,
+    "team": "Coventry City",
+    "p": 6,
+    "w": 2,
+    "d": 0,
+    "l": 4,
+    "gf": 5,
+    "ga": 11,
+    "pts": 6,
+    "zone": null
+   },
+   {
+    "rank": 15,
+    "team": "Nottingham Forest",
+    "p": 6,
+    "w": 1,
+    "d": 2,
+    "l": 3,
+    "gf": 5,
+    "ga": 8,
+    "pts": 5,
+    "zone": null
+   },
+   {
+    "rank": 16,
+    "team": "Aston Villa",
+    "p": 6,
+    "w": 1,
+    "d": 2,
+    "l": 3,
+    "gf": 6,
+    "ga": 11,
+    "pts": 5,
+    "zone": null
+   },
+   {
+    "rank": 17,
+    "team": "Sunderland",
+    "p": 6,
+    "w": 1,
+    "d": 1,
+    "l": 4,
+    "gf": 6,
+    "ga": 12,
+    "pts": 4,
+    "zone": null
+   },
+   {
+    "rank": 18,
+    "team": "AFC Bournemouth",
+    "p": 6,
+    "w": 0,
+    "d": 3,
+    "l": 3,
+    "gf": 7,
+    "ga": 13,
+    "pts": 3,
+    "zone": "Relegation"
+   },
+   {
+    "rank": 19,
+    "team": "Tottenham Hotspur",
+    "p": 6,
+    "w": 0,
+    "d": 3,
+    "l": 3,
+    "gf": 3,
+    "ga": 9,
+    "pts": 3,
+    "zone": "Relegation"
+   },
+   {
+    "rank": 20,
+    "team": "Fulham",
+    "p": 6,
+    "w": 0,
+    "d": 2,
+    "l": 4,
+    "gf": 6,
+    "ga": 10,
+    "pts": 2,
+    "zone": "Relegation"
+   }
+  ]
+ },
+ "matches": [
+  {
+   "id": "401863531",
+   "espn": "club.friendly",
+   "round": "",
+   "kick": "2026-07-18T15:00Z",
+   "state": "finished",
+   "home": "Manchester United",
+   "away": "Wrexham",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "venue": "Helsinki Olympic Stadium",
+   "city": "Helsinki",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "friendlies",
+   "goals": [
+    {
+     "min": "39",
+     "team": "Wrexham",
+     "player": "Sam Smith",
+     "assist": "Lewis O'Brien",
+     "kind": "Goal"
+    }
+   ],
+   "cards": [
+    {
+     "min": "64",
+     "team": "Manchester United",
+     "player": "Jaydan Kamason",
+     "kind": "Yellow"
+    }
+   ],
+   "lineups": [
+    {
+     "team": "Manchester United",
+     "side": "home",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Tom Heaton",
+       "no": "22",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Ayden Heaven",
+       "no": "26",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Harry Maguire",
+       "no": "5",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Luke Shaw",
+       "no": "23",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Jack Fletcher",
+       "no": "38",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Mason Mount",
+       "no": "7",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Patrick Dorgu",
+       "no": "13",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Harry Amass",
+       "no": "41",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Jaydan Kamason",
+       "no": "61",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Daniel Gore",
+       "no": "44",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Ethan Wheatley",
+       "no": "36",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Toby Collyer",
+       "no": "43",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Jacob Devaney",
+       "no": "62",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Shea Lacey",
+       "no": "46",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Dermot Mee",
+       "no": "45",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Tyler Fletcher",
+       "no": "39",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Jim Thwaites",
+       "no": "63",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Daniel Armer",
+       "no": "69",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Chido Obi",
+       "no": "32",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Radek Vítek",
+       "no": "40",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Ethan Williams",
+       "no": "53",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "Wrexham",
+     "side": "away",
+     "formation": "3-4-2-1",
+     "players": [
+      {
+       "name": "Arthur Okonkwo",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Dan Scarr",
+       "no": "24",
+       "pos": "CD",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Callum Doyle",
+       "no": "2",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Zak Vyner",
+       "no": "26",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Lewis O'Brien",
+       "no": "27",
+       "pos": "CM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Matty James",
+       "no": "37",
+       "pos": "CM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "George Thomason",
+       "no": "14",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Aaron James",
+       "no": "34",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bailey Cadamarteri",
+       "no": "11",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Nathan Broadhead",
+       "no": "33",
+       "pos": "CF-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Sam Smith",
+       "no": "28",
+       "pos": "CF-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Joe Gavin Rees",
+       "no": "98",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Oliver Jack Wilson Mctweed",
+       "no": "97",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Rio Lloyd Owen",
+       "no": "95",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Tommy Stuart Neil Clayton",
+       "no": "96",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Dafydd Vaughan Edwards",
+       "no": "99",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Alexander James Moore",
+       "no": "40",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Kieffer Moore",
+       "no": "19",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Conor Coady",
+       "no": "6",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Lewis Brunt",
+       "no": "3",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Oliver Rathbone",
+       "no": "20",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "George Dobson",
+       "no": "15",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Harry Ashfield",
+       "no": "45",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Davis Kellior-Dunn",
+       "no": "7",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Dominic Hyam",
+       "no": "5",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Ryan Barnett",
+       "no": "29",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Danny Ward",
+       "no": "21",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401869196",
+   "espn": "club.friendly",
+   "round": "",
+   "kick": "2026-07-24T16:00Z",
+   "state": "finished",
+   "home": "Rosenborg",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 5,
+   "pens": null,
+   "venue": "Lerkendal Stadion",
+   "city": "Trondheim",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "friendlies",
+   "goals": [
+    {
+     "min": "31",
+     "team": "Manchester United",
+     "player": "Shea Lacey",
+     "assist": null,
+     "kind": "Goal"
+    },
+    {
+     "min": "56",
+     "team": "Manchester United",
+     "player": "Joshua Zirkzee",
+     "assist": null,
+     "kind": "Goal"
+    },
+    {
+     "min": "63",
+     "team": "Manchester United",
+     "player": "Jacob Devaney",
+     "assist": null,
+     "kind": "Goal"
+    },
+    {
+     "min": "72",
+     "team": "Manchester United",
+     "player": "Harry Amass",
+     "assist": null,
+     "kind": "Goal"
+    },
+    {
+     "min": "84",
+     "team": "Manchester United",
+     "player": "Ethan Williams",
+     "assist": null,
+     "kind": "Goal"
+    }
+   ],
+   "cards": [
+    {
+     "min": "88",
+     "team": "Manchester United",
+     "player": "Jacob Devaney",
+     "kind": "Yellow"
+    }
+   ],
+   "lineups": [
+    {
+     "team": "Rosenborg",
+     "side": "home",
+     "formation": "4-3-3",
+     "players": [
+      {
+       "name": "Leopold Wahlstedt",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Tomas Nemcik",
+       "no": "21",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Hakon Volden",
+       "no": "5",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Adrian Pereira",
+       "no": "19",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Jonas Mortensen",
+       "no": "15",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Ole Selnaes",
+       "no": "10",
+       "pos": "CM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Iver Fossum",
+       "no": "8",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Mads Bomholt",
+       "no": "17",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Amin Chiakha",
+       "no": "18",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Noah Sahsah",
+       "no": "11",
+       "pos": "LF",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Jesper Reitan-Sunde",
+       "no": "14",
+       "pos": "RF",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Mikkel Konradsen Ceïde",
+       "no": "4",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Dávid Duris",
+       "no": "29",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Boye Skøre Hedman",
+       "no": "27",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Ulrik Hald-Hernes",
+       "no": "26",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "David Amdam",
+       "no": "13",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Emil Konradsen Ceïde",
+       "no": "35",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Aslak Witry",
+       "no": "16",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Alexander Borgersen",
+       "no": "20",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": true
+      },
+      {
+       "name": "Tobias Solheim",
+       "no": "3",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Maciej Soboczynski",
+       "no": "30",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Elias Slørdal",
+       "no": "28",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Hakon Rosten",
+       "no": "2",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Johan Bakke",
+       "no": "25",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": true
+      },
+      {
+       "name": "Rasmus Sandberg",
+       "no": "12",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "Manchester United",
+     "side": "away",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Radek Vítek",
+       "no": "40",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Ayden Heaven",
+       "no": "26",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Harry Maguire",
+       "no": "5",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Luke Shaw",
+       "no": "23",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Shea Lacey",
+       "no": "46",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Mason Mount",
+       "no": "7",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Patrick Dorgu",
+       "no": "13",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Toby Collyer",
+       "no": "43",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Tyler Fletcher",
+       "no": "39",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Chido Obi",
+       "no": "32",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Tom Heaton",
+       "no": "22",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Dermot Mee",
+       "no": "45",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Ethan Williams",
+       "no": "53",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Daniel Gore",
+       "no": "44",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "JJ Gabriel",
+       "no": "77",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Jim Thwaites",
+       "no": "63",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Harry Amass",
+       "no": "41",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Jaydan Kamason",
+       "no": "61",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Daniel Armer",
+       "no": "69",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Jacob Devaney",
+       "no": "62",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Jack Fletcher",
+       "no": "38",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401869198",
+   "espn": "club.friendly",
+   "round": "",
+   "kick": "2026-08-01T13:00Z",
+   "state": "finished",
+   "home": "Manchester United",
+   "away": "Atlético Madrid",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "venue": "Friends Arena",
+   "city": "Stockholm",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "friendlies",
+   "goals": [
+    {
+     "min": "5",
+     "team": "Atlético Madrid",
+     "player": "Arnau Ortiz",
+     "assist": "Koke",
+     "kind": "Goal"
+    },
+    {
+     "min": "53",
+     "team": "Manchester United",
+     "player": "Bryan Mbeumo",
+     "assist": null,
+     "kind": "Penalty"
+    },
+    {
+     "min": "74",
+     "team": "Manchester United",
+     "player": "Bryan Mbeumo",
+     "assist": null,
+     "kind": "Goal"
+    }
+   ],
+   "cards": [
+    {
+     "min": "50",
+     "team": "Manchester United",
+     "player": "Ayden Heaven",
+     "kind": "Yellow"
+    }
+   ],
+   "lineups": [
+    {
+     "team": "Manchester United",
+     "side": "home",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Tom Heaton",
+       "no": "22",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Ayden Heaven",
+       "no": "26",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Harry Maguire",
+       "no": "5",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Luke Shaw",
+       "no": "23",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Shea Lacey",
+       "no": "46",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Mason Mount",
+       "no": "7",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Patrick Dorgu",
+       "no": "13",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Amad Diallo",
+       "no": "16",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Jim Thwaites",
+       "no": "63",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Jack Fletcher",
+       "no": "38",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Dermot Mee",
+       "no": "45",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Harry Amass",
+       "no": "41",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Daniel Armer",
+       "no": "69",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Radek Vítek",
+       "no": "40",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Tyler Fletcher",
+       "no": "39",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Ethan Williams",
+       "no": "53",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Jaydan Kamason",
+       "no": "61",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "JJ Gabriel",
+       "no": "77",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Altay Bayindir",
+       "no": "1",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "Atlético Madrid",
+     "side": "away",
+     "formation": "4-4-2",
+     "players": [
+      {
+       "name": "Jan Oblak",
+       "no": "13",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Dávid Hancko",
+       "no": "17",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Robin Le Normand",
+       "no": "24",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Matteo Ruggeri",
+       "no": "3",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Jorge Domínguez",
+       "no": "27",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Koke",
+       "no": "6",
+       "pos": "CM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Obed Vargas",
+       "no": "21",
+       "pos": "CM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Ademola Lookman",
+       "no": "22",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Carlos Martín",
+       "no": "12",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Arnau Ortiz",
+       "no": "54",
+       "pos": "CF-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Jorge Castillo",
+       "no": "46",
+       "pos": "CF-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "José María Giménez",
+       "no": "2",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Sergio Esteban",
+       "no": "45",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Daniel Martinez",
+       "no": "30",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Romeo Hueso Moya",
+       "no": "49",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Miguel Cubo",
+       "no": "61",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Dani Rubio",
+       "no": "55",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Aleksa Puric",
+       "no": "40",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Rodrigo Mendoza",
+       "no": "4",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Morten Hjulmand",
+       "no": "23",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Salvi Esquivel",
+       "no": "31",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Arnau Solà",
+       "no": "47",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Javier Boñar",
+       "no": "32",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Thomas Lemar",
+       "no": "15",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Iker Luque",
+       "no": "37",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401868048",
+   "espn": "club.friendly",
+   "round": "",
+   "kick": "2026-08-08T15:00Z",
+   "state": "finished",
+   "home": "Paris Saint-Germain",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "venue": "Ullevi Stadium",
+   "city": "Gothenburg",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "friendlies",
+   "goals": [
+    {
+     "min": "2",
+     "team": "Paris Saint-Germain",
+     "player": "Ibrahim Mbaye",
+     "assist": "Dro Fernández",
+     "kind": "Goal"
+    },
+    {
+     "min": "32",
+     "team": "Manchester United",
+     "player": "Bryan Mbeumo",
+     "assist": "Amad Diallo",
+     "kind": "Goal"
+    }
+   ],
+   "cards": [
+    {
+     "min": "16",
+     "team": "Manchester United",
+     "player": "Ayden Heaven",
+     "kind": "Yellow"
+    }
+   ],
+   "lineups": [
+    {
+     "team": "Paris Saint-Germain",
+     "side": "home",
+     "formation": "4-3-3",
+     "players": [
+      {
+       "name": "Matvei Safonov",
+       "no": "39",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Willian Pacho",
+       "no": "51",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Illia Zabarnyi",
+       "no": "6",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Axel Koukaba",
+       "no": "52",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "David Boly",
+       "no": "42",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Lucas Beraldo",
+       "no": "4",
+       "pos": "CM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Dro Fernández",
+       "no": "27",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Senny Mayulu",
+       "no": "24",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Adam Ayari",
+       "no": "57",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Khvicha Kvaratskhelia",
+       "no": "7",
+       "pos": "LF",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Ibrahim Mbaye",
+       "no": "49",
+       "pos": "RF",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Nuno Mendes",
+       "no": "25",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Abdou-Khadre Fanné-Dramé",
+       "no": "48",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Marquinhos",
+       "no": "5",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Paul Bourdin",
+       "no": "53",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Younes Idder",
+       "no": "46",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Mamadou Meïté",
+       "no": "55",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Alessandro Longoni",
+       "no": "16",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Vitinha",
+       "no": "17",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Lucas Chevalier",
+       "no": "30",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Dimitri Lucea",
+       "no": "54",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "João Neves",
+       "no": "87",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Rayan Abo El Nay",
+       "no": "58",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Quentin Ndjantou",
+       "no": "47",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "Manchester United",
+     "side": "away",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Tom Heaton",
+       "no": "22",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Ayden Heaven",
+       "no": "26",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Harry Maguire",
+       "no": "5",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Luke Shaw",
+       "no": "23",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Noussair Mazraoui",
+       "no": "3",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Shea Lacey",
+       "no": "46",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Mason Mount",
+       "no": "7",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Patrick Dorgu",
+       "no": "13",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Amad Diallo",
+       "no": "16",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Dermot Mee",
+       "no": "45",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Bruno Fernandes",
+       "no": "8",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Daniel Armer",
+       "no": "69",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Harry Amass",
+       "no": "41",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Youri Tielemans",
+       "no": "18",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Diogo Dalot",
+       "no": "2",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Fred Heath",
+       "no": "98",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Tyler Fletcher",
+       "no": "39",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Jack Fletcher",
+       "no": "38",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401867394",
+   "espn": "club.friendly",
+   "round": "",
+   "kick": "2026-08-12T18:30Z",
+   "state": "finished",
+   "home": "Manchester United",
+   "away": "Leeds United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "venue": "Croke Park",
+   "city": "Dublin",
+   "att": null,
+   "neutral": false,
+   "note": "Final Score - After Penalties",
+   "comp": "friendlies",
+   "goals": [
+    {
+     "min": "16",
+     "team": "Manchester United",
+     "player": "Joshua Zirkzee",
+     "assist": "Bryan Mbeumo",
+     "kind": "Goal"
+    },
+    {
+     "min": "29",
+     "team": "Leeds United",
+     "player": "Brenden Aaronson",
+     "assist": "Daniel James",
+     "kind": "Goal"
+    }
+   ],
+   "cards": [],
+   "lineups": [
+    {
+     "team": "Manchester United",
+     "side": "home",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Senne Lammens",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Ayden Heaven",
+       "no": "26",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Harry Amass",
+       "no": "41",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Diogo Dalot",
+       "no": "2",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Tyler Fletcher",
+       "no": "39",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Patrick Dorgu",
+       "no": "13",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Amad Diallo",
+       "no": "16",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Matheus Cunha",
+       "no": "10",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "JJ Gabriel",
+       "no": "77",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Tynan Thompson",
+       "no": "27",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Solomon Honor",
+       "no": "47",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Fred Heath",
+       "no": "71",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Daniel Armer",
+       "no": "69",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Luke Shaw",
+       "no": "23",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Shea Lacey",
+       "no": "46",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Jack Fletcher",
+       "no": "38",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Bruno Fernandes",
+       "no": "8",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Dermot Mee",
+       "no": "45",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Youri Tielemans",
+       "no": "18",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Toby Collyer",
+       "no": "43",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Noussair Mazraoui",
+       "no": "3",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "Leeds United",
+     "side": "away",
+     "formation": "3-4-2-1",
+     "players": [
+      {
+       "name": "James Trafford",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Jaka Bijol",
+       "no": "15",
+       "pos": "CD",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Tarik Muharemovic",
+       "no": "5",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Sebastiaan Bornauw",
+       "no": "33",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Sean Longstaff",
+       "no": "8",
+       "pos": "CM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Ao Tanaka",
+       "no": "22",
+       "pos": "CM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Rhys Chadwick",
+       "no": "47",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Jayden Bogle",
+       "no": "2",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Lukas Nmecha",
+       "no": "14",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Daniel James",
+       "no": "7",
+       "pos": "CF-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Brenden Aaronson",
+       "no": "11",
+       "pos": "CF-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Harry Wilson",
+       "no": "17",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Alfie Cresswell",
+       "no": "50",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Wilfried Gnonto",
+       "no": "29",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Alex Cairns",
+       "no": "21",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Ethan Ampadu",
+       "no": "4",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Anton Stach",
+       "no": "18",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Callum Mills",
+       "no": "72",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Jayden Lienou",
+       "no": "65",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Noah Okafor",
+       "no": "19",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Joël Piroe",
+       "no": "10",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Joe Rodon",
+       "no": "6",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Dominic Calvert-Lewin",
+       "no": "9",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "James Justin",
+       "no": "24",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Rory Mahady",
+       "no": "49",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401886562",
+   "espn": "club.friendly",
+   "round": "",
+   "kick": "2026-08-15T14:45Z",
+   "state": "finished",
+   "home": "Manchester United",
+   "away": "AC Milan",
+   "hg": 2,
+   "ag": 4,
+   "pens": null,
+   "venue": "Municipal Stadium Wroclaw",
+   "city": "Wroclaw",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "friendlies",
+   "goals": [
+    {
+     "min": "2",
+     "team": "Manchester United",
+     "player": "Harry Maguire",
+     "assist": "Bruno Fernandes",
+     "kind": "Goal"
+    },
+    {
+     "min": "37",
+     "team": "AC Milan",
+     "player": "Samuel Chukwueze",
+     "assist": "Gonçalo Ramos",
+     "kind": "Goal"
+    },
+    {
+     "min": "51",
+     "team": "Manchester United",
+     "player": "Patrick Dorgu",
+     "assist": null,
+     "kind": "Goal"
+    },
+    {
+     "min": "57",
+     "team": "AC Milan",
+     "player": "Alphadjo Cissè",
+     "assist": "Samuel Chukwueze",
+     "kind": "Goal"
+    },
+    {
+     "min": "68",
+     "team": "AC Milan",
+     "player": "Gonçalo Ramos",
+     "assist": "Samuel Chukwueze",
+     "kind": "Goal"
+    },
+    {
+     "min": "71",
+     "team": "AC Milan",
+     "player": "Ruben Loftus-Cheek",
+     "assist": "Gonçalo Ramos",
+     "kind": "Goal"
+    }
+   ],
+   "cards": [
+    {
+     "min": "11",
+     "team": "AC Milan",
+     "player": "Pervis Estupiñán",
+     "kind": "Yellow"
+    },
+    {
+     "min": "48",
+     "team": "Manchester United",
+     "player": "Patrick Dorgu",
+     "kind": "Yellow"
+    }
+   ],
+   "lineups": [
+    {
+     "team": "Manchester United",
+     "side": "home",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Senne Lammens",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Ayden Heaven",
+       "no": "26",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Harry Maguire",
+       "no": "5",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Luke Shaw",
+       "no": "23",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Noussair Mazraoui",
+       "no": "3",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bruno Fernandes",
+       "no": "8",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Youri Tielemans",
+       "no": "18",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Matheus Cunha",
+       "no": "10",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Patrick Dorgu",
+       "no": "13",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Amad Diallo",
+       "no": "16",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Lisandro Martínez",
+       "no": "6",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Kobbie Mainoo",
+       "no": "37",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Dermot Mee",
+       "no": "45",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "JJ Gabriel",
+       "no": "77",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Harry Amass",
+       "no": "41",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Tyler Fletcher",
+       "no": "39",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Shea Lacey",
+       "no": "46",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Marcus Rashford",
+       "no": "9",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Fred Heath",
+       "no": "71",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Jack Fletcher",
+       "no": "38",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Diogo Dalot",
+       "no": "2",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Toby Collyer",
+       "no": "43",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "AC Milan",
+     "side": "away",
+     "formation": "3-4-2-1",
+     "players": [
+      {
+       "name": "Lorenzo Torriani",
+       "no": "96",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Koni De Winter",
+       "no": "5",
+       "pos": "CD",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Strahinja Pavlovic",
+       "no": "31",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Filippo Terracciano",
+       "no": "42",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Ardon Jashari",
+       "no": "30",
+       "pos": "CM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Yunus Musah",
+       "no": "80",
+       "pos": "CM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Pervis Estupiñán",
+       "no": "2",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Samuel Chukwueze",
+       "no": "21",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Gonçalo Ramos",
+       "no": "9",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Alphadjo Cissè",
+       "no": "70",
+       "pos": "CF-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Ruben Loftus-Cheek",
+       "no": "8",
+       "pos": "CF-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Léo-Paul Bouyer",
+       "no": "41",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Samuele Ricci",
+       "no": "4",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Luka Modric",
+       "no": "14",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Matteo Pittarella",
+       "no": "37",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Francesco Camarda",
+       "no": "73",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Davide Bartesaghi",
+       "no": "33",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Christian Comotto",
+       "no": "28",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Sankhoun Diawara",
+       "no": "13",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Mario Gila",
+       "no": "34",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Alexis Saelemaekers",
+       "no": "56",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Valeri Vladimirov",
+       "no": "35",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401879322",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-08-22T11:30Z",
+   "state": "finished",
+   "home": "Hull City",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "venue": "The MKM Stadium",
+   "city": "Hull",
+   "att": 24470,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
+   "goals": [
+    {
+     "min": "17",
+     "team": "Hull City",
+     "player": "Semi Ajayi",
+     "assist": null,
+     "kind": "Goal"
+    },
+    {
+     "min": "38",
+     "team": "Hull City",
+     "player": "Nobel Mendy",
+     "assist": "Regan Slater",
+     "kind": "Goal"
+    }
+   ],
+   "cards": [
+    {
+     "min": "34",
+     "team": "Manchester United",
+     "player": "Patrick Dorgu",
+     "kind": "Yellow"
+    },
+    {
+     "min": "42",
+     "team": "Hull City",
+     "player": "Matt Crooks",
+     "kind": "Yellow"
+    },
+    {
+     "min": "90+6",
+     "team": "Hull City",
+     "player": "Liam Millar",
+     "kind": "Yellow"
+    }
+   ],
+   "lineups": [
+    {
+     "team": "Hull City",
+     "side": "home",
+     "formation": "5-4-1",
+     "players": [
+      {
+       "name": "Konstantinos Tzolakis",
+       "no": "19",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "John Egan",
+       "no": "15",
+       "pos": "CD",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Nobel Mendy",
+       "no": "32",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Semi Ajayi",
+       "no": "6",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Ryan Giles",
+       "no": "3",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Lewie Coyle",
+       "no": "2",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Regan Slater",
+       "no": "27",
+       "pos": "CM-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Matt Crooks",
+       "no": "25",
+       "pos": "CM-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Elliot Stroud",
+       "no": "21",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Mohamed Belloumi",
+       "no": "10",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Oliver McBurnie",
+       "no": "9",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Matt Targett",
+       "no": "23",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Lucas Herrington",
+       "no": "22",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Jens Hjerto Dahl",
+       "no": "14",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Dillon Phillips",
+       "no": "12",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Paddy McNair",
+       "no": "17",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Lucas Gourna-Douath",
+       "no": "29",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Kieran Dowell",
+       "no": "26",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Cody Drameh",
+       "no": "18",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Liam Millar",
+       "no": "7",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "Manchester United",
+     "side": "away",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Senne Lammens",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Ayden Heaven",
+       "no": "26",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Harry Maguire",
+       "no": "5",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Luke Shaw",
+       "no": "23",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Noussair Mazraoui",
+       "no": "3",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bruno Fernandes",
+       "no": "8",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Youri Tielemans",
+       "no": "18",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Matheus Cunha",
+       "no": "10",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Patrick Dorgu",
+       "no": "13",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Lisandro Martínez",
+       "no": "6",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Benjamin Sesko",
+       "no": "30",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Shea Lacey",
+       "no": "31",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Marcus Rashford",
+       "no": "9",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Karl Darlow",
+       "no": "12",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Kobbie Mainoo",
+       "no": "37",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Diogo Dalot",
+       "no": "2",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401879293",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-08-30T15:30Z",
+   "state": "finished",
+   "home": "Manchester United",
+   "away": "Ipswich Town",
+   "hg": 5,
+   "ag": 2,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": 74148,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
+   "goals": [
+    {
+     "min": "29",
+     "team": "Ipswich Town",
+     "player": "Leif Davis",
+     "assist": "Fatawu Issahaku",
+     "kind": "Goal"
+    },
+    {
+     "min": "40",
+     "team": "Manchester United",
+     "player": "Bruno Fernandes",
+     "assist": "Matheus Cunha",
+     "kind": "Goal"
+    },
+    {
+     "min": "56",
+     "team": "Manchester United",
+     "player": "Jacob Greaves",
+     "assist": null,
+     "kind": "Own goal"
+    },
+    {
+     "min": "61",
+     "team": "Manchester United",
+     "player": "Bruno Fernandes",
+     "assist": null,
+     "kind": "Penalty"
+    },
+    {
+     "min": "68",
+     "team": "Manchester United",
+     "player": "Bruno Fernandes",
+     "assist": null,
+     "kind": "Goal"
+    },
+    {
+     "min": "82",
+     "team": "Manchester United",
+     "player": "Bryan Mbeumo",
+     "assist": "Bruno Fernandes",
+     "kind": "Goal"
+    },
+    {
+     "min": "90+1",
+     "team": "Ipswich Town",
+     "player": "Chuba Akpom",
+     "assist": "Julio Enciso",
+     "kind": "Goal"
+    }
+   ],
+   "cards": [
+    {
+     "min": "33",
+     "team": "Ipswich Town",
+     "player": "Sasa Lukic",
+     "kind": "Yellow"
+    },
+    {
+     "min": "37",
+     "team": "Ipswich Town",
+     "player": "Fatawu Issahaku",
+     "kind": "Yellow"
+    },
+    {
+     "min": "60",
+     "team": "Ipswich Town",
+     "player": "Jacob Greaves",
+     "kind": "Yellow"
+    },
+    {
+     "min": "90+3",
+     "team": "Manchester United",
+     "player": "Bryan Mbeumo",
+     "kind": "Yellow"
+    }
+   ],
+   "lineups": [
+    {
+     "team": "Manchester United",
+     "side": "home",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Senne Lammens",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Lisandro Martínez",
+       "no": "6",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Harry Maguire",
+       "no": "5",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Luke Shaw",
+       "no": "23",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Diogo Dalot",
+       "no": "2",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bruno Fernandes",
+       "no": "8",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Kobbie Mainoo",
+       "no": "37",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Youri Tielemans",
+       "no": "18",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Matheus Cunha",
+       "no": "10",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Marcus Rashford",
+       "no": "9",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Ayden Heaven",
+       "no": "26",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Noussair Mazraoui",
+       "no": "3",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Patrick Dorgu",
+       "no": "13",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Shea Lacey",
+       "no": "31",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Karl Darlow",
+       "no": "12",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Benjamin Sesko",
+       "no": "30",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "Ipswich Town",
+     "side": "away",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Kjell Scherpen",
+       "no": "37",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Jacob Greaves",
+       "no": "24",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Issa Diop",
+       "no": "6",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Leif Davis",
+       "no": "3",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Dara O'Shea",
+       "no": "26",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Julio Enciso",
+       "no": "10",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Marcelino Núñez",
+       "no": "32",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Sasa Lukic",
+       "no": "23",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Emersonn",
+       "no": "19",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Daizen Maeda",
+       "no": "38",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Fatawu Issahaku",
+       "no": "7",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Cedric Kipre",
+       "no": "4",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Jack Clarke",
+       "no": "47",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Darnell Furlong",
+       "no": "2",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Chuba Akpom",
+       "no": "29",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Kasey McAteer",
+       "no": "20",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Abdoul Ouattara",
+       "no": "42",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Sindre Walle Egeli",
+       "no": "8",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Exequiel Palacios",
+       "no": "25",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Christian Walton",
+       "no": "28",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401879291",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-09-06T13:00Z",
+   "state": "finished",
+   "home": "Everton",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 2,
+   "pens": null,
+   "venue": "Hill Dickinson Stadium",
+   "city": "Liverpool",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
+   "goals": [
+    {
+     "min": "46",
+     "team": "Manchester United",
+     "player": "Bryan Mbeumo",
+     "assist": "Kobbie Mainoo",
+     "kind": "Goal"
+    },
+    {
+     "min": "83",
+     "team": "Everton",
+     "player": "Tyrique George",
+     "assist": "Hayden Hackney",
+     "kind": "Goal"
+    },
+    {
+     "min": "88",
+     "team": "Manchester United",
+     "player": "Benjamin Sesko",
+     "assist": "Luke Shaw",
+     "kind": "Goal"
+    },
+    {
+     "min": "90+6",
+     "team": "Everton",
+     "player": "Ainsley Maitland-Niles",
+     "assist": null,
+     "kind": "Goal"
+    }
+   ],
+   "cards": [
+    {
+     "min": "13",
+     "team": "Everton",
+     "player": "Harrison Armstrong",
+     "kind": "Yellow"
+    },
+    {
+     "min": "34",
+     "team": "Everton",
+     "player": "Brennan Johnson",
+     "kind": "Yellow"
+    },
+    {
+     "min": "62",
+     "team": "Manchester United",
+     "player": "Luke Shaw",
+     "kind": "Yellow"
+    },
+    {
+     "min": "64",
+     "team": "Everton",
+     "player": "Merlin Röhl",
+     "kind": "Yellow"
+    },
+    {
+     "min": "79",
+     "team": "Manchester United",
+     "player": "Harry Maguire",
+     "kind": "Yellow"
+    },
+    {
+     "min": "81",
+     "team": "Manchester United",
+     "player": "Diogo Dalot",
+     "kind": "Yellow"
+    }
+   ],
+   "lineups": [
+    {
+     "team": "Everton",
+     "side": "home",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Jordan Pickford",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Jarrad Branthwaite",
+       "no": "4",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "James Tarkowski",
+       "no": "6",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Vitaliy Mykolenko",
+       "no": "16",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Merlin Röhl",
+       "no": "34",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Kiernan Dewsbury-Hall",
+       "no": "8",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "James Garner",
+       "no": "37",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Harrison Armstrong",
+       "no": "45",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Thierno Barry",
+       "no": "11",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Tyrique George",
+       "no": "19",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Brennan Johnson",
+       "no": "22",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Ainsley Maitland-Niles",
+       "no": "2",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Jack Grealish",
+       "no": "10",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Mark Travers",
+       "no": "12",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Jake O'Brien",
+       "no": "15",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Braiden Graham",
+       "no": "58",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Tyler Dibling",
+       "no": "20",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Charly Alcaraz",
+       "no": "24",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Michael Keane",
+       "no": "5",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Hayden Hackney",
+       "no": "30",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "Manchester United",
+     "side": "away",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Senne Lammens",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Lisandro Martínez",
+       "no": "6",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Harry Maguire",
+       "no": "5",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Luke Shaw",
+       "no": "23",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Diogo Dalot",
+       "no": "2",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bruno Fernandes",
+       "no": "8",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Youri Tielemans",
+       "no": "18",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Kobbie Mainoo",
+       "no": "37",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Matheus Cunha",
+       "no": "10",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Marcus Rashford",
+       "no": "9",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Mason Mount",
+       "no": "7",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Benjamin Sesko",
+       "no": "30",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Ayden Heaven",
+       "no": "26",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Karl Darlow",
+       "no": "12",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Patrick Dorgu",
+       "no": "13",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Noussair Mazraoui",
+       "no": "3",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401915442",
+   "espn": "uefa.champions",
+   "round": "League phase · Matchday 1",
+   "kick": "2026-09-10T19:00Z",
+   "state": "finished",
+   "home": "Manchester United",
+   "away": "Sabah FK",
+   "hg": 4,
+   "ag": 0,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": 73685,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
+   "goals": [
+    {
+     "min": "27",
+     "team": "Manchester United",
+     "player": "Matheus Cunha",
+     "assist": "Patrick Dorgu",
+     "kind": "Goal"
+    },
+    {
+     "min": "42",
+     "team": "Manchester United",
+     "player": "Bruno Fernandes",
+     "assist": "Youri Tielemans",
+     "kind": "Goal"
+    },
+    {
+     "min": "45",
+     "team": "Manchester United",
+     "player": "Benjamin Sesko",
+     "assist": "Bryan Mbeumo",
+     "kind": "Goal"
+    },
+    {
+     "min": "68",
+     "team": "Manchester United",
+     "player": "Lisandro Martínez",
+     "assist": null,
+     "kind": "Goal"
+    }
+   ],
+   "cards": [
+    {
+     "min": "62",
+     "team": "Manchester United",
+     "player": "Patrick Dorgu",
+     "kind": "Yellow"
+    },
+    {
+     "min": "67",
+     "team": "Sabah FK",
+     "player": "Ivan Lepinjica",
+     "kind": "Yellow"
+    }
+   ],
+   "lineups": [
+    {
+     "team": "Manchester United",
+     "side": "home",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Senne Lammens",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Lisandro Martínez",
+       "no": "6",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Patrick Dorgu",
+       "no": "13",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Noussair Mazraoui",
+       "no": "3",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Bruno Fernandes",
+       "no": "8",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Kobbie Mainoo",
+       "no": "37",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Youri Tielemans",
+       "no": "18",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Benjamin Sesko",
+       "no": "30",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Matheus Cunha",
+       "no": "10",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Mason Mount",
+       "no": "7",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Karl Darlow",
+       "no": "12",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Harry Maguire",
+       "no": "5",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Dermot Mee",
+       "no": "45",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Diogo Dalot",
+       "no": "2",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Marcus Rashford",
+       "no": "9",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Tyler Fletcher",
+       "no": "39",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Shea Lacey",
+       "no": "31",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Harry Amass",
+       "no": "41",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Ayden Heaven",
+       "no": "26",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "Sabah FK",
+     "side": "away",
+     "formation": "4-3-3",
+     "players": [
+      {
+       "name": "Stas Pokatilov",
+       "no": "92",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Aden Mccarthy",
+       "no": "4",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Rahman Dashdamirov",
+       "no": "5",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Tymoteusz Puchacz",
+       "no": "27",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Akim Zedadka",
+       "no": "80",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Ivan Lepinjica",
+       "no": "13",
+       "pos": "CM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Veljko Simic",
+       "no": "21",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Umarali Rakhmonaliev",
+       "no": "7",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Joy-Lance Mickels",
+       "no": "20",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Christian Nwachukwu",
+       "no": "8",
+       "pos": "LF",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Kaheem Parris",
+       "no": "11",
+       "pos": "RF",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Patrick Orphe M'Bina",
+       "no": "99",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Aleksey Isayev",
+       "no": "10",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Tellur Mutallimov",
+       "no": "17",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Cəfər Muxtarov",
+       "no": "89",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Júnior Almeida",
+       "no": "33",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Rauf Rustamli",
+       "no": "16",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Amin Ramazanov",
+       "no": "1",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Du Queiroz",
+       "no": "37",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Abdulakh Khaybulaev",
+       "no": "6",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Rodrigo Fernandes",
+       "no": "88",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Ravan Mirzammadov",
+       "no": "94",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401879278",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-09-13T15:30Z",
+   "state": "finished",
+   "home": "Manchester United",
+   "away": "Manchester City",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": 74161,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
+   "goals": [
+    {
+     "min": "60",
+     "team": "Manchester City",
+     "player": "Erling Haaland",
+     "assist": null,
+     "kind": "Goal"
+    }
+   ],
+   "cards": [
+    {
+     "min": "23",
+     "team": "Manchester City",
+     "player": "Phil Foden",
+     "kind": "Red"
+    },
+    {
+     "min": "79",
+     "team": "Manchester City",
+     "player": "Josko Gvardiol",
+     "kind": "Yellow"
+    },
+    {
+     "min": "80",
+     "team": "Manchester City",
+     "player": "Enzo Fernández",
+     "kind": "Yellow"
+    },
+    {
+     "min": "81",
+     "team": "Manchester United",
+     "player": "Harry Maguire",
+     "kind": "Yellow"
+    }
+   ],
+   "lineups": [
+    {
+     "team": "Manchester United",
+     "side": "home",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Senne Lammens",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Lisandro Martínez",
+       "no": "6",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Harry Maguire",
+       "no": "5",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Patrick Dorgu",
+       "no": "13",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Diogo Dalot",
+       "no": "2",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Bruno Fernandes",
+       "no": "8",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Kobbie Mainoo",
+       "no": "37",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Youri Tielemans",
+       "no": "18",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Matheus Cunha",
+       "no": "10",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Marcus Rashford",
+       "no": "9",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Benjamin Sesko",
+       "no": "30",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Noussair Mazraoui",
+       "no": "3",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Mason Mount",
+       "no": "7",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Shea Lacey",
+       "no": "31",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Karl Darlow",
+       "no": "12",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Ayden Heaven",
+       "no": "26",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "Manchester City",
+     "side": "away",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Gianluigi Donnarumma",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Rúben Dias",
+       "no": "3",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Marc Guéhi",
+       "no": "6",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Josko Gvardiol",
+       "no": "24",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Matheus Nunes",
+       "no": "27",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Rayan Cherki",
+       "no": "10",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Enzo Fernández",
+       "no": "17",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Elliot Anderson",
+       "no": "5",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Erling Haaland",
+       "no": "9",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Antoine Semenyo",
+       "no": "42",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Phil Foden",
+       "no": "47",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Abdukodir Khusanov",
+       "no": "45",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Nico O'Reilly",
+       "no": "33",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Iliman Ndiaye",
+       "no": "7",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Rico Lewis",
+       "no": "82",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Mateo Kovacic",
+       "no": "8",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Allan Elias",
+       "no": "37",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Ayyoub Bouaddi",
+       "no": "32",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Vitor Reis",
+       "no": "22",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Gerónimo Rulli",
+       "no": "28",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401914261",
+   "espn": "eng.league_cup",
+   "round": "Third Round",
+   "kick": "2026-09-16T19:00Z",
+   "state": "finished",
+   "home": "Manchester United",
+   "away": "Brighton & Hove Albion",
+   "hg": 2,
+   "ag": 3,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": 73670,
+   "neutral": false,
+   "note": null,
+   "comp": "carabao-cup",
+   "goals": [
+    {
+     "min": "8",
+     "team": "Manchester United",
+     "player": "Shea Lacey",
+     "assist": "Youri Tielemans",
+     "kind": "Goal"
+    },
+    {
+     "min": "10",
+     "team": "Manchester United",
+     "player": "Mason Mount",
+     "assist": null,
+     "kind": "Goal"
+    },
+    {
+     "min": "45+1",
+     "team": "Brighton & Hove Albion",
+     "player": "Charalambos Kostoulas",
+     "assist": "Jaouen Hadjam",
+     "kind": "Goal"
+    },
+    {
+     "min": "65",
+     "team": "Brighton & Hove Albion",
+     "player": "Pascal Gross",
+     "assist": "Luka Vuskovic",
+     "kind": "Goal"
+    },
+    {
+     "min": "69",
+     "team": "Brighton & Hove Albion",
+     "player": "Maxim De Cuyper",
+     "assist": null,
+     "kind": "Goal"
+    }
+   ],
+   "cards": [
+    {
+     "min": "43",
+     "team": "Brighton & Hove Albion",
+     "player": "Chema Andrés",
+     "kind": "Yellow"
+    },
+    {
+     "min": "59",
+     "team": "Brighton & Hove Albion",
+     "player": "Jaouen Hadjam",
+     "kind": "Yellow"
+    },
+    {
+     "min": "85",
+     "team": "Brighton & Hove Albion",
+     "player": "Yasin Ayari",
+     "kind": "Yellow"
+    },
+    {
+     "min": "90+1",
+     "team": "Brighton & Hove Albion",
+     "player": "Maxim De Cuyper",
+     "kind": "Yellow"
+    }
+   ],
+   "lineups": [
+    {
+     "team": "Manchester United",
+     "side": "home",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Karl Darlow",
+       "no": "12",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Ayden Heaven",
+       "no": "26",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Noussair Mazraoui",
+       "no": "3",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Diogo Dalot",
+       "no": "2",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Mason Mount",
+       "no": "7",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Youri Tielemans",
+       "no": "18",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Benjamin Sesko",
+       "no": "30",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Marcus Rashford",
+       "no": "9",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Shea Lacey",
+       "no": "31",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Matheus Cunha",
+       "no": "10",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Harry Maguire",
+       "no": "5",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Senne Lammens",
+       "no": "1",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Harry Amass",
+       "no": "41",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Bruno Fernandes",
+       "no": "8",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Tyler Fletcher",
+       "no": "39",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Kobbie Mainoo",
+       "no": "37",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "Brighton & Hove Albion",
+     "side": "away",
+     "formation": "4-3-3",
+     "players": [
+      {
+       "name": "Jason Steele",
+       "no": "23",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Pascal Struijk",
+       "no": "4",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Luka Vuskovic",
+       "no": "44",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Jaouen Hadjam",
+       "no": "3",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Costinha",
+       "no": "20",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Olivier Boscagli",
+       "no": "21",
+       "pos": "CM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Pascal Gross",
+       "no": "13",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Chema Andrés",
+       "no": "14",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Charalambos Kostoulas",
+       "no": "19",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Malick Yalcouyé",
+       "no": "35",
+       "pos": "LF",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Matt O'Riley",
+       "no": "33",
+       "pos": "RF",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Ferdi Kadioglu",
+       "no": "24",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Promise David",
+       "no": "12",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Ibrahim Osman",
+       "no": "15",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Maxim De Cuyper",
+       "no": "29",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Georginio Rutter",
+       "no": "10",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Diego Gómez",
+       "no": "25",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Yasin Ayari",
+       "no": "26",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Lewis Dunk",
+       "no": "5",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Bart Verbruggen",
+       "no": "1",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401878777",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-09-20T15:30Z",
+   "state": "finished",
+   "home": "Fulham",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "venue": "Craven Cottage",
+   "city": "London",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
+   "goals": [
+    {
+     "min": "63",
+     "team": "Fulham",
+     "player": "Lisandro Martínez",
+     "assist": null,
+     "kind": "Own goal"
+    },
+    {
+     "min": "89",
+     "team": "Manchester United",
+     "player": "Matheus Cunha",
+     "assist": "Patrick Dorgu",
+     "kind": "Goal"
+    }
+   ],
+   "cards": [
+    {
+     "min": "45",
+     "team": "Fulham",
+     "player": "Josh King",
+     "kind": "Yellow"
+    },
+    {
+     "min": "50",
+     "team": "Fulham",
+     "player": "Timothy Castagne",
+     "kind": "Yellow"
+    },
+    {
+     "min": "85",
+     "team": "Fulham",
+     "player": "Rodrigo Muniz",
+     "kind": "Yellow"
+    }
+   ],
+   "lineups": [
+    {
+     "team": "Fulham",
+     "side": "home",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Bernd Leno",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Calvin Bassey",
+       "no": "3",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "David Affengruber",
+       "no": "22",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Antonee Robinson",
+       "no": "33",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Timothy Castagne",
+       "no": "21",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Josh King",
+       "no": "24",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Shea Charles",
+       "no": "19",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Sander Berge",
+       "no": "16",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Gonzalo García",
+       "no": "7",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Alex Iwobi",
+       "no": "17",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Oscar Bobb",
+       "no": "14",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Ryan Sessegnon",
+       "no": "30",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Rodrigo Muniz",
+       "no": "9",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Emile Smith Rowe",
+       "no": "32",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Hugo Larsson",
+       "no": "15",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Joachim Andersen",
+       "no": "5",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Kevin",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Benjamin Lecomte",
+       "no": "23",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Manuel Ángel",
+       "no": "20",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "César Palacios",
+       "no": "8",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "Manchester United",
+     "side": "away",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Senne Lammens",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Lisandro Martínez",
+       "no": "6",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Harry Maguire",
+       "no": "5",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Luke Shaw",
+       "no": "23",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Diogo Dalot",
+       "no": "2",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Bruno Fernandes",
+       "no": "8",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Youri Tielemans",
+       "no": "18",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Kobbie Mainoo",
+       "no": "37",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Matheus Cunha",
+       "no": "10",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Marcus Rashford",
+       "no": "9",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Karl Darlow",
+       "no": "12",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Shea Lacey",
+       "no": "31",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Carlos Baleba",
+       "no": "20",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Noussair Mazraoui",
+       "no": "3",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Mason Mount",
+       "no": "7",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Patrick Dorgu",
+       "no": "13",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401878773",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-10-10T16:30Z",
+   "state": "finished",
+   "home": "Manchester United",
+   "away": "Tottenham Hotspur",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": 74129,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
+   "goals": [
+    {
+     "min": "73",
+     "team": "Manchester United",
+     "player": "Bryan Mbeumo",
+     "assist": "Matheus Cunha",
+     "kind": "Goal"
+    },
+    {
+     "min": "90+2",
+     "team": "Tottenham Hotspur",
+     "player": "Dominic Solanke",
+     "assist": "Sandro Tonali",
+     "kind": "Goal"
+    }
+   ],
+   "cards": [
+    {
+     "min": "4",
+     "team": "Tottenham Hotspur",
+     "player": "Conor Gallagher",
+     "kind": "Yellow"
+    },
+    {
+     "min": "78",
+     "team": "Tottenham Hotspur",
+     "player": "Rodrigo Bentancur",
+     "kind": "Red"
+    },
+    {
+     "min": "78",
+     "team": "Tottenham Hotspur",
+     "player": "Jan Paul van Hecke",
+     "kind": "Yellow"
+    },
+    {
+     "min": "78",
+     "team": "Manchester United",
+     "player": "Luke Shaw",
+     "kind": "Yellow"
+    },
+    {
+     "min": "84",
+     "team": "Manchester United",
+     "player": "Bruno Fernandes",
+     "kind": "Yellow"
+    },
+    {
+     "min": "87",
+     "team": "Manchester United",
+     "player": "Lisandro Martínez",
+     "kind": "Yellow"
+    },
+    {
+     "min": "90+6",
+     "team": "Manchester United",
+     "player": "Diogo Dalot",
+     "kind": "Yellow"
+    },
+    {
+     "min": "90+8",
+     "team": "Tottenham Hotspur",
+     "player": "Archie Gray",
+     "kind": "Yellow"
+    }
+   ],
+   "lineups": [
+    {
+     "team": "Manchester United",
+     "side": "home",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Senne Lammens",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Lisandro Martínez",
+       "no": "6",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Harry Maguire",
+       "no": "5",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Luke Shaw",
+       "no": "23",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bruno Fernandes",
+       "no": "8",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Kobbie Mainoo",
+       "no": "37",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Youri Tielemans",
+       "no": "18",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Matheus Cunha",
+       "no": "10",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Amad Diallo",
+       "no": "16",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Ayden Heaven",
+       "no": "26",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Mason Mount",
+       "no": "7",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Marcus Rashford",
+       "no": "9",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Carlos Baleba",
+       "no": "20",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Diogo Dalot",
+       "no": "2",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Karl Darlow",
+       "no": "12",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Shea Lacey",
+       "no": "31",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "Tottenham Hotspur",
+     "side": "away",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Antonín Kinsky",
+       "no": "31",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Marcos Senesi",
+       "no": "5",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Jan Paul van Hecke",
+       "no": "6",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Destiny Udogie",
+       "no": "13",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Archie Gray",
+       "no": "14",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Conor Gallagher",
+       "no": "8",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Sandro Tonali",
+       "no": "16",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Lucas Bergvall",
+       "no": "15",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Dominic Solanke",
+       "no": "19",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Sávio",
+       "no": "17",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Mohammed Kudus",
+       "no": "20",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Ben Davies",
+       "no": "33",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "James Maddison",
+       "no": "10",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Micky van de Ven",
+       "no": "37",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Tosin Adarabioyo",
+       "no": "4",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Martin Dúbravka",
+       "no": "39",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Omar Marmoush",
+       "no": "22",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Rodrigo Bentancur",
+       "no": "30",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Mateus Fernandes",
+       "no": "18",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Mathys Tel",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401915412",
+   "espn": "uefa.champions",
+   "round": "League phase · Matchday 2",
+   "kick": "2026-10-13T19:00Z",
+   "state": "finished",
+   "home": "Atlético Madrid",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "venue": "Riyadh Air Metropolitano",
+   "city": "Madrid",
+   "att": 69493,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
+   "goals": [
+    {
+     "min": "1",
+     "team": "Atlético Madrid",
+     "player": "Pablo Barrios",
+     "assist": "Álex Baena",
+     "kind": "Goal"
+    },
+    {
+     "min": "79",
+     "team": "Atlético Madrid",
+     "player": "Ademola Lookman",
+     "assist": null,
+     "kind": "Goal"
+    }
+   ],
+   "cards": [
+    {
+     "min": "52",
+     "team": "Manchester United",
+     "player": "Marcus Rashford",
+     "kind": "Yellow"
+    },
+    {
+     "min": "74",
+     "team": "Manchester United",
+     "player": "Leny Yoro",
+     "kind": "Red"
+    },
+    {
+     "min": "88",
+     "team": "Atlético Madrid",
+     "player": "Robin Le Normand",
+     "kind": "Yellow"
+    }
+   ],
+   "lineups": [
+    {
+     "team": "Atlético Madrid",
+     "side": "home",
+     "formation": "4-4-2",
+     "players": [
+      {
+       "name": "Jan Oblak",
+       "no": "13",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Dávid Hancko",
+       "no": "17",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Cristian Romero",
+       "no": "21",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Alejandro Grimaldo",
+       "no": "22",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Marcos Llorente",
+       "no": "14",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Johnny Cardoso",
+       "no": "5",
+       "pos": "CM-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Pablo Barrios",
+       "no": "8",
+       "pos": "CM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Álex Baena",
+       "no": "10",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Giuliano Simeone",
+       "no": "20",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Julián Álvarez",
+       "no": "19",
+       "pos": "CF-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Lee Kang-In",
+       "no": "7",
+       "pos": "CF-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Juan Musso",
+       "no": "1",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Daniel Martinez",
+       "no": "30",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Jonathan David",
+       "no": "15",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Jorge Castillo",
+       "no": "46",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Rodrigo Mendoza",
+       "no": "4",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Marc Pubill",
+       "no": "18",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Morten Hjulmand",
+       "no": "23",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Alexander Sørloth",
+       "no": "9",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Jorge Domínguez",
+       "no": "27",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Robin Le Normand",
+       "no": "24",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Ademola Lookman",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Arnau Ortiz",
+       "no": "16",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "Manchester United",
+     "side": "away",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "name": "Senne Lammens",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Lisandro Martínez",
+       "no": "6",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Ayden Heaven",
+       "no": "26",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Diogo Dalot",
+       "no": "2",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Youri Tielemans",
+       "no": "18",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Carlos Baleba",
+       "no": "20",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Marcus Rashford",
+       "no": "9",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Bruno Fernandes",
+       "no": "8",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "name": "Karl Darlow",
+       "no": "12",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Mason Mount",
+       "no": "7",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Daniel Armer",
+       "no": "57",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Dermot Mee",
+       "no": "45",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Matthijs de Ligt",
+       "no": "4",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Amad Diallo",
+       "no": "16",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Harry Maguire",
+       "no": "5",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Shea Lacey",
+       "no": "31",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Matheus Cunha",
+       "no": "10",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "name": "Tyler Fletcher",
+       "no": "39",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "name": "Harry Amass",
+       "no": "41",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401879260",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-10-18T13:00Z",
+   "state": "scheduled",
+   "home": "Leeds United",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Elland Road",
+   "city": "Leeds",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401915395",
+   "espn": "uefa.champions",
+   "round": "League phase · Matchday 3",
+   "kick": "2026-10-21T16:45Z",
+   "state": "scheduled",
+   "home": "Como",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Giuseppe Sinigaglia",
+   "city": "Como",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league"
+  },
+  {
+   "id": "401879252",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-10-25T14:00Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "AFC Bournemouth",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879248",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-10-31T12:30Z",
+   "state": "scheduled",
+   "home": "Chelsea",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401915308",
+   "espn": "uefa.champions",
+   "round": "League phase · Matchday 4",
+   "kick": "2026-11-03T20:00Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "AS Roma",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league"
+  },
+  {
+   "id": "401879240",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-11-08T16:30Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "Aston Villa",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401878755",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-11-22T16:30Z",
+   "state": "scheduled",
+   "home": "Liverpool",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Anfield",
+   "city": "Liverpool",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401915373",
+   "espn": "uefa.champions",
+   "round": "League phase · Matchday 5",
+   "kick": "2026-11-25T20:00Z",
+   "state": "scheduled",
+   "home": "Sporting CP",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Estádio José Alvalade",
+   "city": "Lisbon",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league"
+  },
+  {
+   "id": "401879226",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-11-28T15:00Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "Brentford",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879217",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-12-02T20:00Z",
+   "state": "scheduled",
+   "home": "Newcastle United",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "St. James' Park",
+   "city": "Newcastle-upon-Tyne",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879210",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-12-05T15:00Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "Coventry City",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401915371",
+   "espn": "uefa.champions",
+   "round": "League phase · Matchday 6",
+   "kick": "2026-12-08T20:00Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "RB Leipzig",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league"
+  },
+  {
+   "id": "401879207",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-12-12T15:00Z",
+   "state": "scheduled",
+   "home": "Crystal Palace",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Selhurst Park",
+   "city": "London",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879204",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-12-19T15:00Z",
+   "state": "scheduled",
+   "home": "Arsenal",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Emirates Stadium",
+   "city": "London",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879195",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-12-27T16:30Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "Nottingham Forest",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879188",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2026-12-30T19:30Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "Sunderland",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401878728",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-01-02T12:30Z",
+   "state": "scheduled",
+   "home": "Brighton & Hove Albion",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "American Express Stadium",
+   "city": "Falmer",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879170",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-01-07T20:00Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "Newcastle United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401878725",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-01-16T15:00Z",
+   "state": "scheduled",
+   "home": "Aston Villa",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Villa Park",
+   "city": "Birmingham",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401915357",
+   "espn": "uefa.champions",
+   "round": "League phase · Matchday 7",
+   "kick": "2027-01-20T20:00Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "Bayern Munich",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league"
+  },
+  {
+   "id": "401878718",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-01-23T15:00Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "Liverpool",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401915349",
+   "espn": "uefa.champions",
+   "round": "League phase · Matchday 8",
+   "kick": "2027-01-27T20:00Z",
+   "state": "scheduled",
+   "home": "Villarreal",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Estadio de la Cerámica",
+   "city": "Villarreal",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league"
+  },
+  {
+   "id": "401878715",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-01-30T15:00Z",
+   "state": "scheduled",
+   "home": "Brentford",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Gtech Community Stadium",
+   "city": "Brentford",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879148",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-02-06T15:00Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "Chelsea",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879142",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-02-10T20:00Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "Brighton & Hove Albion",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879134",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-02-20T15:00Z",
+   "state": "scheduled",
+   "home": "Nottingham Forest",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "The City Ground",
+   "city": "Nottingham",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401878697",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-02-27T15:00Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "Arsenal",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879122",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-03-03T20:00Z",
+   "state": "scheduled",
+   "home": "Sunderland",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Stadium of Light",
+   "city": "Sunderland",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879118",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-03-13T15:00Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "Everton",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879108",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-03-20T15:00Z",
+   "state": "scheduled",
+   "home": "Manchester City",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Etihad Stadium",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879100",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-04-10T14:00Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "Hull City",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879096",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-04-17T14:00Z",
+   "state": "scheduled",
+   "home": "Ipswich Town",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Portman Road",
+   "city": "Ipswich",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879091",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-04-24T14:00Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "Crystal Palace",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401878675",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-05-01T14:00Z",
+   "state": "scheduled",
+   "home": "Coventry City",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Coventry Building Society Arena",
+   "city": "Coventry",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401878672",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-05-08T14:00Z",
+   "state": "scheduled",
+   "home": "AFC Bournemouth",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Vitality Stadium",
+   "city": "Bournemouth",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879074",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-05-15T14:00Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "Leeds United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879065",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-05-23T14:00Z",
+   "state": "scheduled",
+   "home": "Tottenham Hotspur",
+   "away": "Manchester United",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Tottenham Hotspur Stadium",
+   "city": "London",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  },
+  {
+   "id": "401879058",
+   "espn": "eng.1",
+   "round": "",
+   "kick": "2027-05-30T15:00Z",
+   "state": "scheduled",
+   "home": "Manchester United",
+   "away": "Fulham",
+   "hg": null,
+   "ag": null,
+   "pens": null,
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "att": null,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league"
+  }
+ ]
+}
