@@ -84,11 +84,10 @@ export const CHAPTERS: Chapter[] = [
     number: "08",
     title: "Overhead Kicks",
     menu: "Overhead Kicks",
-    teaser: "Rooney's derby winner and Garnacho's Puskás winner, rebuilt in 3D, with the distance and the story of each.",
+    teaser: "Wayne Rooney's famous derby winner against Manchester City, rebuilt in 3D, with the story of the match.",
     planned: [
       "An interactive 3D model of Wayne Rooney's overhead kick against Manchester City",
-      "An interactive 3D model of Alejandro Garnacho's Puskás-winning overhead kick",
-      "For each: the distance from goal and a summary of the match",
+      "The story of the match and the goal",
     ],
     status: "live",
     featured: true,

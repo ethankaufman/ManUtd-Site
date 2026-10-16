@@ -1,6 +1,6 @@
 /**
  * The goals on the Overhead Kicks page. Everything here was checked against the sources listed with it
- * (match data from ESPN; reports from AP, Al Jazeera, premierleague.com, manutd.com). If a fact could not be
+ * (match data from ESPN; reports from Al Jazeera, premierleague.com, manutd.com). If a fact could not be
  * confirmed it says so. To add a goal, add one entry and tune its `model` numbers (see src/components/kick3d/).
  *
  * Pitch measurements used by the 3D model are in metres. 1 yard = 0.9144 m.
@@ -64,41 +64,5 @@ export const KICKS: Kick[] = [
       { label: "Scorers and minutes: ESPN match data (event 292922)", url: "https://www.espn.com/soccer/match/_/gameId/292922" },
     ],
     model: { contactX: 1.0, contactZ: 11.0, crossFrom: [30, 2.0, 24], target: [2.6, 2.1, 0] },
-  },
-  {
-    id: "garnacho-2023",
-    player: "Alejandro Garnacho",
-    shortTitle: "Garnacho v Everton",
-    title: "Alejandro Garnacho v Everton",
-    date: "26 November 2023",
-    competition: "Premier League",
-    venue: "Goodison Park, Liverpool",
-    fixture: "Everton 0–3 Manchester United",
-    minute: "3rd minute",
-    distance: {
-      yards: 15,
-      metres: 13.7,
-      estimate: false,
-      note: "15 yards (about 13.7 metres), as reported by the Associated Press. The Press Association reported it was slightly further out than Rooney’s.",
-    },
-    summary: [
-      "United went to Goodison Park and took the lead after only three minutes. Diogo Dalot sent a cross into the box that seemed too deep for Garnacho, who had his back to goal.",
-      "The 19-year-old adjusted, jumped and hit a bicycle kick that went into the top corner. It echoed Rooney’s goal against City twelve years earlier.",
-      "Marcus Rashford added a penalty in the 56th minute and Anthony Martial scored in the 75th, set up by Bruno Fernandes, to make it 3–0.",
-    ],
-    facts: [
-      "Assist: Diogo Dalot, with a cross.",
-      "Won the 2024 FIFA Puskás Award for the most beautiful goal, presented at The Best FIFA Football Awards in Doha in December 2024.",
-      "Voted Manchester United’s Goal of the Season for 2023–24.",
-      "Garnacho was the second United player to win the Puskás Award, after Cristiano Ronaldo in 2009.",
-    ],
-    scorers: "Garnacho 3', Rashford 56' (pen), Martial 75'",
-    sources: [
-      { label: "Associated Press report (via KSAT)", url: "https://www.ksat.com/sports/2023/11/26/garnachos-sensational-overhead-kick-stuns-protesting-everton-fans-and-helps-man-united-earn-3-0-win/" },
-      { label: "Premier League: Garnacho wins the Puskás Award", url: "https://www.premierleague.com/news/4199544" },
-      { label: "Manchester United: Goal of the Season 2023–24", url: "https://www.manutd.com/en/news/detail/alejandro-garnacho-wins-man-utd-goal-of-the-season-award-2023-24" },
-      { label: "Scorers and minutes: ESPN match data (event 671157)", url: "https://www.espn.com/soccer/match/_/gameId/671157" },
-    ],
-    model: { contactX: 1.0, contactZ: 13.7, crossFrom: [32, 1.5, 30], target: [2.6, 2.1, 0] },
   },
 ];

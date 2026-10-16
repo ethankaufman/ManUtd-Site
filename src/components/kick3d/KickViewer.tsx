@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import type { Kick } from "@/lib/kicks";
-import type { createKickScene, LabelPlacement } from "./scene";
+import type { createKickScene } from "./scene";
 import { T_CONTACT } from "./motion";
 
 type KickScene = ReturnType<typeof createKickScene>;
@@ -22,7 +22,6 @@ const SPEEDS = [
 export default function KickViewer({ kick }: { kick: Kick }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const boxRef = useRef<HTMLDivElement>(null);
-  const labelRef = useRef<HTMLDivElement>(null);
   const sceneRef = useRef<KickScene | null>(null);
   const timeRef = useRef(T_CONTACT);
   const playingRef = useRef(false);
@@ -50,12 +49,6 @@ export default function KickViewer({ kick }: { kick: Kick }) {
     let last = 0;
     let observer: ResizeObserver | null = null;
 
-    const place = (p: LabelPlacement) => {
-      const el = labelRef.current;
-      if (!el) return;
-      el.style.transform = `translate(${p.x}px, ${p.y}px) translate(-50%, -50%)`;
-      el.style.opacity = p.visible ? "1" : "0";
-    };
 
     const loop = (now: number) => {
       raf = requestAnimationFrame(loop);
@@ -79,7 +72,7 @@ export default function KickViewer({ kick }: { kick: Kick }) {
     import("./scene")
       .then(({ createKickScene }) => {
         if (disposed) return;
-        const scene = createKickScene(canvas, place);
+        const scene = createKickScene(canvas);
         sceneRef.current = scene;
         const resize = () => {
           const r = box.getBoundingClientRect();
@@ -142,16 +135,6 @@ export default function KickViewer({ kick }: { kick: Kick }) {
     <div>
       <div ref={boxRef} className="relative h-[min(68vh,34rem)] min-h-[20rem] w-full overflow-hidden border border-white/15 bg-black">
         <canvas ref={canvasRef} className="absolute inset-0 h-full w-full cursor-grab touch-none active:cursor-grabbing" aria-label={`3D reconstruction of ${kick.title}. Drag to look around.`} role="img" />
-
-        {/* the distance label follows the marker on the grass */}
-        <div
-          ref={labelRef}
-          className="pointer-events-none absolute left-0 top-0 whitespace-nowrap border border-united-gold bg-black/80 px-2.5 py-1 font-mono text-xs uppercase tracking-widest text-united-gold opacity-0"
-          aria-hidden="true"
-        >
-          {kick.distance.estimate ? "≈ " : ""}
-          {kick.distance.yards} yards ({kick.distance.metres} m)
-        </div>
 
         {!ready ? (
           <div className="absolute inset-0 flex items-center justify-center bg-black font-display text-2xl uppercase tracking-wide text-united-red">

@@ -28,19 +28,33 @@ const KEYS: { t: number; j: Joints }[] = [
   { t: 1.0, j: { h: 0.2, tilt: -1.57, spine: 0, head: 0.1, armLx: -1.0, armLz: 0.8, armRx: -1.0, armRz: 0.8, hipL: -0.1, kneeL: 0.15, hipR: -0.15, kneeR: 0.15 } },
 ];
 
-const smooth = (x: number) => x * x * (3 - 2 * x);
-
-/** The body's joint angles at time t (0 to 1). */
+/**
+ * Blends between the key poses with a smooth curve (a cubic Hermite spline), so limbs speed up and slow down
+ * naturally instead of stopping at every key pose.
+ */
 export function jointsAt(t: number): Joints {
   const c = Math.min(1, Math.max(0, t));
   let i = 0;
   while (i < KEYS.length - 2 && c > KEYS[i + 1].t) i++;
-  const a = KEYS[i];
-  const b = KEYS[i + 1];
-  const k = smooth(Math.min(1, Math.max(0, (c - a.t) / (b.t - a.t))));
+  const k0 = KEYS[Math.max(0, i - 1)];
+  const k1 = KEYS[i];
+  const k2 = KEYS[i + 1];
+  const k3 = KEYS[Math.min(KEYS.length - 1, i + 2)];
+  const dt = k2.t - k1.t;
+  const u = Math.min(1, Math.max(0, (c - k1.t) / dt));
+  const u2 = u * u;
+  const u3 = u2 * u;
+  const h00 = 2 * u3 - 3 * u2 + 1;
+  const h10 = u3 - 2 * u2 + u;
+  const h01 = -2 * u3 + 3 * u2;
+  const h11 = u3 - u2;
   const out = {} as Joints;
-  (Object.keys(a.j) as (keyof Joints)[]).forEach((key) => {
-    out[key] = a.j[key] + (b.j[key] - a.j[key]) * k;
+  (Object.keys(k1.j) as (keyof Joints)[]).forEach((key) => {
+    // slopes at the two ends of this stretch, from the neighbouring key poses
+    const m1 = (k2.j[key] - k0.j[key]) / Math.max(1e-6, k2.t - k0.t);
+    const m2 = (k3.j[key] - k1.j[key]) / Math.max(1e-6, k3.t - k1.t);
+    out[key] = h00 * k1.j[key] + h10 * dt * m1 + h01 * k2.j[key] + h11 * dt * m2;
   });
+  out.h = Math.max(0.2, out.h); // never sink into the grass
   return out;
 }

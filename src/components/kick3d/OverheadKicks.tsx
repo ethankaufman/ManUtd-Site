@@ -16,6 +16,7 @@ export default function OverheadKicks() {
 
   return (
     <div className="mx-auto w-full max-w-5xl px-4 pb-20 text-left">
+      {KICKS.length > 1 ? (
       <div role="tablist" aria-label="Choose a goal" className="mb-6 flex flex-wrap justify-center gap-2">
         {KICKS.map((k) => (
           <button
@@ -32,6 +33,7 @@ export default function OverheadKicks() {
           </button>
         ))}
       </div>
+      ) : null}
 
       <div className="mb-5 text-center">
         <h2 className="font-display text-3xl uppercase tracking-wide text-white sm:text-5xl">{kick.title}</h2>
@@ -49,29 +51,7 @@ export default function OverheadKicks() {
         and distance below come from the sources listed.
       </p>
 
-      <div className="mt-12 grid gap-8 lg:grid-cols-[1fr_1.4fr]">
-        <section aria-label="Distance">
-          <Heading>Distance from goal</Heading>
-          <div className="border border-united-gold/60 bg-[#0c0c0c] p-5">
-            <p className="font-display text-5xl leading-none text-united-gold">
-              {kick.distance.estimate ? "≈ " : ""}
-              {kick.distance.yards} <span className="text-2xl">yards</span>
-            </p>
-            <p className="mt-1 text-white/70">
-              {kick.distance.estimate ? "about " : ""}
-              {kick.distance.metres} metres from the goal line
-            </p>
-            <p className={`mt-3 inline-block border px-2 py-0.5 font-mono text-[11px] uppercase tracking-widest ${kick.distance.estimate ? "border-white/40 text-white/80" : "border-united-gold/60 text-united-gold"}`}>
-              {kick.distance.estimate ? "Our estimate" : "Reported figure"}
-            </p>
-            <p className="mt-3 text-sm leading-relaxed text-white/65">{kick.distance.note}</p>
-          </div>
-          <div className="mt-6">
-            <Heading>The goals</Heading>
-            <p className="text-sm leading-relaxed text-white/70">{kick.scorers}</p>
-          </div>
-        </section>
-
+      <div className="mt-12 grid gap-10 lg:grid-cols-[1.4fr_1fr]">
         <section aria-label="Match summary">
           <Heading>Match summary</Heading>
           <div className="space-y-3 text-base leading-relaxed text-white/80">
@@ -79,17 +59,32 @@ export default function OverheadKicks() {
               <p key={p}>{p}</p>
             ))}
           </div>
-          <div className="mt-6">
-            <Heading>About the goal</Heading>
-            <ul className="space-y-2 text-sm leading-relaxed text-white/75">
-              {kick.facts.map((f) => (
-                <li key={f} className="flex gap-3">
-                  <span className="mt-2 h-1.5 w-1.5 flex-none bg-united-red" aria-hidden="true" />
-                  <span>{f}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+        </section>
+
+        <section aria-label="About the goal">
+          <Heading>About the goal</Heading>
+          <ul className="space-y-2 text-sm leading-relaxed text-white/75">
+            <li className="flex gap-3">
+              <span className="mt-2 h-1.5 w-1.5 flex-none bg-united-red" aria-hidden="true" />
+              <span>
+                {kick.scorers}.
+              </span>
+            </li>
+            {kick.facts.map((f) => (
+              <li key={f} className="flex gap-3">
+                <span className="mt-2 h-1.5 w-1.5 flex-none bg-united-red" aria-hidden="true" />
+                <span>{f}</span>
+              </li>
+            ))}
+            <li className="flex gap-3">
+              <span className="mt-2 h-1.5 w-1.5 flex-none bg-united-red" aria-hidden="true" />
+              <span>
+                Distance from goal: {kick.distance.estimate ? "about " : ""}
+                {kick.distance.yards} yards ({kick.distance.metres} m){kick.distance.estimate ? ", our estimate" : ""}.{" "}
+                <span className="text-white/50">{kick.distance.note}</span>
+              </span>
+            </li>
+          </ul>
         </section>
       </div>
 
