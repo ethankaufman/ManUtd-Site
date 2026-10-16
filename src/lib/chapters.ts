@@ -32,7 +32,7 @@ export const CHAPTERS: Chapter[] = [
     menu: "Squad",
     teaser: "Everyone in the red shirt now, and a page for each player.",
     planned: ["The current squad by position", "A page per player with season and career stats", "Players from the past too"],
-    status: "soon",
+    status: "live",
   },
   {
     slug: "matches",
