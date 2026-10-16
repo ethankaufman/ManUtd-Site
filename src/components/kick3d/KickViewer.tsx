@@ -59,6 +59,7 @@ export default function KickViewer({ kick }: { kick: Kick }) {
 
     const loop = (now: number) => {
       raf = requestAnimationFrame(loop);
+      sceneRef.current?.tick();
       if (!playingRef.current) {
         last = now;
         return;

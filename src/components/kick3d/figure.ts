@@ -112,7 +112,10 @@ export function createFigure(): Figure {
   const legR = leg(-1);
 
   root.traverse((o) => {
-    if (o instanceof THREE.Mesh) geometries.push(o.geometry);
+    if (o instanceof THREE.Mesh) {
+      geometries.push(o.geometry);
+      o.castShadow = true;
+    }
   });
 
   function apply(j: Joints) {

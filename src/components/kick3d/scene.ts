@@ -32,8 +32,9 @@ function paint(group: THREE.Group, x1: number, z1: number, x2: number, z2: numbe
 
 function buildPitch() {
   const group = new THREE.Group();
-  const grass = new THREE.Mesh(new THREE.PlaneGeometry(140, 140), new THREE.MeshStandardMaterial({ color: 0x14231a, roughness: 1 }));
+  const grass = new THREE.Mesh(new THREE.PlaneGeometry(140, 140), new THREE.MeshStandardMaterial({ color: 0x1a3024, roughness: 1 }));
   grass.rotation.x = -Math.PI / 2;
+  grass.receiveShadow = true;
   group.add(grass);
 
   const white = new THREE.MeshBasicMaterial({ color: 0xffffff });
@@ -96,6 +97,8 @@ export function createKickScene(canvas: HTMLCanvasElement, onLabel: (p: LabelPla
   const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: "high-performance" });
   renderer.outputColorSpace = THREE.LinearSRGBColorSpace;
   renderer.setClearColor(0x000000, 1);
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 
   const scene = new THREE.Scene();
   scene.fog = new THREE.Fog(0x000000, 40, 110);
@@ -104,7 +107,11 @@ export function createKickScene(canvas: HTMLCanvasElement, onLabel: (p: LabelPla
   scene.add(new THREE.HemisphereLight(0xdfe6ff, 0x101410, 0.9));
   const key = new THREE.DirectionalLight(0xffffff, 2.2);
   key.position.set(18, 30, 26);
-  scene.add(key);
+  key.castShadow = true;
+  key.shadow.mapSize.set(1024, 1024);
+  Object.assign(key.shadow.camera, { left: -16, right: 16, top: 16, bottom: -16, near: 5, far: 90 });
+  key.target.position.set(1, 0, 8);
+  scene.add(key, key.target);
   const rim = new THREE.DirectionalLight(0xff9a90, 0.9);
   rim.position.set(-20, 10, -10);
   scene.add(rim);
@@ -115,6 +122,7 @@ export function createKickScene(canvas: HTMLCanvasElement, onLabel: (p: LabelPla
   scene.add(figure.root);
 
   const ball = new THREE.Mesh(new THREE.SphereGeometry(BALL_R, 20, 16), new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.5 }));
+  ball.castShadow = true;
   scene.add(ball);
 
   // the ball's trail: a red line that grows as the ball moves
@@ -149,9 +157,13 @@ export function createKickScene(canvas: HTMLCanvasElement, onLabel: (p: LabelPla
   const target = new THREE.Vector3();
   const labelAt = new THREE.Vector3();
 
+  /** The starting camera: beside and behind the striker, looking towards the goal. */
   function setView() {
-    camera.position.set(15, 3.6, 22);
-    controls.target.set(1, 1.4, 6.5);
+    const k = kick;
+    const cx = k?.model.contactX ?? 1;
+    const cz = k?.model.contactZ ?? 11;
+    camera.position.set(cx + 5.6, 2.3, cz + 5.2);
+    controls.target.set(cx - 0.6, 1.6, cz - 2.6);
     controls.update();
   }
 
@@ -183,7 +195,6 @@ export function createKickScene(canvas: HTMLCanvasElement, onLabel: (p: LabelPla
     labelAt.set(k.model.contactX, 0.2, k.model.contactZ / 2);
 
     setView();
-    setTime(0);
   }
 
   /** The ball's position at time t (a lob in to the striker, then a fast shot into the goal, then it settles in the net). */
@@ -191,7 +202,7 @@ export function createKickScene(canvas: HTMLCanvasElement, onLabel: (p: LabelPla
     if (t <= T_CONTACT) {
       const s = t / T_CONTACT;
       const p = cross.clone().lerp(contact, s);
-      p.y += 4.2 * 4 * s * (1 - s); // the arc of the cross
+      p.y += 3.2 * 4 * s * (1 - s); // the arc of the cross
       return p;
     }
     if (t <= T_GOAL) {
@@ -223,8 +234,8 @@ export function createKickScene(canvas: HTMLCanvasElement, onLabel: (p: LabelPla
     render();
   }
 
+  /** Draws one frame. (The camera controls are advanced separately in tick(), which calls this when the view moved.) */
   function render() {
-    controls.update();
     renderer.render(scene, camera);
     const v = labelAt.clone().project(camera);
     onLabel({ x: (v.x * 0.5 + 0.5) * canvas.clientWidth, y: (-v.y * 0.5 + 0.5) * canvas.clientHeight, visible: v.z < 1 });
@@ -254,5 +265,10 @@ export function createKickScene(canvas: HTMLCanvasElement, onLabel: (p: LabelPla
     });
   }
 
-  return { setKick, setTime, resize, render, resetView: () => { setView(); render(); }, dispose, controls, current: () => kick };
+  /** Called every animation frame: lets the camera controls glide to a stop; they ask for a redraw when the view moves. */
+  function tick() {
+    controls.update();
+  }
+
+  return { setKick, setTime, resize, render, tick, resetView: () => { setView(); render(); }, dispose, controls, current: () => kick };
 }
