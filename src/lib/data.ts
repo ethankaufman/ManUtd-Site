@@ -20,7 +20,8 @@ export async function getTagline(): Promise<string> {
 
 export * from "./season";
 import { UNITED, unitedResult, unitedView } from "./season";
-import type { CardEvent, GoalEvent, HubCompetition, HubMatch, PlayerStat, Record5, SeasonHub, TableRow } from "./season";
+import { POSITION_ORDER, emptyTally } from "./season";
+import type { CardEvent, GoalEvent, HubCompetition, HubMatch, PlayerMatchLine, PlayerPage, PlayerStat, Record5, SeasonHub, SquadPlayer, Tally, TableRow } from "./season";
 
 function ordinal(n: number): string {
   const s = ["th", "st", "nd", "rd"];
@@ -164,5 +165,123 @@ export async function getSeasonHub(): Promise<SeasonHub | null> {
     matches,
     overall: recordOf(real),
     players: [...people.values()],
+  };
+}
+
+// ---------------------------------------------------------------------------------------------
+// Squad and player pages
+// ---------------------------------------------------------------------------------------------
+
+type Lineup = { team: string; players: { id: string | null; name: string | null; start: boolean; on: boolean; off: boolean }[] };
+
+/** Works out every squad member's matches and numbers for the newest season, from the stored match details. */
+async function loadSquad() {
+  const [latest] = await db.select({ season: schema.squadMember.season }).from(schema.squadMember).orderBy(desc(schema.squadMember.season)).limit(1);
+  if (!latest) return null;
+  const season = latest.season;
+  const members = await db.select().from(schema.squadMember).where(eq(schema.squadMember.season, season));
+  const comps = await db.select().from(schema.competition).where(eq(schema.competition.season, season)).orderBy(schema.competition.sortOrder);
+  const rows = await db.select().from(schema.match).where(eq(schema.match.season, season)).orderBy(desc(schema.match.kickoff));
+
+  const lines = new Map<string, PlayerMatchLine[]>(); // by player id
+  for (const m of rows) {
+    if (m.state !== "finished" || !m.detail) continue;
+    const detail = JSON.parse(m.detail) as { goals: GoalEvent[]; cards: CardEvent[]; lineups: Lineup[] };
+    const home = m.home === UNITED;
+    const view = unitedView({ home: m.home, away: m.away, homeGoals: m.homeGoals, awayGoals: m.awayGoals, penHome: m.penHome, penAway: m.penAway } as HubMatch);
+    const res = unitedResult({ state: m.state, home: m.home, homeGoals: m.homeGoals, awayGoals: m.awayGoals });
+    const ours = detail.lineups.find((l) => l.team === UNITED);
+    for (const p of ours?.players ?? []) {
+      if (!p.id || !(p.start || p.on)) continue;
+      const mine = (e: { team: string | null; player: string | null }) => e.team === UNITED && e.player === p.name;
+      const line: PlayerMatchLine = {
+        matchId: m.id,
+        kickoff: m.kickoff,
+        competition: m.competition,
+        round: m.round,
+        opponent: view.opponent,
+        home,
+        goalsFor: view.goalsFor,
+        goalsAgainst: view.goalsAgainst,
+        result: res,
+        started: p.start,
+        subbedOn: p.on,
+        subbedOff: p.off,
+        goals: detail.goals.filter((g) => mine(g) && g.kind !== "Own goal").length,
+        assists: detail.goals.filter((g) => g.team === UNITED && g.assist === p.name && g.kind !== "Own goal").length,
+        yellow: detail.cards.filter((c) => mine(c) && c.kind === "Yellow").length,
+        red: detail.cards.filter((c) => mine(c) && c.kind !== "Yellow").length,
+      };
+      lines.set(p.id, [...(lines.get(p.id) ?? []), line]);
+    }
+  }
+  return { season, members, comps, lines };
+}
+
+function tallyOf(lines: PlayerMatchLine[]): Tally {
+  const t = emptyTally();
+  for (const l of lines) {
+    t.apps++;
+    if (l.started) t.starts++;
+    t.goals += l.goals;
+    t.assists += l.assists;
+    t.yellow += l.yellow;
+    t.red += l.red;
+  }
+  return t;
+}
+
+function toSquadPlayer(
+  m: typeof schema.squadMember.$inferSelect,
+  lines: PlayerMatchLine[],
+  friendly: Set<string>,
+): SquadPlayer {
+  return {
+    id: m.id,
+    slug: m.slug,
+    name: m.name,
+    number: m.shirtNumber,
+    position: m.position ?? "Midfielder",
+    age: m.age,
+    dateOfBirth: m.dateOfBirth,
+    nationality: m.nationality,
+    heightCm: m.heightCm,
+    totals: tallyOf(lines.filter((l) => !friendly.has(l.competition))),
+  };
+}
+
+/** The whole first-team squad, in position order and then shirt-number order. */
+export async function getSquad(): Promise<{ season: string; players: SquadPlayer[] } | null> {
+  const data = await loadSquad();
+  if (!data) return null;
+  const friendly = new Set(data.comps.filter((c) => c.kind === "friendly").map((c) => c.slug));
+  const players = data.members
+    .map((m) => toSquadPlayer(m, data.lines.get(m.id) ?? [], friendly))
+    .sort((a, b) => {
+      const pa = POSITION_ORDER.indexOf(a.position);
+      const pb = POSITION_ORDER.indexOf(b.position);
+      return pa - pb || (parseInt(a.number ?? "999", 10) || 999) - (parseInt(b.number ?? "999", 10) || 999) || a.name.localeCompare(b.name);
+    });
+  return { season: data.season, players };
+}
+
+export async function getPlayerSlugs(): Promise<string[]> {
+  const squad = await getSquad();
+  return squad ? squad.players.map((p) => p.slug) : [];
+}
+
+export async function getPlayer(slug: string): Promise<PlayerPage | null> {
+  const data = await loadSquad();
+  const member = data?.members.find((m) => m.slug === slug);
+  if (!data || !member) return null;
+  const friendly = new Set(data.comps.filter((c) => c.kind === "friendly").map((c) => c.slug));
+  const lines = data.lines.get(member.id) ?? [];
+  return {
+    ...toSquadPlayer(member, lines, friendly),
+    season: data.season,
+    byCompetition: data.comps
+      .map((c) => ({ slug: c.slug, name: c.name, kind: c.kind, tally: tallyOf(lines.filter((l) => l.competition === c.slug)) }))
+      .filter((c) => c.tally.apps > 0),
+    log: lines, // already newest first
   };
 }

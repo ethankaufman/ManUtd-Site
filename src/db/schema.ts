@@ -74,3 +74,21 @@ export const standing = sqliteTable(
   },
   (t) => [primaryKey({ columns: [t.season, t.competition, t.team] })],
 );
+
+/** A player in United's first-team squad for one season (bio details; their stats are worked out from the matches). */
+export const squadMember = sqliteTable(
+  "squad_member",
+  {
+    season: text("season").notNull(),
+    id: text("id").notNull(), // the data provider's player id
+    slug: text("slug").notNull(), // used in the page address, e.g. "bruno-fernandes"
+    name: text("name").notNull(),
+    shirtNumber: text("shirt_number"),
+    position: text("position"), // Goalkeeper | Defender | Midfielder | Forward
+    age: integer("age"),
+    dateOfBirth: text("date_of_birth"),
+    nationality: text("nationality"),
+    heightCm: integer("height_cm"),
+  },
+  (t) => [primaryKey({ columns: [t.season, t.id] })],
+);

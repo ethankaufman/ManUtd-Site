@@ -15,6 +15,7 @@ type SeasonFile = {
   updated: string;
   source: string;
   competitions: { slug: string; name: string; kind: string; has_table: boolean }[];
+  squad?: { id: string; slug: string; name: string; no: string | null; pos: string | null; age: number | null; dob: string | null; nation: string | null; height_cm: number | null }[];
   tables: Record<string, { rank: number; team: string; p: number; w: number; d: number; l: number; gf: number; ga: number; pts: number; zone: string | null }[]>;
   matches: {
     id: string;
@@ -56,6 +57,7 @@ async function main() {
       await tx.delete(schema.standing).where(eq(schema.standing.season, season));
       await tx.delete(schema.match).where(eq(schema.match.season, season));
       await tx.delete(schema.competition).where(eq(schema.competition.season, season));
+      await tx.delete(schema.squadMember).where(eq(schema.squadMember.season, season));
 
       await tx.insert(schema.competition).values(
         data.competitions.map((c, i) => ({ season, slug: c.slug, name: c.name, kind: c.kind, hasTable: c.has_table, sortOrder: i })),
@@ -108,12 +110,29 @@ async function main() {
         );
       }
 
+      if (data.squad?.length) {
+        await tx.insert(schema.squadMember).values(
+          data.squad.map((p) => ({
+            season,
+            id: p.id,
+            slug: p.slug,
+            name: p.name,
+            shirtNumber: p.no,
+            position: p.pos,
+            age: p.age,
+            dateOfBirth: p.dob,
+            nationality: p.nation,
+            heightCm: p.height_cm,
+          })),
+        );
+      }
+
       await tx
         .insert(schema.siteInfo)
         .values({ key: `season:${season}:updated`, value: data.updated })
         .onConflictDoUpdate({ target: schema.siteInfo.key, set: { value: data.updated } });
     });
-    console.log(`Loaded ${season}: ${data.matches.length} matches, ${Object.keys(data.tables).length} tables.`);
+    console.log(`Loaded ${season}: ${data.matches.length} matches, ${Object.keys(data.tables).length} tables, ${data.squad?.length ?? 0} players.`);
   }
 }
 

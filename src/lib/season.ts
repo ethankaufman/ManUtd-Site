@@ -79,3 +79,54 @@ export function unitedView(m: HubMatch) {
   const pensAgainst = home ? m.penAway : m.penHome;
   return { home, opponent: home ? m.away : m.home, goalsFor, goalsAgainst, pensFor, pensAgainst };
 }
+
+// ---------------------------------------------------------------------------------------------
+// Squad and player pages
+// ---------------------------------------------------------------------------------------------
+
+export type Tally = { apps: number; starts: number; goals: number; assists: number; yellow: number; red: number };
+
+export type SquadPlayer = {
+  id: string;
+  slug: string;
+  name: string;
+  number: string | null;
+  position: string; // Goalkeeper | Defender | Midfielder | Forward
+  age: number | null;
+  dateOfBirth: string | null;
+  nationality: string | null;
+  heightCm: number | null;
+  totals: Tally; // all competitions, not counting pre-season friendlies
+};
+
+/** One match as seen from one player: did they play, and what did they do. */
+export type PlayerMatchLine = {
+  matchId: string;
+  kickoff: string;
+  competition: string; // slug
+  round: string;
+  opponent: string;
+  home: boolean;
+  goalsFor: number | null;
+  goalsAgainst: number | null;
+  result: "W" | "D" | "L" | null;
+  started: boolean;
+  subbedOn: boolean;
+  subbedOff: boolean;
+  goals: number;
+  assists: number;
+  yellow: number;
+  red: number;
+};
+
+export type PlayerPage = SquadPlayer & {
+  season: string;
+  byCompetition: { slug: string; name: string; kind: string; tally: Tally }[];
+  log: PlayerMatchLine[]; // matches they played in, newest first
+};
+
+export const POSITION_ORDER = ["Goalkeeper", "Defender", "Midfielder", "Forward"];
+
+export function emptyTally(): Tally {
+  return { apps: 0, starts: 0, goals: 0, assists: 0, yellow: 0, red: 0 };
+}
