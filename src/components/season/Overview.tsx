@@ -1,4 +1,4 @@
-import type { HubCompetition, type HubMatch, type Record5 } from "@/lib/data";
+import type { HubCompetition, HubMatch, Record5 } from "@/lib/season";
 import { dayLabel, timeLabel } from "@/lib/format";
 
 function Stat({ label, value }: { label: string; value: string | number }) {

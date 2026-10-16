@@ -1,0 +1,45 @@
+# Keeps the "This Season" chapter fresh: fetches United's latest results and fixtures for every competition,
+# saves them in data/season/, and re-publishes the site if anything changed.
+# Runs twice a day (UTC): after the morning, and late at night once the evening matches have finished.
+# You can also start it by hand: Actions tab -> "Update season data" -> Run workflow.
+name: Update season data
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+    - cron: "30 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write # needed to start the "Deploy site" workflow
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Fetch the latest season data
+        run: python3 -I scripts/update_season.py
+
+      - name: Save it and re-publish the site, if anything changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -n "$(git status --porcelain data)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data
+            git commit -m "Update season data"
+            git push
+            # a push made with the built-in token does not start other workflows, so start the deploy ourselves
+            gh workflow run deploy.yml
+          else
+            echo "No new results."
+          fi

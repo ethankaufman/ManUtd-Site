@@ -1,4 +1,4 @@
-import { unitedResult, unitedView, UNITED, type HubMatch } from "@/lib/data";
+import { unitedResult, unitedView, UNITED, type HubMatch } from "@/lib/season";
 import { dayLabel, surname, timeLabel } from "@/lib/format";
 
 const CHIP = {

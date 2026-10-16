@@ -21,9 +21,9 @@ export const CHAPTERS: Chapter[] = [
     number: "01",
     title: "This Season",
     menu: "This Season",
-    teaser: "The table, the fixtures, the results and the scorers, refreshed through the season.",
+    teaser: "Every competition United play in this season: tables, results, fixtures, scorers.",
     planned: ["League table with form", "Every fixture and result", "Top scorers and assists", "Match-by-match scorers, assists and cards"],
-    status: "soon",
+    status: "live",
   },
   {
     slug: "squad",

@@ -1,4 +1,4 @@
-import type { PlayerStat } from "@/lib/data";
+import type { PlayerStat } from "@/lib/season";
 
 function Board({ title, rows, unit }: { title: string; rows: { name: string; n: number }[]; unit: string }) {
   const top = rows[0]?.n ?? 0;
@@ -49,7 +49,7 @@ export default function PlayerStats({ players }: { players: PlayerStat[] }) {
         <Board title="Most cards" rows={top((p) => p.yellow + p.red)} unit="cards" />
       </div>
       <p className="mt-3 text-center text-xs text-white/45">
-        United’s own goals only (own goals scored by opponents are not credited to a player). Cards are yellow and red together.
+        Goals and assists by United players. Own goals by opponents are not credited to a player. Cards are yellow and red together.
         So far: {yellow} yellow and {red} red.
       </p>
     </div>

@@ -86,7 +86,14 @@ After deleting `data/app.db`, restart `npm run dev`.
   Fonts: Anton (titles), Bangers (sound effects), Comic Neue (captions).
   Illustration facts to keep true: Old Trafford opened 1910; over 74,000 seats; nickname "Theatre of Dreams"; address Sir Matt Busby Way, Stretford.
   The city/streets are a stylised drawing, NOT a real map: never label it as one.
-- Phase 2, current-season hub (reuse ideas/scripts from ~/PL-History-Dashboard/scripts/update_current_season.py)
+- **Phase 2, current-season hub: built (2026-10-15).** `/season` shows EVERY competition United play in that season
+  (Premier League, Champions/Europa/Conference League, Carabao Cup, FA Cup, Community Shield, pre-season friendlies): overview,
+  next match, per-competition status, tabs with results/fixtures/tables, player stats. Data flow: `scripts/update_season.py` (ESPN public
+  soccer API, unofficial; stdlib only; self-checks) -> `data/season/<season>.json` (committed) -> `npm run db:seed` -> SQLite tables
+  `competition`, `match`, `standing` -> `getSeasonHub()` in src/lib/data.ts -> components in src/components/season/. Pure types/helpers live
+  in src/lib/season.ts (NO db import, so client components may use them). `.github/workflows/update-season.yml` refreshes twice daily
+  (07:00 and 23:30 UTC), commits changed data and starts the deploy. ESPN files an own goal under the team that BENEFITS. Match-detail
+  (goals, cards, line-ups) is stored per match for the later match pages. FA Cup 2026-27 is empty until January (ESPN 500s on it: harmless).
 - Phase 3, squad and player pages
 - Phase 4, match pages (1992 onward data already exists in ~/PL-History-Dashboard/data: filter to Manchester United)
 - Phase 5, history: competitions, finals, stadiums, managers, honours (all-time + since 1992)

@@ -1,4 +1,4 @@
-import { UNITED, type TableRow } from "@/lib/data";
+import { UNITED, type TableRow } from "@/lib/season";
 
 /**
  * A league table with United's row highlighted. A thin coloured bar on the left marks the zones
