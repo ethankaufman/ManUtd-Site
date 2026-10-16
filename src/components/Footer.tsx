@@ -4,8 +4,8 @@ import { Pitchfork } from "./DevilIcons";
 
 export default function Footer() {
   return (
-    <footer className="border-t-4 border-united-red bg-black px-6 py-10 text-center text-sm text-white/60">
-      <Pitchfork className="mx-auto mb-4 h-14 w-auto" outline="#fff" />
+    <footer className="border-t border-white/15 bg-black px-6 py-10 text-center text-sm text-white/60">
+      <Pitchfork className="mx-auto mb-4 h-12 w-auto" />
       <p className="font-display text-xl uppercase tracking-wide text-white">
         Manchester <span className="text-united-red">United</span> · The Red Devils
       </p>

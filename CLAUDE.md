@@ -71,8 +71,9 @@ After deleting `data/app.db`, restart `npm run dev`.
   tagline from the database. **LIVE** at https://ethankaufman.github.io/ManUtd-Site/ (public repo ethankaufman/ManUtd-Site, GitHub Pages via Actions). Commit email is the GitHub noreply address: keep it that way (git config is set in this repo).
 - **Phase 1, look and intro: in progress.** DONE: (1) chapter layout (`src/lib/chapters.ts` is the one list; home chapters
   section, top nav with phone menu, footer disclaimer, a placeholder page per chapter incl. `/overhead-kicks`; trailingSlash is ON
-  so /x and /x/ both work on GitHub Pages; red-devil touches = horns badge + pitchfork divider/footer); (2) DARK theme (night,
-  noir comic: black pages, charcoal cards with white outline + red offset shadow); (3) the intro is now a NIGHT-TIME 3D FLIGHT
+  so /x and /x/ both work on GitHub Pages; red-devil touches = horns badge + pitchfork divider/footer); (2) DARK theme, now "FLOODLIT EDITORIAL" (Ethan dropped the comic-book look for chapters, 2026-10-15): near-black pages, big white Anton
+  headlines, Geist Mono small caps labels, thin red rules, flat charcoal cards with 1px borders, soft floodlight glow (`.floodlight`, `.glow-red` in globals.css),
+  red pitchfork/horns drawn flat. No thick outlines, offset shadows, gold caption boxes, Bangers or Comic Neue any more. The 3D intro still has its halftone post-effect (comic.ts): ask Ethan whether to soften it; (3) the intro is now a NIGHT-TIME 3D FLIGHT
   (`src/components/intro3d/`, three.js, loaded on demand): through the flyer's eyes (no character drawn: Superman/DC marks are
   not used), a level run over the city, a banked sideways swoop, a tightening spiral round the stadium, a dive over the south
   stand, landing at the tunnel mouth facing the pitch. Files: layout.ts (data + flight waypoints), scenery.ts (city/roads/canal,

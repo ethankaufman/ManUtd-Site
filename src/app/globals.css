@@ -14,8 +14,6 @@
   --color-united-white: #ffffff;
   --color-united-gold: #fbe122;
   --font-display: var(--font-anton);
-  --font-sfx: var(--font-bangers);
-  --font-caption: var(--font-comic);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -38,6 +36,19 @@ body {
 ::selection {
   background: #da291c;
   color: #ffffff;
+}
+
+/*
+ * "Floodlit editorial": near-black pages, big white headlines, thin red rules, soft light from above
+ * like stadium floodlights. These two helpers are used by the home chapters and the chapter pages.
+ */
+.floodlight {
+  background-image:
+    radial-gradient(ellipse 60% 55% at 50% -5%, rgba(255, 255, 255, 0.1), transparent 70%),
+    radial-gradient(ellipse 80% 40% at 50% 0%, rgba(218, 41, 28, 0.22), transparent 75%);
+}
+.glow-red:hover {
+  box-shadow: 0 0 0 1px #da291c, 0 12px 40px -12px rgba(218, 41, 28, 0.55);
 }
 
 /* the "Scroll" label on the intro gently bounces */
