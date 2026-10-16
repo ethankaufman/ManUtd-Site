@@ -276,7 +276,7 @@ def main():
 
     matches.sort(key=lambda m: m["kick"])
     tables = {}
-    for code in TABLES:
+    for code in sorted(TABLES):
         if any(c["espn"] == code and c["matches"] for c in comps):
             rows = table_rows(code, year)
             if rows:
@@ -303,7 +303,7 @@ def main():
     # keep the file (and git history) quiet when nothing changed except the timestamp
     if out_file.exists():
         prev = re.sub(r'"updated": "[^"]*"', "", out_file.read_text())
-        if prev == re.sub(r'"updated": "[^"]*"', "", text):
+        if prev == re.sub(r'"updated": "[^"]*"', "", text + "\n"):
             print("No changes.")
             return
     out_file.write_text(text + "\n")
