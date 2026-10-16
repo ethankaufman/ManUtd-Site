@@ -101,12 +101,11 @@ After deleting `data/app.db`, restart `npm run dev`.
   NOT done yet: career stats and past players (needs another data source; belongs with the History chapter), minutes played.
 - Phase 4, match pages (1992 onward data already exists in ~/PL-History-Dashboard/data: filter to Manchester United)
 - Phase 5, history: competitions, finals, stadiums, managers, honours (all-time + since 1992)
-- **Phase 6, Overhead Kicks: built (2026-10-15).** `/overhead-kicks`: tabs for Rooney v City (12 Feb 2011, 2-1, 78') and Garnacho v Everton
-  (26 Nov 2023, 3-0, 3'). Facts, distances and source links live in `src/lib/kicks.ts` (add a goal = add an entry + tune `model` numbers).
-  Distances: Garnacho 15 yd (13.7 m) REPORTED by AP; Rooney ~12 yd (11 m) is OUR ESTIMATE (no published measurement found; Al Jazeera has him
-  at the penalty spot) and is labelled as such on the page: never present it as measured. 3D = `src/components/kick3d/` (figure.ts mannequin rig,
-  motion.ts key poses, scene.ts pitch/goal/ball/trail/distance marker/OrbitControls/shadows, KickViewer.tsx controls, OverheadKicks.tsx page body).
-  The figure is a faceless white mannequin in a red shirt; movement and ball path are illustrative, stated on the page. Possible extras: Berbatov v
-  Liverpool 19 Sep 2010 (3-2, hat-trick, 59' goal: verified by ESPN data), Zlatan v Galatasaray 2016 (friendly), Hughes 1989 derby (UNVERIFIED).
-  Verified in headless SwiftShader only, not on a real GPU.
+- **Phase 6, Overhead Kicks: built (2026-10-15), then reworked.** `/overhead-kicks` now shows ONLY Rooney v Man City (12 Feb 2011, 2-1, 78'):
+  Ethan asked to remove the Garnacho goal and to stop emphasising distances (distance is now one small bullet; ~12 yd is OUR ESTIMATE, labelled so,
+  never present it as measured). Facts and sources live in `src/lib/kicks.ts` (the page shows tabs automatically if more goals are added;
+  Berbatov v Liverpool 19 Sep 2010 3-2, 59', is verified and could be added). 3D = `src/components/kick3d/`: figure.ts (smooth mannequin: rounded
+  limbs, red shirt with number 10, white shorts, black socks/boots; faceless), motion.ts (key poses + Hermite spline), backdrop.ts (striped turf, crowd stands
+  behind the goal and along the sides, ad boards, floodlight glows), scene.ts (goal, ball with glow, gold trail, shadows, OrbitControls), KickViewer.tsx
+  (play/replay/slider/speed/reset), OverheadKicks.tsx (page body). Movement is illustrative and says so on the page. Verified in headless SwiftShader only.
 - Phase 7, extras and polish

@@ -109,7 +109,7 @@ export function buildBackdrop(maxAniso: number) {
 
   // stands: an inclined plane of crowd, a dark underside, and a roof slab
   const crowd = track(crowdTexture(maxAniso));
-  const seats = track(new THREE.MeshStandardMaterial({ map: crowd, emissiveMap: crowd, emissive: 0xffffff, emissiveIntensity: 0.55, roughness: 1, side: THREE.DoubleSide }));
+  const seats = track(new THREE.MeshStandardMaterial({ map: crowd, emissiveMap: crowd, emissive: 0xffffff, emissiveIntensity: 0.3, color: 0xcfcfcf, roughness: 1, side: THREE.DoubleSide }));
   const concrete = track(new THREE.MeshStandardMaterial({ color: 0x232325, roughness: 1, side: THREE.DoubleSide }));
   const roofMat = track(new THREE.MeshStandardMaterial({ color: 0x151517, roughness: 0.9, side: THREE.DoubleSide }));
 

@@ -12,7 +12,7 @@ import { jointsAt, T_CONTACT, T_GOAL } from "./motion";
  * Positions: the goal line is z = 0 and the pitch runs along +z; x is sideways; y is up (metres).
  */
 
-const RED = 0xda291c;
+const GOLD = 0xfbe122;
 const BALL_R = 0.11;
 
 /** A flat white line painted on the grass, as a thin box (WebGL lines are always one pixel wide). */
@@ -140,13 +140,27 @@ export function createKickScene(canvas: HTMLCanvasElement) {
   const ball = new THREE.Mesh(new THREE.SphereGeometry(BALL_R, 24, 18), new THREE.MeshStandardMaterial({ map: ballTex, roughness: 0.45 }));
   ball.castShadow = true;
   scene.add(ball);
+  // a soft glow around the ball so it stands out against the crowd
+  const glowCanvas = document.createElement("canvas");
+  glowCanvas.width = glowCanvas.height = 64;
+  const gctx = glowCanvas.getContext("2d")!;
+  const grad = gctx.createRadialGradient(32, 32, 0, 32, 32, 32);
+  grad.addColorStop(0, "rgba(255,255,255,0.95)");
+  grad.addColorStop(0.35, "rgba(255,240,170,0.45)");
+  grad.addColorStop(1, "rgba(255,240,170,0)");
+  gctx.fillStyle = grad;
+  gctx.fillRect(0, 0, 64, 64);
+  const glowTex = new THREE.CanvasTexture(glowCanvas);
+  const glow = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTex, transparent: true, blending: THREE.AdditiveBlending, depthWrite: false, fog: false }));
+  glow.scale.set(0.9, 0.9, 1);
+  scene.add(glow);
 
   // the ball's trail: a red line that grows as the ball moves
   const TRAIL_MAX = 160;
   const trailGeo = new THREE.BufferGeometry();
   trailGeo.setAttribute("position", new THREE.BufferAttribute(new Float32Array(TRAIL_MAX * 3), 3));
   trailGeo.setDrawRange(0, 0);
-  const trail = new THREE.Line(trailGeo, new THREE.LineBasicMaterial({ color: RED }));
+  const trail = new THREE.Line(trailGeo, new THREE.LineBasicMaterial({ color: GOLD }));
   trail.frustumCulled = false;
   scene.add(trail);
 
@@ -166,8 +180,8 @@ export function createKickScene(canvas: HTMLCanvasElement) {
   function setView() {
     const cx = kick?.model.contactX ?? 1;
     const cz = kick?.model.contactZ ?? 11;
-    camera.position.set(cx + 5.2, 2.2, cz + 5.4);
-    controls.target.set(cx - 0.6, 1.7, cz - 3);
+    camera.position.set(cx + 4.3, 2.0, cz + 4.4);
+    controls.target.set(cx - 0.5, 1.8, cz - 2.2);
     controls.update();
   }
 
@@ -210,6 +224,8 @@ export function createKickScene(canvas: HTMLCanvasElement) {
   function setTime(t: number) {
     figure.apply(jointsAt(t));
     ball.position.copy(ballAt(t));
+    glow.position.copy(ball.position);
+    glow.visible = t > 0.005;
     ball.rotation.x = t * 14;
     const arr = trailGeo.getAttribute("position") as THREE.BufferAttribute;
     const n = Math.max(2, Math.min(TRAIL_MAX, Math.round(t * TRAIL_MAX)));
@@ -247,6 +263,7 @@ export function createKickScene(canvas: HTMLCanvasElement) {
     figure.dispose();
     backdrop.dispose();
     ballTex.dispose();
+    glowTex.dispose();
     renderer.dispose();
     scene.traverse((o) => {
       const m = o as THREE.Mesh;
