@@ -94,7 +94,11 @@ After deleting `data/app.db`, restart `npm run dev`.
   in src/lib/season.ts (NO db import, so client components may use them). `.github/workflows/update-season.yml` refreshes twice daily
   (07:00 and 23:30 UTC), commits changed data and starts the deploy. ESPN files an own goal under the team that BENEFITS. Match-detail
   (goals, cards, line-ups) is stored per match for the later match pages. FA Cup 2026-27 is empty until January (ESPN 500s on it: harmless).
-- Phase 3, squad and player pages
+- **Phase 3, squad and player pages: built (2026-10-15).** `/squad` (grouped by position) and `/squad/<slug>` (one static page per player via
+  generateStaticParams, `dynamicParams = false`). Roster comes from ESPN's roster endpoint (saved in the season JSON as `squad`, table
+  `squad_member`); each player's apps/starts/goals/assists/cards are WORKED OUT from the stored match line-ups and events (matched by ESPN player id /
+  name) in `loadSquad()` in src/lib/data.ts. No photos (ESPN headshots belong to others); ignore ESPN's `coach` field (it returns junk).
+  NOT done yet: career stats and past players (needs another data source; belongs with the History chapter), minutes played.
 - Phase 4, match pages (1992 onward data already exists in ~/PL-History-Dashboard/data: filter to Manchester United)
 - Phase 5, history: competitions, finals, stadiums, managers, honours (all-time + since 1992)
 - Phase 6, Rooney overhead kick in 3D
