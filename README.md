@@ -10,6 +10,8 @@ A fan-made website about Manchester United, in the club's red, black and white. 
 
 * **Intro**: a scroll-driven 3D flight (three.js) over a stylised night-time Manchester that spirals down into Old Trafford.
 * **Famous victories**: a slideshow of seven free-licensed photos, each with the match, date, result and photo credit.
+![Famous victories slideshow](docs/slideshow.jpg)
+
 * **01 This Season**: every competition United play in (Premier League, Champions League, Carabao Cup, FA Cup and the rest), with tables, results with scorers, fixtures, the next match and player stats. Refreshed automatically twice a day.
 * **02 The Squad**: the first team by position, and a page for every player with their season numbers and every match they played.
 * **08 Overhead Kicks**: an interactive 3D reconstruction of Wayne Rooney's overhead kick against Manchester City (12 February 2011), with the story of the match and its sources.
