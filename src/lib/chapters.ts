@@ -90,7 +90,7 @@ export const CHAPTERS: Chapter[] = [
       "An interactive 3D model of Alejandro Garnacho's Puskás-winning overhead kick",
       "For each: the distance from goal and a summary of the match",
     ],
-    status: "soon",
+    status: "live",
     featured: true,
   },
 ];

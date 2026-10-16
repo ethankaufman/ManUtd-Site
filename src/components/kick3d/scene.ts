@@ -144,10 +144,10 @@ export function createKickScene(canvas: HTMLCanvasElement, onLabel: (p: LabelPla
   controls.maxPolarAngle = Math.PI / 2 - 0.03;
 
   let kick: Kick | null = null;
-  let contact = new THREE.Vector3();
-  let cross = new THREE.Vector3();
-  let target = new THREE.Vector3();
-  let labelAt = new THREE.Vector3();
+  const contact = new THREE.Vector3();
+  const cross = new THREE.Vector3();
+  const target = new THREE.Vector3();
+  const labelAt = new THREE.Vector3();
 
   function setView() {
     camera.position.set(15, 3.6, 22);
