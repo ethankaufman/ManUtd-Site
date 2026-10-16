@@ -157,6 +157,7 @@ def parse_details(summary):
             a = p.get("athlete") or {}
             players.append(
                 {
+                    "id": a.get("id"),
                     "name": a.get("displayName"),
                     "no": p.get("jersey"),
                     "pos": (p.get("position") or {}).get("abbreviation"),
@@ -214,6 +215,44 @@ def table_rows(code, year):
     return rows
 
 
+def slugify(name):
+    import unicodedata
+
+    plain = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "-", plain.lower()).strip("-")
+
+
+def fetch_squad():
+    """The current first-team squad (bio details only; the numbers come from our own match data)."""
+    d = get(f"{SITE}/eng.1/teams/{TEAM_ID}/roster")
+    if not d:
+        return None
+    squad, used = [], set()
+    for a in d.get("athletes", []):
+        name = a.get("displayName") or a.get("fullName")
+        if not name:
+            continue
+        slug = slugify(name)
+        if slug in used:
+            slug = f"{slug}-{a['id']}"
+        used.add(slug)
+        inches = a.get("height")
+        squad.append(
+            {
+                "id": a["id"],
+                "slug": slug,
+                "name": name,
+                "no": a.get("jersey"),
+                "pos": (a.get("position") or {}).get("displayName"),
+                "age": a.get("age"),
+                "dob": (a.get("dateOfBirth") or "")[:10] or None,
+                "nation": a.get("citizenship"),
+                "height_cm": round(inches * 2.54) if inches else None,
+            }
+        )
+    return squad
+
+
 def check(matches, tables):
     """Our own sanity checks: if one fails we refuse to write the file."""
     problems = []
@@ -260,7 +299,8 @@ def main():
             continue
         old_m = cache.get(m["id"])
         recent = (now - datetime.fromisoformat(m["kick"].replace("Z", "+00:00"))).days < 4
-        if old_m and "goals" in old_m and not recent:
+        has_ids = bool(old_m) and all(p.get("id") for lu in old_m.get("lineups", []) for p in lu["players"])
+        if old_m and "goals" in old_m and has_ids and not recent:
             m.update({k: old_m[k] for k in ("goals", "cards", "lineups") if k in old_m})
             continue
         s = get(f"{SITE}/{m['espn']}/summary?event={m['id']}")
@@ -282,7 +322,10 @@ def main():
             if rows:
                 tables[code] = rows
 
+    squad = fetch_squad() or old.get("squad", [])
     problems = check(matches, tables)
+    if not squad:
+        problems.append("squad list is empty")
     if problems:
         print("Checks FAILED, nothing written:", *problems, sep="\n  ", file=sys.stderr)
         sys.exit(1)
@@ -296,6 +339,7 @@ def main():
         "source": "ESPN public soccer service (unofficial)",
         "competitions": comps,
         "tables": tables,
+        "squad": squad,
         "matches": matches,
     }
     OUT_DIR.mkdir(parents=True, exist_ok=True)
