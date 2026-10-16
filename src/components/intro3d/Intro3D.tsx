@@ -189,7 +189,7 @@ export default function Intro3D() {
 
           {/* skip button */}
           <a
-            href="#chapters"
+            href="#victories"
             className="absolute right-3 top-3 border border-white/40 bg-black/50 px-3 py-1.5 font-mono text-xs uppercase tracking-widest text-white backdrop-blur-sm transition hover:border-white hover:bg-white hover:text-black"
           >
             Skip intro →

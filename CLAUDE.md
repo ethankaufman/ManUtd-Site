@@ -80,7 +80,10 @@ After deleting `data/app.db`, restart `npm run dev`.
   window shader), stadium3d.ts (lofted bowl, crowd, pitch), flight.ts (camera path + banking), comic.ts (halftone/posterise
   post-effect), scene3d.ts, Intro3D.tsx (scroll controller + comic overlays). `?p=0.5` freezes it for screenshots. Verified with
   puppeteer-core + Chrome/SwiftShader only: NOT tested on a real GPU. If it stutters, lower crowd points/instances or MSAA.
-  TODO: photo slideshow (>=7 high-res free-licensed photos). Fonts: Anton (titles), Bangers (sound effects), Comic Neue (captions).
+  DONE: "Famous victories" slideshow on the home page after the intro (`src/components/Slideshow.tsx`, data + credits in `src/lib/slides.ts`,
+  photos in `public/photos/`): 7 Wikimedia Commons photos, arrows/keys/swipe/dots, autoplay that pauses on hover and is off for reduced motion,
+  caption = competition, venue, date, result, scorers, photo credit with licence link. Match facts verified against Wikipedia. "Skip intro" now jumps to it.
+  Fonts: Anton (titles), Bangers (sound effects), Comic Neue (captions).
   Illustration facts to keep true: Old Trafford opened 1910; over 74,000 seats; nickname "Theatre of Dreams"; address Sir Matt Busby Way, Stretford.
   The city/streets are a stylised drawing, NOT a real map: never label it as one.
 - Phase 2, current-season hub (reuse ideas/scripts from ~/PL-History-Dashboard/scripts/update_current_season.py)
