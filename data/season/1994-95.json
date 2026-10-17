@@ -403,15 +403,12 @@
    "away": "Newcastle United",
    "hg": 1,
    "ag": 1,
-   "pens": [
-    5,
-    6
-   ],
+   "pens": null,
    "venue": null,
    "city": null,
    "att": 27282,
    "neutral": true,
-   "note": null,
+   "note": "Decided on penalties",
    "comp": "friendlies",
    "goals": [],
    "cards": [],

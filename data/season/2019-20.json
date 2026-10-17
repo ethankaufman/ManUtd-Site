@@ -1738,15 +1738,12 @@
    "away": "Milan",
    "hg": 2,
    "ag": 2,
-   "pens": [
-    5,
-    4
-   ],
+   "pens": null,
    "venue": null,
    "city": null,
    "att": 65892,
    "neutral": true,
-   "note": null,
+   "note": "Decided on penalties",
    "comp": "friendlies",
    "goals": [
     {

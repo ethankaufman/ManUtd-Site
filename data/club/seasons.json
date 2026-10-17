@@ -18,6 +18,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [
    "The club did not start playing league football until 1888.",
    "The Football League Cup, later renamed the EFL Cup was first contested in 1960–61.",
@@ -48,6 +49,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [
    "The 1888–89 season was cut short for Newton Heath, as the Combination was wound up in April 1889, and so the team was unable to complete its programme of 16 matches. However, records show that the club had the best record of all the teams in the league at that point."
   ],
@@ -76,6 +78,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Willie Stewart"
@@ -101,6 +104,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Bob Ramsay"
@@ -126,6 +130,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [
    "In 1892, the Football Alliance and the Football League decided to merge. Due to their second place finish in the 1891–92 Football Alliance, Newton Heath were elected to the Football League First Division for the following season."
   ],
@@ -154,6 +159,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [
    "Formal promotion and relegation had not yet been established, and so the bottom team in the Football League First Division would play a so-called \"Test match\" against the top team in the Second Division, Small Heath. Newton Heath drew the original Test match 1–1, then won the replay 5–2, and retained their place in the First Division."
   ],
@@ -181,6 +187,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [
    "Formal promotion and relegation had still not been introduced, and so another Test match was played between Newton Heath and Liverpool, the winners of the Second Division. Newton Heath lost, and were relegated."
   ],
@@ -208,6 +215,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [
    "As a reward for finishing in 3rd place, Newton Heath played yet another Test match against the team that finished third from bottom in the First Division, Stoke City. They lost, and remained in the Second Division."
   ],
@@ -235,6 +243,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Joe Cassidy"
@@ -260,6 +269,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [
    "For finishing in 2nd place, Newton Heath had to play Test matches against Burnley and Sunderland in order to gain promotion to Division One. They beat Burnley over two legs, but lost to Sunderland and remained in Division Two."
   ],
@@ -287,6 +297,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Henry Boyd"
@@ -312,6 +323,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Joe Cassidy"
@@ -337,6 +349,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Joe Cassidy"
@@ -362,6 +375,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Tommy Leigh"
@@ -387,6 +401,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Stephen Preston"
@@ -412,6 +427,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Jack Peddie"
@@ -437,6 +453,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Tommy Arkesden"
@@ -462,6 +479,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Jack Peddie"
@@ -487,6 +505,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Jack Picken"
@@ -512,6 +531,7 @@
   "league_cup": "N/A",
   "shield": "N/A",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "George Wall"
@@ -537,6 +557,12 @@
   "league_cup": "N/A",
   "shield": "Winners",
   "europe": [],
+  "finals": [
+   {
+    "page": "1908 FA Charity Shield",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Sandy Turnbull"
@@ -562,6 +588,12 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [
+   {
+    "page": "1909 FA Cup final",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Jimmy Turnbull"
@@ -587,6 +619,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "George Wall"
@@ -612,6 +645,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Enoch West"
@@ -637,6 +671,12 @@
   "league_cup": "N/A",
   "shield": "Winners",
   "europe": [],
+  "finals": [
+   {
+    "page": "1911 FA Charity Shield",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Enoch West"
@@ -662,6 +702,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Enoch West"
@@ -687,6 +728,7 @@
   "league_cup": "N/A",
   "shield": "Not eligible",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "George Anderson"
@@ -712,6 +754,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "George Anderson"
@@ -737,6 +780,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [
    "No competitive football was played between 1915 and 1919 due to the First World War."
   ],
@@ -764,6 +808,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Joe Spence"
@@ -789,6 +834,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Tom Miller",
@@ -815,6 +861,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Joe Spence"
@@ -840,6 +887,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Ernie Goldthorpe"
@@ -865,6 +913,7 @@
   "league_cup": "N/A",
   "shield": "Not eligible",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Arthur Lochhead"
@@ -890,6 +939,7 @@
   "league_cup": "N/A",
   "shield": "Not eligible",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "William Henderson"
@@ -915,6 +965,7 @@
   "league_cup": "N/A",
   "shield": "Not eligible",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Frank McPherson"
@@ -940,6 +991,7 @@
   "league_cup": "N/A",
   "shield": "Not eligible",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Joe Spence"
@@ -965,6 +1017,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Joe Spence"
@@ -990,6 +1043,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Jimmy Hanson"
@@ -1015,6 +1069,7 @@
   "league_cup": "N/A",
   "shield": "Not eligible",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Harry Rowley",
@@ -1041,6 +1096,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Tommy Reid"
@@ -1066,6 +1122,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Joe Spence"
@@ -1091,6 +1148,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Bill Ridding"
@@ -1116,6 +1174,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [
    "Lowest League finish"
   ],
@@ -1143,6 +1202,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "George Mutch"
@@ -1168,6 +1228,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "George Mutch"
@@ -1193,6 +1254,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Tommy Bamford"
@@ -1218,6 +1280,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Harry Baird",
@@ -1244,6 +1307,7 @@
   "league_cup": "N/A",
   "shield": "Not eligible",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Jimmy Hanlon"
@@ -1269,6 +1333,7 @@
   "league_cup": "N/A",
   "shield": "—",
   "europe": [],
+  "finals": [],
   "notes": [
    "The 1939–40 season was abandoned in early September and all results annulled, after only three matches had been played; Manchester United were tenth in the table at the time."
   ],
@@ -1296,6 +1361,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [
    "No competitive football was played between 1939 and 1946 due to the Second World War."
   ],
@@ -1323,6 +1389,7 @@
   "league_cup": "N/A",
   "shield": "—",
   "europe": [],
+  "finals": [],
   "notes": [
    "The FA Cup was contested in 1945–46 but the Football League did not resume until the following season."
   ],
@@ -1352,6 +1419,7 @@
   "league_cup": "N/A",
   "shield": "—",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Jack Rowley"
@@ -1377,6 +1445,12 @@
   "league_cup": "N/A",
   "shield": "—",
   "europe": [],
+  "finals": [
+   {
+    "page": "1948 FA Cup final",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Jack Rowley"
@@ -1402,6 +1476,12 @@
   "league_cup": "N/A",
   "shield": "Runners-up",
   "europe": [],
+  "finals": [
+   {
+    "page": "1948 FA Charity Shield",
+    "result": "Runners-up"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Jack Rowley"
@@ -1427,6 +1507,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Jack Rowley"
@@ -1452,6 +1533,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Stan Pearson"
@@ -1477,6 +1559,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Jack Rowley"
@@ -1502,6 +1585,12 @@
   "league_cup": "N/A",
   "shield": "Winners",
   "europe": [],
+  "finals": [
+   {
+    "page": "1952 FA Charity Shield",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Stan Pearson"
@@ -1527,6 +1616,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Tommy Taylor"
@@ -1552,6 +1642,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Dennis Viollet"
@@ -1577,6 +1668,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Tommy Taylor"
@@ -1603,6 +1695,16 @@
   "shield": "Winners",
   "europe": [
    "European Cup – SF"
+  ],
+  "finals": [
+   {
+    "page": "1957 FA Cup final",
+    "result": "Runners-up"
+   },
+   {
+    "page": "1956 FA Charity Shield",
+    "result": "Winners"
+   }
   ],
   "notes": [],
   "scorers": [
@@ -1631,6 +1733,16 @@
   "europe": [
    "European Cup – SF"
   ],
+  "finals": [
+   {
+    "page": "1958 FA Cup final",
+    "result": "Runners-up"
+   },
+   {
+    "page": "1957 FA Charity Shield",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Dennis Viollet"
@@ -1656,6 +1768,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Bobby Charlton"
@@ -1681,6 +1794,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [
    "32 goals in the First Division"
   ],
@@ -1708,6 +1822,7 @@
   "league_cup": "R2",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Bobby Charlton"
@@ -1733,6 +1848,7 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [
    "Despite entering the first League Cup in 1960–61, like many other major clubs, Manchester United declined to take part again until the 1966–67 season. They then missed two consecutive seasons in 1967–68 and 1968–69."
   ],
@@ -1760,6 +1876,12 @@
   "league_cup": "N/A",
   "shield": "",
   "europe": [],
+  "finals": [
+   {
+    "page": "1963 FA Cup final",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Denis Law"
@@ -1786,6 +1908,12 @@
   "shield": "Runners-up",
   "europe": [
    "Cup Winners' Cup – QF"
+  ],
+  "finals": [
+   {
+    "page": "1963 FA Charity Shield",
+    "result": "Runners-up"
+   }
   ],
   "notes": [],
   "scorers": [
@@ -1814,6 +1942,7 @@
   "europe": [
    "Inter-Cities Fairs Cup – SF"
   ],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Denis Law"
@@ -1840,6 +1969,12 @@
   "shield": "Shared",
   "europe": [
    "European Cup – SF"
+  ],
+  "finals": [
+   {
+    "page": "1965 FA Charity Shield",
+    "result": "Shared"
+   }
   ],
   "notes": [
    "From 1939 to 1993, in the event of a draw, the Charity Shield was shared between the two competing teams, with each team having possession of the trophy for six months."
@@ -1868,6 +2003,7 @@
   "league_cup": "R2",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Denis Law"
@@ -1894,6 +2030,16 @@
   "shield": "Shared",
   "europe": [
    "European Cup – Winners"
+  ],
+  "finals": [
+   {
+    "page": "1967 FA Charity Shield",
+    "result": "Shared"
+   },
+   {
+    "page": "1968 European Cup final",
+    "result": "Winners"
+   }
   ],
   "notes": [
    "Joint top scorer with Ron Davies of Southampton",
@@ -1926,6 +2072,12 @@
    "European Cup – SF",
    "Intercontinental Cup – Runners-up"
   ],
+  "finals": [
+   {
+    "page": "1968 Intercontinental Cup",
+    "result": "Runners-up"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Denis Law"
@@ -1951,6 +2103,7 @@
   "league_cup": "SF",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "George Best"
@@ -1976,6 +2129,7 @@
   "league_cup": "SF",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "George Best"
@@ -2001,6 +2155,7 @@
   "league_cup": "R4",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "George Best"
@@ -2026,6 +2181,7 @@
   "league_cup": "R3",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Bobby Charlton"
@@ -2051,6 +2207,7 @@
   "league_cup": "R2",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Lou Macari",
@@ -2077,6 +2234,7 @@
   "league_cup": "SF",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Lou Macari",
@@ -2103,6 +2261,12 @@
   "league_cup": "R4",
   "shield": "",
   "europe": [],
+  "finals": [
+   {
+    "page": "1976 FA Cup final",
+    "result": "Runners-up"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Lou Macari"
@@ -2129,6 +2293,12 @@
   "shield": "",
   "europe": [
    "UEFA Cup – R2"
+  ],
+  "finals": [
+   {
+    "page": "1977 FA Cup final",
+    "result": "Winners"
+   }
   ],
   "notes": [],
   "scorers": [
@@ -2157,6 +2327,12 @@
   "europe": [
    "Cup Winners' Cup – R2"
   ],
+  "finals": [
+   {
+    "page": "1977 FA Charity Shield",
+    "result": "Shared"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Gordon Hill"
@@ -2182,6 +2358,12 @@
   "league_cup": "R3",
   "shield": "",
   "europe": [],
+  "finals": [
+   {
+    "page": "1979 FA Cup final",
+    "result": "Runners-up"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Jimmy Greenhoff"
@@ -2207,6 +2389,7 @@
   "league_cup": "R3",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Joe Jordan"
@@ -2234,6 +2417,7 @@
   "europe": [
    "UEFA Cup – R1"
   ],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Joe Jordan"
@@ -2259,6 +2443,7 @@
   "league_cup": "R2",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [
    "The 1981–82 season saw the introduction of three points for a win."
   ],
@@ -2288,6 +2473,16 @@
   "europe": [
    "UEFA Cup – R1"
   ],
+  "finals": [
+   {
+    "page": "1983 FA Cup final",
+    "result": "Winners"
+   },
+   {
+    "page": "1983 Football League Cup final",
+    "result": "Runners-up"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Frank Stapleton"
@@ -2315,6 +2510,12 @@
   "europe": [
    "Cup Winners' Cup – SF"
   ],
+  "finals": [
+   {
+    "page": "1983 FA Charity Shield",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Frank Stapleton"
@@ -2341,6 +2542,12 @@
   "shield": "",
   "europe": [
    "UEFA Cup – QF"
+  ],
+  "finals": [
+   {
+    "page": "1985 FA Cup final",
+    "result": "Winners"
+   }
   ],
   "notes": [],
   "scorers": [
@@ -2370,6 +2577,12 @@
    "Ban on",
    "English teams"
   ],
+  "finals": [
+   {
+    "page": "1985 FA Charity Shield",
+    "result": "Runners-up"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Mark Hughes"
@@ -2398,6 +2611,7 @@
    "Ban on",
    "English teams"
   ],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Peter Davenport"
@@ -2426,6 +2640,7 @@
    "Ban on",
    "English teams"
   ],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Brian McClair"
@@ -2454,6 +2669,7 @@
    "Ban on",
    "English teams"
   ],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Mark Hughes",
@@ -2483,6 +2699,12 @@
    "Ban on",
    "English teams"
   ],
+  "finals": [
+   {
+    "page": "1990 FA Cup final",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Mark Hughes"
@@ -2509,6 +2731,20 @@
   "shield": "Shared",
   "europe": [
    "Cup Winners' Cup – Winners"
+  ],
+  "finals": [
+   {
+    "page": "1991 Football League Cup final",
+    "result": "Runners-up"
+   },
+   {
+    "page": "1990 FA Charity Shield",
+    "result": "Shared"
+   },
+   {
+    "page": "1991 European Cup Winners' Cup final",
+    "result": "Winners"
+   }
   ],
   "notes": [
    "Manchester United were deducted one point after a brawl in a game with Arsenal on 20 October 1990."
@@ -2541,6 +2777,16 @@
    "Cup Winners' Cup – R2",
    "Super Cup – Winners"
   ],
+  "finals": [
+   {
+    "page": "1992 Football League Cup final",
+    "result": "Winners"
+   },
+   {
+    "page": "1991 European Super Cup",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Brian McClair"
@@ -2568,6 +2814,7 @@
   "europe": [
    "UEFA Cup – R1"
   ],
+  "finals": [],
   "notes": [
    "The 22 top English clubs broke away from the Football League to form the FA Premier League as the new top tier of the English football pyramid."
   ],
@@ -2597,6 +2844,20 @@
   "europe": [
    "Champions League – R2"
   ],
+  "finals": [
+   {
+    "page": "1994 FA Cup final",
+    "result": "Winners"
+   },
+   {
+    "page": "1994 Football League Cup final",
+    "result": "Runners-up"
+   },
+   {
+    "page": "1993 FA Charity Shield",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Eric Cantona"
@@ -2623,6 +2884,16 @@
   "shield": "Winners",
   "europe": [
    "Champions League – Group"
+  ],
+  "finals": [
+   {
+    "page": "1995 FA Cup final",
+    "result": "Runners-up"
+   },
+   {
+    "page": "1994 FA Charity Shield",
+    "result": "Winners"
+   }
   ],
   "notes": [],
   "scorers": [
@@ -2651,6 +2922,12 @@
   "europe": [
    "UEFA Cup – R1"
   ],
+  "finals": [
+   {
+    "page": "1996 FA Cup final",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Eric Cantona"
@@ -2677,6 +2954,12 @@
   "shield": "Winners",
   "europe": [
    "Champions League – SF"
+  ],
+  "finals": [
+   {
+    "page": "1996 FA Charity Shield",
+    "result": "Winners"
+   }
   ],
   "notes": [],
   "scorers": [
@@ -2705,6 +2988,12 @@
   "europe": [
    "Champions League – QF"
   ],
+  "finals": [
+   {
+    "page": "1997 FA Charity Shield",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Andy Cole"
@@ -2731,6 +3020,20 @@
   "shield": "Runners-up",
   "europe": [
    "Champions League – Winners"
+  ],
+  "finals": [
+   {
+    "page": "1999 FA Cup final",
+    "result": "Winners"
+   },
+   {
+    "page": "1998 FA Charity Shield",
+    "result": "Runners-up"
+   },
+   {
+    "page": "1999 UEFA Champions League final",
+    "result": "Winners"
+   }
   ],
   "notes": [
    "Joint top scorer with Jimmy Floyd Hasselbaink of Leeds United and Michael Owen of Liverpool",
@@ -2765,6 +3068,20 @@
    "Intercontinental Cup – Winners",
    "Club World Championship – Group"
   ],
+  "finals": [
+   {
+    "page": "1999 FA Charity Shield",
+    "result": "Runners-up"
+   },
+   {
+    "page": "1999 UEFA Super Cup",
+    "result": "Runners-up"
+   },
+   {
+    "page": "1999 Intercontinental Cup",
+    "result": "Winners"
+   }
+  ],
   "notes": [
    "Manchester United did not enter the 1999–2000 FA Cup due to their commitment to the 2000 FIFA Club World Championship in Brazil."
   ],
@@ -2794,6 +3111,12 @@
   "europe": [
    "Champions League – QF"
   ],
+  "finals": [
+   {
+    "page": "2000 FA Charity Shield",
+    "result": "Runners-up"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Teddy Sheringham"
@@ -2821,6 +3144,12 @@
   "europe": [
    "Champions League – SF"
   ],
+  "finals": [
+   {
+    "page": "2001 FA Charity Shield",
+    "result": "Runners-up"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Ruud van Nistelrooy"
@@ -2847,6 +3176,12 @@
   "shield": "",
   "europe": [
    "Champions League – QF"
+  ],
+  "finals": [
+   {
+    "page": "2003 Football League Cup final",
+    "result": "Runners-up"
+   }
   ],
   "notes": [
    "25 goals in the Premier League"
@@ -2877,6 +3212,16 @@
   "europe": [
    "Champions League – Round of 16"
   ],
+  "finals": [
+   {
+    "page": "2004 FA Cup final",
+    "result": "Winners"
+   },
+   {
+    "page": "2003 FA Community Shield",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Ruud van Nistelrooy"
@@ -2903,6 +3248,16 @@
   "shield": "Runners-up",
   "europe": [
    "Champions League – Round of 16"
+  ],
+  "finals": [
+   {
+    "page": "2005 FA Cup final",
+    "result": "Runners-up"
+   },
+   {
+    "page": "2004 FA Community Shield",
+    "result": "Runners-up"
+   }
   ],
   "notes": [],
   "scorers": [
@@ -2931,6 +3286,12 @@
   "europe": [
    "Champions League – Group"
   ],
+  "finals": [
+   {
+    "page": "2006 Football League Cup final",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Ruud van Nistelrooy"
@@ -2957,6 +3318,12 @@
   "shield": "",
   "europe": [
    "Champions League – SF"
+  ],
+  "finals": [
+   {
+    "page": "2007 FA Cup final",
+    "result": "Runners-up"
+   }
   ],
   "notes": [],
   "scorers": [
@@ -2985,6 +3352,16 @@
   "shield": "Winners",
   "europe": [
    "Champions League – Winners"
+  ],
+  "finals": [
+   {
+    "page": "2007 FA Community Shield",
+    "result": "Winners"
+   },
+   {
+    "page": "2008 UEFA Champions League final",
+    "result": "Winners"
+   }
   ],
   "notes": [
    "31 goals in the Premier League"
@@ -3017,6 +3394,28 @@
    "Super Cup – Runners-up",
    "Club World Cup – Winners"
   ],
+  "finals": [
+   {
+    "page": "2009 Football League Cup final",
+    "result": "Winners"
+   },
+   {
+    "page": "2008 FA Community Shield",
+    "result": "Winners"
+   },
+   {
+    "page": "2009 UEFA Champions League final",
+    "result": "Runners-up"
+   },
+   {
+    "page": "2008 UEFA Super Cup",
+    "result": "Runners-up"
+   },
+   {
+    "page": "2008 FIFA Club World Cup final",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Cristiano Ronaldo"
@@ -3044,6 +3443,16 @@
   "europe": [
    "Champions League – QF"
   ],
+  "finals": [
+   {
+    "page": "2010 Football League Cup final",
+    "result": "Winners"
+   },
+   {
+    "page": "2009 FA Community Shield",
+    "result": "Runners-up"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Wayne Rooney"
@@ -3070,6 +3479,16 @@
   "shield": "Winners",
   "europe": [
    "Champions League – Runners-up"
+  ],
+  "finals": [
+   {
+    "page": "2010 FA Community Shield",
+    "result": "Winners"
+   },
+   {
+    "page": "2011 UEFA Champions League final",
+    "result": "Runners-up"
+   }
   ],
   "notes": [
    "Joint top scorer with Carlos Tevez of Manchester City",
@@ -3101,6 +3520,12 @@
   "europe": [
    "Champions League – Group *Europa League – Round of 16"
   ],
+  "finals": [
+   {
+    "page": "2011 FA Community Shield",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Wayne Rooney"
@@ -3128,6 +3553,7 @@
   "europe": [
    "Champions League – Round of 16"
   ],
+  "finals": [],
   "notes": [
    "26 goals in the Premier League"
   ],
@@ -3157,6 +3583,12 @@
   "europe": [
    "Champions League – QF"
   ],
+  "finals": [
+   {
+    "page": "2013 FA Community Shield",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Wayne Rooney"
@@ -3182,6 +3614,7 @@
   "league_cup": "R2",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Wayne Rooney"
@@ -3209,6 +3642,12 @@
   "europe": [
    "Champions League – Group *Europa League – Round of 16"
   ],
+  "finals": [
+   {
+    "page": "2016 FA Cup final",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Anthony Martial"
@@ -3235,6 +3674,20 @@
   "shield": "Winners",
   "europe": [
    "Europa League – Winners"
+  ],
+  "finals": [
+   {
+    "page": "2017 EFL Cup final",
+    "result": "Winners"
+   },
+   {
+    "page": "2016 FA Community Shield",
+    "result": "Winners"
+   },
+   {
+    "page": "2017 UEFA Europa League Final",
+    "result": "Winners"
+   }
   ],
   "notes": [],
   "scorers": [
@@ -3264,6 +3717,16 @@
    "Champions League – Round of 16",
    "Super Cup – Runners-up"
   ],
+  "finals": [
+   {
+    "page": "2018 FA Cup final",
+    "result": "Runners-up"
+   },
+   {
+    "page": "2017 UEFA Super Cup",
+    "result": "Runners-up"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Romelu Lukaku"
@@ -3291,6 +3754,7 @@
   "europe": [
    "Champions League – QF"
   ],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Paul Pogba"
@@ -3318,6 +3782,7 @@
   "europe": [
    "Europa League – SF"
   ],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Anthony Martial"
@@ -3344,6 +3809,12 @@
   "shield": "",
   "europe": [
    "Champions League – Group *Europa League – Runners-up"
+  ],
+  "finals": [
+   {
+    "page": "2021 UEFA Europa League final",
+    "result": "Runners-up"
+   }
   ],
   "notes": [],
   "scorers": [
@@ -3372,6 +3843,7 @@
   "europe": [
    "Champions League – Round of 16"
   ],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Cristiano Ronaldo"
@@ -3398,6 +3870,16 @@
   "shield": "",
   "europe": [
    "Europa League – QF"
+  ],
+  "finals": [
+   {
+    "page": "2023 FA Cup final",
+    "result": "Runners-up"
+   },
+   {
+    "page": "2023 EFL Cup final",
+    "result": "Winners"
+   }
   ],
   "notes": [],
   "scorers": [
@@ -3426,6 +3908,12 @@
   "europe": [
    "Champions League – Group"
   ],
+  "finals": [
+   {
+    "page": "2024 FA Cup final",
+    "result": "Winners"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Rasmus Højlund"
@@ -3453,6 +3941,16 @@
   "europe": [
    "Europa League – Runners-up"
   ],
+  "finals": [
+   {
+    "page": "2024 FA Community Shield",
+    "result": "Runners-up"
+   },
+   {
+    "page": "2025 UEFA Europa League final",
+    "result": "Runners-up"
+   }
+  ],
   "notes": [],
   "scorers": [
    "Bruno Fernandes"
@@ -3478,6 +3976,7 @@
   "league_cup": "R2",
   "shield": "",
   "europe": [],
+  "finals": [],
   "notes": [],
   "scorers": [
    "Bryan Mbeumo",

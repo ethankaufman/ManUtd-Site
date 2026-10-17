@@ -888,15 +888,12 @@
    "away": "Internazionale",
    "hg": 0,
    "ag": 0,
-   "pens": [
-    5,
-    3
-   ],
+   "pens": null,
    "venue": null,
    "city": null,
    "att": 61238,
    "neutral": true,
-   "note": null,
+   "note": "Decided on penalties",
    "comp": "friendlies",
    "goals": [],
    "cards": [],

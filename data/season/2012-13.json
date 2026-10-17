@@ -415,15 +415,12 @@
    "away": "Barcelona",
    "hg": 0,
    "ag": 0,
-   "pens": [
-    0,
-    2
-   ],
+   "pens": null,
    "venue": null,
    "city": null,
    "att": 47141,
    "neutral": true,
-   "note": null,
+   "note": "Decided on penalties",
    "comp": "friendlies",
    "goals": [],
    "cards": [],

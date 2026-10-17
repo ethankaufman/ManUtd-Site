@@ -1827,15 +1827,12 @@
    "away": "Manchester United",
    "hg": 1,
    "ag": 1,
-   "pens": [
-    7,
-    6
-   ],
+   "pens": null,
    "venue": null,
    "city": null,
    "att": 21500,
    "neutral": false,
-   "note": null,
+   "note": "Decided on penalties",
    "comp": "friendlies",
    "goals": [
     {

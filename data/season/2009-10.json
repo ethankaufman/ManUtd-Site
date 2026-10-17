@@ -538,15 +538,12 @@
    "away": "Manchester United",
    "hg": 0,
    "ag": 0,
-   "pens": [
-    7,
-    6
-   ],
+   "pens": null,
    "venue": null,
    "city": null,
    "att": 69000,
    "neutral": false,
-   "note": null,
+   "note": "Decided on penalties",
    "comp": "friendlies",
    "goals": [],
    "cards": [],
@@ -600,8 +597,8 @@
    "hg": 2,
    "ag": 2,
    "pens": [
-    1,
-    4
+    4,
+    1
    ],
    "venue": "Wembley Stadium",
    "city": "London",

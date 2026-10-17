@@ -1500,15 +1500,12 @@
    "away": "Real Madrid",
    "hg": 1,
    "ag": 1,
-   "pens": [
-    2,
-    1
-   ],
+   "pens": null,
    "venue": null,
    "city": null,
    "att": 65109,
    "neutral": true,
-   "note": null,
+   "note": "Decided on penalties",
    "comp": "friendlies",
    "goals": [
     {

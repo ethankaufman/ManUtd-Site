@@ -198,6 +198,11 @@ def build():
             "league_cup": tidy(raw.get("league_cup", "")),
             "shield": tidy(raw.get("shield", "")),
             "europe": [x.strip() for x in tidy(raw.get("europe", "")).split(" / ") if x.strip() and x.strip() != "N/A"],
+            "finals": [
+                {"page": t.strip(), "result": r}
+                for text in [raw.get(k, "") for k in ("fa_cup", "league_cup", "shield", "europe")]
+                for t, r in re.findall(r"\[\[([^\]|]+)\|(Winners|Runners-up|Shared|Joint winners)\]\]", text)
+            ],
             "notes": list(dict.fromkeys(tidy(n) for text in [s["hdr"], *s["own"]] for n in footnotes(text))),
             "scorers": [x.strip() for x in tidy(raw.get("scorers", "")).split(" / ") if x.strip()],
             "goals": num(tidy(raw.get("goals", ""))),

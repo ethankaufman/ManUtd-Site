@@ -346,15 +346,12 @@
    "away": "Bayern Munich",
    "hg": 0,
    "ag": 0,
-   "pens": [
-    2,
-    4
-   ],
+   "pens": null,
    "venue": null,
    "city": null,
    "att": 58121,
    "neutral": true,
-   "note": null,
+   "note": "Decided on penalties",
    "comp": "friendlies",
    "goals": [],
    "cards": [],
@@ -402,15 +399,12 @@
    "away": "Milan",
    "hg": 1,
    "ag": 1,
-   "pens": [
-    8,
-    9
-   ],
+   "pens": null,
    "venue": null,
    "city": null,
    "att": 74511,
    "neutral": true,
-   "note": null,
+   "note": "Decided on penalties",
    "comp": "friendlies",
    "goals": [
     {
@@ -21402,8 +21396,8 @@
    "hg": 0,
    "ag": 0,
    "pens": [
-    4,
-    5
+    5,
+    4
    ],
    "venue": "Principality Stadium",
    "city": "Cardiff",
