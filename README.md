@@ -41,6 +41,8 @@ npm run dev                              # http://localhost:3000
 
 * This is an **unofficial** fan project. It is not affiliated with, or endorsed by, Manchester United Football Club. Club names and marks belong to their owners, and no club crest is used.
 * Match data: ESPN's public soccer service. Match and goal facts for the Overhead Kicks page come from the sources listed on that page.
+* Squad photos (`public/players/`) are free-licensed pictures from Wikimedia Commons (CC BY, CC BY-SA or CC0), found with `scripts/fetch_player_photos.py`;
+  each player's page shows the photographer, licence and a link, and the full list is in `src/lib/player-photos.json`. Players without a free photo have none.
 * Slideshow photos are from Wikimedia Commons under free licences; each photo's author, licence and link are shown under it (and in `src/lib/slides.ts`).
   Photographers: Seán Murray (CC BY-SA 2.0), Michael Cairns (CC BY 2.0), nathan17 (CC BY 2.0), peatc (CC BY-SA 2.0), HonorTheKing (CC BY-SA 4.0).
 * The 3D player and the stadium are drawn from simple shapes; the movement is an illustration, not tracking data.
