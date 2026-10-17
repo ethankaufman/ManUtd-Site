@@ -99,7 +99,18 @@ After deleting `data/app.db`, restart `npm run dev`.
   `squad_member`); each player's apps/starts/goals/assists/cards are WORKED OUT from the stored match line-ups and events (matched by ESPN player id /
   name) in `loadSquad()` in src/lib/data.ts. No photos (ESPN headshots belong to others); ignore ESPN's `coach` field (it returns junk).
   NOT done yet: career stats and past players (needs another data source; belongs with the History chapter), minutes played.
-- Phase 4, match pages (1992 onward data already exists in ~/PL-History-Dashboard/data: filter to Manchester United)
+- **Phase 4, Every Match: built (2026-10-17, not yet pushed when written).** `/matches` and `/matches/<season>/` (one static page per season, 35 seasons,
+  2,210 matches, 1992-93 to now, EVERY competition). Season dropdown, competition chips, each match a native `<details>` that opens to goals, cards, line-ups
+  (src/components/matches/, `getMatchSeasons`/`getSeasonMatches` in data.ts). Data in `data/season/<season>.json`, same shape for every season:
+  * 2001-02 to 2025-26: `scripts/backfill_espn.py` (ESPN; FA Cup read from the calendar-year scoreboard because its team schedule 500s; line-ups, cards, venues),
+    then `scripts/reconcile_history.py` cross-checks each season against Wikipedia (pairs by date+score), fills penalty shoot-out scores (ESPN omits them for old
+    games), adds friendlies ESPN lacks (`src: "wikipedia"`, `detail_incomplete`), removes ESPN duplicates (2009-10 lists fixtures twice, some with WRONG scores)
+    and unplayed entries, and checks every league result against the dashboard's official data (+-1 day: the dashboard has 12 dates a day early in 2003-04).
+    Reports in `data/audit/`. All 24 ESPN league tables equal the official tables.
+  * 1992-93 to 2000-01: `scripts/import_history.py` (Wikipedia season pages, CC BY-SA, credit them) with official tables from ~/PL-History-Dashboard/data/final_tables.csv.
+    United's scorers only (surnames), no line-ups/cards: the page says so (`incomplete`). 31 old friendlies list no scorers at all.
+  * Current season still refreshed twice daily by update_season.py. Past seasons are static: never re-run backfill/reconcile without checking the audit notes.
+  * Squad photos: `scripts/fetch_player_photos.py` -> public/players/ + src/lib/player-photos.json (free licences only; 25 of 31; Heaven too small, de Ligt credit incomplete).
 - Phase 5, history: competitions, finals, stadiums, managers, honours (all-time + since 1992)
 - **Phase 6, Overhead Kicks: built (2026-10-15), then reworked.** `/overhead-kicks` now shows ONLY Rooney v Man City (12 Feb 2011, 2-1, 78'):
   Ethan asked to remove the Garnacho goal and to stop emphasising distances (distance is now one small bullet; ~12 yd is OUR ESTIMATE, labelled so,
