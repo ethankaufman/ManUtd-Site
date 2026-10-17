@@ -134,7 +134,14 @@ After deleting `data/app.db`, restart `npm run dev`.
   for him (Ferguson 38, Busby 13). Stories are written only from sentences in Wikipedia's managerial history; none for managers it says nothing about (Albut/West excepted notes, O'Farrell, Docherty have only data).
   The current manager's record is computed LIVE at build time (`getRecordSince` in data.ts), so the twice-daily deploy keeps it current; everyone else is fixed. Photos: 19 of 30 (scripts/fetch_manager_photos.py,
   public/managers/); Busby and Murphy by statue/bust; none for the early secretaries and 7 others (no free photo). NOT done: longer stories, a page per manager.
-- Phase 5d, Old Trafford: not started
+- **Phase 5d, Old Trafford: built (2026-10-17, not pushed when written).** `/stadium`, four tabs: Old Trafford (facts, dated story, four stands, memorials), The new stadium, Before Old Trafford (North Road, Bank Street,
+  Maine Road), Carrington (plus The Cliff). Content is typed data in `src/lib/stadium.ts` and `src/lib/newstadium.ts`, written from sources read in Oct 2026: Wikipedia's Old Trafford/North Road/Bank Street/Maine Road/
+  Cliff/Trafford Training Centre articles, and for the new stadium NPR (11 Mar 2025), Wallpaper (12 Mar 2025), ArchDaily (13 Mar 2025), Sky Sports (22 Jun 2026), The Independent via Yahoo (9 Jul 2026) and Trafford
+  Council (9 Jul and 29 Sep 2026). EVERY new-stadium statement is tagged "official" (club/council) or "reported" (press). Cross-check caught Wallpaper's "visible from 40 miles" (Sky/NPR: 40 km = 25 miles) and its 200 m mast
+  height (single source, not used). The club/Foster images are NOT free: described and linked, never shown. Old Trafford's own future is stated as unsettled (NPR Mar 2025 said "planned for demolition"; Sky Jun 2026 says
+  United keep playing there during construction). Carrington: <10 miles from Old Trafford, 108 acres (85 used), opened 2000, GBP50m Foster + Partners first-team building upgrade inaugurated 8 Aug 2025; NO street address is
+  given (not verified). Photos: scripts/fetch_stadium_photos.py (10; none free for Bank Street). NOTE the Commons file "Carrington Training Centre - geograph 4201045" is MANCHESTER CITY's, not United's: do not use.
+  This is a live project: re-read the sources before changing any new-stadium fact.
 - **Phase 6, Overhead Kicks: built (2026-10-15), then reworked.** `/overhead-kicks` now shows ONLY Rooney v Man City (12 Feb 2011, 2-1, 78'):
   Ethan asked to remove the Garnacho goal and to stop emphasising distances (distance is now one small bullet; ~12 yd is OUR ESTIMATE, labelled so,
   never present it as measured). Facts and sources live in `src/lib/kicks.ts` (the page shows tabs automatically if more goals are added;

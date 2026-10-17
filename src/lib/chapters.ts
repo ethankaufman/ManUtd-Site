@@ -75,9 +75,9 @@ export const CHAPTERS: Chapter[] = [
     number: "07",
     title: "Old Trafford",
     menu: "Old Trafford",
-    teaser: "The Theatre of Dreams, from the first match in 1910 to today, and the grounds before it.",
-    planned: ["The history of Old Trafford", "The grounds United played in before it", "Capacity, rebuilds and records", "The stands, the tunnel and the famous nights"],
-    status: "soon",
+    teaser: "The Theatre of Dreams from 1910 to today, the grounds before it, the planned new 100,000-seat stadium, and the Carrington training ground.",
+    planned: ["More photographs, if free ones appear"],
+    status: "live",
   },
   {
     slug: "overhead-kicks",

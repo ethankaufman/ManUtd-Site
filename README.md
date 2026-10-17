@@ -13,6 +13,7 @@ A fan-made website about Manchester United, in the club's red, black and white. 
 * **The History**: a timeline, the season-by-season record from 1886–87, every final with its date and venue, every competition, and the captains.
 * **Honours & Awards**: every trophy (all time or since 1992) with a free-licensed picture, every win with its date and venue, and the individual awards.
 * **The Managers**: all 30 people who have managed the club since 1889 (secretary-managers, managers, caretakers and interims) with photos, records and trophies; the current manager's record updates automatically.
+* **Old Trafford**: the stadium's history, the grounds before it, the planned new 100,000-seat stadium (every statement marked official or reported), and the Carrington training ground.
 * **Famous victories**: a slideshow of seven free-licensed photos, each with the match, date, result and photo credit.
 ![Famous victories slideshow](docs/slideshow.jpg)
 
@@ -47,6 +48,7 @@ npm run dev                              # http://localhost:3000
 * Match data: ESPN's public soccer service. Match and goal facts for the Overhead Kicks page come from the sources listed on that page.
 * Trophy photos (`public/trophies/`) are free-licensed pictures from Wikimedia Commons chosen by hand and downloaded with `scripts/fetch_trophy_photos.py`; the credit for each is shown on its card and kept in `src/lib/trophy-photos.json`.
 * Manager photos (`public/managers/`) are free-licensed Wikimedia Commons pictures (`scripts/fetch_manager_photos.py`); Matt Busby and Jimmy Murphy are shown by their statues, and every photo is captioned with what it shows and credited on the page.
+* Stadium photos (`public/stadium/`) are free-licensed Wikimedia Commons pictures (`scripts/fetch_stadium_photos.py`), credited under each picture. The club's and Foster + Partners' images of the new stadium design are not free to use, so they are described and linked, not shown.
 * Squad photos (`public/players/`) are free-licensed pictures from Wikimedia Commons (CC BY, CC BY-SA or CC0), found with `scripts/fetch_player_photos.py`;
   each player's page shows the photographer, licence and a link, and the full list is in `src/lib/player-photos.json`. Players without a free photo have none.
 * Slideshow photos are from Wikimedia Commons under free licences; each photo's author, licence and link are shown under it (and in `src/lib/slides.ts`).
