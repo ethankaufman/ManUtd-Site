@@ -30,3 +30,8 @@ export function surname(full: string | null): string {
   while (i > 1 && particles.has(parts[i - 1].toLowerCase())) i--;
   return parts.slice(i).join(" ");
 }
+
+/** "2008-09" -> "2008–09" (a proper dash for display). */
+export function seasonLabel(season: string): string {
+  return season.replace("-", "–");
+}

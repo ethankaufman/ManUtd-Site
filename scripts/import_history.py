@@ -148,7 +148,7 @@ def parse_goals(s):
         for mm in re.finditer(r"(\d+(?:\+\d+)?)'(?:\s*\((pen\.?|o\.g\.?)\))?", m.group(3)):
             kind = "Goal"
             if mm.group(2):
-                kind = "Penalty" if mm.group(2).startswith("pen") else "Own Goal"
+                kind = "Penalty" if mm.group(2).startswith("pen") else "Own goal"
             goals.append({"min": mm.group(1), "team": UNITED, "player": player, "kind": kind})
     return goals
 

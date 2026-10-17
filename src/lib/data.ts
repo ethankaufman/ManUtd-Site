@@ -21,7 +21,7 @@ export async function getTagline(): Promise<string> {
 export * from "./season";
 import { UNITED, unitedResult, unitedView } from "./season";
 import { POSITION_ORDER, emptyTally } from "./season";
-import type { CardEvent, GoalEvent, HubCompetition, HubMatch, PlayerMatchLine, PlayerPage, PlayerStat, Record5, SeasonHub, SquadPlayer, Tally, TableRow } from "./season";
+import type { CardEvent, FullMatch, GoalEvent, HubCompetition, HubMatch, Lineup as MatchLineup, SeasonBrowse, PlayerMatchLine, PlayerPage, PlayerStat, Record5, SeasonHub, SquadPlayer, Tally, TableRow } from "./season";
 
 function ordinal(n: number): string {
   const s = ["th", "st", "nd", "rd"];
@@ -283,5 +283,79 @@ export async function getPlayer(slug: string): Promise<PlayerPage | null> {
       .map((c) => ({ slug: c.slug, name: c.name, kind: c.kind, tally: tallyOf(lines.filter((l) => l.competition === c.slug)) }))
       .filter((c) => c.tally.apps > 0),
     log: lines, // already newest first
+  };
+}
+
+// ---------------------------------------------------------------------------------------------
+// Every Match
+// ---------------------------------------------------------------------------------------------
+
+/** Every season we hold matches for, newest first. */
+export async function getMatchSeasons(): Promise<string[]> {
+  const rows = await db.selectDistinct({ season: schema.match.season }).from(schema.match).orderBy(desc(schema.match.season));
+  return rows.map((r) => r.season);
+}
+
+/** All matches of one season with full detail, plus the season's competitions and headline numbers. */
+export async function getSeasonMatches(season: string): Promise<SeasonBrowse | null> {
+  const rows = await db.select().from(schema.match).where(eq(schema.match.season, season)).orderBy(schema.match.kickoff);
+  if (!rows.length) return null;
+  const comps = await db.select().from(schema.competition).where(eq(schema.competition.season, season)).orderBy(schema.competition.sortOrder);
+  const standings = await db
+    .select()
+    .from(schema.standing)
+    .where(eq(schema.standing.season, season))
+    .orderBy(schema.standing.rank);
+
+  const matches: FullMatch[] = rows.map((m) => {
+    const d = m.detail
+      ? (JSON.parse(m.detail) as { goals: GoalEvent[]; cards: CardEvent[]; lineups?: MatchLineup[]; incomplete?: boolean; src?: string })
+      : { goals: [], cards: [], lineups: [], incomplete: true, src: "espn" };
+    return {
+      id: m.id,
+      competition: m.competition,
+      round: m.round,
+      kickoff: m.kickoff,
+      state: m.state,
+      home: m.home,
+      away: m.away,
+      homeGoals: m.homeGoals,
+      awayGoals: m.awayGoals,
+      penHome: m.penHome,
+      penAway: m.penAway,
+      venue: m.venue,
+      city: m.city,
+      attendance: m.attendance,
+      note: m.note,
+      goals: d.goals,
+      cards: d.cards,
+      lineups: d.lineups ?? [],
+      incomplete: d.incomplete ?? false,
+      source: d.src === "wikipedia" ? "wikipedia" : "espn",
+    };
+  });
+
+  const record = { played: 0, won: 0, drawn: 0, lost: 0, goalsFor: 0, goalsAgainst: 0 };
+  const friendly = new Set(comps.filter((c) => c.kind === "friendly").map((c) => c.slug));
+  for (const m of matches) {
+    if (m.state !== "finished" || friendly.has(m.competition)) continue;
+    const v = unitedView(m);
+    record.played++;
+    record.goalsFor += v.goalsFor ?? 0;
+    record.goalsAgainst += v.goalsAgainst ?? 0;
+    const r = unitedResult(m);
+    if (r === "W") record.won++;
+    else if (r === "D") record.drawn++;
+    else if (r === "L") record.lost++;
+  }
+
+  const league = standings.filter((s) => s.competition === "premier-league");
+  const mine = league.find((s) => s.team === UNITED);
+  return {
+    season,
+    competitions: comps.map((c) => ({ slug: c.slug, name: c.name, kind: c.kind, count: matches.filter((m) => m.competition === c.slug).length })),
+    matches,
+    leagueFinish: mine ? { rank: mine.rank, points: mine.points, of: league.length } : null,
+    record,
   };
 }

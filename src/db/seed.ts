@@ -37,8 +37,27 @@ type SeasonFile = {
     goals?: unknown[];
     cards?: unknown[];
     lineups?: unknown[];
+    detail_incomplete?: boolean;
+    src?: string;
   }[];
 };
+
+/** The order competitions are shown in, the same for every season. */
+const COMPETITION_ORDER = [
+  "premier-league",
+  "champions-league",
+  "europa-league",
+  "conference-league",
+  "carabao-cup",
+  "league-cup",
+  "fa-cup",
+  "community-shield",
+  "uefa-super-cup",
+  "intercontinental-cup",
+  "club-world-cup",
+  "friendlies",
+];
+const orderOf = (slug: string) => (COMPETITION_ORDER.includes(slug) ? COMPETITION_ORDER.indexOf(slug) : COMPETITION_ORDER.length);
 
 async function main() {
   const db = createDb();
@@ -48,6 +67,7 @@ async function main() {
   for (const file of files) {
     const data: SeasonFile = JSON.parse(readFileSync(join(dir, file), "utf8"));
     const season = data.season;
+    data.competitions.sort((a, b) => orderOf(a.slug) - orderOf(b.slug));
     const codeToSlug = new Map(data.competitions.map((c) => [c.slug, c.slug]));
 
     // which ESPN table belongs to which competition slug
@@ -105,7 +125,7 @@ async function main() {
             attendance: m.att,
             neutral: m.neutral,
             note: m.note,
-            detail: m.goals ? JSON.stringify({ goals: m.goals, cards: m.cards ?? [], lineups: m.lineups ?? [] }) : null,
+            detail: m.goals ? JSON.stringify({ goals: m.goals, cards: m.cards ?? [], lineups: m.lineups ?? [], incomplete: m.detail_incomplete ?? false, src: m.src ?? "espn" }) : null,
           })),
         );
       }

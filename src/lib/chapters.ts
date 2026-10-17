@@ -39,9 +39,9 @@ export const CHAPTERS: Chapter[] = [
     number: "03",
     title: "Every Match",
     menu: "Matches",
-    teaser: "Line-ups, scorers, assists and cards for the games, back to 1992 and beyond.",
-    planned: ["A page for every match", "Starting XIs and substitutions", "Goals, assists and cards with minutes", "Search by opponent, season or competition"],
-    status: "soon",
+    teaser: "Every United match since 1992–93 in every competition, season by season. Open any match for its goals, cards and line-ups.",
+    planned: ["Search by opponent or player", "Head-to-head records against rivals"],
+    status: "live",
   },
   {
     slug: "history",

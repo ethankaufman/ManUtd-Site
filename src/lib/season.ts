@@ -130,3 +130,27 @@ export const POSITION_ORDER = ["Goalkeeper", "Defender", "Midfielder", "Forward"
 export function emptyTally(): Tally {
   return { apps: 0, starts: 0, goals: 0, assists: 0, yellow: 0, red: 0 };
 }
+
+// ---------------------------------------------------------------------------------------------
+// Every Match: one page per season, each match opening to its full detail.
+// ---------------------------------------------------------------------------------------------
+
+export type LineupPlayer = { id?: string | null; name: string; no?: string | null; pos?: string | null; start: boolean; on?: boolean; off?: boolean };
+export type Lineup = { team: string; side: string; formation?: string | null; players: LineupPlayer[] };
+
+/** A match with everything we hold about it. Older matches have fewer details: `incomplete` says so. */
+export type FullMatch = HubMatch & {
+  lineups: Lineup[];
+  incomplete: boolean; // true when scorers are United's only / there is no line-up or card data
+  source: "espn" | "wikipedia";
+};
+
+export type SeasonBrowse = {
+  season: string; // "2008-09"
+  competitions: { slug: string; name: string; kind: string; count: number }[];
+  matches: FullMatch[];
+  /** United's row in the final Premier League table, if there is one. */
+  leagueFinish: { rank: number; points: number; of: number } | null;
+  /** Competitive matches only (no friendlies), all competitions. */
+  record: { played: number; won: number; drawn: number; lost: number; goalsFor: number; goalsAgainst: number };
+};
