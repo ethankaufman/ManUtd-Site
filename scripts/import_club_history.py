@@ -53,7 +53,7 @@ def fix_templates(s):
     """Unwrap the sorting templates this table uses, then hand the rest to the shared cleaner."""
     s = re.sub(r"\{\{efn\|(?:[^{}]|\{\{[^{}]*\}\})*\}\}", "", s)  # footnotes
     s = re.sub(r"<hr\s*/?>", " / ", s)
-    s = re.sub(r"\{\{plainlist\s*\|\s*(?:1\s*=)?((?:[^{}]|\{\{[^{}]*\}\})*)\}\}", lambda m: " / ".join(x.strip().lstrip("*").strip() for x in re.split(r"\n|(?:^|\s)\*\s", m.group(1)) if x.strip().lstrip("*").strip()), s)
+    s = re.sub(r"\{\{plainlist\s*\|\s*(?:1\s*=)?((?:[^{}]|\{\{[^{}]*\}\})*)\}\}", lambda m: " / ".join(x.strip().lstrip("*").strip() for x in re.split(r"\n|\s*\*\s*", m.group(1)) if x.strip().lstrip("*").strip()), s)
     for _ in range(3):
         s = re.sub(r"\{\{sortname\|([^|{}]*)\|([^|{}]*)[^{}]*\}\}", r"\1 \2", s)
         s = re.sub(r"\{\{sort\|[^|{}]*\|([^{}]*)\}\}", r"\1", s)
@@ -172,6 +172,17 @@ def parse():
     return seasons
 
 
+def merge_plain(items):
+    """'Ban on / English teams' (a <br> inside one cell) is one entry, not two: join pieces that have no ' – ' result."""
+    out, buf = [], []
+    for x in items:
+        if " – " in x:
+            out.append(x)
+        else:
+            buf.append(x)
+    return out + ([" ".join(buf)] if buf else [])
+
+
 def build():
     out = []
     for s in parse():
@@ -197,7 +208,7 @@ def build():
             "fa_cup": tidy(raw.get("fa_cup", "")),
             "league_cup": tidy(raw.get("league_cup", "")),
             "shield": tidy(raw.get("shield", "")),
-            "europe": [x.strip() for x in tidy(raw.get("europe", "")).split(" / ") if x.strip() and x.strip() != "N/A"],
+            "europe": merge_plain([x.strip() for x in tidy(raw.get("europe", "")).split(" / ") if x.strip() and x.strip() != "N/A"]),
             "finals": [
                 {"page": t.strip(), "result": r}
                 for text in [raw.get(k, "") for k in ("fa_cup", "league_cup", "shield", "europe")]

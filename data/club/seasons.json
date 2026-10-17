@@ -2574,8 +2574,7 @@
   "league_cup": "R4",
   "shield": "Runners-up",
   "europe": [
-   "Ban on",
-   "English teams"
+   "Ban on English teams"
   ],
   "finals": [
    {
@@ -2608,8 +2607,7 @@
   "league_cup": "R3",
   "shield": "",
   "europe": [
-   "Ban on",
-   "English teams"
+   "Ban on English teams"
   ],
   "finals": [],
   "notes": [],
@@ -2637,8 +2635,7 @@
   "league_cup": "R5",
   "shield": "",
   "europe": [
-   "Ban on",
-   "English teams"
+   "Ban on English teams"
   ],
   "finals": [],
   "notes": [],
@@ -2666,8 +2663,7 @@
   "league_cup": "R3",
   "shield": "",
   "europe": [
-   "Ban on",
-   "English teams"
+   "Ban on English teams"
   ],
   "finals": [],
   "notes": [],
@@ -2696,8 +2692,7 @@
   "league_cup": "R3",
   "shield": "",
   "europe": [
-   "Ban on",
-   "English teams"
+   "Ban on English teams"
   ],
   "finals": [
    {
@@ -3518,7 +3513,8 @@
   "league_cup": "R5",
   "shield": "Winners",
   "europe": [
-   "Champions League – Group *Europa League – Round of 16"
+   "Champions League – Group",
+   "Europa League – Round of 16"
   ],
   "finals": [
    {
@@ -3640,7 +3636,8 @@
   "league_cup": "R4",
   "shield": "",
   "europe": [
-   "Champions League – Group *Europa League – Round of 16"
+   "Champions League – Group",
+   "Europa League – Round of 16"
   ],
   "finals": [
    {
@@ -3808,7 +3805,8 @@
   "league_cup": "SF",
   "shield": "",
   "europe": [
-   "Champions League – Group *Europa League – Runners-up"
+   "Champions League – Group",
+   "Europa League – Runners-up"
   ],
   "finals": [
    {

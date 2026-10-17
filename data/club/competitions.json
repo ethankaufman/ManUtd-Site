@@ -1,0 +1,151 @@
+{
+ "leagues": [
+  {
+   "name": "Premier League",
+   "first": "1992-93",
+   "last": "2025-26",
+   "seasons": 34,
+   "titles": 13,
+   "played": 1304,
+   "won": 775,
+   "drawn": 289,
+   "lost": 240,
+   "goalsFor": 2413,
+   "goalsAgainst": 1271,
+   "note": "Since 1992. The 22 top clubs broke away from the Football League in 1992."
+  },
+  {
+   "name": "Football League First Division",
+   "first": "1892-93",
+   "last": "1991-92",
+   "seasons": 67,
+   "titles": 7,
+   "played": 2740,
+   "won": 1162,
+   "drawn": 704,
+   "lost": 874,
+   "goalsFor": 4523,
+   "goalsAgainst": 3875,
+   "note": "The top tier from 1892 to 1992 (the abandoned 1939–40 season is not counted)."
+  },
+  {
+   "name": "Football League Second Division",
+   "first": "1894-95",
+   "last": "1974-75",
+   "seasons": 22,
+   "titles": 2,
+   "played": 816,
+   "won": 406,
+   "drawn": 168,
+   "lost": 242,
+   "goalsFor": 1433,
+   "goalsAgainst": 966,
+   "note": "United were relegated in 1893–94 (via a Test match), 1921–22, 1930–31 and 1973–74 and promoted each time they won it or finished high enough."
+  },
+  {
+   "name": "Football Alliance and Combination",
+   "first": "1888-89",
+   "last": "1891-92",
+   "seasons": 4,
+   "titles": 0,
+   "played": 78,
+   "won": 36,
+   "drawn": 14,
+   "lost": 28,
+   "goalsFor": 173,
+   "goalsAgainst": 146,
+   "note": "Before United joined the Football League in 1892."
+  }
+ ],
+ "cups": [
+  {
+   "name": "FA Cup",
+   "first": "1886-87",
+   "last": "2025-26",
+   "seasons": 127,
+   "titles": 13,
+   "finals": 22,
+   "best": "Winners"
+  },
+  {
+   "name": "League Cup",
+   "first": "1960-61",
+   "last": "2025-26",
+   "seasons": 59,
+   "titles": 6,
+   "finals": 10,
+   "best": "Winners"
+  },
+  {
+   "name": "Charity / Community Shield",
+   "first": "1907-08",
+   "last": "2024-25",
+   "seasons": 31,
+   "titles": 17,
+   "finals": 31,
+   "best": "Winners",
+   "shared": 4
+  }
+ ],
+ "europe": [
+  {
+   "name": "European Cup / Champions League",
+   "first": "1956-57",
+   "last": "2023-24",
+   "seasons": 31,
+   "titles": 3,
+   "finals": 5,
+   "best": "Winners"
+  },
+  {
+   "name": "European Cup Winners' Cup",
+   "first": "1963-64",
+   "last": "1991-92",
+   "seasons": 5,
+   "titles": 1,
+   "finals": 1,
+   "best": "Winners"
+  },
+  {
+   "name": "Inter-Cities Fairs Cup / UEFA Cup / Europa League",
+   "first": "1964-65",
+   "last": "2024-25",
+   "seasons": 14,
+   "titles": 1,
+   "finals": 3,
+   "best": "Winners"
+  },
+  {
+   "name": "UEFA Super Cup",
+   "first": "1991-92",
+   "last": "2017-18",
+   "seasons": 4,
+   "titles": 1,
+   "finals": 4,
+   "best": "Winners"
+  },
+  {
+   "name": "Intercontinental Cup",
+   "first": "1968-69",
+   "last": "1999-00",
+   "seasons": 2,
+   "titles": 1,
+   "finals": 2,
+   "best": "Winners"
+  },
+  {
+   "name": "FIFA Club World Cup / Championship",
+   "first": "1999-00",
+   "last": "2008-09",
+   "seasons": 2,
+   "titles": 1,
+   "finals": 1,
+   "best": "Winners"
+  }
+ ],
+ "europeBan": {
+  "first": "1985-86",
+  "last": "1989-90",
+  "seasons": 5
+ }
+}
