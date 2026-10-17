@@ -111,7 +111,16 @@ After deleting `data/app.db`, restart `npm run dev`.
     United's scorers only (surnames), no line-ups/cards: the page says so (`incomplete`). 31 old friendlies list no scorers at all.
   * Current season still refreshed twice daily by update_season.py. Past seasons are static: never re-run backfill/reconcile without checking the audit notes.
   * Squad photos: `scripts/fetch_player_photos.py` -> public/players/ + src/lib/player-photos.json (free licences only; 25 of 31; Heaven too small, de Ligt credit incomplete).
-- Phase 5, history: competitions, finals, stadiums, managers, honours (all-time + since 1992)
+- **Phase 5a, History: built (2026-10-17, not pushed when written).** `/history` has five tabs (Timeline, Every season, Finals, Competitions, Captains), all with collapsed groups.
+  Data in `data/club/*.json`, each written by a script and checked: `import_club_history.py` (Wikipedia "List of Manchester United F.C. seasons", 1886-87 to 2025-26; rowspans handled
+  column by column; checked: P=W+D+L, points rule, and all 34 Premier League seasons equal the official tables), `import_finals.py` (79 finals + Charity/Community Shield matches from each
+  final's Wikipedia infobox; 1992+ cross-checked against our match data), `fix_pens.py` (shoot-out scores: winner has the higher score; friendlies' scores dropped), `build_club_summary.py`
+  (competitions counted from the two files above), `import_captains.py` (57 captaincies, contiguous 1878-present), `build_timeline.py` (24 entries; dates/scores/counts are looked up in
+  the data and asserted, wording checked against Wikipedia's history articles). `src/lib/club.ts` reads them; components in `src/components/history/`. `scripts/shot.mjs` takes
+  screenshots of pages that need clicking (talks to Chrome directly, no packages).
+  NOT done: shirt numbers and kits through the years (kit images are not free to use). Honours chapter should be built FROM these files (13 FA Cups, 6 League Cups, 20 league titles,
+  3 European Cups, 21 Community Shields incl. 4 shared all agree with Wikipedia's summary).
+- Phase 5b, honours, managers, stadium: not started
 - **Phase 6, Overhead Kicks: built (2026-10-15), then reworked.** `/overhead-kicks` now shows ONLY Rooney v Man City (12 Feb 2011, 2-1, 78'):
   Ethan asked to remove the Garnacho goal and to stop emphasising distances (distance is now one small bullet; ~12 yd is OUR ESTIMATE, labelled so,
   never present it as measured). Facts and sources live in `src/lib/kicks.ts` (the page shows tabs automatically if more goals are added;

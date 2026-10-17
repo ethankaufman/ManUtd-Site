@@ -54,6 +54,13 @@ def main():
             "played": tot["p"], "won": tot["w"], "drawn": tot["d"], "lost": tot["l"], "goalsFor": tot["gf"], "goalsAgainst": tot["ga"],
         }
 
+    def years(rows):
+        """'1921–22, 1930–31 and 1973–74' for the seasons in `rows` (the season each move took effect after)."""
+        names = [r["season"].replace("-", "–") for r in rows]
+        return ", ".join(names[:-1]) + " and " + names[-1] if len(names) > 1 else names[0]
+
+    rel = [s for s in seasons if s["relegated"] and s["division"] == "Div 1"]
+    pro = [s for s in seasons if s["promoted"] and s["division"] == "Div 2"]
     prem = [s for s in seasons if s["division"] == "Prem"]
     div1 = [s for s in seasons if s["division"] == "Div 1" and s["p"] and s["season"] != "1939-40"]
     div2 = [s for s in seasons if s["division"] == "Div 2"]
@@ -61,7 +68,7 @@ def main():
     leagues = [
         {**league("Premier League", prem), "note": "Since 1992. The 22 top clubs broke away from the Football League in 1992."},
         {**league("Football League First Division", div1, "top"), "note": "The top tier from 1892 to 1992 (the abandoned 1939–40 season is not counted)."},
-        {**league("Football League Second Division", div2), "note": "United were relegated in 1893–94 (via a Test match), 1921–22, 1930–31 and 1973–74 and promoted each time they won it or finished high enough."},
+        {**league("Football League Second Division", div2), "note": f"Relegated from the First Division in {years(rel)}; promoted back in {years(pro)}."},
         {**league("Football Alliance and Combination", alliance), "note": "Before United joined the Football League in 1892."},
     ]
 

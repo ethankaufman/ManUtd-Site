@@ -48,9 +48,9 @@ export const CHAPTERS: Chapter[] = [
     number: "04",
     title: "The History",
     menu: "History",
-    teaser: "Every competition United has played in, and every final, with the date and the place.",
-    planned: ["Every competition in the club's history", "Every final: date, venue, score", "Season-by-season record from 1878", "Captains, shirt numbers and kits through the years"],
-    status: "soon",
+    teaser: "A timeline from 1878, every season on record, every final with its date and venue, every competition, and the captains.",
+    planned: ["Shirt numbers through the years", "Kits through the years"],
+    status: "live",
   },
   {
     slug: "honours",

@@ -9,6 +9,8 @@ A fan-made website about Manchester United, in the club's red, black and white. 
 ## What is on it
 
 * **Intro**: a scroll-driven 3D flight (three.js) over a stylised night-time Manchester that spirals down into Old Trafford.
+* **Every Match**: all 35 seasons from 1992–93 (2,210 matches, every competition) with a season dropdown, competition filters and an expandable row per match; line-ups, cards and goals where the sources have them.
+* **The History**: a timeline, the season-by-season record from 1886–87, every final with its date and venue, every competition, and the captains.
 * **Famous victories**: a slideshow of seven free-licensed photos, each with the match, date, result and photo credit.
 ![Famous victories slideshow](docs/slideshow.jpg)
 
