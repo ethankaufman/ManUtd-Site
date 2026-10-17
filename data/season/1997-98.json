@@ -1,49 +1,322 @@
 {
- "season": "1997–98",
- "source": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Manchester_United_F.C._season",
+ "season": "1997-98",
+ "updated": "2026-10-17T11:33Z",
+ "source": "Wikipedia (CC BY-SA): https://en.wikipedia.org/wiki/1997%E2%80%9398_Manchester_United_F.C._season",
+ "past": true,
  "competitions": [
   {
    "slug": "friendlies",
+   "espn": null,
    "name": "Friendlies",
-   "kind": "friendly"
+   "kind": "friendly",
+   "has_table": false,
+   "matches": 7
   },
   {
    "slug": "community-shield",
+   "espn": null,
    "name": "FA Charity Shield",
-   "kind": "cup"
+   "kind": "cup",
+   "has_table": false,
+   "matches": 1
   },
   {
    "slug": "premier-league",
+   "espn": null,
    "name": "Premier League",
-   "kind": "league"
+   "kind": "league",
+   "has_table": true,
+   "matches": 38
   },
   {
    "slug": "fa-cup",
+   "espn": null,
    "name": "FA Cup",
-   "kind": "cup"
+   "kind": "cup",
+   "has_table": false,
+   "matches": 4
   },
   {
    "slug": "league-cup",
+   "espn": null,
    "name": "League Cup",
-   "kind": "cup"
+   "kind": "cup",
+   "has_table": false,
+   "matches": 1
   },
   {
    "slug": "champions-league",
+   "espn": null,
    "name": "UEFA Champions League",
-   "kind": "europe"
+   "kind": "europe",
+   "has_table": false,
+   "matches": 8
   }
  ],
+ "tables": {
+  "eng.1": [
+   {
+    "rank": 1,
+    "team": "Arsenal",
+    "p": 38,
+    "w": 23,
+    "d": 9,
+    "l": 6,
+    "gf": 68,
+    "ga": 33,
+    "pts": 78,
+    "zone": null
+   },
+   {
+    "rank": 2,
+    "team": "Manchester United",
+    "p": 38,
+    "w": 23,
+    "d": 8,
+    "l": 7,
+    "gf": 73,
+    "ga": 26,
+    "pts": 77,
+    "zone": null
+   },
+   {
+    "rank": 3,
+    "team": "Liverpool",
+    "p": 38,
+    "w": 18,
+    "d": 11,
+    "l": 9,
+    "gf": 68,
+    "ga": 42,
+    "pts": 65,
+    "zone": null
+   },
+   {
+    "rank": 4,
+    "team": "Chelsea",
+    "p": 38,
+    "w": 20,
+    "d": 3,
+    "l": 15,
+    "gf": 71,
+    "ga": 43,
+    "pts": 63,
+    "zone": null
+   },
+   {
+    "rank": 5,
+    "team": "Leeds United",
+    "p": 38,
+    "w": 17,
+    "d": 8,
+    "l": 13,
+    "gf": 57,
+    "ga": 46,
+    "pts": 59,
+    "zone": null
+   },
+   {
+    "rank": 6,
+    "team": "Blackburn Rovers",
+    "p": 38,
+    "w": 16,
+    "d": 10,
+    "l": 12,
+    "gf": 57,
+    "ga": 52,
+    "pts": 58,
+    "zone": null
+   },
+   {
+    "rank": 7,
+    "team": "Aston Villa",
+    "p": 38,
+    "w": 17,
+    "d": 6,
+    "l": 15,
+    "gf": 49,
+    "ga": 48,
+    "pts": 57,
+    "zone": null
+   },
+   {
+    "rank": 8,
+    "team": "West Ham United",
+    "p": 38,
+    "w": 16,
+    "d": 8,
+    "l": 14,
+    "gf": 56,
+    "ga": 57,
+    "pts": 56,
+    "zone": null
+   },
+   {
+    "rank": 9,
+    "team": "Derby County",
+    "p": 38,
+    "w": 16,
+    "d": 7,
+    "l": 15,
+    "gf": 52,
+    "ga": 49,
+    "pts": 55,
+    "zone": null
+   },
+   {
+    "rank": 10,
+    "team": "Leicester City",
+    "p": 38,
+    "w": 13,
+    "d": 14,
+    "l": 11,
+    "gf": 51,
+    "ga": 41,
+    "pts": 53,
+    "zone": null
+   },
+   {
+    "rank": 11,
+    "team": "Coventry City",
+    "p": 38,
+    "w": 12,
+    "d": 16,
+    "l": 10,
+    "gf": 46,
+    "ga": 44,
+    "pts": 52,
+    "zone": null
+   },
+   {
+    "rank": 12,
+    "team": "Southampton",
+    "p": 38,
+    "w": 14,
+    "d": 6,
+    "l": 18,
+    "gf": 50,
+    "ga": 55,
+    "pts": 48,
+    "zone": null
+   },
+   {
+    "rank": 13,
+    "team": "Newcastle United",
+    "p": 38,
+    "w": 11,
+    "d": 11,
+    "l": 16,
+    "gf": 35,
+    "ga": 44,
+    "pts": 44,
+    "zone": null
+   },
+   {
+    "rank": 14,
+    "team": "Tottenham Hotspur",
+    "p": 38,
+    "w": 11,
+    "d": 11,
+    "l": 16,
+    "gf": 44,
+    "ga": 56,
+    "pts": 44,
+    "zone": null
+   },
+   {
+    "rank": 15,
+    "team": "Wimbledon",
+    "p": 38,
+    "w": 10,
+    "d": 14,
+    "l": 14,
+    "gf": 34,
+    "ga": 46,
+    "pts": 44,
+    "zone": null
+   },
+   {
+    "rank": 16,
+    "team": "Sheffield Wednesday",
+    "p": 38,
+    "w": 12,
+    "d": 8,
+    "l": 18,
+    "gf": 52,
+    "ga": 67,
+    "pts": 44,
+    "zone": null
+   },
+   {
+    "rank": 17,
+    "team": "Everton",
+    "p": 38,
+    "w": 9,
+    "d": 13,
+    "l": 16,
+    "gf": 41,
+    "ga": 56,
+    "pts": 40,
+    "zone": null
+   },
+   {
+    "rank": 18,
+    "team": "Bolton Wanderers",
+    "p": 38,
+    "w": 9,
+    "d": 13,
+    "l": 16,
+    "gf": 41,
+    "ga": 61,
+    "pts": 40,
+    "zone": null
+   },
+   {
+    "rank": 19,
+    "team": "Barnsley",
+    "p": 38,
+    "w": 10,
+    "d": 5,
+    "l": 23,
+    "gf": 37,
+    "ga": 82,
+    "pts": 35,
+    "zone": null
+   },
+   {
+    "rank": 20,
+    "team": "Crystal Palace",
+    "p": 38,
+    "w": 8,
+    "d": 9,
+    "l": 21,
+    "gf": 37,
+    "ga": 71,
+    "pts": 33,
+    "zone": null
+   }
+  ]
+ },
+ "squad": [],
  "matches": [
   {
-   "date": "1997-07-17",
+   "id": "wp-1997-01",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-07-17",
+   "state": "finished",
    "home": "Thailand",
    "away": "Manchester United",
    "hg": 0,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 38000,
+   "neutral": false,
+   "note": null,
+   "comp": "friendlies",
    "goals": [
     {
      "min": "55",
@@ -58,20 +331,28 @@
      "kind": "Own Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "friendlies",
-   "id": "wp-1997-01"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-07-20",
+   "id": "wp-1997-02",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-07-20",
+   "state": "finished",
    "home": "South China",
    "away": "Manchester United",
    "hg": 0,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 36611,
+   "neutral": false,
+   "note": null,
+   "comp": "friendlies",
    "goals": [
     {
      "min": "57",
@@ -80,20 +361,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "friendlies",
-   "id": "wp-1997-02"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-07-22",
+   "id": "wp-1997-03",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-07-22",
+   "state": "finished",
    "home": "Urawa Red Diamonds",
    "away": "Manchester United",
    "hg": 1,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 17642,
+   "neutral": false,
+   "note": null,
+   "comp": "friendlies",
    "goals": [
     {
      "min": "13",
@@ -108,23 +397,31 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–1",
-   "comp": "friendlies",
-   "id": "wp-1997-03"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-07-27",
+   "id": "wp-1997-04",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-07-27",
+   "state": "finished",
    "home": "Internazionale",
    "away": "Manchester United",
    "hg": 1,
    "ag": 1,
    "pens": [
-    1,
-    4
+    4,
+    1
    ],
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 49718,
+   "neutral": false,
+   "note": null,
+   "comp": "friendlies",
    "goals": [
     {
      "min": "22",
@@ -133,20 +430,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1 / (1–4p)",
-   "comp": "friendlies",
-   "id": "wp-1997-04"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-07-30",
+   "id": "wp-1997-05",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-07-30",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Internazionale",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 48579,
+   "neutral": false,
+   "note": null,
+   "comp": "friendlies",
    "goals": [
     {
      "min": "67",
@@ -155,13 +460,17 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "friendlies",
-   "id": "wp-1997-05"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-08-03",
+   "id": "wp-1997-06",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-08-03",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Chelsea",
    "hg": 1,
@@ -170,8 +479,12 @@
     4,
     2
    ],
-   "neutral": true,
+   "venue": null,
+   "city": null,
    "att": 73636,
+   "neutral": true,
+   "note": null,
+   "comp": "community-shield",
    "goals": [
     {
      "min": "57",
@@ -180,20 +493,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1 / (4–2p)",
-   "comp": "community-shield",
-   "id": "wp-1997-06"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-08-05",
+   "id": "wp-1997-07",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-08-05",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Slavia Prague",
    "hg": 2,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 22075,
+   "neutral": false,
+   "note": null,
+   "comp": "friendlies",
    "goals": [
     {
      "min": "1",
@@ -208,20 +529,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–2",
-   "comp": "friendlies",
-   "id": "wp-1997-07"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-08-10",
+   "id": "wp-1997-08",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-08-10",
+   "state": "finished",
    "home": "Tottenham Hotspur",
    "away": "Manchester United",
    "hg": 0,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 26359,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "82",
@@ -236,20 +565,28 @@
      "kind": "Own Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1997-08"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-08-13",
+   "id": "wp-1997-09",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-08-13",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Southampton",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55008,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "79",
@@ -258,35 +595,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "premier-league",
-   "id": "wp-1997-09"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-08-23",
+   "id": "wp-1997-10",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-08-23",
+   "state": "finished",
    "home": "Leicester City",
    "away": "Manchester United",
    "hg": 0,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 21221,
-   "goals": [],
-   "raw_result": "0–0",
+   "neutral": false,
+   "note": null,
    "comp": "premier-league",
-   "id": "wp-1997-10"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-08-27",
+   "id": "wp-1997-11",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-08-27",
+   "state": "finished",
    "home": "Everton",
    "away": "Manchester United",
    "hg": 0,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 40079,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "29",
@@ -301,20 +654,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1997-11"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-08-30",
+   "id": "wp-1997-12",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-08-30",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Coventry City",
    "hg": 3,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55074,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "2",
@@ -335,20 +696,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–0",
-   "comp": "premier-league",
-   "id": "wp-1997-12"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-09-13",
+   "id": "wp-1997-13",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-09-13",
+   "state": "finished",
    "home": "Manchester United",
    "away": "West Ham United",
    "hg": 2,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55068,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "21",
@@ -363,20 +732,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–1",
-   "comp": "premier-league",
-   "id": "wp-1997-13"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-09-17",
+   "id": "wp-1997-14",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-09-17",
+   "state": "finished",
    "home": "Košice",
    "away": "Manchester United",
    "hg": 0,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 9950,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "30",
@@ -397,35 +774,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–0",
-   "comp": "champions-league",
-   "id": "wp-1997-14"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-09-20",
+   "id": "wp-1997-15",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-09-20",
+   "state": "finished",
    "home": "Bolton Wanderers",
    "away": "Manchester United",
    "hg": 0,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 25000,
-   "goals": [],
-   "raw_result": "0–0",
+   "neutral": false,
+   "note": null,
    "comp": "premier-league",
-   "id": "wp-1997-15"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-09-24",
+   "id": "wp-1997-16",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-09-24",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Chelsea",
    "hg": 2,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55163,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "35",
@@ -440,35 +833,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–2",
-   "comp": "premier-league",
-   "id": "wp-1997-16"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-09-27",
+   "id": "wp-1997-17",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-09-27",
+   "state": "finished",
    "home": "Leeds United",
    "away": "Manchester United",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 39952,
-   "goals": [],
-   "raw_result": "0–1",
+   "neutral": false,
+   "note": null,
    "comp": "premier-league",
-   "id": "wp-1997-17"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-10-01",
+   "id": "wp-1997-18",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-10-01",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Juventus",
    "hg": 3,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 53428,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "38",
@@ -489,20 +898,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–2",
-   "comp": "champions-league",
-   "id": "wp-1997-18"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-10-04",
+   "id": "wp-1997-19",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-10-04",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Crystal Palace",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55143,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "18",
@@ -517,20 +934,28 @@
      "kind": "Own Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1997-19"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-10-05",
+   "id": "wp-1997-20",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-10-05",
+   "state": "finished",
    "home": "Manchester City",
    "away": "Manchester United",
    "hg": 2,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 21262,
+   "neutral": false,
+   "note": null,
+   "comp": "friendlies",
    "goals": [
     {
      "min": "9",
@@ -545,35 +970,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–2",
-   "comp": "friendlies",
-   "id": "wp-1997-20"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-10-14",
+   "id": "wp-1997-21",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Third round",
+   "kick": "1997-10-14",
+   "state": "finished",
    "home": "Ipswich Town",
    "away": "Manchester United",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 22173,
-   "goals": [],
-   "raw_result": "0–2",
+   "neutral": false,
+   "note": null,
    "comp": "league-cup",
-   "id": "wp-1997-21"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-10-18",
+   "id": "wp-1997-22",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-10-18",
+   "state": "finished",
    "home": "Derby County",
    "away": "Manchester United",
    "hg": 2,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 30014,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "51",
@@ -588,20 +1029,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–2",
-   "comp": "premier-league",
-   "id": "wp-1997-22"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-10-22",
+   "id": "wp-1997-23",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-10-22",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Feyenoord",
    "hg": 2,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 53188,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "32",
@@ -616,20 +1065,28 @@
      "kind": "Penalty"
     }
    ],
-   "raw_result": "2–1",
-   "comp": "champions-league",
-   "id": "wp-1997-23"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-10-25",
+   "id": "wp-1997-24",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-10-25",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Barnsley",
    "hg": 7,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55142,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "17",
@@ -674,20 +1131,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "7–0",
-   "comp": "premier-league",
-   "id": "wp-1997-24"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-11-01",
+   "id": "wp-1997-25",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-11-01",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Sheffield Wednesday",
    "hg": 6,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55259,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "13",
@@ -726,20 +1191,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "6–1",
-   "comp": "premier-league",
-   "id": "wp-1997-25"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-11-05",
+   "id": "wp-1997-26",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-11-05",
+   "state": "finished",
    "home": "Feyenoord",
    "away": "Manchester United",
    "hg": 1,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 51000,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "31",
@@ -760,20 +1233,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–1",
-   "comp": "champions-league",
-   "id": "wp-1997-26"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-11-09",
+   "id": "wp-1997-27",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-11-09",
+   "state": "finished",
    "home": "Arsenal",
    "away": "Manchester United",
    "hg": 3,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 38205,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "33",
@@ -788,20 +1269,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–3",
-   "comp": "premier-league",
-   "id": "wp-1997-27"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-11-22",
+   "id": "wp-1997-28",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-11-22",
+   "state": "finished",
    "home": "Wimbledon",
    "away": "Manchester United",
    "hg": 2,
    "ag": 5,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 26309,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "48",
@@ -834,20 +1323,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "5–2",
-   "comp": "premier-league",
-   "id": "wp-1997-28"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-11-27",
+   "id": "wp-1997-29",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-11-27",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Košice",
    "hg": 3,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 53535,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "40",
@@ -868,20 +1365,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–0",
-   "comp": "champions-league",
-   "id": "wp-1997-29"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-11-30",
+   "id": "wp-1997-30",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-11-30",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Blackburn Rovers",
    "hg": 4,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55175,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "17",
@@ -908,20 +1413,28 @@
      "kind": "Own Goal"
     }
    ],
-   "raw_result": "4–0",
-   "comp": "premier-league",
-   "id": "wp-1997-30"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-12-06",
+   "id": "wp-1997-31",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-12-06",
+   "state": "finished",
    "home": "Liverpool",
    "away": "Manchester United",
    "hg": 1,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 41027,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "51",
@@ -942,35 +1455,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–1",
-   "comp": "premier-league",
-   "id": "wp-1997-31"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-12-10",
+   "id": "wp-1997-32",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-12-10",
+   "state": "finished",
    "home": "Juventus",
    "away": "Manchester United",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 47786,
-   "goals": [],
-   "raw_result": "0–1",
+   "neutral": false,
+   "note": null,
    "comp": "champions-league",
-   "id": "wp-1997-32"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-12-15",
+   "id": "wp-1997-33",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-12-15",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Aston Villa",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55151,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "52",
@@ -979,20 +1508,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "premier-league",
-   "id": "wp-1997-33"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-12-21",
+   "id": "wp-1997-34",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-12-21",
+   "state": "finished",
    "home": "Newcastle United",
    "away": "Manchester United",
    "hg": 0,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 36767,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "67",
@@ -1001,20 +1538,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "premier-league",
-   "id": "wp-1997-34"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-12-26",
+   "id": "wp-1997-35",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-12-26",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Everton",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 41027,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "14",
@@ -1029,20 +1574,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1997-35"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1997-12-28",
+   "id": "wp-1997-36",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1997-12-28",
+   "state": "finished",
    "home": "Coventry City",
    "away": "Manchester United",
    "hg": 3,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 23054,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "31",
@@ -1057,20 +1610,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–3",
-   "comp": "premier-league",
-   "id": "wp-1997-36"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-01-04",
+   "id": "wp-1997-37",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Third round",
+   "kick": "1998-01-04",
+   "state": "finished",
    "home": "Chelsea",
    "away": "Manchester United",
    "hg": 3,
    "ag": 5,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 34792,
+   "neutral": false,
+   "note": null,
+   "comp": "fa-cup",
    "goals": [
     {
      "min": "23",
@@ -1103,20 +1664,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "5–3",
-   "comp": "fa-cup",
-   "id": "wp-1997-37"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-01-10",
+   "id": "wp-1997-38",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-01-10",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Tottenham Hotspur",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55281,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "44",
@@ -1131,35 +1700,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1997-38"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-01-19",
+   "id": "wp-1997-39",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-01-19",
+   "state": "finished",
    "home": "Southampton",
    "away": "Manchester United",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 15241,
-   "goals": [],
-   "raw_result": "0–1",
+   "neutral": false,
+   "note": null,
    "comp": "premier-league",
-   "id": "wp-1997-39"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-01-24",
+   "id": "wp-1997-40",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Fourth round",
+   "kick": "1998-01-24",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Walsall",
    "hg": 5,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 54699,
+   "neutral": false,
+   "note": null,
+   "comp": "fa-cup",
    "goals": [
     {
      "min": "10",
@@ -1192,35 +1777,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "5–1",
-   "comp": "fa-cup",
-   "id": "wp-1997-40"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-01-31",
+   "id": "wp-1997-41",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-01-31",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Leicester City",
    "hg": 0,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55156,
-   "goals": [],
-   "raw_result": "0–1",
+   "neutral": false,
+   "note": null,
    "comp": "premier-league",
-   "id": "wp-1997-41"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-02-07",
+   "id": "wp-1997-42",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-02-07",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Bolton Wanderers",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55156,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "85",
@@ -1229,20 +1830,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "premier-league",
-   "id": "wp-1997-42"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-02-15",
+   "id": "wp-1997-43",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Fifth Round",
+   "kick": "1998-02-15",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Barnsley",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 54700,
+   "neutral": false,
+   "note": null,
+   "comp": "fa-cup",
    "goals": [
     {
      "min": "42",
@@ -1251,20 +1860,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "fa-cup",
-   "id": "wp-1997-43"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-02-18",
+   "id": "wp-1997-44",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-02-18",
+   "state": "finished",
    "home": "Aston Villa",
    "away": "Manchester United",
    "hg": 0,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 39372,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "83",
@@ -1279,20 +1896,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1997-44"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-02-21",
+   "id": "wp-1997-45",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-02-21",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Derby County",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55170,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "19",
@@ -1307,20 +1932,28 @@
      "kind": "Penalty"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1997-45"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-02-25",
+   "id": "wp-1997-46",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Fifth Round / Replay",
+   "kick": "1998-02-25",
+   "state": "finished",
    "home": "Barnsley",
    "away": "Manchester United",
    "hg": 3,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 18655,
+   "neutral": false,
+   "note": null,
+   "comp": "fa-cup",
    "goals": [
     {
      "min": "57",
@@ -1335,20 +1968,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–3",
-   "comp": "fa-cup",
-   "id": "wp-1997-46"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-02-28",
+   "id": "wp-1997-47",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-02-28",
+   "state": "finished",
    "home": "Chelsea",
    "away": "Manchester United",
    "hg": 0,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 35411,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "31",
@@ -1357,50 +1998,74 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "premier-league",
-   "id": "wp-1997-47"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-03-04",
+   "id": "wp-1997-48",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Quarter-final / First leg",
+   "kick": "1998-03-04",
+   "state": "finished",
    "home": "AS Monaco",
    "away": "Manchester United",
    "hg": 0,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 15000,
-   "goals": [],
-   "raw_result": "0–0",
+   "neutral": false,
+   "note": null,
    "comp": "champions-league",
-   "id": "wp-1997-48"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-03-07",
+   "id": "wp-1997-49",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-03-07",
+   "state": "finished",
    "home": "Sheffield Wednesday",
    "away": "Manchester United",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 39427,
-   "goals": [],
-   "raw_result": "0–2",
+   "neutral": false,
+   "note": null,
    "comp": "premier-league",
-   "id": "wp-1997-49"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-03-11",
+   "id": "wp-1997-50",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-03-11",
+   "state": "finished",
    "home": "West Ham United",
    "away": "Manchester United",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 25892,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "66",
@@ -1409,35 +2074,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "premier-league",
-   "id": "wp-1997-50"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-03-14",
+   "id": "wp-1997-51",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-03-14",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Arsenal",
    "hg": 0,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55174,
-   "goals": [],
-   "raw_result": "0–1",
+   "neutral": false,
+   "note": null,
    "comp": "premier-league",
-   "id": "wp-1997-51"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-03-18",
+   "id": "wp-1997-52",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Quarter-final / Second leg",
+   "kick": "1998-03-18",
+   "state": "finished",
    "home": "Manchester United",
    "away": "AS Monaco",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 53683,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "53",
@@ -1446,20 +2127,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "champions-league",
-   "id": "wp-1997-52"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-03-28",
+   "id": "wp-1997-53",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-03-28",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Wimbledon",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55306,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "83",
@@ -1474,20 +2163,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1997-53"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-04-06",
+   "id": "wp-1997-54",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-04-06",
+   "state": "finished",
    "home": "Blackburn Rovers",
    "away": "Manchester United",
    "hg": 1,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 30547,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "56",
@@ -1508,20 +2205,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–1",
-   "comp": "premier-league",
-   "id": "wp-1997-54"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-04-10",
+   "id": "wp-1997-55",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-04-10",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Liverpool",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55171,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "12",
@@ -1530,20 +2235,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "premier-league",
-   "id": "wp-1997-55"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-04-18",
+   "id": "wp-1997-56",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-04-18",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Newcastle United",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55194,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "38",
@@ -1552,20 +2265,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "premier-league",
-   "id": "wp-1997-56"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-04-27",
+   "id": "wp-1997-57",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-04-27",
+   "state": "finished",
    "home": "Crystal Palace",
    "away": "Manchester United",
    "hg": 0,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 26180,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "6",
@@ -1586,20 +2307,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–0",
-   "comp": "premier-league",
-   "id": "wp-1997-57"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-05-04",
+   "id": "wp-1997-58",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-05-04",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Leeds United",
    "hg": 3,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55167,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "6",
@@ -1620,20 +2349,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–0",
-   "comp": "premier-league",
-   "id": "wp-1997-58"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1998-05-10",
+   "id": "wp-1997-59",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1998-05-10",
+   "state": "finished",
    "home": "Barnsley",
    "away": "Manchester United",
    "hg": 0,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 18694,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "6",
@@ -1648,9 +2385,9 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1997-59"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   }
  ]
 }

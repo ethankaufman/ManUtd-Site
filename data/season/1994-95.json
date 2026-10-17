@@ -1,87 +1,404 @@
 {
- "season": "1994–95",
- "source": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Manchester_United_F.C._season",
+ "season": "1994-95",
+ "updated": "2026-10-17T11:33Z",
+ "source": "Wikipedia (CC BY-SA): https://en.wikipedia.org/wiki/1994%E2%80%9395_Manchester_United_F.C._season",
+ "past": true,
  "competitions": [
   {
    "slug": "friendlies",
+   "espn": null,
    "name": "Friendlies",
-   "kind": "friendly"
+   "kind": "friendly",
+   "has_table": false,
+   "matches": 7
   },
   {
    "slug": "community-shield",
+   "espn": null,
    "name": "FA Charity Shield",
-   "kind": "cup"
+   "kind": "cup",
+   "has_table": false,
+   "matches": 1
   },
   {
    "slug": "premier-league",
+   "espn": null,
    "name": "Premier League",
-   "kind": "league"
+   "kind": "league",
+   "has_table": true,
+   "matches": 42
   },
   {
    "slug": "fa-cup",
+   "espn": null,
    "name": "FA Cup",
-   "kind": "cup"
+   "kind": "cup",
+   "has_table": false,
+   "matches": 7
   },
   {
    "slug": "league-cup",
+   "espn": null,
    "name": "League Cup",
-   "kind": "cup"
+   "kind": "cup",
+   "has_table": false,
+   "matches": 3
   },
   {
    "slug": "champions-league",
+   "espn": null,
    "name": "UEFA Champions League",
-   "kind": "europe"
+   "kind": "europe",
+   "has_table": false,
+   "matches": 6
   }
  ],
+ "tables": {
+  "eng.1": [
+   {
+    "rank": 1,
+    "team": "Blackburn Rovers",
+    "p": 42,
+    "w": 27,
+    "d": 8,
+    "l": 7,
+    "gf": 80,
+    "ga": 39,
+    "pts": 89,
+    "zone": null
+   },
+   {
+    "rank": 2,
+    "team": "Manchester United",
+    "p": 42,
+    "w": 26,
+    "d": 10,
+    "l": 6,
+    "gf": 77,
+    "ga": 28,
+    "pts": 88,
+    "zone": null
+   },
+   {
+    "rank": 3,
+    "team": "Nottingham Forest",
+    "p": 42,
+    "w": 22,
+    "d": 11,
+    "l": 9,
+    "gf": 72,
+    "ga": 43,
+    "pts": 77,
+    "zone": null
+   },
+   {
+    "rank": 4,
+    "team": "Liverpool",
+    "p": 42,
+    "w": 21,
+    "d": 11,
+    "l": 10,
+    "gf": 65,
+    "ga": 37,
+    "pts": 74,
+    "zone": null
+   },
+   {
+    "rank": 5,
+    "team": "Leeds United",
+    "p": 42,
+    "w": 20,
+    "d": 13,
+    "l": 9,
+    "gf": 59,
+    "ga": 38,
+    "pts": 73,
+    "zone": null
+   },
+   {
+    "rank": 6,
+    "team": "Newcastle United",
+    "p": 42,
+    "w": 20,
+    "d": 12,
+    "l": 10,
+    "gf": 67,
+    "ga": 47,
+    "pts": 72,
+    "zone": null
+   },
+   {
+    "rank": 7,
+    "team": "Tottenham Hotspur",
+    "p": 42,
+    "w": 16,
+    "d": 14,
+    "l": 12,
+    "gf": 66,
+    "ga": 58,
+    "pts": 62,
+    "zone": null
+   },
+   {
+    "rank": 8,
+    "team": "Queens Park Rangers",
+    "p": 42,
+    "w": 17,
+    "d": 9,
+    "l": 16,
+    "gf": 61,
+    "ga": 59,
+    "pts": 60,
+    "zone": null
+   },
+   {
+    "rank": 9,
+    "team": "Wimbledon",
+    "p": 42,
+    "w": 15,
+    "d": 11,
+    "l": 16,
+    "gf": 48,
+    "ga": 65,
+    "pts": 56,
+    "zone": null
+   },
+   {
+    "rank": 10,
+    "team": "Southampton",
+    "p": 42,
+    "w": 12,
+    "d": 18,
+    "l": 12,
+    "gf": 61,
+    "ga": 63,
+    "pts": 54,
+    "zone": null
+   },
+   {
+    "rank": 11,
+    "team": "Chelsea",
+    "p": 42,
+    "w": 13,
+    "d": 15,
+    "l": 14,
+    "gf": 50,
+    "ga": 55,
+    "pts": 54,
+    "zone": null
+   },
+   {
+    "rank": 12,
+    "team": "Arsenal",
+    "p": 42,
+    "w": 13,
+    "d": 12,
+    "l": 17,
+    "gf": 52,
+    "ga": 49,
+    "pts": 51,
+    "zone": null
+   },
+   {
+    "rank": 13,
+    "team": "Sheffield Wednesday",
+    "p": 42,
+    "w": 13,
+    "d": 12,
+    "l": 17,
+    "gf": 49,
+    "ga": 57,
+    "pts": 51,
+    "zone": null
+   },
+   {
+    "rank": 14,
+    "team": "West Ham United",
+    "p": 42,
+    "w": 13,
+    "d": 11,
+    "l": 18,
+    "gf": 44,
+    "ga": 48,
+    "pts": 50,
+    "zone": null
+   },
+   {
+    "rank": 15,
+    "team": "Everton",
+    "p": 42,
+    "w": 11,
+    "d": 17,
+    "l": 14,
+    "gf": 44,
+    "ga": 51,
+    "pts": 50,
+    "zone": null
+   },
+   {
+    "rank": 16,
+    "team": "Coventry City",
+    "p": 42,
+    "w": 12,
+    "d": 14,
+    "l": 16,
+    "gf": 44,
+    "ga": 62,
+    "pts": 50,
+    "zone": null
+   },
+   {
+    "rank": 17,
+    "team": "Manchester City",
+    "p": 42,
+    "w": 12,
+    "d": 13,
+    "l": 17,
+    "gf": 53,
+    "ga": 64,
+    "pts": 49,
+    "zone": null
+   },
+   {
+    "rank": 18,
+    "team": "Aston Villa",
+    "p": 42,
+    "w": 11,
+    "d": 15,
+    "l": 16,
+    "gf": 51,
+    "ga": 56,
+    "pts": 48,
+    "zone": null
+   },
+   {
+    "rank": 19,
+    "team": "Crystal Palace",
+    "p": 42,
+    "w": 11,
+    "d": 12,
+    "l": 19,
+    "gf": 34,
+    "ga": 49,
+    "pts": 45,
+    "zone": null
+   },
+   {
+    "rank": 20,
+    "team": "Norwich City",
+    "p": 42,
+    "w": 10,
+    "d": 13,
+    "l": 19,
+    "gf": 37,
+    "ga": 54,
+    "pts": 43,
+    "zone": null
+   },
+   {
+    "rank": 21,
+    "team": "Leicester City",
+    "p": 42,
+    "w": 6,
+    "d": 11,
+    "l": 25,
+    "gf": 45,
+    "ga": 80,
+    "pts": 29,
+    "zone": null
+   },
+   {
+    "rank": 22,
+    "team": "Ipswich Town",
+    "p": 42,
+    "w": 7,
+    "d": 6,
+    "l": 29,
+    "gf": 36,
+    "ga": 93,
+    "pts": 27,
+    "zone": null
+   }
+  ]
+ },
+ "squad": [],
  "matches": [
   {
-   "date": "1994-07-30",
+   "id": "wp-1994-01",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-07-30",
+   "state": "finished",
    "home": "Dundalk",
    "away": "Manchester United",
    "hg": 2,
    "ag": 4,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 4500,
-   "goals": [],
-   "raw_result": "4–2",
+   "neutral": false,
+   "note": null,
    "comp": "friendlies",
-   "id": "wp-1994-01"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-08-01",
+   "id": "wp-1994-02",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-08-01",
+   "state": "finished",
    "home": "Shelbourne",
    "away": "Manchester United",
    "hg": 0,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 12500,
-   "goals": [],
-   "raw_result": "3–0",
+   "neutral": false,
+   "note": null,
    "comp": "friendlies",
-   "id": "wp-1994-02"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-08-03",
+   "id": "wp-1994-03",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-08-03",
+   "state": "finished",
    "home": "Wolverhampton Wanderers",
    "away": "Manchester United",
    "hg": 1,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 28500,
-   "goals": [],
-   "raw_result": "2–1",
+   "neutral": false,
+   "note": null,
    "comp": "friendlies",
-   "id": "wp-1994-03"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-08-05",
+   "id": "wp-1994-04",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-08-05",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Newcastle United",
    "hg": 1,
@@ -90,53 +407,81 @@
     5,
     6
    ],
-   "neutral": true,
+   "venue": null,
+   "city": null,
    "att": 27282,
-   "goals": [],
-   "raw_result": "1–1 / (5–6p)",
+   "neutral": true,
+   "note": null,
    "comp": "friendlies",
-   "id": "wp-1994-04"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-08-06",
+   "id": "wp-1994-05",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-08-06",
+   "state": "finished",
    "home": "Rangers",
    "away": "Manchester United",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 30186,
-   "goals": [],
-   "raw_result": "0–1",
+   "neutral": false,
+   "note": null,
    "comp": "friendlies",
-   "id": "wp-1994-05"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-08-09",
+   "id": "wp-1994-06",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-08-09",
+   "state": "finished",
    "home": "Cambridge United",
    "away": "Manchester United",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 9194,
-   "goals": [],
-   "raw_result": "1–1",
+   "neutral": false,
+   "note": null,
    "comp": "friendlies",
-   "id": "wp-1994-06"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-08-14",
+   "id": "wp-1994-07",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-08-14",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Blackburn Rovers",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": true,
+   "venue": null,
+   "city": null,
    "att": 60402,
+   "neutral": true,
+   "note": null,
+   "comp": "community-shield",
    "goals": [
     {
      "min": "22",
@@ -151,35 +496,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "community-shield",
-   "id": "wp-1994-07"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-08-16",
+   "id": "wp-1994-08",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-08-16",
+   "state": "finished",
    "home": "Middlesbrough",
    "away": "Manchester United",
    "hg": 0,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 19658,
-   "goals": [],
-   "raw_result": "3–0",
+   "neutral": false,
+   "note": null,
    "comp": "friendlies",
-   "id": "wp-1994-08"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-08-20",
+   "id": "wp-1994-09",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-08-20",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Queens Park Rangers",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43214,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "48",
@@ -194,20 +555,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1994-09"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-08-22",
+   "id": "wp-1994-10",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-08-22",
+   "state": "finished",
    "home": "Nottingham Forest",
    "away": "Manchester United",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 22072,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "23",
@@ -216,20 +585,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "premier-league",
-   "id": "wp-1994-10"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-08-27",
+   "id": "wp-1994-11",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-08-27",
+   "state": "finished",
    "home": "Tottenham Hotspur",
    "away": "Manchester United",
    "hg": 0,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 24502,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "49",
@@ -238,20 +615,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "premier-league",
-   "id": "wp-1994-11"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-08-31",
+   "id": "wp-1994-12",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-08-31",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Wimbledon",
    "hg": 3,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43440,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "40",
@@ -272,20 +657,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–0",
-   "comp": "premier-league",
-   "id": "wp-1994-12"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-09-11",
+   "id": "wp-1994-13",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-09-11",
+   "state": "finished",
    "home": "Leeds United",
    "away": "Manchester United",
    "hg": 2,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 39396,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "72",
@@ -294,20 +687,28 @@
      "kind": "Penalty"
     }
    ],
-   "raw_result": "1–2",
-   "comp": "premier-league",
-   "id": "wp-1994-13"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-09-14",
+   "id": "wp-1994-14",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-09-14",
+   "state": "finished",
    "home": "Manchester United",
    "away": "IFK Göteborg",
    "hg": 4,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 33625,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "33",
@@ -334,20 +735,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "4–2",
-   "comp": "champions-league",
-   "id": "wp-1994-14"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-09-17",
+   "id": "wp-1994-15",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-09-17",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Liverpool",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43740,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "73",
@@ -362,20 +771,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1994-15"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-09-21",
+   "id": "wp-1994-16",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Round 2 / First leg",
+   "kick": "1994-09-21",
+   "state": "finished",
    "home": "Port Vale",
    "away": "Manchester United",
    "hg": 1,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 18605,
+   "neutral": false,
+   "note": null,
+   "comp": "league-cup",
    "goals": [
     {
      "min": "36",
@@ -390,20 +807,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–1",
-   "comp": "league-cup",
-   "id": "wp-1994-16"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-09-24",
+   "id": "wp-1994-17",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-09-24",
+   "state": "finished",
    "home": "Ipswich Town",
    "away": "Manchester United",
    "hg": 3,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 22559,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "71",
@@ -418,35 +843,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–3",
-   "comp": "premier-league",
-   "id": "wp-1994-17"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-09-28",
+   "id": "wp-1994-18",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-09-28",
+   "state": "finished",
    "home": "Galatasaray",
    "away": "Manchester United",
    "hg": 0,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 28605,
-   "goals": [],
-   "raw_result": "0–0",
+   "neutral": false,
+   "note": null,
    "comp": "champions-league",
-   "id": "wp-1994-18"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-10-01",
+   "id": "wp-1994-19",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-10-01",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Everton",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43803,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "41",
@@ -461,20 +902,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1994-19"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-10-05",
+   "id": "wp-1994-20",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Round 2 / Second leg",
+   "kick": "1994-10-05",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Port Vale",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 31615,
+   "neutral": false,
+   "note": null,
+   "comp": "league-cup",
    "goals": [
     {
      "min": "35",
@@ -489,35 +938,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "league-cup",
-   "id": "wp-1994-20"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-10-08",
+   "id": "wp-1994-21",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-10-08",
+   "state": "finished",
    "home": "Sheffield Wednesday",
    "away": "Manchester United",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 33441,
-   "goals": [],
-   "raw_result": "0–1",
+   "neutral": false,
+   "note": null,
    "comp": "premier-league",
-   "id": "wp-1994-21"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-10-15",
+   "id": "wp-1994-22",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-10-15",
+   "state": "finished",
    "home": "Manchester United",
    "away": "West Ham United",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43795,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "44",
@@ -526,20 +991,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "premier-league",
-   "id": "wp-1994-22"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-10-19",
+   "id": "wp-1994-23",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-10-19",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Barcelona",
    "hg": 2,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 40064,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "20",
@@ -554,20 +1027,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–2",
-   "comp": "champions-league",
-   "id": "wp-1994-23"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-10-23",
+   "id": "wp-1994-24",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-10-23",
+   "state": "finished",
    "home": "Blackburn Rovers",
    "away": "Manchester United",
    "hg": 2,
    "ag": 4,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 30260,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "45",
@@ -594,35 +1075,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "4–2",
-   "comp": "premier-league",
-   "id": "wp-1994-24"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-10-26",
+   "id": "wp-1994-25",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Round 3",
+   "kick": "1994-10-26",
+   "state": "finished",
    "home": "Newcastle United",
    "away": "Manchester United",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 34178,
-   "goals": [],
-   "raw_result": "0–2",
+   "neutral": false,
+   "note": null,
    "comp": "league-cup",
-   "id": "wp-1994-25"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-10-29",
+   "id": "wp-1994-26",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-10-29",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Newcastle United",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43795,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "11",
@@ -637,35 +1134,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1994-26"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-11-02",
+   "id": "wp-1994-27",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-11-02",
+   "state": "finished",
    "home": "Barcelona",
    "away": "Manchester United",
    "hg": 4,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 114273,
-   "goals": [],
-   "raw_result": "0–4",
+   "neutral": false,
+   "note": null,
    "comp": "champions-league",
-   "id": "wp-1994-27"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-11-06",
+   "id": "wp-1994-28",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-11-06",
+   "state": "finished",
    "home": "Aston Villa",
    "away": "Manchester United",
    "hg": 1,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 32136,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "41",
@@ -680,20 +1193,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–1",
-   "comp": "premier-league",
-   "id": "wp-1994-28"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-11-10",
+   "id": "wp-1994-29",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-11-10",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Manchester City",
    "hg": 5,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43738,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "24",
@@ -726,20 +1247,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "5–0",
-   "comp": "premier-league",
-   "id": "wp-1994-29"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-11-19",
+   "id": "wp-1994-30",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-11-19",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Crystal Palace",
    "hg": 3,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43788,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "8",
@@ -760,20 +1289,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–0",
-   "comp": "premier-league",
-   "id": "wp-1994-30"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-11-23",
+   "id": "wp-1994-31",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-11-23",
+   "state": "finished",
    "home": "IFK Göteborg",
    "away": "Manchester United",
    "hg": 3,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 36350,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "64",
@@ -782,35 +1319,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–3",
-   "comp": "champions-league",
-   "id": "wp-1994-31"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-11-26",
+   "id": "wp-1994-32",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-11-26",
+   "state": "finished",
    "home": "Arsenal",
    "away": "Manchester United",
    "hg": 0,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 38301,
-   "goals": [],
-   "raw_result": "0–0",
+   "neutral": false,
+   "note": null,
    "comp": "premier-league",
-   "id": "wp-1994-32"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-12-03",
+   "id": "wp-1994-33",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-12-03",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Norwich City",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43789,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "36",
@@ -819,20 +1372,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "premier-league",
-   "id": "wp-1994-33"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-12-07",
+   "id": "wp-1994-34",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-12-07",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Galatasaray",
    "hg": 4,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 39220,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "3",
@@ -859,20 +1420,28 @@
      "kind": "Own Goal"
     }
    ],
-   "raw_result": "4–0",
-   "comp": "champions-league",
-   "id": "wp-1994-34"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-12-10",
+   "id": "wp-1994-35",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-12-10",
+   "state": "finished",
    "home": "Queens Park Rangers",
    "away": "Manchester United",
    "hg": 2,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 18948,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "34",
@@ -893,20 +1462,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–2",
-   "comp": "premier-league",
-   "id": "wp-1994-35"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-12-17",
+   "id": "wp-1994-36",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-12-17",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Nottingham Forest",
    "hg": 1,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43744,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "68",
@@ -915,20 +1492,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–2",
-   "comp": "premier-league",
-   "id": "wp-1994-36"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-12-26",
+   "id": "wp-1994-37",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-12-26",
+   "state": "finished",
    "home": "Chelsea",
    "away": "Manchester United",
    "hg": 2,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 31161,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "22",
@@ -949,20 +1534,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–2",
-   "comp": "premier-league",
-   "id": "wp-1994-37"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-12-28",
+   "id": "wp-1994-38",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-12-28",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Leicester City",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43789,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "61",
@@ -971,20 +1564,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "premier-league",
-   "id": "wp-1994-38"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1994-12-31",
+   "id": "wp-1994-39",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1994-12-31",
+   "state": "finished",
    "home": "Southampton",
    "away": "Manchester United",
    "hg": 2,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 16708,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "51",
@@ -999,20 +1600,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–2",
-   "comp": "premier-league",
-   "id": "wp-1994-39"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-01-03",
+   "id": "wp-1994-40",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-01-03",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Coventry City",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43130,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "30",
@@ -1027,20 +1636,28 @@
      "kind": "Penalty"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1994-40"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-01-09",
+   "id": "wp-1994-41",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Round 3",
+   "kick": "1995-01-09",
+   "state": "finished",
    "home": "Sheffield United",
    "away": "Manchester United",
    "hg": 0,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 22322,
+   "neutral": false,
+   "note": null,
+   "comp": "fa-cup",
    "goals": [
     {
      "min": "80",
@@ -1055,20 +1672,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "fa-cup",
-   "id": "wp-1994-41"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-01-15",
+   "id": "wp-1994-42",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-01-15",
+   "state": "finished",
    "home": "Newcastle United",
    "away": "Manchester United",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 34471,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "13",
@@ -1077,20 +1702,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "premier-league",
-   "id": "wp-1994-42"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-01-22",
+   "id": "wp-1994-43",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-01-22",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Blackburn Rovers",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43742,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "80",
@@ -1099,20 +1732,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "premier-league",
-   "id": "wp-1994-43"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-01-25",
+   "id": "wp-1994-44",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-01-25",
+   "state": "finished",
    "home": "Crystal Palace",
    "away": "Manchester United",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 18224,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "57",
@@ -1121,20 +1762,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "premier-league",
-   "id": "wp-1994-44"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-01-28",
+   "id": "wp-1994-45",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Round 4",
+   "kick": "1995-01-28",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Wrexham",
    "hg": 5,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43222,
+   "neutral": false,
+   "note": null,
+   "comp": "fa-cup",
    "goals": [
     {
      "min": "17",
@@ -1167,20 +1816,28 @@
      "kind": "Own Goal"
     }
    ],
-   "raw_result": "5–2",
-   "comp": "fa-cup",
-   "id": "wp-1994-45"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-02-04",
+   "id": "wp-1994-46",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-02-04",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Aston Villa",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43795,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "18",
@@ -1189,20 +1846,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "premier-league",
-   "id": "wp-1994-46"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-02-11",
+   "id": "wp-1994-47",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-02-11",
+   "state": "finished",
    "home": "Manchester City",
    "away": "Manchester United",
    "hg": 0,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 26368,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "58",
@@ -1223,20 +1888,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–0",
-   "comp": "premier-league",
-   "id": "wp-1994-47"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-02-19",
+   "id": "wp-1994-48",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Round 5",
+   "kick": "1995-02-19",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Leeds United",
    "hg": 3,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 42744,
+   "neutral": false,
+   "note": null,
+   "comp": "fa-cup",
    "goals": [
     {
      "min": "2",
@@ -1257,20 +1930,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–1",
-   "comp": "fa-cup",
-   "id": "wp-1994-48"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-02-22",
+   "id": "wp-1994-49",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-02-22",
+   "state": "finished",
    "home": "Norwich City",
    "away": "Manchester United",
    "hg": 0,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 21824,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "3",
@@ -1285,35 +1966,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1994-49"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-02-25",
+   "id": "wp-1994-50",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-02-25",
+   "state": "finished",
    "home": "Everton",
    "away": "Manchester United",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 40011,
-   "goals": [],
-   "raw_result": "0–1",
+   "neutral": false,
+   "note": null,
    "comp": "premier-league",
-   "id": "wp-1994-50"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-03-04",
+   "id": "wp-1994-51",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-03-04",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Ipswich Town",
    "hg": 9,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43804,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "16",
@@ -1370,20 +2067,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "9–0",
-   "comp": "premier-league",
-   "id": "wp-1994-51"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-03-07",
+   "id": "wp-1994-52",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-03-07",
+   "state": "finished",
    "home": "Wimbledon",
    "away": "Manchester United",
    "hg": 0,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 18224,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "84",
@@ -1392,20 +2097,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "premier-league",
-   "id": "wp-1994-52"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-03-12",
+   "id": "wp-1994-53",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Round 6",
+   "kick": "1995-03-12",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Queens Park Rangers",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 42830,
+   "neutral": false,
+   "note": null,
+   "comp": "fa-cup",
    "goals": [
     {
      "min": "23",
@@ -1420,50 +2133,74 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "fa-cup",
-   "id": "wp-1994-53"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-03-15",
+   "id": "wp-1994-54",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-03-15",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Tottenham Hotspur",
    "hg": 0,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43802,
-   "goals": [],
-   "raw_result": "0–0",
+   "neutral": false,
+   "note": null,
    "comp": "premier-league",
-   "id": "wp-1994-54"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-03-19",
+   "id": "wp-1994-55",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-03-19",
+   "state": "finished",
    "home": "Liverpool",
    "away": "Manchester United",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 38906,
-   "goals": [],
-   "raw_result": "0–2",
+   "neutral": false,
+   "note": null,
    "comp": "premier-league",
-   "id": "wp-1994-55"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-03-22",
+   "id": "wp-1994-56",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-03-22",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Arsenal",
    "hg": 3,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43623,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "27",
@@ -1484,35 +2221,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–0",
-   "comp": "premier-league",
-   "id": "wp-1994-56"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-04-02",
+   "id": "wp-1994-57",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-04-02",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Leeds United",
    "hg": 0,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43712,
-   "goals": [],
-   "raw_result": "0–0",
+   "neutral": false,
+   "note": null,
    "comp": "premier-league",
-   "id": "wp-1994-57"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-04-09",
+   "id": "wp-1994-58",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Semi-final",
+   "kick": "1995-04-09",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Crystal Palace",
    "hg": 2,
    "ag": 2,
    "pens": null,
-   "neutral": true,
+   "venue": null,
+   "city": null,
    "att": 38256,
+   "neutral": true,
+   "note": null,
+   "comp": "fa-cup",
    "goals": [
     {
      "min": "70",
@@ -1527,20 +2280,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–2",
-   "comp": "fa-cup",
-   "id": "wp-1994-58"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-04-12",
+   "id": "wp-1994-59",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Semi-final / Replay",
+   "kick": "1995-04-12",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Crystal Palace",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": true,
+   "venue": null,
+   "city": null,
    "att": 17987,
+   "neutral": true,
+   "note": null,
+   "comp": "fa-cup",
    "goals": [
     {
      "min": "30",
@@ -1555,20 +2316,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "fa-cup",
-   "id": "wp-1994-59"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-04-15",
+   "id": "wp-1994-60",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-04-15",
+   "state": "finished",
    "home": "Leicester City",
    "away": "Manchester United",
    "hg": 0,
    "ag": 4,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 21281,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "34",
@@ -1595,35 +2364,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "4–0",
-   "comp": "premier-league",
-   "id": "wp-1994-60"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-04-17",
+   "id": "wp-1994-61",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-04-17",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Chelsea",
    "hg": 0,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43728,
-   "goals": [],
-   "raw_result": "0–0",
+   "neutral": false,
+   "note": null,
    "comp": "premier-league",
-   "id": "wp-1994-61"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-05-01",
+   "id": "wp-1994-62",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-05-01",
+   "state": "finished",
    "home": "Coventry City",
    "away": "Manchester United",
    "hg": 2,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 21885,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "33",
@@ -1644,20 +2429,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–2",
-   "comp": "premier-league",
-   "id": "wp-1994-62"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-05-07",
+   "id": "wp-1994-63",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-05-07",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Sheffield Wednesday",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43868,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "6",
@@ -1666,20 +2459,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "premier-league",
-   "id": "wp-1994-63"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-05-10",
+   "id": "wp-1994-64",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-05-10",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Southampton",
    "hg": 2,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 43479,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "22",
@@ -1694,20 +2495,28 @@
      "kind": "Penalty"
     }
    ],
-   "raw_result": "2–1",
-   "comp": "premier-league",
-   "id": "wp-1994-64"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-05-14",
+   "id": "wp-1994-65",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1995-05-14",
+   "state": "finished",
    "home": "West Ham United",
    "away": "Manchester United",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 24783,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "53",
@@ -1716,24 +2525,32 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "premier-league",
-   "id": "wp-1994-65"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1995-05-20",
+   "id": "wp-1994-66",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Final",
+   "kick": "1995-05-20",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Everton",
    "hg": 0,
    "ag": 1,
    "pens": null,
-   "neutral": true,
+   "venue": null,
+   "city": null,
    "att": 79592,
-   "goals": [],
-   "raw_result": "0–1",
+   "neutral": true,
+   "note": null,
    "comp": "fa-cup",
-   "id": "wp-1994-66"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   }
  ]
 }

@@ -1,59 +1,338 @@
 {
- "season": "1999–2000",
- "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Manchester_United_F.C._season",
+ "season": "1999-00",
+ "updated": "2026-10-17T11:33Z",
+ "source": "Wikipedia (CC BY-SA): https://en.wikipedia.org/wiki/1999%E2%80%932000_Manchester_United_F.C._season",
+ "past": true,
  "competitions": [
   {
    "slug": "friendlies",
+   "espn": null,
    "name": "Friendlies",
-   "kind": "friendly"
+   "kind": "friendly",
+   "has_table": false,
+   "matches": 8
   },
   {
    "slug": "community-shield",
+   "espn": null,
    "name": "FA Charity Shield",
-   "kind": "cup"
+   "kind": "cup",
+   "has_table": false,
+   "matches": 1
   },
   {
    "slug": "uefa-super-cup",
+   "espn": null,
    "name": "UEFA Super Cup",
-   "kind": "europe"
+   "kind": "europe",
+   "has_table": false,
+   "matches": 1
   },
   {
    "slug": "premier-league",
+   "espn": null,
    "name": "Premier League",
-   "kind": "league"
+   "kind": "league",
+   "has_table": true,
+   "matches": 38
   },
   {
    "slug": "league-cup",
+   "espn": null,
    "name": "League Cup",
-   "kind": "cup"
+   "kind": "cup",
+   "has_table": false,
+   "matches": 1
   },
   {
    "slug": "champions-league",
+   "espn": null,
    "name": "UEFA Champions League",
-   "kind": "europe"
+   "kind": "europe",
+   "has_table": false,
+   "matches": 14
   },
   {
    "slug": "intercontinental-cup",
+   "espn": null,
    "name": "Intercontinental Cup",
-   "kind": "europe"
+   "kind": "europe",
+   "has_table": false,
+   "matches": 1
   },
   {
    "slug": "club-world-cup",
+   "espn": null,
    "name": "FIFA Club World Championship",
-   "kind": "europe"
+   "kind": "europe",
+   "has_table": false,
+   "matches": 3
   }
  ],
+ "tables": {
+  "eng.1": [
+   {
+    "rank": 1,
+    "team": "Manchester United",
+    "p": 38,
+    "w": 28,
+    "d": 7,
+    "l": 3,
+    "gf": 97,
+    "ga": 45,
+    "pts": 91,
+    "zone": null
+   },
+   {
+    "rank": 2,
+    "team": "Arsenal",
+    "p": 38,
+    "w": 22,
+    "d": 7,
+    "l": 9,
+    "gf": 73,
+    "ga": 43,
+    "pts": 73,
+    "zone": null
+   },
+   {
+    "rank": 3,
+    "team": "Leeds United",
+    "p": 38,
+    "w": 21,
+    "d": 6,
+    "l": 11,
+    "gf": 58,
+    "ga": 43,
+    "pts": 69,
+    "zone": null
+   },
+   {
+    "rank": 4,
+    "team": "Liverpool",
+    "p": 38,
+    "w": 19,
+    "d": 10,
+    "l": 9,
+    "gf": 51,
+    "ga": 30,
+    "pts": 67,
+    "zone": null
+   },
+   {
+    "rank": 5,
+    "team": "Chelsea",
+    "p": 38,
+    "w": 18,
+    "d": 11,
+    "l": 9,
+    "gf": 53,
+    "ga": 34,
+    "pts": 65,
+    "zone": null
+   },
+   {
+    "rank": 6,
+    "team": "Aston Villa",
+    "p": 38,
+    "w": 15,
+    "d": 13,
+    "l": 10,
+    "gf": 46,
+    "ga": 35,
+    "pts": 58,
+    "zone": null
+   },
+   {
+    "rank": 7,
+    "team": "Sunderland",
+    "p": 38,
+    "w": 16,
+    "d": 10,
+    "l": 12,
+    "gf": 57,
+    "ga": 56,
+    "pts": 58,
+    "zone": null
+   },
+   {
+    "rank": 8,
+    "team": "Leicester City",
+    "p": 38,
+    "w": 16,
+    "d": 7,
+    "l": 15,
+    "gf": 55,
+    "ga": 55,
+    "pts": 55,
+    "zone": null
+   },
+   {
+    "rank": 9,
+    "team": "West Ham United",
+    "p": 38,
+    "w": 15,
+    "d": 10,
+    "l": 13,
+    "gf": 52,
+    "ga": 53,
+    "pts": 55,
+    "zone": null
+   },
+   {
+    "rank": 10,
+    "team": "Tottenham Hotspur",
+    "p": 38,
+    "w": 15,
+    "d": 8,
+    "l": 15,
+    "gf": 57,
+    "ga": 49,
+    "pts": 53,
+    "zone": null
+   },
+   {
+    "rank": 11,
+    "team": "Newcastle United",
+    "p": 38,
+    "w": 14,
+    "d": 10,
+    "l": 14,
+    "gf": 63,
+    "ga": 54,
+    "pts": 52,
+    "zone": null
+   },
+   {
+    "rank": 12,
+    "team": "Middlesbrough",
+    "p": 38,
+    "w": 14,
+    "d": 10,
+    "l": 14,
+    "gf": 46,
+    "ga": 52,
+    "pts": 52,
+    "zone": null
+   },
+   {
+    "rank": 13,
+    "team": "Everton",
+    "p": 38,
+    "w": 12,
+    "d": 14,
+    "l": 12,
+    "gf": 59,
+    "ga": 49,
+    "pts": 50,
+    "zone": null
+   },
+   {
+    "rank": 14,
+    "team": "Coventry City",
+    "p": 38,
+    "w": 12,
+    "d": 8,
+    "l": 18,
+    "gf": 47,
+    "ga": 54,
+    "pts": 44,
+    "zone": null
+   },
+   {
+    "rank": 15,
+    "team": "Southampton",
+    "p": 38,
+    "w": 12,
+    "d": 8,
+    "l": 18,
+    "gf": 45,
+    "ga": 62,
+    "pts": 44,
+    "zone": null
+   },
+   {
+    "rank": 16,
+    "team": "Derby County",
+    "p": 38,
+    "w": 9,
+    "d": 11,
+    "l": 18,
+    "gf": 44,
+    "ga": 57,
+    "pts": 38,
+    "zone": null
+   },
+   {
+    "rank": 17,
+    "team": "Bradford City",
+    "p": 38,
+    "w": 9,
+    "d": 9,
+    "l": 20,
+    "gf": 38,
+    "ga": 68,
+    "pts": 36,
+    "zone": null
+   },
+   {
+    "rank": 18,
+    "team": "Wimbledon",
+    "p": 38,
+    "w": 7,
+    "d": 12,
+    "l": 19,
+    "gf": 46,
+    "ga": 74,
+    "pts": 33,
+    "zone": null
+   },
+   {
+    "rank": 19,
+    "team": "Sheffield Wednesday",
+    "p": 38,
+    "w": 8,
+    "d": 7,
+    "l": 23,
+    "gf": 38,
+    "ga": 70,
+    "pts": 31,
+    "zone": null
+   },
+   {
+    "rank": 20,
+    "team": "Watford",
+    "p": 38,
+    "w": 6,
+    "d": 6,
+    "l": 26,
+    "gf": 35,
+    "ga": 77,
+    "pts": 24,
+    "zone": null
+   }
+  ]
+ },
+ "squad": [],
  "matches": [
   {
-   "date": "1999-07-15",
+   "id": "wp-1999-01",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-07-15",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Australia",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": true,
+   "venue": null,
+   "city": null,
    "att": 71215,
+   "neutral": true,
+   "note": null,
+   "comp": "friendlies",
    "goals": [
     {
      "min": "45",
@@ -68,20 +347,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "friendlies",
-   "id": "wp-1999-01"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-07-18",
+   "id": "wp-1999-02",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-07-18",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Australia",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": true,
+   "venue": null,
+   "city": null,
    "att": 78032,
+   "neutral": true,
+   "note": null,
+   "comp": "friendlies",
    "goals": [
     {
      "min": "24",
@@ -90,20 +377,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "friendlies",
-   "id": "wp-1999-02"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-07-21",
+   "id": "wp-1999-03",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-07-21",
+   "state": "finished",
    "home": "Shanghai Shenhua",
    "away": "Manchester United",
    "hg": 0,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 80000,
+   "neutral": false,
+   "note": null,
+   "comp": "friendlies",
    "goals": [
     {
      "min": "60",
@@ -118,20 +413,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "friendlies",
-   "id": "wp-1999-03"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-07-24",
+   "id": "wp-1999-04",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-07-24",
+   "state": "finished",
    "home": "South China",
    "away": "Manchester United",
    "hg": 0,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 40000,
+   "neutral": false,
+   "note": null,
+   "comp": "friendlies",
    "goals": [
     {
      "min": "20",
@@ -146,20 +449,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "friendlies",
-   "id": "wp-1999-04"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-07-30",
+   "id": "wp-1999-05",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-07-30",
+   "state": "finished",
    "home": "Bristol Rovers",
    "away": "Manchester United",
    "hg": 2,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 10534,
+   "neutral": false,
+   "note": null,
+   "comp": "friendlies",
    "goals": [
     {
      "min": "7",
@@ -174,20 +485,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–2",
-   "comp": "friendlies",
-   "id": "wp-1999-05"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-08-01",
+   "id": "wp-1999-06",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-08-01",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Arsenal",
    "hg": 1,
    "ag": 2,
    "pens": null,
-   "neutral": true,
+   "venue": null,
+   "city": null,
    "att": 70185,
+   "neutral": true,
+   "note": null,
+   "comp": "community-shield",
    "goals": [
     {
      "min": "37",
@@ -196,50 +515,74 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–2",
-   "comp": "community-shield",
-   "id": "wp-1999-06"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-08-03",
+   "id": "wp-1999-07",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-08-03",
+   "state": "finished",
    "home": "Omagh Town",
    "away": "Manchester United",
    "hg": 0,
    "ag": 9,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 7000,
-   "goals": [],
-   "raw_result": "9–0",
+   "neutral": false,
+   "note": null,
    "comp": "friendlies",
-   "id": "wp-1999-07"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-08-04",
+   "id": "wp-1999-08",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-08-04",
+   "state": "finished",
    "home": "Wigan Athletic",
    "away": "Manchester United",
    "hg": 0,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 15000,
-   "goals": [],
-   "raw_result": "2–0",
+   "neutral": false,
+   "note": null,
    "comp": "friendlies",
-   "id": "wp-1999-08"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-08-08",
+   "id": "wp-1999-09",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-08-08",
+   "state": "finished",
    "home": "Everton",
    "away": "Manchester United",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 39141,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "7",
@@ -248,20 +591,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "premier-league",
-   "id": "wp-1999-09"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-08-11",
+   "id": "wp-1999-10",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-08-11",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Sheffield Wednesday",
    "hg": 4,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 54941,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "9",
@@ -288,20 +639,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "4–0",
-   "comp": "premier-league",
-   "id": "wp-1999-10"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-08-14",
+   "id": "wp-1999-11",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-08-14",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Leeds United",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55187,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "77",
@@ -316,20 +675,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1999-11"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-08-22",
+   "id": "wp-1999-12",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-08-22",
+   "state": "finished",
    "home": "Arsenal",
    "away": "Manchester United",
    "hg": 1,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 38147,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "59",
@@ -344,20 +711,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–1",
-   "comp": "premier-league",
-   "id": "wp-1999-12"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-08-25",
+   "id": "wp-1999-13",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-08-25",
+   "state": "finished",
    "home": "Coventry City",
    "away": "Manchester United",
    "hg": 1,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 22024,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "63",
@@ -372,35 +747,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–1",
-   "comp": "premier-league",
-   "id": "wp-1999-13"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-08-27",
+   "id": "wp-1999-14",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-08-27",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Lazio",
    "hg": 0,
    "ag": 1,
    "pens": null,
-   "neutral": true,
+   "venue": null,
+   "city": null,
    "att": 14461,
-   "goals": [],
-   "raw_result": "0–1",
+   "neutral": true,
+   "note": null,
    "comp": "uefa-super-cup",
-   "id": "wp-1999-14"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-08-30",
+   "id": "wp-1999-15",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-08-30",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Newcastle United",
    "hg": 5,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55190,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "14",
@@ -433,20 +824,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "5–1",
-   "comp": "premier-league",
-   "id": "wp-1999-15"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-09-11",
+   "id": "wp-1999-16",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-09-11",
+   "state": "finished",
    "home": "Liverpool",
    "away": "Manchester United",
    "hg": 2,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 44929,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "4",
@@ -467,35 +866,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–2",
-   "comp": "premier-league",
-   "id": "wp-1999-16"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-09-14",
+   "id": "wp-1999-17",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-09-14",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Croatia Zagreb",
    "hg": 0,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 53250,
-   "goals": [],
-   "raw_result": "0–0",
+   "neutral": false,
+   "note": null,
    "comp": "champions-league",
-   "id": "wp-1999-17"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-09-18",
+   "id": "wp-1999-18",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-09-18",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Wimbledon",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55189,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "74",
@@ -504,20 +919,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "premier-league",
-   "id": "wp-1999-18"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-09-22",
+   "id": "wp-1999-19",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-09-22",
+   "state": "finished",
    "home": "Sturm Graz",
    "away": "Manchester United",
    "hg": 0,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 16480,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "16",
@@ -538,20 +961,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–0",
-   "comp": "champions-league",
-   "id": "wp-1999-19"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-09-25",
+   "id": "wp-1999-20",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-09-25",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Southampton",
    "hg": 3,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55249,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "34",
@@ -572,20 +1003,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–3",
-   "comp": "premier-league",
-   "id": "wp-1999-20"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-09-29",
+   "id": "wp-1999-21",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-09-29",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Marseille",
    "hg": 2,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 53993,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "79",
@@ -600,35 +1039,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–1",
-   "comp": "champions-league",
-   "id": "wp-1999-21"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-10-03",
+   "id": "wp-1999-22",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-10-03",
+   "state": "finished",
    "home": "Chelsea",
    "away": "Manchester United",
    "hg": 5,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 34909,
-   "goals": [],
-   "raw_result": "0–5",
+   "neutral": false,
+   "note": null,
    "comp": "premier-league",
-   "id": "wp-1999-22"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-10-11",
+   "id": "wp-1999-23",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-10-11",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Rest of the World XI",
    "hg": 2,
    "ag": 4,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 54842,
+   "neutral": false,
+   "note": null,
+   "comp": "friendlies",
    "goals": [
     {
      "min": "43",
@@ -643,35 +1098,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–4",
-   "comp": "friendlies",
-   "id": "wp-1999-23"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-10-13",
+   "id": "wp-1999-24",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Round 3",
+   "kick": "1999-10-13",
+   "state": "finished",
    "home": "Aston Villa",
    "away": "Manchester United",
    "hg": 3,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 33815,
-   "goals": [],
-   "raw_result": "0–3",
+   "neutral": false,
+   "note": null,
    "comp": "league-cup",
-   "id": "wp-1999-24"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-10-16",
+   "id": "wp-1999-25",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-10-16",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Watford",
    "hg": 4,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55188,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "40",
@@ -698,35 +1169,51 @@
      "kind": "Penalty"
     }
    ],
-   "raw_result": "4–1",
-   "comp": "premier-league",
-   "id": "wp-1999-25"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-10-19",
+   "id": "wp-1999-26",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-10-19",
+   "state": "finished",
    "home": "Marseille",
    "away": "Manchester United",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 56732,
-   "goals": [],
-   "raw_result": "0–1",
+   "neutral": false,
+   "note": null,
    "comp": "champions-league",
-   "id": "wp-1999-26"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-10-23",
+   "id": "wp-1999-27",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-10-23",
+   "state": "finished",
    "home": "Tottenham Hotspur",
    "away": "Manchester United",
    "hg": 3,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 36072,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "24",
@@ -735,20 +1222,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–3",
-   "comp": "premier-league",
-   "id": "wp-1999-27"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-10-27",
+   "id": "wp-1999-28",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-10-27",
+   "state": "finished",
    "home": "Croatia Zagreb",
    "away": "Manchester United",
    "hg": 1,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 27500,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "32",
@@ -763,20 +1258,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–1",
-   "comp": "champions-league",
-   "id": "wp-1999-28"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-10-30",
+   "id": "wp-1999-29",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-10-30",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Aston Villa",
    "hg": 3,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55211,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "30",
@@ -797,20 +1300,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–0",
-   "comp": "premier-league",
-   "id": "wp-1999-29"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-11-02",
+   "id": "wp-1999-30",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-11-02",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Sturm Graz",
    "hg": 2,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 53745,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "56",
@@ -825,20 +1336,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–1",
-   "comp": "champions-league",
-   "id": "wp-1999-30"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-11-06",
+   "id": "wp-1999-31",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-11-06",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Leicester City",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55191,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "30",
@@ -853,20 +1372,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1999-31"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-11-20",
+   "id": "wp-1999-32",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-11-20",
+   "state": "finished",
    "home": "Derby County",
    "away": "Manchester United",
    "hg": 1,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 33370,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "53",
@@ -881,35 +1408,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–1",
-   "comp": "premier-league",
-   "id": "wp-1999-32"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-11-23",
+   "id": "wp-1999-33",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-11-23",
+   "state": "finished",
    "home": "Fiorentina",
    "away": "Manchester United",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 36002,
-   "goals": [],
-   "raw_result": "0–2",
+   "neutral": false,
+   "note": null,
    "comp": "champions-league",
-   "id": "wp-1999-33"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-11-30",
+   "id": "wp-1999-34",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-11-30",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Palmeiras",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": true,
+   "venue": null,
+   "city": null,
    "att": 53372,
+   "neutral": true,
+   "note": null,
+   "comp": "intercontinental-cup",
    "goals": [
     {
      "min": "35",
@@ -918,20 +1461,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "intercontinental-cup",
-   "id": "wp-1999-34"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-12-04",
+   "id": "wp-1999-35",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-12-04",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Everton",
    "hg": 5,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55193,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "27",
@@ -964,20 +1515,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "5–1",
-   "comp": "premier-league",
-   "id": "wp-1999-35"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-12-08",
+   "id": "wp-1999-36",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-12-08",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Valencia",
    "hg": 3,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 54606,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "38",
@@ -998,20 +1557,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–0",
-   "comp": "champions-league",
-   "id": "wp-1999-36"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-12-18",
+   "id": "wp-1999-37",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-12-18",
+   "state": "finished",
    "home": "West Ham United",
    "away": "Manchester United",
    "hg": 2,
    "ag": 4,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 26037,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "9",
@@ -1038,20 +1605,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "4–2",
-   "comp": "premier-league",
-   "id": "wp-1999-37"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-12-26",
+   "id": "wp-1999-38",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-12-26",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Bradford City",
    "hg": 4,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 55188,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "75",
@@ -1078,20 +1653,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "4–0",
-   "comp": "premier-league",
-   "id": "wp-1999-38"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "1999-12-28",
+   "id": "wp-1999-39",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "1999-12-28",
+   "state": "finished",
    "home": "Sunderland",
    "away": "Manchester United",
    "hg": 2,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 42026,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "27",
@@ -1106,20 +1689,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–2",
-   "comp": "premier-league",
-   "id": "wp-1999-39"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-01-06",
+   "id": "wp-1999-40",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-01-06",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Necaxa",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": true,
+   "venue": null,
+   "city": null,
    "att": 50000,
+   "neutral": true,
+   "note": null,
+   "comp": "club-world-cup",
    "goals": [
     {
      "min": "88",
@@ -1128,20 +1719,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "club-world-cup",
-   "id": "wp-1999-40"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-01-08",
+   "id": "wp-1999-41",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-01-08",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Vasco da Gama",
    "hg": 1,
    "ag": 3,
    "pens": null,
-   "neutral": true,
+   "venue": null,
+   "city": null,
    "att": 73000,
+   "neutral": true,
+   "note": null,
+   "comp": "club-world-cup",
    "goals": [
     {
      "min": "81",
@@ -1150,20 +1749,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–3",
-   "comp": "club-world-cup",
-   "id": "wp-1999-41"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-01-11",
+   "id": "wp-1999-42",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-01-11",
+   "state": "finished",
    "home": "Manchester United",
    "away": "South Melbourne",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": true,
+   "venue": null,
+   "city": null,
    "att": 25000,
+   "neutral": true,
+   "note": null,
+   "comp": "club-world-cup",
    "goals": [
     {
      "min": "8",
@@ -1178,20 +1785,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "club-world-cup",
-   "id": "wp-1999-42"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-01-24",
+   "id": "wp-1999-43",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-01-24",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Arsenal",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 58293,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "74",
@@ -1200,20 +1815,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "premier-league",
-   "id": "wp-1999-43"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-01-29",
+   "id": "wp-1999-44",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-01-29",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Middlesbrough",
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 61267,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "87",
@@ -1222,20 +1845,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "premier-league",
-   "id": "wp-1999-44"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-02-02",
+   "id": "wp-1999-45",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-02-02",
+   "state": "finished",
    "home": "Sheffield Wednesday",
    "away": "Manchester United",
    "hg": 0,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 39640,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "74",
@@ -1244,20 +1875,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "premier-league",
-   "id": "wp-1999-45"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-02-05",
+   "id": "wp-1999-46",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-02-05",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Coventry City",
    "hg": 3,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 61380,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "40",
@@ -1278,35 +1917,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–2",
-   "comp": "premier-league",
-   "id": "wp-1999-46"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-02-12",
+   "id": "wp-1999-47",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-02-12",
+   "state": "finished",
    "home": "Newcastle United",
    "away": "Manchester United",
    "hg": 3,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 36470,
-   "goals": [],
-   "raw_result": "0–3",
+   "neutral": false,
+   "note": null,
    "comp": "premier-league",
-   "id": "wp-1999-47"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-02-20",
+   "id": "wp-1999-48",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-02-20",
+   "state": "finished",
    "home": "Leeds United",
    "away": "Manchester United",
    "hg": 0,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 40160,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "52",
@@ -1315,20 +1970,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "premier-league",
-   "id": "wp-1999-48"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-02-26",
+   "id": "wp-1999-49",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-02-26",
+   "state": "finished",
    "home": "Wimbledon",
    "away": "Manchester United",
    "hg": 2,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 26129,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "30",
@@ -1343,20 +2006,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–2",
-   "comp": "premier-league",
-   "id": "wp-1999-49"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-03-01",
+   "id": "wp-1999-50",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-03-01",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Bordeaux",
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 59786,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "41",
@@ -1371,20 +2042,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "champions-league",
-   "id": "wp-1999-50"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-03-04",
+   "id": "wp-1999-51",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-03-04",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Liverpool",
    "hg": 1,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 61592,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "45",
@@ -1393,20 +2072,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–1",
-   "comp": "premier-league",
-   "id": "wp-1999-51"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-03-07",
+   "id": "wp-1999-52",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-03-07",
+   "state": "finished",
    "home": "Bordeaux",
    "away": "Manchester United",
    "hg": 1,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 30130,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "33",
@@ -1421,20 +2108,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–1",
-   "comp": "champions-league",
-   "id": "wp-1999-52"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-03-11",
+   "id": "wp-1999-53",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-03-11",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Derby County",
    "hg": 3,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 61619,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "13",
@@ -1455,20 +2150,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–1",
-   "comp": "premier-league",
-   "id": "wp-1999-53"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-03-15",
+   "id": "wp-1999-54",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-03-15",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Fiorentina",
    "hg": 3,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 59926,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "20",
@@ -1489,20 +2192,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–1",
-   "comp": "champions-league",
-   "id": "wp-1999-54"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-03-18",
+   "id": "wp-1999-55",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-03-18",
+   "state": "finished",
    "home": "Leicester City",
    "away": "Manchester United",
    "hg": 0,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 22170,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "33",
@@ -1517,35 +2228,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "2–0",
-   "comp": "premier-league",
-   "id": "wp-1999-55"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-03-21",
+   "id": "wp-1999-56",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-03-21",
+   "state": "finished",
    "home": "Valencia",
    "away": "Manchester United",
    "hg": 0,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 40419,
-   "goals": [],
-   "raw_result": "0–0",
+   "neutral": false,
+   "note": null,
    "comp": "champions-league",
-   "id": "wp-1999-56"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-03-25",
+   "id": "wp-1999-57",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-03-25",
+   "state": "finished",
    "home": "Bradford City",
    "away": "Manchester United",
    "hg": 0,
    "ag": 4,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 18276,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "38",
@@ -1572,20 +2299,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "4–0",
-   "comp": "premier-league",
-   "id": "wp-1999-57"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-04-01",
+   "id": "wp-1999-58",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-04-01",
+   "state": "finished",
    "home": "Manchester United",
    "away": "West Ham United",
    "hg": 7,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 61611,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "24",
@@ -1630,35 +2365,51 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "7–1",
-   "comp": "premier-league",
-   "id": "wp-1999-58"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-04-04",
+   "id": "wp-1999-59",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Quarter-final / First leg",
+   "kick": "2000-04-04",
+   "state": "finished",
    "home": "Real Madrid",
    "away": "Manchester United",
    "hg": 0,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 64119,
-   "goals": [],
-   "raw_result": "0–0",
+   "neutral": false,
+   "note": null,
    "comp": "champions-league",
-   "id": "wp-1999-59"
+   "goals": [],
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-04-10",
+   "id": "wp-1999-60",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-04-10",
+   "state": "finished",
    "home": "Middlesbrough",
    "away": "Manchester United",
    "hg": 3,
    "ag": 4,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 34775,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "46",
@@ -1685,20 +2436,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "4–3",
-   "comp": "premier-league",
-   "id": "wp-1999-60"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-04-15",
+   "id": "wp-1999-61",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-04-15",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Sunderland",
    "hg": 4,
    "ag": 0,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 61612,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "3",
@@ -1725,20 +2484,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "4–0",
-   "comp": "premier-league",
-   "id": "wp-1999-61"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-04-19",
+   "id": "wp-1999-62",
+   "espn": null,
+   "src": "wikipedia",
    "round": "Quarter-final / Second leg",
+   "kick": "2000-04-19",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Real Madrid",
    "hg": 2,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 59178,
+   "neutral": false,
+   "note": null,
+   "comp": "champions-league",
    "goals": [
     {
      "min": "64",
@@ -1753,20 +2520,28 @@
      "kind": "Penalty"
     }
    ],
-   "raw_result": "2–3",
-   "comp": "champions-league",
-   "id": "wp-1999-62"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-04-22",
+   "id": "wp-1999-63",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-04-22",
+   "state": "finished",
    "home": "Southampton",
    "away": "Manchester United",
    "hg": 1,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 15245,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "8",
@@ -1787,20 +2562,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–1",
-   "comp": "premier-league",
-   "id": "wp-1999-63"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-04-24",
+   "id": "wp-1999-64",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-04-24",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Chelsea",
    "hg": 3,
    "ag": 2,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 61593,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "11",
@@ -1821,20 +2604,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–2",
-   "comp": "premier-league",
-   "id": "wp-1999-64"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-04-29",
+   "id": "wp-1999-65",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-04-29",
+   "state": "finished",
    "home": "Watford",
    "away": "Manchester United",
    "hg": 2,
    "ag": 3,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 20250,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "69",
@@ -1855,20 +2646,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–2",
-   "comp": "premier-league",
-   "id": "wp-1999-65"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-05-06",
+   "id": "wp-1999-66",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-05-06",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Tottenham Hotspur",
    "hg": 3,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 61629,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "5",
@@ -1889,20 +2688,28 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "3–1",
-   "comp": "premier-league",
-   "id": "wp-1999-66"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   },
   {
-   "date": "2000-05-14",
+   "id": "wp-1999-67",
+   "espn": null,
+   "src": "wikipedia",
    "round": "",
+   "kick": "2000-05-14",
+   "state": "finished",
    "home": "Aston Villa",
    "away": "Manchester United",
    "hg": 0,
    "ag": 1,
    "pens": null,
-   "neutral": false,
+   "venue": null,
+   "city": null,
    "att": 39217,
+   "neutral": false,
+   "note": null,
+   "comp": "premier-league",
    "goals": [
     {
      "min": "65",
@@ -1911,9 +2718,9 @@
      "kind": "Goal"
     }
    ],
-   "raw_result": "1–0",
-   "comp": "premier-league",
-   "id": "wp-1999-67"
+   "cards": [],
+   "lineups": [],
+   "detail_incomplete": true
   }
  ]
 }

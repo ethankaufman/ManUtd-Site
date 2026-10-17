@@ -20,7 +20,8 @@ import urllib.request
 from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(ROOT, "data", "history")
+OUT = os.path.join(ROOT, "data", "season")
+FINAL_TABLES = os.path.expanduser("~/PL-History-Dashboard/data/final_tables.csv")
 DASH = os.path.expanduser("~/PL-History-Dashboard/data/matches.csv")
 UA = "ManUtd-Site fan project (https://github.com/ethankaufman/ManUtd-Site)"
 UNITED = "Manchester United"
@@ -35,6 +36,11 @@ SECTIONS = [
     ("european cup", ("champions-league", "UEFA Champions League", "europe")),
     ("cup winners", ("cup-winners-cup", "UEFA Cup Winners' Cup", "europe")),
     ("uefa cup", ("europa-league", "UEFA Cup", "europe")),
+    ("europa league", ("europa-league", "UEFA Europa League", "europe")),
+    ("conference league", ("conference-league", "UEFA Conference League", "europe")),
+    ("efl cup", ("league-cup", "League Cup", "cup")),
+    ("carabao cup", ("league-cup", "League Cup", "cup")),
+    ("club world cup", ("club-world-cup", "FIFA Club World Cup", "europe")),
     ("super cup", ("uefa-super-cup", "UEFA Super Cup", "europe")),
     ("intercontinental", ("intercontinental-cup", "Intercontinental Cup", "europe")),
     ("club world", ("club-world-cup", "FIFA Club World Championship", "europe")),
@@ -183,7 +189,9 @@ def parse_table(tab, comp, season):
         pens = None
         pm = re.search(r"\(?(\d+)\s*[–-]\s*(\d+)\s*(?:p\b|pens|on pens)", get("res") + " " + get("round"))
         if pm:
-            pens = [int(pm.group(1)), int(pm.group(2))]
+            pens = [int(pm.group(1)), int(pm.group(2))]  # Wikipedia lists United first
+            if ha not in ("H", "N"):
+                pens.reverse()  # keep [home, away], like the scores
         opp = get("opp")
         opp = re.sub(r"\s*\(.*?\)\s*$", "", opp).strip()
         home, away = (UNITED, opp) if ha in ("H", "N") else (opp, UNITED)
@@ -256,6 +264,31 @@ def check_league(y, matches):
     return problems
 
 
+def to_match(m):
+    """A Wikipedia row -> the same match shape the ESPN files use (no line-ups; scorers are United's only)."""
+    return {
+        "id": m["id"], "espn": None, "src": "wikipedia", "round": m["round"], "kick": m["date"], "state": "finished",
+        "home": m["home"], "away": m["away"], "hg": m["hg"], "ag": m["ag"], "pens": m["pens"],
+        "venue": None, "city": None, "att": m["att"], "neutral": m["neutral"], "note": None, "comp": m["comp"],
+        "goals": m["goals"], "cards": [], "lineups": [], "detail_incomplete": True,
+    }
+
+
+def league_table(label):
+    """The official final Premier League table for a season, from the dashboard's data."""
+    if not os.path.exists(FINAL_TABLES):
+        return {}
+    rows = []
+    with open(FINAL_TABLES, newline="") as fh:
+        for r in csv.DictReader(fh):
+            if r["season"] == label:
+                rows.append(
+                    {"rank": int(r["position"]), "team": r["team"], "p": int(r["played"]), "w": int(r["won"]), "d": int(r["drawn"]),
+                     "l": int(r["lost"]), "gf": int(r["goals_for"]), "ga": int(r["goals_against"]), "pts": int(r["points"]), "zone": None}
+                )
+    return {"eng.1": rows} if rows else {}
+
+
 def main():
     arg = sys.argv[1:]
     years = [int(arg[0])] if arg else range(1992, 2001)
@@ -272,13 +305,21 @@ def main():
                 print("  ", json.dumps(m, ensure_ascii=False))
             continue
         os.makedirs(OUT, exist_ok=True)
+        sid = f"{y}-{str(y + 1)[2:]}"
         doc = {
-            "season": label,
-            "source": f"https://en.wikipedia.org/wiki/{urllib.parse.quote(title.replace(' ', '_'))}",
-            "competitions": [{"slug": c[0], "name": c[1], "kind": c[2]} for c in comps.values()],
-            "matches": matches,
+            "season": sid,
+            "updated": datetime.now().strftime("%Y-%m-%dT%H:%MZ"),
+            "source": f"Wikipedia (CC BY-SA): https://en.wikipedia.org/wiki/{urllib.parse.quote(title.replace(' ', '_'))}",
+            "past": True,
+            "competitions": [
+                {"slug": c[0], "espn": None, "name": c[1], "kind": c[2], "has_table": c[0] == "premier-league", "matches": counts[c[0]]}
+                for c in comps.values()
+            ],
+            "tables": league_table(label),
+            "squad": [],
+            "matches": [to_match(m) for m in matches],
         }
-        with open(os.path.join(OUT, f"{label}.json"), "w", encoding="utf-8") as fh:
+        with open(os.path.join(OUT, f"{sid}.json"), "w", encoding="utf-8") as fh:
             json.dump(doc, fh, ensure_ascii=False, indent=1)
             fh.write("\n")
         time.sleep(1)
