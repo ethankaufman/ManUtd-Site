@@ -359,3 +359,31 @@ export async function getSeasonMatches(season: string): Promise<SeasonBrowse | n
     record,
   };
 }
+
+// ---------------------------------------------------------------------------------------------
+// Managers
+// ---------------------------------------------------------------------------------------------
+
+/**
+ * The record of whoever is in charge now, worked out from the match database so it stays current as the season
+ * goes on: every finished competitive match (no friendlies) from `fromIso` (a date like "2026-01-13") onward.
+ */
+export async function getRecordSince(fromIso: string): Promise<{ m: number; w: number; d: number; l: number; gf: number; ga: number }> {
+  const rows = await db.select().from(schema.match).where(eq(schema.match.state, "finished"));
+  const comps = await db.select().from(schema.competition);
+  const friendly = new Set(comps.filter((c) => c.kind === "friendly").map((c) => `${c.season}|${c.slug}`));
+  const rec = { m: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0 };
+  for (const r of rows) {
+    if (r.kickoff.slice(0, 10) < fromIso || friendly.has(`${r.season}|${r.competition}`)) continue;
+    const home = r.home === UNITED;
+    const f = (home ? r.homeGoals : r.awayGoals) ?? 0;
+    const g = (home ? r.awayGoals : r.homeGoals) ?? 0;
+    rec.m++;
+    rec.gf += f;
+    rec.ga += g;
+    if (f > g) rec.w++;
+    else if (f === g) rec.d++;
+    else rec.l++;
+  }
+  return rec;
+}

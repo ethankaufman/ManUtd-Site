@@ -127,7 +127,14 @@ After deleting `data/app.db`, restart `npm run dev`.
   Trophy photos: `scripts/fetch_trophy_photos.py` (10 hand-picked free Commons photos in public/trophies/, credits in src/lib/trophy-photos.json); NO free photo for the Second Division title or the
   FIFA Club World Cup (the card says so). The First Division picture is an illustration (render) and the European Cup photo shows another club's ribbons: both are captioned.
   NOT done: individual awards before 1992 (other than the Ballon d'Or).
-- Phase 5c, managers and stadium: not started
+- **Phase 5c, Managers: built (2026-10-17, not pushed when written).** `/managers`: 30 people / 33 spells from 1889 (4 secretary-managers, Hilditch player-manager, caretakers/interims, Wallworth acting secretary,
+  not an official manager). `scripts/import_managers.py` (Wikipedia "List of Manchester United F.C. managers", records as of 24 May 2026, competitive matches only, no friendlies) -> `build_managers.py`:
+  every tenure from 2013 is recomputed from our match data and must equal Wikipedia's M/W/D/L (it does); goals differ for Solskjaer (ours 308-183 vs 323-165) and Carrick's 2026 spell, OUR numbers are used
+  (they match the official PL data and two sources for the cups; see data/club/audit_managers.txt). Each trophy in honours.json is assigned to the manager in charge by date and must equal Wikipedia's honours
+  for him (Ferguson 38, Busby 13). Stories are written only from sentences in Wikipedia's managerial history; none for managers it says nothing about (Albut/West excepted notes, O'Farrell, Docherty have only data).
+  The current manager's record is computed LIVE at build time (`getRecordSince` in data.ts), so the twice-daily deploy keeps it current; everyone else is fixed. Photos: 19 of 30 (scripts/fetch_manager_photos.py,
+  public/managers/); Busby and Murphy by statue/bust; none for the early secretaries and 7 others (no free photo). NOT done: longer stories, a page per manager.
+- Phase 5d, Old Trafford: not started
 - **Phase 6, Overhead Kicks: built (2026-10-15), then reworked.** `/overhead-kicks` now shows ONLY Rooney v Man City (12 Feb 2011, 2-1, 78'):
   Ethan asked to remove the Garnacho goal and to stop emphasising distances (distance is now one small bullet; ~12 yd is OUR ESTIMATE, labelled so,
   never present it as measured). Facts and sources live in `src/lib/kicks.ts` (the page shows tabs automatically if more goals are added;

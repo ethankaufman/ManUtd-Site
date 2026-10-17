@@ -66,9 +66,9 @@ export const CHAPTERS: Chapter[] = [
     number: "06",
     title: "The Managers",
     menu: "Managers",
-    teaser: "Every permanent and acting manager, with their record and their story.",
-    planned: ["Every permanent manager", "Every acting and caretaker manager", "Matches, wins, trophies and win rate for each"],
-    status: "soon",
+    teaser: "Every manager, caretaker and interim since 1889, with photos, their record and their trophies.",
+    planned: ["A longer story for each manager"],
+    status: "live",
   },
   {
     slug: "stadium",

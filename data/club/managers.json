@@ -1,0 +1,1525 @@
+{
+ "asOf": "2026-05-24",
+ "people": [
+  {
+   "name": "A. H. Albut",
+   "slug": "a-h-albut",
+   "status": "secretary-manager",
+   "country": "England",
+   "from": "1889",
+   "to": "1900-05-26",
+   "current": false,
+   "stints": [
+    {
+     "from": "1889",
+     "to": "1900-05-26",
+     "role": null,
+     "m": 351,
+     "w": 156,
+     "d": 59,
+     "l": 136,
+     "gf": 692,
+     "ga": 594,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 351,
+    "w": 156,
+    "d": 59,
+    "l": 136,
+    "gf": 692,
+    "ga": 594
+   },
+   "winPct": 44.4,
+   "honours": [],
+   "story": "Secretary of the committee that chose the team. Wikipedia notes that his exact date of appointment is unknown."
+  },
+  {
+   "name": "James West",
+   "slug": "james-west",
+   "status": "secretary-manager",
+   "country": "England",
+   "from": "1900-05-27",
+   "to": "1903-09",
+   "current": false,
+   "stints": [
+    {
+     "from": "1900-05-27",
+     "to": "1903-09",
+     "role": null,
+     "m": 113,
+     "w": 46,
+     "d": 20,
+     "l": 47,
+     "gf": 159,
+     "ga": 147,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 113,
+    "w": 46,
+    "d": 20,
+    "l": 47,
+    "gf": 159,
+    "ga": 147
+   },
+   "winPct": 40.7,
+   "honours": [],
+   "story": "A secretary of the committee that chose the team, from 1900 to 1903."
+  },
+  {
+   "name": "Ernest Mangnall",
+   "slug": "ernest-mangnall",
+   "status": "secretary-manager",
+   "country": "England",
+   "from": "1903-10-10",
+   "to": "1912-09-09",
+   "current": false,
+   "stints": [
+    {
+     "from": "1903-10-10",
+     "to": "1912-09-09",
+     "role": null,
+     "m": 373,
+     "w": 202,
+     "d": 76,
+     "l": 95,
+     "gf": 700,
+     "ga": 476,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 373,
+    "w": 202,
+    "d": 76,
+    "l": 95,
+    "gf": 700,
+    "ga": 476
+   },
+   "winPct": 54.2,
+   "honours": [
+    {
+     "key": "league",
+     "trophy": "Football League First Division",
+     "label": "1907–08",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Football League First Division",
+     "label": "1910–11",
+     "shared": false
+    },
+    {
+     "key": "fa-cup",
+     "trophy": "FA Cup",
+     "label": "1908–09",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "1908",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "1911",
+     "shared": false
+    }
+   ],
+   "story": "The first man to bring major silverware to the club: the first Football League title in 1908, the inaugural Charity Shield, the first FA Cup the following season, then another league title and Charity Shield in 1911. He left in 1912 to join Manchester City, and his last match in charge of United was the Old Trafford derby of 7 September 1912."
+  },
+  {
+   "name": "T. J. Wallworth",
+   "slug": "t-j-wallworth",
+   "status": "acting secretary",
+   "country": "England",
+   "from": "1912-09-09",
+   "to": "1912-10-20",
+   "current": false,
+   "stints": [
+    {
+     "from": "1912-09-09",
+     "to": "1912-10-20",
+     "role": null,
+     "m": 6,
+     "w": 3,
+     "d": 2,
+     "l": 1,
+     "gf": 11,
+     "ga": 7,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 6,
+    "w": 3,
+    "d": 2,
+    "l": 1,
+    "gf": 11,
+    "ga": 7
+   },
+   "winPct": 50.0,
+   "honours": [],
+   "story": "Only the club’s acting secretary, so he is not included in any official list of the club’s managers."
+  },
+  {
+   "name": "John Bentley",
+   "slug": "john-bentley",
+   "status": "secretary-manager",
+   "country": "England",
+   "from": "1912-10-28",
+   "to": "1914-12-28",
+   "current": false,
+   "stints": [
+    {
+     "from": "1912-10-28",
+     "to": "1914-12-28",
+     "role": null,
+     "m": 82,
+     "w": 36,
+     "d": 16,
+     "l": 30,
+     "gf": 127,
+     "ga": 110,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 82,
+    "w": 36,
+    "d": 16,
+    "l": 30,
+    "gf": 127,
+    "ga": 110
+   },
+   "winPct": 43.9,
+   "honours": [],
+   "story": "Took over as club secretary after Mangnall, and was replaced two years later by Jack Robson."
+  },
+  {
+   "name": "Jack Robson",
+   "slug": "jack-robson",
+   "status": "manager",
+   "country": "England",
+   "from": "1914-12-28",
+   "to": "1921-10-31",
+   "current": false,
+   "stints": [
+    {
+     "from": "1914-12-28",
+     "to": "1921-10-31",
+     "role": null,
+     "m": 139,
+     "w": 41,
+     "d": 42,
+     "l": 56,
+     "gf": 183,
+     "ga": 207,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 139,
+    "w": 41,
+    "d": 42,
+    "l": 56,
+    "gf": 183,
+    "ga": 207
+   },
+   "winPct": 29.5,
+   "honours": [],
+   "story": "The club’s first full-time manager. He stayed seven years and resigned in December 1921 after a bout of pneumonia."
+  },
+  {
+   "name": "John Chapman",
+   "slug": "john-chapman",
+   "status": "manager",
+   "country": "Scotland",
+   "from": "1921-10-31",
+   "to": "1926-10-08",
+   "current": false,
+   "stints": [
+    {
+     "from": "1921-10-31",
+     "to": "1926-10-08",
+     "role": null,
+     "m": 221,
+     "w": 86,
+     "d": 58,
+     "l": 77,
+     "gf": 287,
+     "ga": 274,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 221,
+    "w": 86,
+    "d": 58,
+    "l": 77,
+    "gf": 287,
+    "ga": 274
+   },
+   "winPct": 38.9,
+   "honours": [],
+   "story": "United were relegated to the Second Division in his first season, and promoted back after three years there. After a 9th place finish and an FA Cup semi-final in 1925–26, he received a telegram from the Football Association on 8 October 1926 suspending him from management for the rest of the season. No reason was given."
+  },
+  {
+   "name": "Lal Hilditch",
+   "slug": "lal-hilditch",
+   "status": "player-manager",
+   "country": "England",
+   "from": "1926-10-08",
+   "to": "1927-04-13",
+   "current": false,
+   "stints": [
+    {
+     "from": "1926-10-08",
+     "to": "1927-04-13",
+     "role": null,
+     "m": 33,
+     "w": 10,
+     "d": 10,
+     "l": 13,
+     "gf": 38,
+     "ga": 47,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 33,
+    "w": 10,
+    "d": 10,
+    "l": 13,
+    "gf": 38,
+    "ga": 47
+   },
+   "winPct": 30.3,
+   "honours": [],
+   "story": "A half-back who took over as player-manager for the rest of the 1926–27 season, before Herbert Bamlett took permanent control."
+  },
+  {
+   "name": "Herbert Bamlett",
+   "slug": "herbert-bamlett",
+   "status": "manager",
+   "country": "England",
+   "from": "1927-04-13",
+   "to": "1931-11-09",
+   "current": false,
+   "stints": [
+    {
+     "from": "1927-04-13",
+     "to": "1931-11-09",
+     "role": null,
+     "m": 183,
+     "w": 57,
+     "d": 42,
+     "l": 84,
+     "gf": 280,
+     "ga": 374,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 183,
+    "w": 57,
+    "d": 42,
+    "l": 84,
+    "gf": 280,
+    "ga": 374
+   },
+   "winPct": 31.1,
+   "honours": [],
+   "story": "Manager for four years without success: the club’s highest position during his time was 12th. United were relegated to the Second Division in 1931 and he was replaced."
+  },
+  {
+   "name": "Walter Crickmer",
+   "slug": "walter-crickmer",
+   "status": "manager",
+   "country": "England",
+   "from": "1931-11-09",
+   "to": "1945-02-15",
+   "current": false,
+   "stints": [
+    {
+     "from": "1931-11-09",
+     "to": "1932-07-13",
+     "role": null,
+     "m": 43,
+     "w": 17,
+     "d": 8,
+     "l": 18,
+     "gf": 72,
+     "ga": 76,
+     "note": null,
+     "live": false
+    },
+    {
+     "from": "1937-11-09",
+     "to": "1945-02-15",
+     "role": null,
+     "m": 76,
+     "w": 30,
+     "d": 24,
+     "l": 22,
+     "gf": 131,
+     "ga": 112,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 119,
+    "w": 47,
+    "d": 32,
+    "l": 40,
+    "gf": 203,
+    "ga": 188
+   },
+   "winPct": 39.5,
+   "honours": [],
+   "story": "The club secretary, who kept that job while he managed. His first spell lasted a season, because he failed to return the club to the First Division. He took over again after the 1937 relegation and ran the team until the end of the Second World War."
+  },
+  {
+   "name": "Scott Duncan",
+   "slug": "scott-duncan",
+   "status": "manager",
+   "country": "Scotland",
+   "from": "1932-07-13",
+   "to": "1937-11-07",
+   "current": false,
+   "stints": [
+    {
+     "from": "1932-07-13",
+     "to": "1937-11-07",
+     "role": null,
+     "m": 235,
+     "w": 92,
+     "d": 53,
+     "l": 90,
+     "gf": 371,
+     "ga": 362,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 235,
+    "w": 92,
+    "d": 53,
+    "l": 90,
+    "gf": 371,
+    "ga": 362
+   },
+   "winPct": 39.1,
+   "honours": [
+    {
+     "key": "second-division",
+     "trophy": "Football League Second Division",
+     "label": "1935–36",
+     "shared": false
+    }
+   ],
+   "story": "Appointed in June 1932. In his second season United finished 20th in the Second Division, which remains the club’s lowest league position. The club kept faith in him and he got them back into the First Division by 1936, but they were relegated again the following year."
+  },
+  {
+   "name": "Matt Busby",
+   "slug": "matt-busby",
+   "status": "manager",
+   "country": "Scotland",
+   "from": "1945-10-01",
+   "to": "1971-06-08",
+   "current": false,
+   "stints": [
+    {
+     "from": "1945-10-01",
+     "to": "1969-06-04",
+     "role": null,
+     "m": 1120,
+     "w": 565,
+     "d": 263,
+     "l": 292,
+     "gf": 2286,
+     "ga": 1536,
+     "note": null,
+     "live": false
+    },
+    {
+     "from": "1970-12-29",
+     "to": "1971-06-08",
+     "role": null,
+     "m": 21,
+     "w": 11,
+     "d": 3,
+     "l": 7,
+     "gf": 38,
+     "ga": 30,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 1141,
+    "w": 576,
+    "d": 266,
+    "l": 299,
+    "gf": 2324,
+    "ga": 1566
+   },
+   "winPct": 50.5,
+   "honours": [
+    {
+     "key": "league",
+     "trophy": "Football League First Division",
+     "label": "1951–52",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Football League First Division",
+     "label": "1955–56",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Football League First Division",
+     "label": "1956–57",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Football League First Division",
+     "label": "1964–65",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Football League First Division",
+     "label": "1966–67",
+     "shared": false
+    },
+    {
+     "key": "fa-cup",
+     "trophy": "FA Cup",
+     "label": "1947–48",
+     "shared": false
+    },
+    {
+     "key": "fa-cup",
+     "trophy": "FA Cup",
+     "label": "1962–63",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "1952",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "1956",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "1957",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "1965",
+     "shared": true
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "1967",
+     "shared": true
+    },
+    {
+     "key": "european-cup",
+     "trophy": "European Cup / Champions League",
+     "label": "1967–68",
+     "shared": false
+    }
+   ],
+   "story": "The club approached him before the war ended, after he had turned down a job on Liverpool’s coaching staff because he wanted more responsibility for the playing side than merely selecting the team. After the Munich air disaster he rebuilt his side and won the FA Cup in 1963, two league titles in three years, and then the European Cup. He stayed one more year, handed the job to Wilf McGuinness, and returned for the second half of 1970–71 when McGuinness struggled."
+  },
+  {
+   "name": "Jimmy Murphy",
+   "slug": "jimmy-murphy",
+   "status": "caretaker",
+   "country": "Wales",
+   "from": "1958-02",
+   "to": "1958-06",
+   "current": false,
+   "stints": [
+    {
+     "from": "1958-02",
+     "to": "1958-06",
+     "role": "caretaker",
+     "m": 22,
+     "w": 5,
+     "d": 7,
+     "l": 10,
+     "gf": 27,
+     "ga": 42,
+     "note": "Murphy was installed as the club's caretaker manager while Busby was in hospital recovering from the Munich air disaster.",
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 22,
+    "w": 5,
+    "d": 7,
+    "l": 10,
+    "gf": 27,
+    "ga": 42
+   },
+   "winPct": 22.7,
+   "honours": [],
+   "story": "Busby’s assistant. While Busby was in hospital recovering from the injuries he suffered in the Munich air disaster, Murphy took over his managerial duties."
+  },
+  {
+   "name": "Wilf McGuinness",
+   "slug": "wilf-mcguinness",
+   "status": "manager",
+   "country": "England",
+   "from": "1969-06-04",
+   "to": "1970-12-29",
+   "current": false,
+   "stints": [
+    {
+     "from": "1969-06-04",
+     "to": "1970-12-29",
+     "role": null,
+     "m": 87,
+     "w": 32,
+     "d": 32,
+     "l": 23,
+     "gf": 127,
+     "ga": 111,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 87,
+    "w": 32,
+    "d": 32,
+    "l": 23,
+    "gf": 127,
+    "ga": 111
+   },
+   "winPct": 36.8,
+   "honours": [],
+   "story": "Took over from Busby in 1969 but struggled in the job, and Busby was convinced to return for the second half of 1970–71. McGuinness did not win a trophy for United."
+  },
+  {
+   "name": "Frank O’Farrell",
+   "slug": "frank-o-farrell",
+   "status": "manager",
+   "country": "Republic of Ireland",
+   "from": "1971-06-08",
+   "to": "1972-12-19",
+   "current": false,
+   "stints": [
+    {
+     "from": "1971-06-08",
+     "to": "1972-12-19",
+     "role": null,
+     "m": 81,
+     "w": 30,
+     "d": 24,
+     "l": 27,
+     "gf": 115,
+     "ga": 111,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 81,
+    "w": 30,
+    "d": 24,
+    "l": 27,
+    "gf": 115,
+    "ga": 111
+   },
+   "winPct": 37.0,
+   "honours": [],
+   "story": "Did not win a trophy for United."
+  },
+  {
+   "name": "Tommy Docherty",
+   "slug": "tommy-docherty",
+   "status": "manager",
+   "country": "Scotland",
+   "from": "1972-12-22",
+   "to": "1977-07-04",
+   "current": false,
+   "stints": [
+    {
+     "from": "1972-12-22",
+     "to": "1977-07-04",
+     "role": null,
+     "m": 228,
+     "w": 107,
+     "d": 56,
+     "l": 65,
+     "gf": 333,
+     "ga": 252,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 228,
+    "w": 107,
+    "d": 56,
+    "l": 65,
+    "gf": 333,
+    "ga": 252
+   },
+   "winPct": 46.9,
+   "honours": [
+    {
+     "key": "second-division",
+     "trophy": "Football League Second Division",
+     "label": "1974–75",
+     "shared": false
+    },
+    {
+     "key": "fa-cup",
+     "trophy": "FA Cup",
+     "label": "1976–77",
+     "shared": false
+    }
+   ],
+   "story": null
+  },
+  {
+   "name": "Dave Sexton",
+   "slug": "dave-sexton",
+   "status": "manager",
+   "country": "England",
+   "from": "1977-07-14",
+   "to": "1981-04-30",
+   "current": false,
+   "stints": [
+    {
+     "from": "1977-07-14",
+     "to": "1981-04-30",
+     "role": null,
+     "m": 201,
+     "w": 81,
+     "d": 64,
+     "l": 56,
+     "gf": 290,
+     "ga": 240,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 201,
+    "w": 81,
+    "d": 64,
+    "l": 56,
+    "gf": 290,
+    "ga": 240
+   },
+   "winPct": 40.3,
+   "honours": [
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "1977",
+     "shared": true
+    }
+   ],
+   "story": "Moved from Queens Park Rangers and stayed four years, until he was replaced in 1981 by Ron Atkinson."
+  },
+  {
+   "name": "Ron Atkinson",
+   "slug": "ron-atkinson",
+   "status": "manager",
+   "country": "England",
+   "from": "1981-06-09",
+   "to": "1986-11-06",
+   "current": false,
+   "stints": [
+    {
+     "from": "1981-06-09",
+     "to": "1986-11-06",
+     "role": null,
+     "m": 292,
+     "w": 146,
+     "d": 79,
+     "l": 67,
+     "gf": 461,
+     "ga": 266,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 292,
+    "w": 146,
+    "d": 79,
+    "l": 67,
+    "gf": 461,
+    "ga": 266
+   },
+   "winPct": 50.0,
+   "honours": [
+    {
+     "key": "fa-cup",
+     "trophy": "FA Cup",
+     "label": "1982–83",
+     "shared": false
+    },
+    {
+     "key": "fa-cup",
+     "trophy": "FA Cup",
+     "label": "1984–85",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "1983",
+     "shared": false
+    }
+   ],
+   "story": "Rekindled the club’s cup success, winning two FA Cups in five years, and oversaw a series of respectable league finishes. After a disastrous start to 1986–87 he was sacked."
+  },
+  {
+   "name": "Alex Ferguson",
+   "slug": "alex-ferguson",
+   "status": "manager",
+   "country": "Scotland",
+   "from": "1986-11-06",
+   "to": "2013-05-19",
+   "current": false,
+   "stints": [
+    {
+     "from": "1986-11-06",
+     "to": "2013-05-19",
+     "role": null,
+     "m": 1500,
+     "w": 895,
+     "d": 338,
+     "l": 267,
+     "gf": 2769,
+     "ga": 1365,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 1500,
+    "w": 895,
+    "d": 338,
+    "l": 267,
+    "gf": 2769,
+    "ga": 1365
+   },
+   "winPct": 59.7,
+   "honours": [
+    {
+     "key": "league",
+     "trophy": "Premier League",
+     "label": "1992–93",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Premier League",
+     "label": "1993–94",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Premier League",
+     "label": "1995–96",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Premier League",
+     "label": "1996–97",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Premier League",
+     "label": "1998–99",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Premier League",
+     "label": "1999–00",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Premier League",
+     "label": "2000–01",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Premier League",
+     "label": "2002–03",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Premier League",
+     "label": "2006–07",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Premier League",
+     "label": "2007–08",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Premier League",
+     "label": "2008–09",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Premier League",
+     "label": "2010–11",
+     "shared": false
+    },
+    {
+     "key": "league",
+     "trophy": "Premier League",
+     "label": "2012–13",
+     "shared": false
+    },
+    {
+     "key": "fa-cup",
+     "trophy": "FA Cup",
+     "label": "1989–90",
+     "shared": false
+    },
+    {
+     "key": "fa-cup",
+     "trophy": "FA Cup",
+     "label": "1993–94",
+     "shared": false
+    },
+    {
+     "key": "fa-cup",
+     "trophy": "FA Cup",
+     "label": "1995–96",
+     "shared": false
+    },
+    {
+     "key": "fa-cup",
+     "trophy": "FA Cup",
+     "label": "1998–99",
+     "shared": false
+    },
+    {
+     "key": "fa-cup",
+     "trophy": "FA Cup",
+     "label": "2003–04",
+     "shared": false
+    },
+    {
+     "key": "league-cup",
+     "trophy": "League Cup",
+     "label": "1991–92",
+     "shared": false
+    },
+    {
+     "key": "league-cup",
+     "trophy": "League Cup",
+     "label": "2005–06",
+     "shared": false
+    },
+    {
+     "key": "league-cup",
+     "trophy": "League Cup",
+     "label": "2008–09",
+     "shared": false
+    },
+    {
+     "key": "league-cup",
+     "trophy": "League Cup",
+     "label": "2009–10",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "1990",
+     "shared": true
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "1993",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "1994",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "1996",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "1997",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "2003",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "2007",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "2008",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "2010",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "2011",
+     "shared": false
+    },
+    {
+     "key": "european-cup",
+     "trophy": "European Cup / Champions League",
+     "label": "1998–99",
+     "shared": false
+    },
+    {
+     "key": "european-cup",
+     "trophy": "European Cup / Champions League",
+     "label": "2007–08",
+     "shared": false
+    },
+    {
+     "key": "cup-winners-cup",
+     "trophy": "European Cup Winners' Cup",
+     "label": "1990–91",
+     "shared": false
+    },
+    {
+     "key": "super-cup",
+     "trophy": "UEFA Super Cup",
+     "label": "1991",
+     "shared": false
+    },
+    {
+     "key": "intercontinental-cup",
+     "trophy": "Intercontinental Cup",
+     "label": "1999",
+     "shared": false
+    },
+    {
+     "key": "club-world-cup",
+     "trophy": "FIFA Club World Cup",
+     "label": "2008",
+     "shared": false
+    }
+   ],
+   "story": "Joined from Aberdeen on 6 November 1986, the day Ron Atkinson was sacked. Reportedly close to the sack himself, his first trophy at the club was the 1990 FA Cup, then the Cup Winners’ Cup in 1991 and the club’s first League Cup in 1992. In 1993 he won United’s first league title in 26 years, and in 1999 the Treble. His 13th and final league title in 2012–13 made it 20 for the club. He retired as the most decorated manager in football history."
+  },
+  {
+   "name": "David Moyes",
+   "slug": "david-moyes",
+   "status": "manager",
+   "country": "Scotland",
+   "from": "2013-07-01",
+   "to": "2014-04-22",
+   "current": false,
+   "stints": [
+    {
+     "from": "2013-07-01",
+     "to": "2014-04-22",
+     "role": null,
+     "m": 51,
+     "w": 27,
+     "d": 9,
+     "l": 15,
+     "gf": 86,
+     "ga": 54,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 51,
+    "w": 27,
+    "d": 9,
+    "l": 15,
+    "gf": 86,
+    "ga": 54
+   },
+   "winPct": 52.9,
+   "honours": [
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "2013",
+     "shared": false
+    }
+   ],
+   "story": "Replaced Ferguson from Everton. In his first match he won the Community Shield, his only trophy. After failing to qualify for the Champions League he was sacked before the end of his first season, with Ryan Giggs taking temporary charge."
+  },
+  {
+   "name": "Ryan Giggs",
+   "slug": "ryan-giggs",
+   "status": "caretaker",
+   "country": "Wales",
+   "from": "2014-04-22",
+   "to": "2014-05-11",
+   "current": false,
+   "stints": [
+    {
+     "from": "2014-04-22",
+     "to": "2014-05-11",
+     "role": "caretaker",
+     "m": 4,
+     "w": 2,
+     "d": 1,
+     "l": 1,
+     "gf": 8,
+     "ga": 3,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 4,
+    "w": 2,
+    "d": 1,
+    "l": 1,
+    "gf": 8,
+    "ga": 3
+   },
+   "winPct": 50.0,
+   "honours": [],
+   "story": "Took temporary charge for the final four games of 2013–14, as a player-manager."
+  },
+  {
+   "name": "Louis van Gaal",
+   "slug": "louis-van-gaal",
+   "status": "manager",
+   "country": "Netherlands",
+   "from": "2014-07-16",
+   "to": "2016-05-23",
+   "current": false,
+   "stints": [
+    {
+     "from": "2014-07-16",
+     "to": "2016-05-23",
+     "role": null,
+     "m": 103,
+     "w": 54,
+     "d": 25,
+     "l": 24,
+     "gf": 158,
+     "ga": 98,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 103,
+    "w": 54,
+    "d": 25,
+    "l": 24,
+    "gf": 158,
+    "ga": 98
+   },
+   "winPct": 52.4,
+   "honours": [
+    {
+     "key": "fa-cup",
+     "trophy": "FA Cup",
+     "label": "2015–16",
+     "shared": false
+    }
+   ],
+   "story": "Appointed on 19 May 2014. In his first season United finished fourth and returned to the Champions League; in his second they finished fifth but won the 2015–16 FA Cup, the club’s first in a dozen years. He was sacked on 23 May 2016, two days after lifting the cup."
+  },
+  {
+   "name": "José Mourinho",
+   "slug": "jose-mourinho",
+   "status": "manager",
+   "country": "Portugal",
+   "from": "2016-05-27",
+   "to": "2018-12-18",
+   "current": false,
+   "stints": [
+    {
+     "from": "2016-05-27",
+     "to": "2018-12-18",
+     "role": null,
+     "m": 144,
+     "w": 84,
+     "d": 32,
+     "l": 28,
+     "gf": 244,
+     "ga": 121,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 144,
+    "w": 84,
+    "d": 32,
+    "l": 28,
+    "gf": 244,
+    "ga": 121
+   },
+   "winPct": 58.3,
+   "honours": [
+    {
+     "key": "league-cup",
+     "trophy": "League Cup",
+     "label": "2016–17",
+     "shared": false
+    },
+    {
+     "key": "community-shield",
+     "trophy": "Charity / Community Shield",
+     "label": "2016",
+     "shared": false
+    },
+    {
+     "key": "europa-league",
+     "trophy": "UEFA Europa League",
+     "label": "2016–17",
+     "shared": false
+    }
+   ],
+   "story": "Replaced Van Gaal four days after his sacking. In his first season he won the Community Shield, the League Cup and the Europa League, the club’s first, which made United the fifth team to win all of the main European club competitions. He won nothing in 2017–18, finishing second in the league and in the FA Cup, and was sacked on 18 December 2018 after seven wins in the first 17 league games of 2018–19."
+  },
+  {
+   "name": "Ole Gunnar Solskjær",
+   "slug": "ole-gunnar-solskjr",
+   "status": "manager",
+   "country": "Norway",
+   "from": "2018-12-19",
+   "to": "2021-11-21",
+   "current": false,
+   "stints": [
+    {
+     "from": "2018-12-19",
+     "to": "2021-11-21",
+     "role": null,
+     "m": 168,
+     "w": 91,
+     "d": 37,
+     "l": 40,
+     "gf": 308,
+     "ga": 183,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 168,
+    "w": 91,
+    "d": 37,
+    "l": 40,
+    "gf": 308,
+    "ga": 183
+   },
+   "winPct": 54.2,
+   "honours": [],
+   "story": "A former United forward, appointed caretaker for the rest of 2018–19. He won his first seven games in charge, a club record, and was given the job permanently on 28 March 2019 after beating Paris Saint-Germain. He left on 21 November 2021 without winning a trophy for United."
+  },
+  {
+   "name": "Michael Carrick",
+   "slug": "michael-carrick",
+   "status": "manager",
+   "country": "England",
+   "from": "2021-11-21",
+   "to": "present",
+   "current": true,
+   "stints": [
+    {
+     "from": "2021-11-21",
+     "to": "2021-12-02",
+     "role": "caretaker",
+     "m": 3,
+     "w": 2,
+     "d": 1,
+     "l": 0,
+     "gf": 6,
+     "ga": 3,
+     "note": null,
+     "live": false
+    },
+    {
+     "from": "2026-01-13",
+     "to": "present",
+     "role": null,
+     "m": 17,
+     "w": 12,
+     "d": 3,
+     "l": 2,
+     "gf": 33,
+     "ga": 18,
+     "note": null,
+     "live": true
+    }
+   ],
+   "totals": {
+    "m": 20,
+    "w": 14,
+    "d": 4,
+    "l": 2,
+    "gf": 39,
+    "ga": 21
+   },
+   "winPct": 70.0,
+   "honours": [],
+   "story": "First-team coach Carrick took charge as caretaker after Solskjær’s departure until 2 December 2021. He returned as interim head coach in January 2026 after Ruben Amorim’s dismissal, and was hired permanently on 22 May 2026."
+  },
+  {
+   "name": "Ralf Rangnick",
+   "slug": "ralf-rangnick",
+   "status": "interim",
+   "country": "Germany",
+   "from": "2021-12-03",
+   "to": "2022-05-22",
+   "current": false,
+   "stints": [
+    {
+     "from": "2021-12-03",
+     "to": "2022-05-22",
+     "role": "interim",
+     "m": 29,
+     "w": 11,
+     "d": 10,
+     "l": 8,
+     "gf": 37,
+     "ga": 37,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 29,
+    "w": 11,
+    "d": 10,
+    "l": 8,
+    "gf": 37,
+    "ga": 37
+   },
+   "winPct": 37.9,
+   "honours": [],
+   "story": "Appointed interim manager until the end of 2021–22."
+  },
+  {
+   "name": "Erik ten Hag",
+   "slug": "erik-ten-hag",
+   "status": "manager",
+   "country": "Netherlands",
+   "from": "2022-05-23",
+   "to": "2024-10-28",
+   "current": false,
+   "stints": [
+    {
+     "from": "2022-05-23",
+     "to": "2024-10-28",
+     "role": null,
+     "m": 128,
+     "w": 70,
+     "d": 23,
+     "l": 35,
+     "gf": 217,
+     "ga": 165,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 128,
+    "w": 70,
+    "d": 23,
+    "l": 35,
+    "gf": 217,
+    "ga": 165
+   },
+   "winPct": 54.7,
+   "honours": [
+    {
+     "key": "fa-cup",
+     "trophy": "FA Cup",
+     "label": "2023–24",
+     "shared": false
+    },
+    {
+     "key": "league-cup",
+     "trophy": "League Cup",
+     "label": "2022–23",
+     "shared": false
+    }
+   ],
+   "story": "Announced as full-time manager on 21 April 2022. He won the EFL Cup on 26 February 2023, the club’s first trophy in nearly six years, then beat Manchester City 2–1 in the 2024 FA Cup final. He was sacked in October 2024 after three league wins in the first nine games left United 14th."
+  },
+  {
+   "name": "Ruud van Nistelrooy",
+   "slug": "ruud-van-nistelrooy",
+   "status": "caretaker",
+   "country": "Netherlands",
+   "from": "2024-10-28",
+   "to": "2024-11-10",
+   "current": false,
+   "stints": [
+    {
+     "from": "2024-10-28",
+     "to": "2024-11-10",
+     "role": "caretaker",
+     "m": 4,
+     "w": 3,
+     "d": 1,
+     "l": 0,
+     "gf": 11,
+     "ga": 3,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 4,
+    "w": 3,
+    "d": 1,
+    "l": 0,
+    "gf": 11,
+    "ga": 3
+   },
+   "winPct": 75.0,
+   "honours": [],
+   "story": "A former United striker and one of Ten Hag’s assistants, he took interim charge for four matches before Ruben Amorim’s appointment."
+  },
+  {
+   "name": "Ruben Amorim",
+   "slug": "ruben-amorim",
+   "status": "manager",
+   "country": "Portugal",
+   "from": "2024-11-11",
+   "to": "2026-01-05",
+   "current": false,
+   "stints": [
+    {
+     "from": "2024-11-11",
+     "to": "2026-01-05",
+     "role": null,
+     "m": 63,
+     "w": 24,
+     "d": 18,
+     "l": 21,
+     "gf": 103,
+     "ga": 95,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 63,
+    "w": 24,
+    "d": 18,
+    "l": 21,
+    "gf": 103,
+    "ga": 95
+   },
+   "winPct": 38.1,
+   "honours": [],
+   "story": "Appointed head coach on 11 November 2024. He lasted less than 14 months, until January 2026."
+  },
+  {
+   "name": "Darren Fletcher",
+   "slug": "darren-fletcher",
+   "status": "interim",
+   "country": "Scotland",
+   "from": "2026-01-05",
+   "to": "2026-01-13",
+   "current": false,
+   "stints": [
+    {
+     "from": "2026-01-05",
+     "to": "2026-01-13",
+     "role": "interim",
+     "m": 2,
+     "w": 0,
+     "d": 1,
+     "l": 1,
+     "gf": 3,
+     "ga": 4,
+     "note": null,
+     "live": false
+    }
+   ],
+   "totals": {
+    "m": 2,
+    "w": 0,
+    "d": 1,
+    "l": 1,
+    "gf": 3,
+    "ga": 4
+   },
+   "winPct": 0.0,
+   "honours": [],
+   "story": "Interim head coach for two matches in January 2026, after Ruben Amorim’s dismissal."
+  }
+ ]
+}
