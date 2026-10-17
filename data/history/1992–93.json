@@ -1,0 +1,1443 @@
+{
+ "season": "1992–93",
+ "source": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Manchester_United_F.C._season",
+ "competitions": [
+  {
+   "slug": "friendlies",
+   "name": "Friendlies",
+   "kind": "friendly"
+  },
+  {
+   "slug": "premier-league",
+   "name": "Premier League",
+   "kind": "league"
+  },
+  {
+   "slug": "fa-cup",
+   "name": "FA Cup",
+   "kind": "cup"
+  },
+  {
+   "slug": "league-cup",
+   "name": "League Cup",
+   "kind": "cup"
+  },
+  {
+   "slug": "europa-league",
+   "name": "UEFA Cup",
+   "kind": "europe"
+  }
+ ],
+ "matches": [
+  {
+   "date": "1992-07-28",
+   "round": "",
+   "home": "Start",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 4118,
+   "goals": [],
+   "raw_result": "3–0",
+   "comp": "friendlies",
+   "id": "wp-1992-01"
+  },
+  {
+   "date": "1992-07-29",
+   "round": "",
+   "home": "Celtic",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 34368,
+   "goals": [],
+   "raw_result": "1–1",
+   "comp": "friendlies",
+   "id": "wp-1992-02"
+  },
+  {
+   "date": "1992-07-31",
+   "round": "",
+   "home": "Lillestrøm",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 5569,
+   "goals": [],
+   "raw_result": "1–1",
+   "comp": "friendlies",
+   "id": "wp-1992-03"
+  },
+  {
+   "date": "1992-08-02",
+   "round": "",
+   "home": "Rosenborg",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 9379,
+   "goals": [],
+   "raw_result": "3–2",
+   "comp": "friendlies",
+   "id": "wp-1992-04"
+  },
+  {
+   "date": "1992-08-04",
+   "round": "",
+   "home": "Elfsborg",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 4491,
+   "goals": [],
+   "raw_result": "0–0",
+   "comp": "friendlies",
+   "id": "wp-1992-05"
+  },
+  {
+   "date": "1992-08-09",
+   "round": "",
+   "home": "Republic of Ireland XI",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 30069,
+   "goals": [],
+   "raw_result": "2–0",
+   "comp": "friendlies",
+   "id": "wp-1992-06"
+  },
+  {
+   "date": "1992-08-11",
+   "round": "",
+   "home": "Swansea City",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 9744,
+   "goals": [],
+   "raw_result": "1–1",
+   "comp": "friendlies",
+   "id": "wp-1992-07"
+  },
+  {
+   "date": "1992-08-15",
+   "round": "",
+   "home": "Sheffield United",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 28070,
+   "goals": [
+    {
+     "min": "61",
+     "team": "Manchester United",
+     "player": "Hughes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–2",
+   "comp": "premier-league",
+   "id": "wp-1992-08"
+  },
+  {
+   "date": "1992-08-19",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Everton",
+   "hg": 0,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 31901,
+   "goals": [],
+   "raw_result": "0–3",
+   "comp": "premier-league",
+   "id": "wp-1992-09"
+  },
+  {
+   "date": "1992-08-22",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Ipswich Town",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 31704,
+   "goals": [
+    {
+     "min": "57",
+     "team": "Manchester United",
+     "player": "Irwin",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "premier-league",
+   "id": "wp-1992-10"
+  },
+  {
+   "date": "1992-08-24",
+   "round": "",
+   "home": "Southampton",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 15623,
+   "goals": [
+    {
+     "min": "88",
+     "team": "Manchester United",
+     "player": "Dublin",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1992-11"
+  },
+  {
+   "date": "1992-08-29",
+   "round": "",
+   "home": "Nottingham Forest",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 19694,
+   "goals": [
+    {
+     "min": "16",
+     "team": "Manchester United",
+     "player": "Hughes",
+     "kind": "Goal"
+    },
+    {
+     "min": "49",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "premier-league",
+   "id": "wp-1992-12"
+  },
+  {
+   "date": "1992-09-02",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Crystal Palace",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 29736,
+   "goals": [
+    {
+     "min": "88",
+     "team": "Manchester United",
+     "player": "Hughes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1992-13"
+  },
+  {
+   "date": "1992-09-06",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Leeds United",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 31296,
+   "goals": [
+    {
+     "min": "28",
+     "team": "Manchester United",
+     "player": "Kanchelskis",
+     "kind": "Goal"
+    },
+    {
+     "min": "44",
+     "team": "Manchester United",
+     "player": "Bruce",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "premier-league",
+   "id": "wp-1992-14"
+  },
+  {
+   "date": "1992-09-12",
+   "round": "",
+   "home": "Everton",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 30002,
+   "goals": [
+    {
+     "min": "29",
+     "team": "Manchester United",
+     "player": "McClair",
+     "kind": "Goal"
+    },
+    {
+     "min": "76",
+     "team": "Manchester United",
+     "player": "Bruce",
+     "kind": "Penalty"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "premier-league",
+   "id": "wp-1992-15"
+  },
+  {
+   "date": "1992-09-16",
+   "round": "First round / First leg",
+   "home": "Manchester United",
+   "away": "Torpedo Moscow",
+   "hg": 0,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 19998,
+   "goals": [],
+   "raw_result": "0–0",
+   "comp": "europa-league",
+   "id": "wp-1992-16"
+  },
+  {
+   "date": "1992-09-19",
+   "round": "",
+   "home": "Tottenham Hotspur",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 33296,
+   "goals": [
+    {
+     "min": "44",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "premier-league",
+   "id": "wp-1992-17"
+  },
+  {
+   "date": "1992-09-23",
+   "round": "Round 2 / First leg",
+   "home": "Brighton & Hove Albion",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 16649,
+   "goals": [
+    {
+     "min": "36",
+     "team": "Manchester United",
+     "player": "Wallace",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "league-cup",
+   "id": "wp-1992-18"
+  },
+  {
+   "date": "1992-09-26",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Queens Park Rangers",
+   "hg": 0,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 33287,
+   "goals": [],
+   "raw_result": "0–0",
+   "comp": "premier-league",
+   "id": "wp-1992-19"
+  },
+  {
+   "date": "1992-09-29",
+   "round": "First round / Second leg",
+   "home": "Torpedo Moscow",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 0,
+   "pens": [
+    3,
+    4
+   ],
+   "neutral": false,
+   "att": 11357,
+   "goals": [],
+   "raw_result": "0–0 / (3–4p)",
+   "comp": "europa-league",
+   "id": "wp-1992-20"
+  },
+  {
+   "date": "1992-10-03",
+   "round": "",
+   "home": "Middlesbrough",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 24172,
+   "goals": [
+    {
+     "min": "44",
+     "team": "Manchester United",
+     "player": "Bruce",
+     "kind": "Penalty"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "premier-league",
+   "id": "wp-1992-21"
+  },
+  {
+   "date": "1992-10-07",
+   "round": "Round 2 / Second leg",
+   "home": "Manchester United",
+   "away": "Brighton & Hove Albion",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 25405,
+   "goals": [
+    {
+     "min": "14",
+     "team": "Manchester United",
+     "player": "Hughes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "league-cup",
+   "id": "wp-1992-22"
+  },
+  {
+   "date": "1992-10-18",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Liverpool",
+   "hg": 2,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 33243,
+   "goals": [
+    {
+     "min": "79",
+     "team": "Manchester United",
+     "player": "Hughes",
+     "kind": "Goal"
+    },
+    {
+     "min": "89",
+     "team": "Manchester United",
+     "player": "Hughes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–2",
+   "comp": "premier-league",
+   "id": "wp-1992-23"
+  },
+  {
+   "date": "1992-10-24",
+   "round": "",
+   "home": "Blackburn Rovers",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 20305,
+   "goals": [],
+   "raw_result": "0–0",
+   "comp": "premier-league",
+   "id": "wp-1992-24"
+  },
+  {
+   "date": "1992-10-28",
+   "round": "Round 3",
+   "home": "Aston Villa",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 35964,
+   "goals": [],
+   "raw_result": "0–1",
+   "comp": "league-cup",
+   "id": "wp-1992-25"
+  },
+  {
+   "date": "1992-10-31",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Wimbledon",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 32622,
+   "goals": [],
+   "raw_result": "0–1",
+   "comp": "premier-league",
+   "id": "wp-1992-26"
+  },
+  {
+   "date": "1992-11-07",
+   "round": "",
+   "home": "Aston Villa",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 39063,
+   "goals": [],
+   "raw_result": "0–1",
+   "comp": "premier-league",
+   "id": "wp-1992-27"
+  },
+  {
+   "date": "1992-11-11",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Brøndby",
+   "hg": 3,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 5102,
+   "goals": [],
+   "raw_result": "3–2",
+   "comp": "friendlies",
+   "id": "wp-1992-28"
+  },
+  {
+   "date": "1992-11-21",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Oldham Athletic",
+   "hg": 3,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 33497,
+   "goals": [
+    {
+     "min": "10",
+     "team": "Manchester United",
+     "player": "McClair",
+     "kind": "Goal"
+    },
+    {
+     "min": "28",
+     "team": "Manchester United",
+     "player": "McClair",
+     "kind": "Goal"
+    },
+    {
+     "min": "11",
+     "team": "Manchester United",
+     "player": "Hughes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–0",
+   "comp": "premier-league",
+   "id": "wp-1992-29"
+  },
+  {
+   "date": "1992-11-28",
+   "round": "",
+   "home": "Arsenal",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 29739,
+   "goals": [
+    {
+     "min": "27",
+     "team": "Manchester United",
+     "player": "Hughes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1992-30"
+  },
+  {
+   "date": "1992-12-01",
+   "round": "",
+   "home": "Benfica",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 40000,
+   "goals": [],
+   "raw_result": "0–1",
+   "comp": "friendlies",
+   "id": "wp-1992-31"
+  },
+  {
+   "date": "1992-12-06",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Manchester City",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 35408,
+   "goals": [
+    {
+     "min": "20",
+     "team": "Manchester United",
+     "player": "Ince",
+     "kind": "Goal"
+    },
+    {
+     "min": "74",
+     "team": "Manchester United",
+     "player": "Hughes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "premier-league",
+   "id": "wp-1992-32"
+  },
+  {
+   "date": "1992-12-12",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Norwich City",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 34500,
+   "goals": [
+    {
+     "min": "59",
+     "team": "Manchester United",
+     "player": "Hughes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1992-33"
+  },
+  {
+   "date": "1992-12-19",
+   "round": "",
+   "home": "Chelsea",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 34464,
+   "goals": [
+    {
+     "min": "71",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "premier-league",
+   "id": "wp-1992-34"
+  },
+  {
+   "date": "1992-12-26",
+   "round": "",
+   "home": "Sheffield Wednesday",
+   "away": "Manchester United",
+   "hg": 3,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 37708,
+   "goals": [
+    {
+     "min": "67",
+     "team": "Manchester United",
+     "player": "McClair",
+     "kind": "Goal"
+    },
+    {
+     "min": "80",
+     "team": "Manchester United",
+     "player": "McClair",
+     "kind": "Goal"
+    },
+    {
+     "min": "84",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–3",
+   "comp": "premier-league",
+   "id": "wp-1992-35"
+  },
+  {
+   "date": "1992-12-28",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Coventry City",
+   "hg": 5,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 36025,
+   "goals": [
+    {
+     "min": "6",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "40",
+     "team": "Manchester United",
+     "player": "Hughes",
+     "kind": "Goal"
+    },
+    {
+     "min": "64",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Penalty"
+    },
+    {
+     "min": "78",
+     "team": "Manchester United",
+     "player": "Sharpe",
+     "kind": "Goal"
+    },
+    {
+     "min": "83",
+     "team": "Manchester United",
+     "player": "Irwin",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "5–0",
+   "comp": "premier-league",
+   "id": "wp-1992-36"
+  },
+  {
+   "date": "1993-01-05",
+   "round": "Round 3",
+   "home": "Manchester United",
+   "away": "Bury",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 30668,
+   "goals": [
+    {
+     "min": "7",
+     "team": "Manchester United",
+     "player": "Phelan",
+     "kind": "Goal"
+    },
+    {
+     "min": "79",
+     "team": "Manchester United",
+     "player": "Gillespie",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "fa-cup",
+   "id": "wp-1992-37"
+  },
+  {
+   "date": "1993-01-09",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Tottenham Hotspur",
+   "hg": 4,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 35648,
+   "goals": [
+    {
+     "min": "40",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    },
+    {
+     "min": "52",
+     "team": "Manchester United",
+     "player": "Irwin",
+     "kind": "Goal"
+    },
+    {
+     "min": "53",
+     "team": "Manchester United",
+     "player": "McClair",
+     "kind": "Goal"
+    },
+    {
+     "min": "57",
+     "team": "Manchester United",
+     "player": "Parker",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "4–1",
+   "comp": "premier-league",
+   "id": "wp-1992-38"
+  },
+  {
+   "date": "1993-01-18",
+   "round": "",
+   "home": "Queens Park Rangers",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 21117,
+   "goals": [
+    {
+     "min": "26",
+     "team": "Manchester United",
+     "player": "Ince",
+     "kind": "Goal"
+    },
+    {
+     "min": "30",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "48",
+     "team": "Manchester United",
+     "player": "Kanchelskis",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–1",
+   "comp": "premier-league",
+   "id": "wp-1992-39"
+  },
+  {
+   "date": "1993-01-23",
+   "round": "Round 4",
+   "home": "Manchester United",
+   "away": "Brighton & Hove Albion",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 33600,
+   "goals": [
+    {
+     "min": "75",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "fa-cup",
+   "id": "wp-1992-40"
+  },
+  {
+   "date": "1993-01-27",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Nottingham Forest",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 36085,
+   "goals": [
+    {
+     "min": "47",
+     "team": "Manchester United",
+     "player": "Ince",
+     "kind": "Goal"
+    },
+    {
+     "min": "68",
+     "team": "Manchester United",
+     "player": "Hughes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "premier-league",
+   "id": "wp-1992-41"
+  },
+  {
+   "date": "1993-01-30",
+   "round": "",
+   "home": "Ipswich Town",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 22068,
+   "goals": [
+    {
+     "min": "84",
+     "team": "Manchester United",
+     "player": "McClair",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–2",
+   "comp": "premier-league",
+   "id": "wp-1992-42"
+  },
+  {
+   "date": "1993-02-06",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Sheffield United",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 36156,
+   "goals": [
+    {
+     "min": "65",
+     "team": "Manchester United",
+     "player": "McClair",
+     "kind": "Goal"
+    },
+    {
+     "min": "80",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "premier-league",
+   "id": "wp-1992-43"
+  },
+  {
+   "date": "1993-02-08",
+   "round": "",
+   "home": "Leeds United",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 34166,
+   "goals": [],
+   "raw_result": "0–0",
+   "comp": "premier-league",
+   "id": "wp-1992-44"
+  },
+  {
+   "date": "1993-02-14",
+   "round": "Round 5",
+   "home": "Sheffield United",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 27150,
+   "goals": [
+    {
+     "min": "30",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–2",
+   "comp": "fa-cup",
+   "id": "wp-1992-45"
+  },
+  {
+   "date": "1993-02-20",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Southampton",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 36257,
+   "goals": [
+    {
+     "min": "82",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "83",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "premier-league",
+   "id": "wp-1992-46"
+  },
+  {
+   "date": "1993-02-27",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Middlesbrough",
+   "hg": 3,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 36251,
+   "goals": [
+    {
+     "min": "21",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "79",
+     "team": "Manchester United",
+     "player": "Irwin",
+     "kind": "Goal"
+    },
+    {
+     "min": "86",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–0",
+   "comp": "premier-league",
+   "id": "wp-1992-47"
+  },
+  {
+   "date": "1993-03-06",
+   "round": "",
+   "home": "Liverpool",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 44374,
+   "goals": [
+    {
+     "min": "42",
+     "team": "Manchester United",
+     "player": "Hughes",
+     "kind": "Goal"
+    },
+    {
+     "min": "56",
+     "team": "Manchester United",
+     "player": "McClair",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "premier-league",
+   "id": "wp-1992-48"
+  },
+  {
+   "date": "1993-03-09",
+   "round": "",
+   "home": "Oldham Athletic",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 17106,
+   "goals": [],
+   "raw_result": "0–1",
+   "comp": "premier-league",
+   "id": "wp-1992-49"
+  },
+  {
+   "date": "1993-03-14",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Aston Villa",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 36163,
+   "goals": [
+    {
+     "min": "57",
+     "team": "Manchester United",
+     "player": "Hughes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "premier-league",
+   "id": "wp-1992-50"
+  },
+  {
+   "date": "1993-03-20",
+   "round": "",
+   "home": "Manchester City",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 37136,
+   "goals": [
+    {
+     "min": "68",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "premier-league",
+   "id": "wp-1992-51"
+  },
+  {
+   "date": "1993-03-24",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Arsenal",
+   "hg": 0,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 37301,
+   "goals": [],
+   "raw_result": "0–0",
+   "comp": "premier-league",
+   "id": "wp-1992-52"
+  },
+  {
+   "date": "1993-04-05",
+   "round": "",
+   "home": "Norwich City",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 20582,
+   "goals": [
+    {
+     "min": "13",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "20",
+     "team": "Manchester United",
+     "player": "Kanchelskis",
+     "kind": "Goal"
+    },
+    {
+     "min": "21",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–1",
+   "comp": "premier-league",
+   "id": "wp-1992-53"
+  },
+  {
+   "date": "1993-04-10",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Sheffield Wednesday",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 40102,
+   "goals": [
+    {
+     "min": "86",
+     "team": "Manchester United",
+     "player": "Bruce",
+     "kind": "Goal"
+    },
+    {
+     "min": "90",
+     "team": "Manchester United",
+     "player": "Bruce",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "premier-league",
+   "id": "wp-1992-54"
+  },
+  {
+   "date": "1993-04-12",
+   "round": "",
+   "home": "Coventry City",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 24249,
+   "goals": [
+    {
+     "min": "40",
+     "team": "Manchester United",
+     "player": "Irwin",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1992-55"
+  },
+  {
+   "date": "1993-04-17",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Chelsea",
+   "hg": 3,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 40139,
+   "goals": [
+    {
+     "min": "24",
+     "team": "Manchester United",
+     "player": "Hughes",
+     "kind": "Goal"
+    },
+    {
+     "min": "44",
+     "team": "Manchester United",
+     "player": "Clarke",
+     "kind": "Own Goal"
+    },
+    {
+     "min": "48",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–0",
+   "comp": "premier-league",
+   "id": "wp-1992-56"
+  },
+  {
+   "date": "1993-04-21",
+   "round": "",
+   "home": "Crystal Palace",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 30115,
+   "goals": [
+    {
+     "min": "64",
+     "team": "Manchester United",
+     "player": "Hughes",
+     "kind": "Goal"
+    },
+    {
+     "min": "89",
+     "team": "Manchester United",
+     "player": "Ince",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "premier-league",
+   "id": "wp-1992-57"
+  },
+  {
+   "date": "1993-05-03",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Blackburn Rovers",
+   "hg": 3,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 40447,
+   "goals": [
+    {
+     "min": "21",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "60",
+     "team": "Manchester United",
+     "player": "Ince",
+     "kind": "Goal"
+    },
+    {
+     "min": "90",
+     "team": "Manchester United",
+     "player": "Pallister",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–1",
+   "comp": "premier-league",
+   "id": "wp-1992-58"
+  },
+  {
+   "date": "1993-05-09",
+   "round": "",
+   "home": "Wimbledon",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 30115,
+   "goals": [
+    {
+     "min": "63",
+     "team": "Manchester United",
+     "player": "Ince",
+     "kind": "Goal"
+    },
+    {
+     "min": "70",
+     "team": "Manchester United",
+     "player": "Robson",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "premier-league",
+   "id": "wp-1992-59"
+  },
+  {
+   "date": "1993-05-12",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Aston Villa",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": true,
+   "att": 22000,
+   "goals": [],
+   "raw_result": "1–1",
+   "comp": "friendlies",
+   "id": "wp-1992-60"
+  },
+  {
+   "date": "1993-05-14",
+   "round": "",
+   "home": "Bristol City",
+   "away": "Manchester United",
+   "hg": 3,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 21716,
+   "goals": [],
+   "raw_result": "3–3",
+   "comp": "friendlies",
+   "id": "wp-1992-61"
+  },
+  {
+   "date": "1993-05-17",
+   "round": "",
+   "home": "Arsenal",
+   "away": "Manchester United",
+   "hg": 4,
+   "ag": 4,
+   "pens": null,
+   "neutral": false,
+   "att": 22117,
+   "goals": [],
+   "raw_result": "4–4",
+   "comp": "friendlies",
+   "id": "wp-1992-62"
+  }
+ ]
+}

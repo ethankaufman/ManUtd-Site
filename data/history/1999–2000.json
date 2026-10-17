@@ -1,0 +1,1919 @@
+{
+ "season": "1999–2000",
+ "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Manchester_United_F.C._season",
+ "competitions": [
+  {
+   "slug": "friendlies",
+   "name": "Friendlies",
+   "kind": "friendly"
+  },
+  {
+   "slug": "community-shield",
+   "name": "FA Charity Shield",
+   "kind": "cup"
+  },
+  {
+   "slug": "uefa-super-cup",
+   "name": "UEFA Super Cup",
+   "kind": "europe"
+  },
+  {
+   "slug": "premier-league",
+   "name": "Premier League",
+   "kind": "league"
+  },
+  {
+   "slug": "league-cup",
+   "name": "League Cup",
+   "kind": "cup"
+  },
+  {
+   "slug": "champions-league",
+   "name": "UEFA Champions League",
+   "kind": "europe"
+  },
+  {
+   "slug": "intercontinental-cup",
+   "name": "Intercontinental Cup",
+   "kind": "europe"
+  },
+  {
+   "slug": "club-world-cup",
+   "name": "FIFA Club World Championship",
+   "kind": "europe"
+  }
+ ],
+ "matches": [
+  {
+   "date": "1999-07-15",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Australia",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": true,
+   "att": 71215,
+   "goals": [
+    {
+     "min": "45",
+     "team": "Manchester United",
+     "player": "Blomqvist",
+     "kind": "Goal"
+    },
+    {
+     "min": "74",
+     "team": "Manchester United",
+     "player": "Butt",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "friendlies",
+   "id": "wp-1999-01"
+  },
+  {
+   "date": "1999-07-18",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Australia",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": true,
+   "att": 78032,
+   "goals": [
+    {
+     "min": "24",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "friendlies",
+   "id": "wp-1999-02"
+  },
+  {
+   "date": "1999-07-21",
+   "round": "",
+   "home": "Shanghai Shenhua",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 80000,
+   "goals": [
+    {
+     "min": "60",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "69",
+     "team": "Manchester United",
+     "player": "Sheringham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "friendlies",
+   "id": "wp-1999-03"
+  },
+  {
+   "date": "1999-07-24",
+   "round": "",
+   "home": "South China",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 40000,
+   "goals": [
+    {
+     "min": "20",
+     "team": "Manchester United",
+     "player": "Sheringham",
+     "kind": "Goal"
+    },
+    {
+     "min": "23",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "friendlies",
+   "id": "wp-1999-04"
+  },
+  {
+   "date": "1999-07-30",
+   "round": "",
+   "home": "Bristol Rovers",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 10534,
+   "goals": [
+    {
+     "min": "7",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "87",
+     "team": "Manchester United",
+     "player": "Healy",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–2",
+   "comp": "friendlies",
+   "id": "wp-1999-05"
+  },
+  {
+   "date": "1999-08-01",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Arsenal",
+   "hg": 1,
+   "ag": 2,
+   "pens": null,
+   "neutral": true,
+   "att": 70185,
+   "goals": [
+    {
+     "min": "37",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–2",
+   "comp": "community-shield",
+   "id": "wp-1999-06"
+  },
+  {
+   "date": "1999-08-03",
+   "round": "",
+   "home": "Omagh Town",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 9,
+   "pens": null,
+   "neutral": false,
+   "att": 7000,
+   "goals": [],
+   "raw_result": "9–0",
+   "comp": "friendlies",
+   "id": "wp-1999-07"
+  },
+  {
+   "date": "1999-08-04",
+   "round": "",
+   "home": "Wigan Athletic",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 15000,
+   "goals": [],
+   "raw_result": "2–0",
+   "comp": "friendlies",
+   "id": "wp-1999-08"
+  },
+  {
+   "date": "1999-08-08",
+   "round": "",
+   "home": "Everton",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 39141,
+   "goals": [
+    {
+     "min": "7",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "premier-league",
+   "id": "wp-1999-09"
+  },
+  {
+   "date": "1999-08-11",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Sheffield Wednesday",
+   "hg": 4,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 54941,
+   "goals": [
+    {
+     "min": "9",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "35",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    },
+    {
+     "min": "54",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "84",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "4–0",
+   "comp": "premier-league",
+   "id": "wp-1999-10"
+  },
+  {
+   "date": "1999-08-14",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Leeds United",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 55187,
+   "goals": [
+    {
+     "min": "77",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    },
+    {
+     "min": "80",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "premier-league",
+   "id": "wp-1999-11"
+  },
+  {
+   "date": "1999-08-22",
+   "round": "",
+   "home": "Arsenal",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 38147,
+   "goals": [
+    {
+     "min": "59",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    },
+    {
+     "min": "88",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "premier-league",
+   "id": "wp-1999-12"
+  },
+  {
+   "date": "1999-08-25",
+   "round": "",
+   "home": "Coventry City",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 22024,
+   "goals": [
+    {
+     "min": "63",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "75",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "premier-league",
+   "id": "wp-1999-13"
+  },
+  {
+   "date": "1999-08-27",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Lazio",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "neutral": true,
+   "att": 14461,
+   "goals": [],
+   "raw_result": "0–1",
+   "comp": "uefa-super-cup",
+   "id": "wp-1999-14"
+  },
+  {
+   "date": "1999-08-30",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Newcastle United",
+   "hg": 5,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 55190,
+   "goals": [
+    {
+     "min": "14",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "46",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "65",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "71",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "81",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "5–1",
+   "comp": "premier-league",
+   "id": "wp-1999-15"
+  },
+  {
+   "date": "1999-09-11",
+   "round": "",
+   "home": "Liverpool",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 44929,
+   "goals": [
+    {
+     "min": "4",
+     "team": "Manchester United",
+     "player": "Carragher",
+     "kind": "Own Goal"
+    },
+    {
+     "min": "45",
+     "team": "Manchester United",
+     "player": "Carragher",
+     "kind": "Own Goal"
+    },
+    {
+     "min": "18",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–2",
+   "comp": "premier-league",
+   "id": "wp-1999-16"
+  },
+  {
+   "date": "1999-09-14",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Croatia Zagreb",
+   "hg": 0,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 53250,
+   "goals": [],
+   "raw_result": "0–0",
+   "comp": "champions-league",
+   "id": "wp-1999-17"
+  },
+  {
+   "date": "1999-09-18",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Wimbledon",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 55189,
+   "goals": [
+    {
+     "min": "74",
+     "team": "Manchester United",
+     "player": "Cruyff",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "premier-league",
+   "id": "wp-1999-18"
+  },
+  {
+   "date": "1999-09-22",
+   "round": "",
+   "home": "Sturm Graz",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 16480,
+   "goals": [
+    {
+     "min": "16",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    },
+    {
+     "min": "31",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    },
+    {
+     "min": "33",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–0",
+   "comp": "champions-league",
+   "id": "wp-1999-19"
+  },
+  {
+   "date": "1999-09-25",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Southampton",
+   "hg": 3,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 55249,
+   "goals": [
+    {
+     "min": "34",
+     "team": "Manchester United",
+     "player": "Sheringham",
+     "kind": "Goal"
+    },
+    {
+     "min": "38",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    },
+    {
+     "min": "64",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–3",
+   "comp": "premier-league",
+   "id": "wp-1999-20"
+  },
+  {
+   "date": "1999-09-29",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Marseille",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 53993,
+   "goals": [
+    {
+     "min": "79",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "83",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "champions-league",
+   "id": "wp-1999-21"
+  },
+  {
+   "date": "1999-10-03",
+   "round": "",
+   "home": "Chelsea",
+   "away": "Manchester United",
+   "hg": 5,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 34909,
+   "goals": [],
+   "raw_result": "0–5",
+   "comp": "premier-league",
+   "id": "wp-1999-22"
+  },
+  {
+   "date": "1999-10-11",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Rest of the World XI",
+   "hg": 2,
+   "ag": 4,
+   "pens": null,
+   "neutral": false,
+   "att": 54842,
+   "goals": [
+    {
+     "min": "43",
+     "team": "Manchester United",
+     "player": "Sheringham",
+     "kind": "Goal"
+    },
+    {
+     "min": "87",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–4",
+   "comp": "friendlies",
+   "id": "wp-1999-23"
+  },
+  {
+   "date": "1999-10-13",
+   "round": "Round 3",
+   "home": "Aston Villa",
+   "away": "Manchester United",
+   "hg": 3,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 33815,
+   "goals": [],
+   "raw_result": "0–3",
+   "comp": "league-cup",
+   "id": "wp-1999-24"
+  },
+  {
+   "date": "1999-10-16",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Watford",
+   "hg": 4,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 55188,
+   "goals": [
+    {
+     "min": "40",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    },
+    {
+     "min": "42",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "50",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "45",
+     "team": "Manchester United",
+     "player": "Irwin",
+     "kind": "Penalty"
+    }
+   ],
+   "raw_result": "4–1",
+   "comp": "premier-league",
+   "id": "wp-1999-25"
+  },
+  {
+   "date": "1999-10-19",
+   "round": "",
+   "home": "Marseille",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 56732,
+   "goals": [],
+   "raw_result": "0–1",
+   "comp": "champions-league",
+   "id": "wp-1999-26"
+  },
+  {
+   "date": "1999-10-23",
+   "round": "",
+   "home": "Tottenham Hotspur",
+   "away": "Manchester United",
+   "hg": 3,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 36072,
+   "goals": [
+    {
+     "min": "24",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–3",
+   "comp": "premier-league",
+   "id": "wp-1999-27"
+  },
+  {
+   "date": "1999-10-27",
+   "round": "",
+   "home": "Croatia Zagreb",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 27500,
+   "goals": [
+    {
+     "min": "32",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    },
+    {
+     "min": "49",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "champions-league",
+   "id": "wp-1999-28"
+  },
+  {
+   "date": "1999-10-30",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Aston Villa",
+   "hg": 3,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 55211,
+   "goals": [
+    {
+     "min": "30",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "45",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "65",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–0",
+   "comp": "premier-league",
+   "id": "wp-1999-29"
+  },
+  {
+   "date": "1999-11-02",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Sturm Graz",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 53745,
+   "goals": [
+    {
+     "min": "56",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "65",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "champions-league",
+   "id": "wp-1999-30"
+  },
+  {
+   "date": "1999-11-06",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Leicester City",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 55191,
+   "goals": [
+    {
+     "min": "30",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "83",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "premier-league",
+   "id": "wp-1999-31"
+  },
+  {
+   "date": "1999-11-20",
+   "round": "",
+   "home": "Derby County",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 33370,
+   "goals": [
+    {
+     "min": "53",
+     "team": "Manchester United",
+     "player": "Butt",
+     "kind": "Goal"
+    },
+    {
+     "min": "84",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "premier-league",
+   "id": "wp-1999-32"
+  },
+  {
+   "date": "1999-11-23",
+   "round": "",
+   "home": "Fiorentina",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 36002,
+   "goals": [],
+   "raw_result": "0–2",
+   "comp": "champions-league",
+   "id": "wp-1999-33"
+  },
+  {
+   "date": "1999-11-30",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Palmeiras",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": true,
+   "att": 53372,
+   "goals": [
+    {
+     "min": "35",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "intercontinental-cup",
+   "id": "wp-1999-34"
+  },
+  {
+   "date": "1999-12-04",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Everton",
+   "hg": 5,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 55193,
+   "goals": [
+    {
+     "min": "27",
+     "team": "Manchester United",
+     "player": "Irwin",
+     "kind": "Penalty"
+    },
+    {
+     "min": "29",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "43",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "52",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "58",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "5–1",
+   "comp": "premier-league",
+   "id": "wp-1999-35"
+  },
+  {
+   "date": "1999-12-08",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Valencia",
+   "hg": 3,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 54606,
+   "goals": [
+    {
+     "min": "38",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    },
+    {
+     "min": "47",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "70",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–0",
+   "comp": "champions-league",
+   "id": "wp-1999-36"
+  },
+  {
+   "date": "1999-12-18",
+   "round": "",
+   "home": "West Ham United",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 4,
+   "pens": null,
+   "neutral": false,
+   "att": 26037,
+   "goals": [
+    {
+     "min": "9",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    },
+    {
+     "min": "63",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    },
+    {
+     "min": "13",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "20",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "4–2",
+   "comp": "premier-league",
+   "id": "wp-1999-37"
+  },
+  {
+   "date": "1999-12-26",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Bradford City",
+   "hg": 4,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 55188,
+   "goals": [
+    {
+     "min": "75",
+     "team": "Manchester United",
+     "player": "Fortune",
+     "kind": "Goal"
+    },
+    {
+     "min": "79",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    },
+    {
+     "min": "88",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "89",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "4–0",
+   "comp": "premier-league",
+   "id": "wp-1999-38"
+  },
+  {
+   "date": "1999-12-28",
+   "round": "",
+   "home": "Sunderland",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 42026,
+   "goals": [
+    {
+     "min": "27",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    },
+    {
+     "min": "87",
+     "team": "Manchester United",
+     "player": "Butt",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–2",
+   "comp": "premier-league",
+   "id": "wp-1999-39"
+  },
+  {
+   "date": "2000-01-06",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Necaxa",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": true,
+   "att": 50000,
+   "goals": [
+    {
+     "min": "88",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "club-world-cup",
+   "id": "wp-1999-40"
+  },
+  {
+   "date": "2000-01-08",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Vasco da Gama",
+   "hg": 1,
+   "ag": 3,
+   "pens": null,
+   "neutral": true,
+   "att": 73000,
+   "goals": [
+    {
+     "min": "81",
+     "team": "Manchester United",
+     "player": "Butt",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–3",
+   "comp": "club-world-cup",
+   "id": "wp-1999-41"
+  },
+  {
+   "date": "2000-01-11",
+   "round": "",
+   "home": "Manchester United",
+   "away": "South Melbourne",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": true,
+   "att": 25000,
+   "goals": [
+    {
+     "min": "8",
+     "team": "Manchester United",
+     "player": "Fortune",
+     "kind": "Goal"
+    },
+    {
+     "min": "20",
+     "team": "Manchester United",
+     "player": "Fortune",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "club-world-cup",
+   "id": "wp-1999-42"
+  },
+  {
+   "date": "2000-01-24",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Arsenal",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 58293,
+   "goals": [
+    {
+     "min": "74",
+     "team": "Manchester United",
+     "player": "Sheringham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "premier-league",
+   "id": "wp-1999-43"
+  },
+  {
+   "date": "2000-01-29",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Middlesbrough",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 61267,
+   "goals": [
+    {
+     "min": "87",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1999-44"
+  },
+  {
+   "date": "2000-02-02",
+   "round": "",
+   "home": "Sheffield Wednesday",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 39640,
+   "goals": [
+    {
+     "min": "74",
+     "team": "Manchester United",
+     "player": "Sheringham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1999-45"
+  },
+  {
+   "date": "2000-02-05",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Coventry City",
+   "hg": 3,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 61380,
+   "goals": [
+    {
+     "min": "40",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "55",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "77",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–2",
+   "comp": "premier-league",
+   "id": "wp-1999-46"
+  },
+  {
+   "date": "2000-02-12",
+   "round": "",
+   "home": "Newcastle United",
+   "away": "Manchester United",
+   "hg": 3,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 36470,
+   "goals": [],
+   "raw_result": "0–3",
+   "comp": "premier-league",
+   "id": "wp-1999-47"
+  },
+  {
+   "date": "2000-02-20",
+   "round": "",
+   "home": "Leeds United",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 40160,
+   "goals": [
+    {
+     "min": "52",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1999-48"
+  },
+  {
+   "date": "2000-02-26",
+   "round": "",
+   "home": "Wimbledon",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 26129,
+   "goals": [
+    {
+     "min": "30",
+     "team": "Manchester United",
+     "player": "Cruyff",
+     "kind": "Goal"
+    },
+    {
+     "min": "80",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–2",
+   "comp": "premier-league",
+   "id": "wp-1999-49"
+  },
+  {
+   "date": "2000-03-01",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Bordeaux",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 59786,
+   "goals": [
+    {
+     "min": "41",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "84",
+     "team": "Manchester United",
+     "player": "Sheringham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "champions-league",
+   "id": "wp-1999-50"
+  },
+  {
+   "date": "2000-03-04",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Liverpool",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 61592,
+   "goals": [
+    {
+     "min": "45",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "premier-league",
+   "id": "wp-1999-51"
+  },
+  {
+   "date": "2000-03-07",
+   "round": "",
+   "home": "Bordeaux",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 30130,
+   "goals": [
+    {
+     "min": "33",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    },
+    {
+     "min": "84",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "champions-league",
+   "id": "wp-1999-52"
+  },
+  {
+   "date": "2000-03-11",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Derby County",
+   "hg": 3,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 61619,
+   "goals": [
+    {
+     "min": "13",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    },
+    {
+     "min": "70",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    },
+    {
+     "min": "72",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–1",
+   "comp": "premier-league",
+   "id": "wp-1999-53"
+  },
+  {
+   "date": "2000-03-15",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Fiorentina",
+   "hg": 3,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 59926,
+   "goals": [
+    {
+     "min": "20",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "33",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    },
+    {
+     "min": "70",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–1",
+   "comp": "champions-league",
+   "id": "wp-1999-54"
+  },
+  {
+   "date": "2000-03-18",
+   "round": "",
+   "home": "Leicester City",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 22170,
+   "goals": [
+    {
+     "min": "33",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    },
+    {
+     "min": "84",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "premier-league",
+   "id": "wp-1999-55"
+  },
+  {
+   "date": "2000-03-21",
+   "round": "",
+   "home": "Valencia",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 40419,
+   "goals": [],
+   "raw_result": "0–0",
+   "comp": "champions-league",
+   "id": "wp-1999-56"
+  },
+  {
+   "date": "2000-03-25",
+   "round": "",
+   "home": "Bradford City",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 4,
+   "pens": null,
+   "neutral": false,
+   "att": 18276,
+   "goals": [
+    {
+     "min": "38",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    },
+    {
+     "min": "40",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    },
+    {
+     "min": "71",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "79",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "4–0",
+   "comp": "premier-league",
+   "id": "wp-1999-57"
+  },
+  {
+   "date": "2000-04-01",
+   "round": "",
+   "home": "Manchester United",
+   "away": "West Ham United",
+   "hg": 7,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 61611,
+   "goals": [
+    {
+     "min": "24",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "51",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "63",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Penalty"
+    },
+    {
+     "min": "27",
+     "team": "Manchester United",
+     "player": "Irwin",
+     "kind": "Goal"
+    },
+    {
+     "min": "45",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "66",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    },
+    {
+     "min": "73",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "7–1",
+   "comp": "premier-league",
+   "id": "wp-1999-58"
+  },
+  {
+   "date": "2000-04-04",
+   "round": "Quarter-final / First leg",
+   "home": "Real Madrid",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 64119,
+   "goals": [],
+   "raw_result": "0–0",
+   "comp": "champions-league",
+   "id": "wp-1999-59"
+  },
+  {
+   "date": "2000-04-10",
+   "round": "",
+   "home": "Middlesbrough",
+   "away": "Manchester United",
+   "hg": 3,
+   "ag": 4,
+   "pens": null,
+   "neutral": false,
+   "att": 34775,
+   "goals": [
+    {
+     "min": "46",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "60",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "74",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "88",
+     "team": "Manchester United",
+     "player": "Fortune",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "4–3",
+   "comp": "premier-league",
+   "id": "wp-1999-60"
+  },
+  {
+   "date": "2000-04-15",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Sunderland",
+   "hg": 4,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 61612,
+   "goals": [
+    {
+     "min": "3",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "51",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "65",
+     "team": "Manchester United",
+     "player": "Butt",
+     "kind": "Goal"
+    },
+    {
+     "min": "70",
+     "team": "Manchester United",
+     "player": "Berg",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "4–0",
+   "comp": "premier-league",
+   "id": "wp-1999-61"
+  },
+  {
+   "date": "2000-04-19",
+   "round": "Quarter-final / Second leg",
+   "home": "Manchester United",
+   "away": "Real Madrid",
+   "hg": 2,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 59178,
+   "goals": [
+    {
+     "min": "64",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    },
+    {
+     "min": "88",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Penalty"
+    }
+   ],
+   "raw_result": "2–3",
+   "comp": "champions-league",
+   "id": "wp-1999-62"
+  },
+  {
+   "date": "2000-04-22",
+   "round": "",
+   "home": "Southampton",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 15245,
+   "goals": [
+    {
+     "min": "8",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    },
+    {
+     "min": "15",
+     "team": "Manchester United",
+     "player": "Benali",
+     "kind": "Own Goal"
+    },
+    {
+     "min": "30",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–1",
+   "comp": "premier-league",
+   "id": "wp-1999-63"
+  },
+  {
+   "date": "2000-04-24",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Chelsea",
+   "hg": 3,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 61593,
+   "goals": [
+    {
+     "min": "11",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    },
+    {
+     "min": "69",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    },
+    {
+     "min": "40",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–2",
+   "comp": "premier-league",
+   "id": "wp-1999-64"
+  },
+  {
+   "date": "2000-04-29",
+   "round": "",
+   "home": "Watford",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 20250,
+   "goals": [
+    {
+     "min": "69",
+     "team": "Manchester United",
+     "player": "Yorke",
+     "kind": "Goal"
+    },
+    {
+     "min": "71",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "87",
+     "team": "Manchester United",
+     "player": "Cruyff",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–2",
+   "comp": "premier-league",
+   "id": "wp-1999-65"
+  },
+  {
+   "date": "2000-05-06",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Tottenham Hotspur",
+   "hg": 3,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 61629,
+   "goals": [
+    {
+     "min": "5",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "34",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    },
+    {
+     "min": "36",
+     "team": "Manchester United",
+     "player": "Sheringham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–1",
+   "comp": "premier-league",
+   "id": "wp-1999-66"
+  },
+  {
+   "date": "2000-05-14",
+   "round": "",
+   "home": "Aston Villa",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 39217,
+   "goals": [
+    {
+     "min": "65",
+     "team": "Manchester United",
+     "player": "Sheringham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1999-67"
+  }
+ ]
+}

@@ -1,0 +1,1682 @@
+{
+ "season": "1996–97",
+ "source": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Manchester_United_F.C._season",
+ "competitions": [
+  {
+   "slug": "friendlies",
+   "name": "Friendlies",
+   "kind": "friendly"
+  },
+  {
+   "slug": "community-shield",
+   "name": "FA Charity Shield",
+   "kind": "cup"
+  },
+  {
+   "slug": "premier-league",
+   "name": "Premier League",
+   "kind": "league"
+  },
+  {
+   "slug": "fa-cup",
+   "name": "FA Cup",
+   "kind": "cup"
+  },
+  {
+   "slug": "league-cup",
+   "name": "League Cup",
+   "kind": "cup"
+  },
+  {
+   "slug": "champions-league",
+   "name": "UEFA Champions League",
+   "kind": "europe"
+  }
+ ],
+ "matches": [
+  {
+   "date": "1996-07-27",
+   "round": "",
+   "home": "Portadown",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 5,
+   "pens": null,
+   "neutral": false,
+   "att": 6100,
+   "goals": [
+    {
+     "min": "17",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "19",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "44",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "29",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    },
+    {
+     "min": "34",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "5–0",
+   "comp": "friendlies",
+   "id": "wp-1996-01"
+  },
+  {
+   "date": "1996-07-28",
+   "round": "",
+   "home": "Manchester United",
+   "away": "League of Ireland XI",
+   "hg": 4,
+   "ag": 1,
+   "pens": null,
+   "neutral": true,
+   "att": 7720,
+   "goals": [
+    {
+     "min": "22",
+     "team": "Manchester United",
+     "player": "Sharpe",
+     "kind": "Goal"
+    },
+    {
+     "min": "26",
+     "team": "Manchester United",
+     "player": "Pallister",
+     "kind": "Goal"
+    },
+    {
+     "min": "41",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "44",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "4–1",
+   "comp": "friendlies",
+   "id": "wp-1996-02"
+  },
+  {
+   "date": "1996-07-31",
+   "round": "",
+   "home": "Internazionale",
+   "away": "Manchester United",
+   "hg": 3,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 33578,
+   "goals": [],
+   "raw_result": "0–3",
+   "comp": "friendlies",
+   "id": "wp-1996-03"
+  },
+  {
+   "date": "1996-08-03",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Ajax",
+   "hg": 1,
+   "ag": 2,
+   "pens": null,
+   "neutral": true,
+   "att": 27427,
+   "goals": [
+    {
+     "min": "81",
+     "team": "Manchester United",
+     "player": "McClair",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–2",
+   "comp": "friendlies",
+   "id": "wp-1996-04"
+  },
+  {
+   "date": "1996-08-04",
+   "round": "",
+   "home": "Nottingham Forest",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 21760,
+   "goals": [
+    {
+     "min": "80",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    },
+    {
+     "min": "83",
+     "team": "Manchester United",
+     "player": "McClair",
+     "kind": "Goal"
+    },
+    {
+     "min": "88",
+     "team": "Manchester United",
+     "player": "P. Neville",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–1",
+   "comp": "friendlies",
+   "id": "wp-1996-05"
+  },
+  {
+   "date": "1996-08-11",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Newcastle United",
+   "hg": 4,
+   "ag": 0,
+   "pens": null,
+   "neutral": true,
+   "att": 73214,
+   "goals": [
+    {
+     "min": "25",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    },
+    {
+     "min": "30",
+     "team": "Manchester United",
+     "player": "Butt",
+     "kind": "Goal"
+    },
+    {
+     "min": "86",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    },
+    {
+     "min": "88",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "4–0",
+   "comp": "community-shield",
+   "id": "wp-1996-06"
+  },
+  {
+   "date": "1996-08-13",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Internazionale",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 30266,
+   "goals": [],
+   "raw_result": "0–1",
+   "comp": "friendlies",
+   "id": "wp-1996-07"
+  },
+  {
+   "date": "1996-08-17",
+   "round": "",
+   "home": "Wimbledon",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 25786,
+   "goals": [
+    {
+     "min": "25",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    },
+    {
+     "min": "57",
+     "team": "Manchester United",
+     "player": "Irwin",
+     "kind": "Goal"
+    },
+    {
+     "min": "87",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–0",
+   "comp": "premier-league",
+   "id": "wp-1996-08"
+  },
+  {
+   "date": "1996-08-21",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Everton",
+   "hg": 2,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 54943,
+   "goals": [
+    {
+     "min": "70",
+     "team": "Manchester United",
+     "player": "Cruyff",
+     "kind": "Goal"
+    },
+    {
+     "min": "82",
+     "team": "Manchester United",
+     "player": "Unsworth",
+     "kind": "Own Goal"
+    }
+   ],
+   "raw_result": "2–2",
+   "comp": "premier-league",
+   "id": "wp-1996-09"
+  },
+  {
+   "date": "1996-08-25",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Blackburn Rovers",
+   "hg": 2,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 54178,
+   "goals": [
+    {
+     "min": "38",
+     "team": "Manchester United",
+     "player": "Cruyff",
+     "kind": "Goal"
+    },
+    {
+     "min": "69",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–2",
+   "comp": "premier-league",
+   "id": "wp-1996-10"
+  },
+  {
+   "date": "1996-09-04",
+   "round": "",
+   "home": "Derby County",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 18026,
+   "goals": [
+    {
+     "min": "38",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "premier-league",
+   "id": "wp-1996-11"
+  },
+  {
+   "date": "1996-09-07",
+   "round": "",
+   "home": "Leeds United",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 4,
+   "pens": null,
+   "neutral": false,
+   "att": 39694,
+   "goals": [
+    {
+     "min": "3",
+     "team": "Manchester United",
+     "player": "Martyn",
+     "kind": "Own Goal"
+    },
+    {
+     "min": "49",
+     "team": "Manchester United",
+     "player": "Butt",
+     "kind": "Goal"
+    },
+    {
+     "min": "76",
+     "team": "Manchester United",
+     "player": "Poborský",
+     "kind": "Goal"
+    },
+    {
+     "min": "90",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "4–0",
+   "comp": "premier-league",
+   "id": "wp-1996-12"
+  },
+  {
+   "date": "1996-09-11",
+   "round": "",
+   "home": "Juventus",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 54000,
+   "goals": [],
+   "raw_result": "0–1",
+   "comp": "champions-league",
+   "id": "wp-1996-13"
+  },
+  {
+   "date": "1996-09-14",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Nottingham Forest",
+   "hg": 4,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 54984,
+   "goals": [
+    {
+     "min": "22",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "41",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "82",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    },
+    {
+     "min": "90",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Penalty"
+    }
+   ],
+   "raw_result": "4–1",
+   "comp": "premier-league",
+   "id": "wp-1996-14"
+  },
+  {
+   "date": "1996-09-21",
+   "round": "",
+   "home": "Aston Villa",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 39339,
+   "goals": [],
+   "raw_result": "0–0",
+   "comp": "premier-league",
+   "id": "wp-1996-15"
+  },
+  {
+   "date": "1996-09-25",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Rapid Wien",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 51831,
+   "goals": [
+    {
+     "min": "20",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "27",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "champions-league",
+   "id": "wp-1996-16"
+  },
+  {
+   "date": "1996-09-29",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Tottenham Hotspur",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 54943,
+   "goals": [
+    {
+     "min": "38",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "57",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "premier-league",
+   "id": "wp-1996-17"
+  },
+  {
+   "date": "1996-10-12",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Liverpool",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 55128,
+   "goals": [
+    {
+     "min": "23",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1996-18"
+  },
+  {
+   "date": "1996-10-16",
+   "round": "",
+   "home": "Fenerbahçe",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 26200,
+   "goals": [
+    {
+     "min": "55",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    },
+    {
+     "min": "60",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "champions-league",
+   "id": "wp-1996-19"
+  },
+  {
+   "date": "1996-10-20",
+   "round": "",
+   "home": "Newcastle United",
+   "away": "Manchester United",
+   "hg": 5,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 35579,
+   "goals": [],
+   "raw_result": "0–5",
+   "comp": "premier-league",
+   "id": "wp-1996-20"
+  },
+  {
+   "date": "1996-10-23",
+   "round": "Round 3",
+   "home": "Manchester United",
+   "away": "Swindon Town",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 49305,
+   "goals": [
+    {
+     "min": "20",
+     "team": "Manchester United",
+     "player": "Poborský",
+     "kind": "Goal"
+    },
+    {
+     "min": "72",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "league-cup",
+   "id": "wp-1996-21"
+  },
+  {
+   "date": "1996-10-26",
+   "round": "",
+   "home": "Southampton",
+   "away": "Manchester United",
+   "hg": 6,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 15253,
+   "goals": [
+    {
+     "min": "42",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    },
+    {
+     "min": "56",
+     "team": "Manchester United",
+     "player": "May",
+     "kind": "Goal"
+    },
+    {
+     "min": "89",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–6",
+   "comp": "premier-league",
+   "id": "wp-1996-22"
+  },
+  {
+   "date": "1996-10-30",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Fenerbahçe",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 53297,
+   "goals": [],
+   "raw_result": "0–1",
+   "comp": "champions-league",
+   "id": "wp-1996-23"
+  },
+  {
+   "date": "1996-11-02",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Chelsea",
+   "hg": 1,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 55198,
+   "goals": [
+    {
+     "min": "81",
+     "team": "Manchester United",
+     "player": "May",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–2",
+   "comp": "premier-league",
+   "id": "wp-1996-24"
+  },
+  {
+   "date": "1996-11-16",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Arsenal",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 55210,
+   "goals": [
+    {
+     "min": "63",
+     "team": "Manchester United",
+     "player": "Winterburn",
+     "kind": "Own Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1996-25"
+  },
+  {
+   "date": "1996-11-20",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Juventus",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 53529,
+   "goals": [],
+   "raw_result": "0–1",
+   "comp": "champions-league",
+   "id": "wp-1996-26"
+  },
+  {
+   "date": "1996-11-23",
+   "round": "",
+   "home": "Middlesbrough",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 30063,
+   "goals": [
+    {
+     "min": "17",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    },
+    {
+     "min": "73",
+     "team": "Manchester United",
+     "player": "May",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–2",
+   "comp": "premier-league",
+   "id": "wp-1996-27"
+  },
+  {
+   "date": "1996-11-27",
+   "round": "Round 4",
+   "home": "Leicester City",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 20428,
+   "goals": [],
+   "raw_result": "0–2",
+   "comp": "league-cup",
+   "id": "wp-1996-28"
+  },
+  {
+   "date": "1996-11-30",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Leicester City",
+   "hg": 3,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 55196,
+   "goals": [
+    {
+     "min": "76",
+     "team": "Manchester United",
+     "player": "Butt",
+     "kind": "Goal"
+    },
+    {
+     "min": "87",
+     "team": "Manchester United",
+     "player": "Butt",
+     "kind": "Goal"
+    },
+    {
+     "min": "85",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–1",
+   "comp": "premier-league",
+   "id": "wp-1996-29"
+  },
+  {
+   "date": "1996-12-04",
+   "round": "",
+   "home": "Rapid Wien",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 45000,
+   "goals": [
+    {
+     "min": "24",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "72",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "champions-league",
+   "id": "wp-1996-30"
+  },
+  {
+   "date": "1996-12-08",
+   "round": "",
+   "home": "West Ham United",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 25045,
+   "goals": [
+    {
+     "min": "54",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "75",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–2",
+   "comp": "premier-league",
+   "id": "wp-1996-31"
+  },
+  {
+   "date": "1996-12-18",
+   "round": "",
+   "home": "Sheffield Wednesday",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 37671,
+   "goals": [
+    {
+     "min": "61",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "premier-league",
+   "id": "wp-1996-32"
+  },
+  {
+   "date": "1996-12-21",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Sunderland",
+   "hg": 5,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 55081,
+   "goals": [
+    {
+     "min": "36",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "48",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "43",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Penalty"
+    },
+    {
+     "min": "79",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    },
+    {
+     "min": "58",
+     "team": "Manchester United",
+     "player": "Butt",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "5–0",
+   "comp": "premier-league",
+   "id": "wp-1996-33"
+  },
+  {
+   "date": "1996-12-26",
+   "round": "",
+   "home": "Nottingham Forest",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 4,
+   "pens": null,
+   "neutral": false,
+   "att": 29032,
+   "goals": [
+    {
+     "min": "24",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    },
+    {
+     "min": "44",
+     "team": "Manchester United",
+     "player": "Butt",
+     "kind": "Goal"
+    },
+    {
+     "min": "67",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "76",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "4–0",
+   "comp": "premier-league",
+   "id": "wp-1996-34"
+  },
+  {
+   "date": "1996-12-28",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Leeds United",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 55256,
+   "goals": [
+    {
+     "min": "9",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Penalty"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1996-35"
+  },
+  {
+   "date": "1997-01-01",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Aston Villa",
+   "hg": 0,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 55133,
+   "goals": [],
+   "raw_result": "0–0",
+   "comp": "premier-league",
+   "id": "wp-1996-36"
+  },
+  {
+   "date": "1997-01-05",
+   "round": "Round 3",
+   "home": "Manchester United",
+   "away": "Tottenham Hotspur",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 52445,
+   "goals": [
+    {
+     "min": "51",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "82",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "fa-cup",
+   "id": "wp-1996-37"
+  },
+  {
+   "date": "1997-01-12",
+   "round": "",
+   "home": "Tottenham Hotspur",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 33026,
+   "goals": [
+    {
+     "min": "23",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "76",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "premier-league",
+   "id": "wp-1996-38"
+  },
+  {
+   "date": "1997-01-18",
+   "round": "",
+   "home": "Coventry City",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 23085,
+   "goals": [
+    {
+     "min": "61",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "80",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "premier-league",
+   "id": "wp-1996-39"
+  },
+  {
+   "date": "1997-01-25",
+   "round": "Round 4",
+   "home": "Manchester United",
+   "away": "Wimbledon",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 53342,
+   "goals": [
+    {
+     "min": "89",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "fa-cup",
+   "id": "wp-1996-40"
+  },
+  {
+   "date": "1997-01-29",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Wimbledon",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 55314,
+   "goals": [
+    {
+     "min": "75",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "82",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "premier-league",
+   "id": "wp-1996-41"
+  },
+  {
+   "date": "1997-02-01",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Southampton",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 55269,
+   "goals": [
+    {
+     "min": "19",
+     "team": "Manchester United",
+     "player": "Pallister",
+     "kind": "Goal"
+    },
+    {
+     "min": "79",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "premier-league",
+   "id": "wp-1996-42"
+  },
+  {
+   "date": "1997-02-04",
+   "round": "Round 4 / Replay",
+   "home": "Wimbledon",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 25601,
+   "goals": [],
+   "raw_result": "0–1",
+   "comp": "fa-cup",
+   "id": "wp-1996-43"
+  },
+  {
+   "date": "1997-02-19",
+   "round": "",
+   "home": "Arsenal",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 38172,
+   "goals": [
+    {
+     "min": "18",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "32",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "premier-league",
+   "id": "wp-1996-44"
+  },
+  {
+   "date": "1997-02-22",
+   "round": "",
+   "home": "Chelsea",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 28336,
+   "goals": [
+    {
+     "min": "68",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "premier-league",
+   "id": "wp-1996-45"
+  },
+  {
+   "date": "1997-03-01",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Coventry City",
+   "hg": 3,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 55230,
+   "goals": [
+    {
+     "min": "4",
+     "team": "Manchester United",
+     "player": "Breen",
+     "kind": "Own Goal"
+    },
+    {
+     "min": "5",
+     "team": "Manchester United",
+     "player": "Jess",
+     "kind": "Own Goal"
+    },
+    {
+     "min": "47",
+     "team": "Manchester United",
+     "player": "Poborský",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–1",
+   "comp": "premier-league",
+   "id": "wp-1996-46"
+  },
+  {
+   "date": "1997-03-05",
+   "round": "Quarter-final / First leg",
+   "home": "Manchester United",
+   "away": "Porto",
+   "hg": 4,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 53425,
+   "goals": [
+    {
+     "min": "22",
+     "team": "Manchester United",
+     "player": "May",
+     "kind": "Goal"
+    },
+    {
+     "min": "34",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    },
+    {
+     "min": "60",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "80",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "4–0",
+   "comp": "champions-league",
+   "id": "wp-1996-47"
+  },
+  {
+   "date": "1997-03-08",
+   "round": "",
+   "home": "Sunderland",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 22225,
+   "goals": [
+    {
+     "min": "77",
+     "team": "Manchester United",
+     "player": "Melville",
+     "kind": "Own Goal"
+    }
+   ],
+   "raw_result": "1–2",
+   "comp": "premier-league",
+   "id": "wp-1996-48"
+  },
+  {
+   "date": "1997-03-15",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Sheffield Wednesday",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 55267,
+   "goals": [
+    {
+     "min": "19",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "60",
+     "team": "Manchester United",
+     "player": "Poborský",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "premier-league",
+   "id": "wp-1996-49"
+  },
+  {
+   "date": "1997-03-19",
+   "round": "Quarter-final / Second leg",
+   "home": "Porto",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 40000,
+   "goals": [],
+   "raw_result": "0–0",
+   "comp": "champions-league",
+   "id": "wp-1996-50"
+  },
+  {
+   "date": "1997-03-22",
+   "round": "",
+   "home": "Everton",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 40079,
+   "goals": [
+    {
+     "min": "35",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "79",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "premier-league",
+   "id": "wp-1996-51"
+  },
+  {
+   "date": "1997-04-05",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Derby County",
+   "hg": 2,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 55243,
+   "goals": [
+    {
+     "min": "47",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    },
+    {
+     "min": "76",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–3",
+   "comp": "premier-league",
+   "id": "wp-1996-52"
+  },
+  {
+   "date": "1997-04-09",
+   "round": "Semi-final / First leg",
+   "home": "Borussia Dortmund",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 48500,
+   "goals": [],
+   "raw_result": "0–1",
+   "comp": "champions-league",
+   "id": "wp-1996-53"
+  },
+  {
+   "date": "1997-04-12",
+   "round": "",
+   "home": "Blackburn Rovers",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 30476,
+   "goals": [
+    {
+     "min": "32",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "42",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "79",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–2",
+   "comp": "premier-league",
+   "id": "wp-1996-54"
+  },
+  {
+   "date": "1997-04-15",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Celtic",
+   "hg": 1,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 43743,
+   "goals": [
+    {
+     "min": "44",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–2",
+   "comp": "friendlies",
+   "id": "wp-1996-55"
+  },
+  {
+   "date": "1997-04-19",
+   "round": "",
+   "home": "Liverpool",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 40892,
+   "goals": [
+    {
+     "min": "13",
+     "team": "Manchester United",
+     "player": "Pallister",
+     "kind": "Goal"
+    },
+    {
+     "min": "42",
+     "team": "Manchester United",
+     "player": "Pallister",
+     "kind": "Goal"
+    },
+    {
+     "min": "63",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–1",
+   "comp": "premier-league",
+   "id": "wp-1996-56"
+  },
+  {
+   "date": "1997-04-23",
+   "round": "Semi-final / Second leg",
+   "home": "Manchester United",
+   "away": "Borussia Dortmund",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 53606,
+   "goals": [],
+   "raw_result": "0–1",
+   "comp": "champions-league",
+   "id": "wp-1996-57"
+  },
+  {
+   "date": "1997-05-03",
+   "round": "",
+   "home": "Leicester City",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 21068,
+   "goals": [
+    {
+     "min": "45",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "52",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–2",
+   "comp": "premier-league",
+   "id": "wp-1996-58"
+  },
+  {
+   "date": "1997-05-05",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Middlesbrough",
+   "hg": 3,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 54489,
+   "goals": [
+    {
+     "min": "34",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    },
+    {
+     "min": "42",
+     "team": "Manchester United",
+     "player": "G. Neville",
+     "kind": "Goal"
+    },
+    {
+     "min": "67",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–3",
+   "comp": "premier-league",
+   "id": "wp-1996-59"
+  },
+  {
+   "date": "1997-05-08",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Newcastle United",
+   "hg": 0,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 55236,
+   "goals": [],
+   "raw_result": "0–0",
+   "comp": "premier-league",
+   "id": "wp-1996-60"
+  },
+  {
+   "date": "1997-05-11",
+   "round": "",
+   "home": "Manchester United",
+   "away": "West Ham United",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 55249,
+   "goals": [
+    {
+     "min": "12",
+     "team": "Manchester United",
+     "player": "Solskjær",
+     "kind": "Goal"
+    },
+    {
+     "min": "84",
+     "team": "Manchester United",
+     "player": "Cruyff",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "premier-league",
+   "id": "wp-1996-61"
+  },
+  {
+   "date": "1997-05-16",
+   "round": "",
+   "home": "Coventry City XI",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 23325,
+   "goals": [
+    {
+     "min": "69",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Penalty"
+    },
+    {
+     "min": "86",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–2",
+   "comp": "friendlies",
+   "id": "wp-1996-62"
+  }
+ ]
+}

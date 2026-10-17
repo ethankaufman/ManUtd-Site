@@ -1,0 +1,1498 @@
+{
+ "season": "1995–96",
+ "source": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Manchester_United_F.C._season",
+ "competitions": [
+  {
+   "slug": "friendlies",
+   "name": "Friendlies",
+   "kind": "friendly"
+  },
+  {
+   "slug": "premier-league",
+   "name": "Premier League",
+   "kind": "league"
+  },
+  {
+   "slug": "fa-cup",
+   "name": "FA Cup",
+   "kind": "cup"
+  },
+  {
+   "slug": "league-cup",
+   "name": "League Cup",
+   "kind": "cup"
+  },
+  {
+   "slug": "europa-league",
+   "name": "UEFA Cup",
+   "kind": "europe"
+  }
+ ],
+ "matches": [
+  {
+   "date": "1995-07-31",
+   "round": "",
+   "home": "Selangor",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 4,
+   "pens": null,
+   "neutral": false,
+   "att": 50000,
+   "goals": [],
+   "raw_result": "4–1",
+   "comp": "friendlies",
+   "id": "wp-1995-01"
+  },
+  {
+   "date": "1995-08-02",
+   "round": "",
+   "home": "Selangor",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 20000,
+   "goals": [],
+   "raw_result": "2–0",
+   "comp": "friendlies",
+   "id": "wp-1995-02"
+  },
+  {
+   "date": "1995-08-07",
+   "round": "",
+   "home": "Birmingham City",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 13330,
+   "goals": [],
+   "raw_result": "0–1",
+   "comp": "friendlies",
+   "id": "wp-1995-03"
+  },
+  {
+   "date": "1995-08-09",
+   "round": "",
+   "home": "Bradford City",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 13457,
+   "goals": [],
+   "raw_result": "1–0",
+   "comp": "friendlies",
+   "id": "wp-1995-04"
+  },
+  {
+   "date": "1995-08-11",
+   "round": "",
+   "home": "Shelbourne",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 12500,
+   "goals": [],
+   "raw_result": "2–2",
+   "comp": "friendlies",
+   "id": "wp-1995-05"
+  },
+  {
+   "date": "1995-08-13",
+   "round": "",
+   "home": "East Fife",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 4,
+   "pens": null,
+   "neutral": false,
+   "att": 5385,
+   "goals": [],
+   "raw_result": "4–0",
+   "comp": "friendlies",
+   "id": "wp-1995-06"
+  },
+  {
+   "date": "1995-08-15",
+   "round": "",
+   "home": "Oldham Athletic",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 8766,
+   "goals": [],
+   "raw_result": "2–0",
+   "comp": "friendlies",
+   "id": "wp-1995-07"
+  },
+  {
+   "date": "1995-08-19",
+   "round": "",
+   "home": "Aston Villa",
+   "away": "Manchester United",
+   "hg": 3,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 34655,
+   "goals": [
+    {
+     "min": "84",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–3",
+   "comp": "premier-league",
+   "id": "wp-1995-08"
+  },
+  {
+   "date": "1995-08-23",
+   "round": "",
+   "home": "Manchester United",
+   "away": "West Ham United",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 31966,
+   "goals": [
+    {
+     "min": "50",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "68",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "premier-league",
+   "id": "wp-1995-09"
+  },
+  {
+   "date": "1995-08-26",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Wimbledon",
+   "hg": 3,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 32226,
+   "goals": [
+    {
+     "min": "28",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    },
+    {
+     "min": "80",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    },
+    {
+     "min": "60",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–1",
+   "comp": "premier-league",
+   "id": "wp-1995-10"
+  },
+  {
+   "date": "1995-08-28",
+   "round": "",
+   "home": "Blackburn Rovers",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 29843,
+   "goals": [
+    {
+     "min": "46",
+     "team": "Manchester United",
+     "player": "Sharpe",
+     "kind": "Goal"
+    },
+    {
+     "min": "67",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "premier-league",
+   "id": "wp-1995-11"
+  },
+  {
+   "date": "1995-09-09",
+   "round": "",
+   "home": "Everton",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 39496,
+   "goals": [
+    {
+     "min": "3",
+     "team": "Manchester United",
+     "player": "Sharpe",
+     "kind": "Goal"
+    },
+    {
+     "min": "49",
+     "team": "Manchester United",
+     "player": "Sharpe",
+     "kind": "Goal"
+    },
+    {
+     "min": "74",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–2",
+   "comp": "premier-league",
+   "id": "wp-1995-12"
+  },
+  {
+   "date": "1995-09-12",
+   "round": "Round 1 / First leg",
+   "home": "Rotor Volgograd",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 33000,
+   "goals": [],
+   "raw_result": "0–0",
+   "comp": "europa-league",
+   "id": "wp-1995-13"
+  },
+  {
+   "date": "1995-09-16",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Bolton Wanderers",
+   "hg": 3,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 32812,
+   "goals": [
+    {
+     "min": "18",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "86",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "34",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–0",
+   "comp": "premier-league",
+   "id": "wp-1995-14"
+  },
+  {
+   "date": "1995-09-20",
+   "round": "Round 2 / First leg",
+   "home": "Manchester United",
+   "away": "York City",
+   "hg": 0,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 29049,
+   "goals": [],
+   "raw_result": "0–3",
+   "comp": "league-cup",
+   "id": "wp-1995-15"
+  },
+  {
+   "date": "1995-09-23",
+   "round": "",
+   "home": "Sheffield Wednesday",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 34101,
+   "goals": [],
+   "raw_result": "0–0",
+   "comp": "premier-league",
+   "id": "wp-1995-16"
+  },
+  {
+   "date": "1995-09-26",
+   "round": "Round 1 / Second leg",
+   "home": "Manchester United",
+   "away": "Rotor Volgograd",
+   "hg": 2,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 29724,
+   "goals": [
+    {
+     "min": "60",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "89",
+     "team": "Manchester United",
+     "player": "Schmeichel",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–2",
+   "comp": "europa-league",
+   "id": "wp-1995-17"
+  },
+  {
+   "date": "1995-10-01",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Liverpool",
+   "hg": 2,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 34934,
+   "goals": [
+    {
+     "min": "2",
+     "team": "Manchester United",
+     "player": "Butt",
+     "kind": "Goal"
+    },
+    {
+     "min": "71",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Penalty"
+    }
+   ],
+   "raw_result": "2–2",
+   "comp": "premier-league",
+   "id": "wp-1995-18"
+  },
+  {
+   "date": "1995-10-03",
+   "round": "Round 2 / Second leg",
+   "home": "York City",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 9386,
+   "goals": [
+    {
+     "min": "7",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "80",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "14",
+     "team": "Manchester United",
+     "player": "Cooke",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–1",
+   "comp": "league-cup",
+   "id": "wp-1995-19"
+  },
+  {
+   "date": "1995-10-14",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Manchester City",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 35707,
+   "goals": [
+    {
+     "min": "5",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1995-20"
+  },
+  {
+   "date": "1995-10-21",
+   "round": "",
+   "home": "Chelsea",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 4,
+   "pens": null,
+   "neutral": false,
+   "att": 31019,
+   "goals": [
+    {
+     "min": "4",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "10",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "78",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "85",
+     "team": "Manchester United",
+     "player": "McClair",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "4–1",
+   "comp": "premier-league",
+   "id": "wp-1995-21"
+  },
+  {
+   "date": "1995-10-28",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Middlesbrough",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 36580,
+   "goals": [
+    {
+     "min": "44",
+     "team": "Manchester United",
+     "player": "Pallister",
+     "kind": "Goal"
+    },
+    {
+     "min": "88",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "premier-league",
+   "id": "wp-1995-22"
+  },
+  {
+   "date": "1995-11-04",
+   "round": "",
+   "home": "Arsenal",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 38317,
+   "goals": [],
+   "raw_result": "0–1",
+   "comp": "premier-league",
+   "id": "wp-1995-23"
+  },
+  {
+   "date": "1995-11-18",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Southampton",
+   "hg": 4,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 39301,
+   "goals": [
+    {
+     "min": "1",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "4",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "9",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "69",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "4–1",
+   "comp": "premier-league",
+   "id": "wp-1995-24"
+  },
+  {
+   "date": "1995-11-22",
+   "round": "",
+   "home": "Coventry City",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 4,
+   "pens": null,
+   "neutral": false,
+   "att": 23400,
+   "goals": [
+    {
+     "min": "28",
+     "team": "Manchester United",
+     "player": "Irwin",
+     "kind": "Goal"
+    },
+    {
+     "min": "48",
+     "team": "Manchester United",
+     "player": "McClair",
+     "kind": "Goal"
+    },
+    {
+     "min": "76",
+     "team": "Manchester United",
+     "player": "McClair",
+     "kind": "Goal"
+    },
+    {
+     "min": "58",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "4–0",
+   "comp": "premier-league",
+   "id": "wp-1995-25"
+  },
+  {
+   "date": "1995-11-27",
+   "round": "",
+   "home": "Nottingham Forest",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 29263,
+   "goals": [
+    {
+     "min": "67",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Penalty"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "premier-league",
+   "id": "wp-1995-26"
+  },
+  {
+   "date": "1995-12-02",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Chelsea",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 42019,
+   "goals": [
+    {
+     "min": "61",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "premier-league",
+   "id": "wp-1995-27"
+  },
+  {
+   "date": "1995-12-05",
+   "round": "",
+   "home": "Manchester United",
+   "away": "International Select",
+   "hg": 1,
+   "ag": 2,
+   "pens": null,
+   "neutral": true,
+   "att": 22000,
+   "goals": [],
+   "raw_result": "1–2",
+   "comp": "friendlies",
+   "id": "wp-1995-28"
+  },
+  {
+   "date": "1995-12-09",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Sheffield Wednesday",
+   "hg": 2,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 41849,
+   "goals": [
+    {
+     "min": "18",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    },
+    {
+     "min": "84",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–2",
+   "comp": "premier-league",
+   "id": "wp-1995-29"
+  },
+  {
+   "date": "1995-12-12",
+   "round": "",
+   "home": "Celtic",
+   "away": "Manchester United",
+   "hg": 3,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 37306,
+   "goals": [],
+   "raw_result": "1–3",
+   "comp": "friendlies",
+   "id": "wp-1995-30"
+  },
+  {
+   "date": "1995-12-17",
+   "round": "",
+   "home": "Liverpool",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 40546,
+   "goals": [],
+   "raw_result": "0–2",
+   "comp": "premier-league",
+   "id": "wp-1995-31"
+  },
+  {
+   "date": "1995-12-24",
+   "round": "",
+   "home": "Leeds United",
+   "away": "Manchester United",
+   "hg": 3,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 39801,
+   "goals": [
+    {
+     "min": "30",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–3",
+   "comp": "premier-league",
+   "id": "wp-1995-32"
+  },
+  {
+   "date": "1995-12-27",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Newcastle United",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 42024,
+   "goals": [
+    {
+     "min": "6",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "53",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "premier-league",
+   "id": "wp-1995-33"
+  },
+  {
+   "date": "1995-12-30",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Queens Park Rangers",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 41890,
+   "goals": [
+    {
+     "min": "45",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "52",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "premier-league",
+   "id": "wp-1995-34"
+  },
+  {
+   "date": "1996-01-01",
+   "round": "",
+   "home": "Tottenham Hotspur",
+   "away": "Manchester United",
+   "hg": 4,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 32852,
+   "goals": [
+    {
+     "min": "36",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–4",
+   "comp": "premier-league",
+   "id": "wp-1995-35"
+  },
+  {
+   "date": "1996-01-06",
+   "round": "Round 3",
+   "home": "Manchester United",
+   "away": "Sunderland",
+   "hg": 2,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 41563,
+   "goals": [
+    {
+     "min": "13",
+     "team": "Manchester United",
+     "player": "Butt",
+     "kind": "Goal"
+    },
+    {
+     "min": "80",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–2",
+   "comp": "fa-cup",
+   "id": "wp-1995-36"
+  },
+  {
+   "date": "1996-01-13",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Aston Villa",
+   "hg": 0,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 42667,
+   "goals": [],
+   "raw_result": "0–0",
+   "comp": "premier-league",
+   "id": "wp-1995-37"
+  },
+  {
+   "date": "1996-01-16",
+   "round": "Round 3 / Replay",
+   "home": "Sunderland",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 2,
+   "pens": null,
+   "neutral": false,
+   "att": 21378,
+   "goals": [
+    {
+     "min": "70",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "90",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "fa-cup",
+   "id": "wp-1995-38"
+  },
+  {
+   "date": "1996-01-22",
+   "round": "",
+   "home": "West Ham United",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 24197,
+   "goals": [
+    {
+     "min": "9",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1995-39"
+  },
+  {
+   "date": "1996-01-27",
+   "round": "Round 4",
+   "home": "Reading",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 14780,
+   "goals": [
+    {
+     "min": "37",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "57",
+     "team": "Manchester United",
+     "player": "Parker",
+     "kind": "Goal"
+    },
+    {
+     "min": "90",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–0",
+   "comp": "fa-cup",
+   "id": "wp-1995-40"
+  },
+  {
+   "date": "1996-02-03",
+   "round": "",
+   "home": "Wimbledon",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 4,
+   "pens": null,
+   "neutral": false,
+   "att": 25380,
+   "goals": [
+    {
+     "min": "41",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "45",
+     "team": "Manchester United",
+     "player": "Perry",
+     "kind": "Own Goal"
+    },
+    {
+     "min": "71",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    },
+    {
+     "min": "81",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Penalty"
+    }
+   ],
+   "raw_result": "4–2",
+   "comp": "premier-league",
+   "id": "wp-1995-41"
+  },
+  {
+   "date": "1996-02-10",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Blackburn Rovers",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 42681,
+   "goals": [
+    {
+     "min": "15",
+     "team": "Manchester United",
+     "player": "Sharpe",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1995-42"
+  },
+  {
+   "date": "1996-02-18",
+   "round": "Round 5",
+   "home": "Manchester United",
+   "away": "Manchester City",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 42692,
+   "goals": [
+    {
+     "min": "39",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Penalty"
+    },
+    {
+     "min": "78",
+     "team": "Manchester United",
+     "player": "Sharpe",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "fa-cup",
+   "id": "wp-1995-43"
+  },
+  {
+   "date": "1996-02-21",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Everton",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 42459,
+   "goals": [
+    {
+     "min": "30",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    },
+    {
+     "min": "82",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "premier-league",
+   "id": "wp-1995-44"
+  },
+  {
+   "date": "1996-02-25",
+   "round": "",
+   "home": "Bolton Wanderers",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 6,
+   "pens": null,
+   "neutral": false,
+   "att": 21381,
+   "goals": [
+    {
+     "min": "5",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    },
+    {
+     "min": "15",
+     "team": "Manchester United",
+     "player": "Bruce",
+     "kind": "Goal"
+    },
+    {
+     "min": "70",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "76",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "79",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "90",
+     "team": "Manchester United",
+     "player": "Butt",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "6–0",
+   "comp": "premier-league",
+   "id": "wp-1995-45"
+  },
+  {
+   "date": "1996-03-04",
+   "round": "",
+   "home": "Newcastle United",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 36584,
+   "goals": [
+    {
+     "min": "52",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1995-46"
+  },
+  {
+   "date": "1996-03-11",
+   "round": "Round 6",
+   "home": "Manchester United",
+   "away": "Southampton",
+   "hg": 2,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 45446,
+   "goals": [
+    {
+     "min": "49",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    },
+    {
+     "min": "90",
+     "team": "Manchester United",
+     "player": "Sharpe",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–0",
+   "comp": "fa-cup",
+   "id": "wp-1995-47"
+  },
+  {
+   "date": "1996-03-16",
+   "round": "",
+   "home": "Queens Park Rangers",
+   "away": "Manchester United",
+   "hg": 1,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 18817,
+   "goals": [
+    {
+     "min": "90",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–1",
+   "comp": "premier-league",
+   "id": "wp-1995-48"
+  },
+  {
+   "date": "1996-03-20",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Arsenal",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 50028,
+   "goals": [
+    {
+     "min": "65",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1995-49"
+  },
+  {
+   "date": "1996-03-24",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Tottenham Hotspur",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 50157,
+   "goals": [
+    {
+     "min": "51",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1995-50"
+  },
+  {
+   "date": "1996-03-31",
+   "round": "Semi-final",
+   "home": "Manchester United",
+   "away": "Chelsea",
+   "hg": 2,
+   "ag": 1,
+   "pens": null,
+   "neutral": true,
+   "att": 38421,
+   "goals": [
+    {
+     "min": "55",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "59",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "2–1",
+   "comp": "fa-cup",
+   "id": "wp-1995-51"
+  },
+  {
+   "date": "1996-04-06",
+   "round": "",
+   "home": "Manchester City",
+   "away": "Manchester United",
+   "hg": 2,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 29668,
+   "goals": [
+    {
+     "min": "7",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Penalty"
+    },
+    {
+     "min": "42",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "78",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–2",
+   "comp": "premier-league",
+   "id": "wp-1995-52"
+  },
+  {
+   "date": "1996-04-08",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Coventry City",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 50332,
+   "goals": [
+    {
+     "min": "47",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1995-53"
+  },
+  {
+   "date": "1996-04-13",
+   "round": "",
+   "home": "Southampton",
+   "away": "Manchester United",
+   "hg": 3,
+   "ag": 1,
+   "pens": null,
+   "neutral": false,
+   "att": 15262,
+   "goals": [
+    {
+     "min": "89",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–3",
+   "comp": "premier-league",
+   "id": "wp-1995-54"
+  },
+  {
+   "date": "1996-04-17",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Leeds United",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 48382,
+   "goals": [
+    {
+     "min": "72",
+     "team": "Manchester United",
+     "player": "Keane",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "premier-league",
+   "id": "wp-1995-55"
+  },
+  {
+   "date": "1996-04-28",
+   "round": "",
+   "home": "Manchester United",
+   "away": "Nottingham Forest",
+   "hg": 5,
+   "ag": 0,
+   "pens": null,
+   "neutral": false,
+   "att": 53926,
+   "goals": [
+    {
+     "min": "42",
+     "team": "Manchester United",
+     "player": "Scholes",
+     "kind": "Goal"
+    },
+    {
+     "min": "45",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    },
+    {
+     "min": "55",
+     "team": "Manchester United",
+     "player": "Beckham",
+     "kind": "Goal"
+    },
+    {
+     "min": "70",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    },
+    {
+     "min": "90",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "5–0",
+   "comp": "premier-league",
+   "id": "wp-1995-56"
+  },
+  {
+   "date": "1996-05-05",
+   "round": "",
+   "home": "Middlesbrough",
+   "away": "Manchester United",
+   "hg": 0,
+   "ag": 3,
+   "pens": null,
+   "neutral": false,
+   "att": 29921,
+   "goals": [
+    {
+     "min": "14",
+     "team": "Manchester United",
+     "player": "May",
+     "kind": "Goal"
+    },
+    {
+     "min": "54",
+     "team": "Manchester United",
+     "player": "Cole",
+     "kind": "Goal"
+    },
+    {
+     "min": "81",
+     "team": "Manchester United",
+     "player": "Giggs",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "3–0",
+   "comp": "premier-league",
+   "id": "wp-1995-57"
+  },
+  {
+   "date": "1996-05-11",
+   "round": "Final",
+   "home": "Manchester United",
+   "away": "Liverpool",
+   "hg": 1,
+   "ag": 0,
+   "pens": null,
+   "neutral": true,
+   "att": 79007,
+   "goals": [
+    {
+     "min": "86",
+     "team": "Manchester United",
+     "player": "Cantona",
+     "kind": "Goal"
+    }
+   ],
+   "raw_result": "1–0",
+   "comp": "fa-cup",
+   "id": "wp-1995-58"
+  }
+ ]
+}
