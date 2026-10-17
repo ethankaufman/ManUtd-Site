@@ -1,0 +1,233 @@
+[
+ {
+  "when": "1878",
+  "title": "Founded as Newton Heath LYR",
+  "text": "Formed by the Carriage and Wagon department of the Lancashire and Yorkshire Railway depot at Newton Heath, Manchester.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_Manchester_United_F.C._(1878%E2%80%931945)"
+  ],
+  "from_data": []
+ },
+ {
+  "when": "1892",
+  "title": "Into the Football League",
+  "text": "After the Football Alliance merged with the Football League, the club started 1892–93 in the First Division. By then it had dropped “LYR” from its name and moved to a new ground at Bank Street.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_Manchester_United_F.C._(1878%E2%80%931945)"
+  ],
+  "from_data": []
+ },
+ {
+  "when": "24 April 1902",
+  "title": "Manchester United",
+  "text": "The club’s name was changed from Newton Heath to Manchester United.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_Manchester_United_F.C._(1878%E2%80%931945)"
+  ],
+  "from_data": []
+ },
+ {
+  "when": "1908",
+  "title": "First league title",
+  "text": "United won the First Division in 1907–08 and began the next season by winning the first ever Charity Shield.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_Manchester_United_F.C._(1878%E2%80%931945)"
+  ],
+  "from_data": []
+ },
+ {
+  "when": "24 April 1909",
+  "title": "First FA Cup",
+  "text": "Beat Bristol City 1–0 in the final at Crystal Palace, London.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_Manchester_United_F.C._(1878%E2%80%931945)"
+  ],
+  "from_data": [
+   "Match details: data/club/finals.json (Wikipedia, checked against our match data)"
+  ]
+ },
+ {
+  "when": "19 February 1910",
+  "title": "Old Trafford opens",
+  "text": "The stadium’s first match was against Liverpool, who won 4–3. Sandy Turnbull scored the first ever goal at Old Trafford.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Old_Trafford"
+  ],
+  "from_data": []
+ },
+ {
+  "when": "October 1945",
+  "title": "Matt Busby",
+  "text": "As football resumed after the war, Busby was appointed manager. He demanded an unprecedented level of control over team selection, transfers and training.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_Manchester_United_F.C._(1945%E2%80%931969)"
+  ],
+  "from_data": []
+ },
+ {
+  "when": "24 April 1948",
+  "title": "FA Cup, 1948",
+  "text": "A 4–2 win over Blackpool at Wembley, the club’s first major trophy for 37 years.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_Manchester_United_F.C._(1945%E2%80%931969)"
+  ],
+  "from_data": [
+   "Match details: data/club/finals.json (Wikipedia, checked against our match data)"
+  ]
+ },
+ {
+  "when": "1956–57",
+  "title": "Into Europe",
+  "text": "United became the first English club to compete in the European Cup, despite objections from the Football League. They reached the semi-final, losing to Real Madrid, and beat Anderlecht 10–0, the club’s biggest win on record.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_Manchester_United_F.C._(1945%E2%80%931969)"
+  ],
+  "from_data": []
+ },
+ {
+  "when": "6 February 1958",
+  "title": "Munich",
+  "text": "The plane carrying the team home from a European Cup tie in Belgrade crashed on its third attempt to take off from Munich-Riem. It claimed 23 lives, including eight players: Geoff Bent, Roger Byrne, Eddie Colman, Duncan Edwards, Mark Jones, David Pegg, Tommy Taylor and Billy Whelan. Busby was hospitalised, and later rebuilt the team.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Munich_air_disaster",
+   "https://en.wikipedia.org/wiki/History_of_Manchester_United_F.C._(1945%E2%80%931969)"
+  ],
+  "from_data": []
+ },
+ {
+  "when": "29 May 1968",
+  "title": "European champions",
+  "text": "Beat Benfica 4–1 after extra time at Wembley, the first English club to win the European Cup.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_Manchester_United_F.C._(1945%E2%80%931969)"
+  ],
+  "from_data": [
+   "Match details: data/club/finals.json (Wikipedia, checked against our match data)"
+  ]
+ },
+ {
+  "when": "1974",
+  "title": "Relegated",
+  "text": "United finished 21st in 1973–74 and dropped into the Second Division. They won it at the first attempt, as champions in 1974–75.",
+  "sources": [],
+  "from_data": [
+   "Season record: data/club/seasons.json (Wikipedia, checked against the official tables)"
+  ]
+ },
+ {
+  "when": "1985–1990",
+  "title": "Banned from Europe",
+  "text": "English clubs were banned from European competition for five seasons, so United played none between 1985–86 and 1989–90.",
+  "sources": [],
+  "from_data": [
+   "Season record: data/club/seasons.json (Wikipedia, checked against the official tables)"
+  ]
+ },
+ {
+  "when": "6 November 1986",
+  "title": "Alex Ferguson",
+  "text": "Ferguson joined from Aberdeen on the day the previous manager, Ron Atkinson, was dismissed.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_Manchester_United_F.C._(1986%E2%80%932013)"
+  ],
+  "from_data": []
+ },
+ {
+  "when": "15 May 1991",
+  "title": "1990 and 1991",
+  "text": "Reportedly close to the sack after United finished 13th in 1989–90, Ferguson won the FA Cup final replay against Crystal Palace (after a 3–3 draw). The next season United won the Cup Winners’ Cup, beating Barcelona 2–1 in Rotterdam.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_Manchester_United_F.C._(1986%E2%80%932013)"
+  ],
+  "from_data": [
+   "Match details: data/club/finals.json (Wikipedia, checked against our match data)"
+  ]
+ },
+ {
+  "when": "1993",
+  "title": "First league title in 26 years",
+  "text": "In the first season of the Premier League, 1992–93, United were champions, their first league title since 1966–67.",
+  "sources": [],
+  "from_data": [
+   "Season record: data/club/seasons.json (Wikipedia, checked against the official tables)"
+  ]
+ },
+ {
+  "when": "May 1999",
+  "title": "The Treble",
+  "text": "United won the Premier League, beat Newcastle 2–0 in the FA Cup final on 22 May 1999, and won the Champions League on 26 May 1999: 1–0 down in injury time against Bayern Munich at the Camp Nou, Teddy Sheringham and Ole Gunnar Solskjær scored late goals. No English club had won all three in one season.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_Manchester_United_F.C._(1986%E2%80%932013)"
+  ],
+  "from_data": [
+   "Match details: data/club/finals.json (Wikipedia, checked against our match data)"
+  ]
+ },
+ {
+  "when": "May 2005",
+  "title": "Glazer takeover",
+  "text": "The Glazer family bought a majority shareholding in a deal valuing the club at £800 million, and a month later took it off the London Stock Exchange. In protest, a group of fans formed F.C. United of Manchester.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_Manchester_United_F.C._(1986%E2%80%932013)"
+  ],
+  "from_data": []
+ },
+ {
+  "when": "21 May 2008",
+  "title": "Moscow",
+  "text": "Champions League winners for the third time: 1–1 with Chelsea at the Luzhniki Stadium, then 6–5 on penalties. Seven months later United won the FIFA Club World Cup, beating LDU Quito 1–0 in Yokohama.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Manchester_United_F.C."
+  ],
+  "from_data": [
+   "Match details: data/club/finals.json (Wikipedia, checked against our match data)"
+  ]
+ },
+ {
+  "when": "8 May 2013",
+  "title": "Ferguson retires",
+  "text": "Ferguson announced his retirement after winning a 20th league title, clinched with a 3–0 win over Aston Villa on 22 April 2013. He retired as the most decorated manager in football history.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
+   "https://en.wikipedia.org/wiki/History_of_Manchester_United_F.C._(1986%E2%80%932013)"
+  ],
+  "from_data": []
+ },
+ {
+  "when": "24 May 2017",
+  "title": "Europa League",
+  "text": "Beat Ajax 2–0 in Stockholm to win the Europa League, three months after winning the League Cup.",
+  "sources": [],
+  "from_data": [
+   "Match details: data/club/finals.json (Wikipedia, checked against our match data)"
+  ]
+ },
+ {
+  "when": "24 December 2023",
+  "title": "New co-owner",
+  "text": "It was announced that Sir Jim Ratcliffe had purchased 25 per cent of the club, and that his Ineos Sport company was taking control of football operations.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Manchester_United_F.C."
+  ],
+  "from_data": []
+ },
+ {
+  "when": "25 May 2024",
+  "title": "FA Cup, 2024",
+  "text": "Beat Manchester City 2–1 at Wembley for a 13th FA Cup.",
+  "sources": [],
+  "from_data": [
+   "Match details: data/club/finals.json (Wikipedia, checked against our match data)"
+  ]
+ },
+ {
+  "when": "21 May 2025",
+  "title": "Bilbao",
+  "text": "Lost the Europa League final 0–1 to Tottenham Hotspur at San Mamés. That season United finished 15th in the Premier League, their lowest finish since the league began in 1992.",
+  "sources": [],
+  "from_data": [
+   "Match details: data/club/finals.json (Wikipedia, checked against our match data)",
+   "Season record: data/club/seasons.json (Wikipedia, checked against the official tables)"
+  ]
+ }
+]
