@@ -1,0 +1,92 @@
+{
+ "premier-league": {
+  "file": "premier-league.jpg",
+  "shows": "The Premier League trophy",
+  "title": "Trophée Premier League 13-14.jpg",
+  "author": "Espandero",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Troph%C3%A9e_Premier_League_13-14.jpg"
+ },
+ "first-division": {
+  "file": "first-division.png",
+  "shows": "An illustration of the Football League championship trophy used before 1992",
+  "title": "First Division (pre 1992) Trophy.png",
+  "author": "MacMoreno",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:First_Division_(pre_1992)_Trophy.png"
+ },
+ "fa-cup": {
+  "file": "fa-cup.jpg",
+  "shows": "The FA Cup at Wembley",
+  "title": "The FA Cup Trophy.jpg",
+  "author": "Carlos yo",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:The_FA_Cup_Trophy.jpg"
+ },
+ "league-cup": {
+  "file": "league-cup.jpg",
+  "shows": "The League Cup, shown in Liverpool’s museum",
+  "title": "EFL Cup trophy displyed in Liverpool FC museum.jpg",
+  "author": "FYI2023",
+  "licence": "CC0",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "page": "https://commons.wikimedia.org/wiki/File:EFL_Cup_trophy_displyed_in_Liverpool_FC_museum.jpg"
+ },
+ "community-shield": {
+  "file": "community-shield.jpg",
+  "shows": "The Community Shield",
+  "title": "FA Community Shield.JPG",
+  "author": "Seth Whales",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:FA_Community_Shield.JPG"
+ },
+ "european-cup": {
+  "file": "european-cup.jpg",
+  "shows": "The European Cup / Champions League trophy (shown with another club’s ribbons)",
+  "title": "2006 Champions League Trophy.jpg",
+  "author": "Gaetano Porcaro",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:2006_Champions_League_Trophy.jpg"
+ },
+ "cup-winners-cup": {
+  "file": "cup-winners-cup.jpg",
+  "shows": "The Cup Winners’ Cup, at the National Football Museum in Manchester",
+  "title": "UEFA Cup Winners' Cup trophy at Manchester National Football Museum (Ank Kumar) 01.jpg",
+  "author": "Ank Kumar",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:UEFA_Cup_Winners%27_Cup_trophy_at_Manchester_National_Football_Museum_(Ank_Kumar)_01.jpg"
+ },
+ "europa-league": {
+  "file": "europa-league.jpg",
+  "shows": "The Europa League trophy, in Liverpool’s museum",
+  "title": "Europa league trophy.jpg",
+  "author": "Damine178",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Europa_league_trophy.jpg"
+ },
+ "super-cup": {
+  "file": "super-cup.jpg",
+  "shows": "The UEFA Super Cup",
+  "title": "UEFA Super Cup Trophy (6896943435).jpg",
+  "author": "Daniel from Glasgow, United Kingdom",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:UEFA_Super_Cup_Trophy_(6896943435).jpg"
+ },
+ "intercontinental-cup": {
+  "file": "intercontinental-cup.jpg",
+  "shows": "The Intercontinental (Toyota) Cup, as shown in Flamengo’s museum",
+  "title": "Taça Intercontinental 1981 Flamengo.jpg",
+  "author": "Tekteu",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Ta%C3%A7a_Intercontinental_1981_Flamengo.jpg"
+ }
+}

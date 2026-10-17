@@ -11,6 +11,7 @@ A fan-made website about Manchester United, in the club's red, black and white. 
 * **Intro**: a scroll-driven 3D flight (three.js) over a stylised night-time Manchester that spirals down into Old Trafford.
 * **Every Match**: all 35 seasons from 1992–93 (2,210 matches, every competition) with a season dropdown, competition filters and an expandable row per match; line-ups, cards and goals where the sources have them.
 * **The History**: a timeline, the season-by-season record from 1886–87, every final with its date and venue, every competition, and the captains.
+* **Honours & Awards**: every trophy (all time or since 1992) with a free-licensed picture, every win with its date and venue, and the individual awards.
 * **Famous victories**: a slideshow of seven free-licensed photos, each with the match, date, result and photo credit.
 ![Famous victories slideshow](docs/slideshow.jpg)
 
@@ -43,6 +44,7 @@ npm run dev                              # http://localhost:3000
 
 * This is an **unofficial** fan project. It is not affiliated with, or endorsed by, Manchester United Football Club. Club names and marks belong to their owners, and no club crest is used.
 * Match data: ESPN's public soccer service. Match and goal facts for the Overhead Kicks page come from the sources listed on that page.
+* Trophy photos (`public/trophies/`) are free-licensed pictures from Wikimedia Commons chosen by hand and downloaded with `scripts/fetch_trophy_photos.py`; the credit for each is shown on its card and kept in `src/lib/trophy-photos.json`.
 * Squad photos (`public/players/`) are free-licensed pictures from Wikimedia Commons (CC BY, CC BY-SA or CC0), found with `scripts/fetch_player_photos.py`;
   each player's page shows the photographer, licence and a link, and the full list is in `src/lib/player-photos.json`. Players without a free photo have none.
 * Slideshow photos are from Wikimedia Commons under free licences; each photo's author, licence and link are shown under it (and in `src/lib/slides.ts`).

@@ -1,0 +1,2101 @@
+{
+ "trophies": [
+  {
+   "key": "premier-league",
+   "name": "Premier League",
+   "type": "league",
+   "entries": [
+    {
+     "season": "1992-93",
+     "year": 1993,
+     "label": "1992–93",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 42,
+      "w": 24,
+      "d": 12,
+      "l": 6,
+      "gf": 67,
+      "ga": 31,
+      "pts": 84
+     }
+    },
+    {
+     "season": "1993-94",
+     "year": 1994,
+     "label": "1993–94",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 42,
+      "w": 27,
+      "d": 11,
+      "l": 4,
+      "gf": 80,
+      "ga": 38,
+      "pts": 92
+     }
+    },
+    {
+     "season": "1995-96",
+     "year": 1996,
+     "label": "1995–96",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 38,
+      "w": 25,
+      "d": 7,
+      "l": 6,
+      "gf": 73,
+      "ga": 35,
+      "pts": 82
+     }
+    },
+    {
+     "season": "1996-97",
+     "year": 1997,
+     "label": "1996–97",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 38,
+      "w": 21,
+      "d": 12,
+      "l": 5,
+      "gf": 76,
+      "ga": 44,
+      "pts": 75
+     }
+    },
+    {
+     "season": "1998-99",
+     "year": 1999,
+     "label": "1998–99",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 38,
+      "w": 22,
+      "d": 13,
+      "l": 3,
+      "gf": 80,
+      "ga": 37,
+      "pts": 79
+     }
+    },
+    {
+     "season": "1999-00",
+     "year": 2000,
+     "label": "1999–00",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 38,
+      "w": 28,
+      "d": 7,
+      "l": 3,
+      "gf": 97,
+      "ga": 45,
+      "pts": 91
+     }
+    },
+    {
+     "season": "2000-01",
+     "year": 2001,
+     "label": "2000–01",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 38,
+      "w": 24,
+      "d": 8,
+      "l": 6,
+      "gf": 79,
+      "ga": 31,
+      "pts": 80
+     }
+    },
+    {
+     "season": "2002-03",
+     "year": 2003,
+     "label": "2002–03",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 38,
+      "w": 25,
+      "d": 8,
+      "l": 5,
+      "gf": 74,
+      "ga": 34,
+      "pts": 83
+     }
+    },
+    {
+     "season": "2006-07",
+     "year": 2007,
+     "label": "2006–07",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 38,
+      "w": 28,
+      "d": 5,
+      "l": 5,
+      "gf": 83,
+      "ga": 27,
+      "pts": 89
+     }
+    },
+    {
+     "season": "2007-08",
+     "year": 2008,
+     "label": "2007–08",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 38,
+      "w": 27,
+      "d": 6,
+      "l": 5,
+      "gf": 80,
+      "ga": 22,
+      "pts": 87
+     }
+    },
+    {
+     "season": "2008-09",
+     "year": 2009,
+     "label": "2008–09",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 38,
+      "w": 28,
+      "d": 6,
+      "l": 4,
+      "gf": 68,
+      "ga": 24,
+      "pts": 90
+     }
+    },
+    {
+     "season": "2010-11",
+     "year": 2011,
+     "label": "2010–11",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 38,
+      "w": 23,
+      "d": 11,
+      "l": 4,
+      "gf": 78,
+      "ga": 37,
+      "pts": 80
+     }
+    },
+    {
+     "season": "2012-13",
+     "year": 2013,
+     "label": "2012–13",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 38,
+      "w": 28,
+      "d": 5,
+      "l": 5,
+      "gf": 86,
+      "ga": 43,
+      "pts": 89
+     }
+    }
+   ]
+  },
+  {
+   "key": "first-division",
+   "name": "Football League First Division",
+   "type": "league",
+   "entries": [
+    {
+     "season": "1907-08",
+     "year": 1908,
+     "label": "1907–08",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 38,
+      "w": 23,
+      "d": 6,
+      "l": 9,
+      "gf": 81,
+      "ga": 48,
+      "pts": 52
+     }
+    },
+    {
+     "season": "1910-11",
+     "year": 1911,
+     "label": "1910–11",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 38,
+      "w": 22,
+      "d": 8,
+      "l": 8,
+      "gf": 72,
+      "ga": 40,
+      "pts": 52
+     }
+    },
+    {
+     "season": "1951-52",
+     "year": 1952,
+     "label": "1951–52",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 42,
+      "w": 23,
+      "d": 11,
+      "l": 8,
+      "gf": 95,
+      "ga": 52,
+      "pts": 57
+     }
+    },
+    {
+     "season": "1955-56",
+     "year": 1956,
+     "label": "1955–56",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 42,
+      "w": 25,
+      "d": 10,
+      "l": 7,
+      "gf": 83,
+      "ga": 51,
+      "pts": 60
+     }
+    },
+    {
+     "season": "1956-57",
+     "year": 1957,
+     "label": "1956–57",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 42,
+      "w": 28,
+      "d": 8,
+      "l": 6,
+      "gf": 103,
+      "ga": 54,
+      "pts": 64
+     }
+    },
+    {
+     "season": "1964-65",
+     "year": 1965,
+     "label": "1964–65",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 42,
+      "w": 26,
+      "d": 9,
+      "l": 7,
+      "gf": 89,
+      "ga": 39,
+      "pts": 61
+     }
+    },
+    {
+     "season": "1966-67",
+     "year": 1967,
+     "label": "1966–67",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 42,
+      "w": 24,
+      "d": 12,
+      "l": 6,
+      "gf": 84,
+      "ga": 45,
+      "pts": 60
+     }
+    }
+   ]
+  },
+  {
+   "key": "second-division",
+   "name": "Football League Second Division",
+   "type": "league",
+   "entries": [
+    {
+     "season": "1935-36",
+     "year": 1936,
+     "label": "1935–36",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 42,
+      "w": 22,
+      "d": 12,
+      "l": 8,
+      "gf": 85,
+      "ga": 43,
+      "pts": 56
+     }
+    },
+    {
+     "season": "1974-75",
+     "year": 1975,
+     "label": "1974–75",
+     "shared": false,
+     "final": null,
+     "table": {
+      "p": 42,
+      "w": 26,
+      "d": 9,
+      "l": 7,
+      "gf": 66,
+      "ga": 30,
+      "pts": 61
+     }
+    }
+   ]
+  },
+  {
+   "key": "fa-cup",
+   "name": "FA Cup",
+   "type": "cup",
+   "entries": [
+    {
+     "season": "1908-09",
+     "year": 1909,
+     "label": "1908–09",
+     "shared": false,
+     "final": {
+      "date": "1909-04-24",
+      "opponent": "Bristol City",
+      "score": [
+       1,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Crystal Palace",
+      "city": "London",
+      "attendance": 71401,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1909_FA_Cup_final",
+      "title": "1909 FA Cup final"
+     },
+     "table": null
+    },
+    {
+     "season": "1947-48",
+     "year": 1948,
+     "label": "1947–48",
+     "shared": false,
+     "final": {
+      "date": "1948-04-24",
+      "opponent": "Blackpool",
+      "score": [
+       4,
+       2
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 99842,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1948_FA_Cup_final",
+      "title": "1948 FA Cup Final"
+     },
+     "table": null
+    },
+    {
+     "season": "1962-63",
+     "year": 1963,
+     "label": "1962–63",
+     "shared": false,
+     "final": {
+      "date": "1963-05-25",
+      "opponent": "Leicester City",
+      "score": [
+       3,
+       1
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 99604,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1963_FA_Cup_final",
+      "title": "1963 FA Cup final"
+     },
+     "table": null
+    },
+    {
+     "season": "1976-77",
+     "year": 1977,
+     "label": "1976–77",
+     "shared": false,
+     "final": {
+      "date": "1977-05-21",
+      "opponent": "Liverpool",
+      "score": [
+       2,
+       1
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 99252,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1977_FA_Cup_final",
+      "title": "1977 FA Cup Final"
+     },
+     "table": null
+    },
+    {
+     "season": "1982-83",
+     "year": 1983,
+     "label": "1982–83",
+     "shared": false,
+     "final": {
+      "date": "1983-05-21",
+      "opponent": "Brighton & Hove Albion",
+      "score": [
+       2,
+       2
+      ],
+      "aet": true,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 99059,
+      "replay": {
+       "kind": "replay",
+       "date": "1983-05-26",
+       "venue": "Wembley Stadium",
+       "city": "London",
+       "score": [
+        4,
+        0
+       ],
+       "aet": false,
+       "attendance": 91534,
+       "pens": null
+      },
+      "page": "https://en.wikipedia.org/wiki/1983_FA_Cup_final",
+      "title": "1983 FA Cup Final"
+     },
+     "table": null
+    },
+    {
+     "season": "1984-85",
+     "year": 1985,
+     "label": "1984–85",
+     "shared": false,
+     "final": {
+      "date": "1985-05-18",
+      "opponent": "Everton",
+      "score": [
+       1,
+       0
+      ],
+      "aet": true,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 100000,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1985_FA_Cup_final",
+      "title": "1985 FA Cup Final"
+     },
+     "table": null
+    },
+    {
+     "season": "1989-90",
+     "year": 1990,
+     "label": "1989–90",
+     "shared": false,
+     "final": {
+      "date": "1990-05-12",
+      "opponent": "Crystal Palace",
+      "score": [
+       3,
+       3
+      ],
+      "aet": true,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 80000,
+      "replay": {
+       "kind": "replay",
+       "date": "1990-05-17",
+       "venue": "Wembley Stadium",
+       "city": "London",
+       "score": [
+        1,
+        0
+       ],
+       "aet": false,
+       "attendance": 80000,
+       "pens": null
+      },
+      "page": "https://en.wikipedia.org/wiki/1990_FA_Cup_final",
+      "title": "1990 FA Cup final"
+     },
+     "table": null
+    },
+    {
+     "season": "1993-94",
+     "year": 1994,
+     "label": "1993–94",
+     "shared": false,
+     "final": {
+      "date": "1994-05-14",
+      "opponent": "Chelsea",
+      "score": [
+       4,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 79634,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1994_FA_Cup_final",
+      "title": "1994 FA Cup final"
+     },
+     "table": null
+    },
+    {
+     "season": "1995-96",
+     "year": 1996,
+     "label": "1995–96",
+     "shared": false,
+     "final": {
+      "date": "1996-05-11",
+      "opponent": "Liverpool",
+      "score": [
+       1,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 79007,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1996_FA_Cup_final",
+      "title": "1996 FA Cup Final"
+     },
+     "table": null
+    },
+    {
+     "season": "1998-99",
+     "year": 1999,
+     "label": "1998–99",
+     "shared": false,
+     "final": {
+      "date": "1999-05-22",
+      "opponent": "Newcastle United",
+      "score": [
+       2,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 79101,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1999_FA_Cup_final",
+      "title": "1999 FA Cup final"
+     },
+     "table": null
+    },
+    {
+     "season": "2003-04",
+     "year": 2004,
+     "label": "2003–04",
+     "shared": false,
+     "final": {
+      "date": "2004-05-22",
+      "opponent": "Millwall",
+      "score": [
+       3,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Millennium Stadium",
+      "city": "Cardiff",
+      "attendance": 71350,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2004_FA_Cup_final",
+      "title": "2004 FA Cup Final"
+     },
+     "table": null
+    },
+    {
+     "season": "2015-16",
+     "year": 2016,
+     "label": "2015–16",
+     "shared": false,
+     "final": {
+      "date": "2016-05-21",
+      "opponent": "Crystal Palace",
+      "score": [
+       2,
+       1
+      ],
+      "aet": true,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 88619,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2016_FA_Cup_final",
+      "title": "2016 FA Cup Final"
+     },
+     "table": null
+    },
+    {
+     "season": "2023-24",
+     "year": 2024,
+     "label": "2023–24",
+     "shared": false,
+     "final": {
+      "date": "2024-05-25",
+      "opponent": "Manchester City",
+      "score": [
+       2,
+       1
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 84814,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2024_FA_Cup_final",
+      "title": "2024 FA Cup final"
+     },
+     "table": null
+    }
+   ]
+  },
+  {
+   "key": "league-cup",
+   "name": "League Cup",
+   "type": "cup",
+   "entries": [
+    {
+     "season": "1991-92",
+     "year": 1992,
+     "label": "1991–92",
+     "shared": false,
+     "final": {
+      "date": "1992-04-12",
+      "opponent": "Nottingham Forest",
+      "score": [
+       1,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 76810,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1992_Football_League_Cup_final",
+      "title": "1992 Football League Cup final"
+     },
+     "table": null
+    },
+    {
+     "season": "2005-06",
+     "year": 2006,
+     "label": "2005–06",
+     "shared": false,
+     "final": {
+      "date": "2006-02-26",
+      "opponent": "Wigan Athletic",
+      "score": [
+       4,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Millennium Stadium",
+      "city": "Cardiff",
+      "attendance": 66866,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2006_Football_League_Cup_final",
+      "title": "2006 Football League Cup final"
+     },
+     "table": null
+    },
+    {
+     "season": "2008-09",
+     "year": 2009,
+     "label": "2008–09",
+     "shared": false,
+     "final": {
+      "date": "2009-03-01",
+      "opponent": "Tottenham Hotspur",
+      "score": [
+       0,
+       0
+      ],
+      "aet": true,
+      "pens": [
+       4,
+       1
+      ],
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 88217,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2009_Football_League_Cup_final",
+      "title": "2009 Football League Cup final"
+     },
+     "table": null
+    },
+    {
+     "season": "2009-10",
+     "year": 2010,
+     "label": "2009–10",
+     "shared": false,
+     "final": {
+      "date": "2010-02-28",
+      "opponent": "Aston Villa",
+      "score": [
+       2,
+       1
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 88596,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2010_Football_League_Cup_final",
+      "title": "2010 Football League Cup final"
+     },
+     "table": null
+    },
+    {
+     "season": "2016-17",
+     "year": 2017,
+     "label": "2016–17",
+     "shared": false,
+     "final": {
+      "date": "2017-02-26",
+      "opponent": "Southampton",
+      "score": [
+       3,
+       2
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 85264,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2017_EFL_Cup_final",
+      "title": "2017 EFL Cup final"
+     },
+     "table": null
+    },
+    {
+     "season": "2022-23",
+     "year": 2023,
+     "label": "2022–23",
+     "shared": false,
+     "final": {
+      "date": "2023-02-26",
+      "opponent": "Newcastle United",
+      "score": [
+       2,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 87306,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2023_EFL_Cup_final",
+      "title": "2023 EFL Cup final"
+     },
+     "table": null
+    }
+   ]
+  },
+  {
+   "key": "community-shield",
+   "name": "Charity / Community Shield",
+   "type": "cup",
+   "entries": [
+    {
+     "season": "1907-08",
+     "year": 1908,
+     "label": "1908",
+     "shared": false,
+     "final": {
+      "date": "1908-04-27",
+      "opponent": "Queens Park Rangers",
+      "score": [
+       1,
+       1
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Stamford Bridge",
+      "city": "London",
+      "attendance": 6000,
+      "replay": {
+       "kind": "replay",
+       "date": "1908-08-29",
+       "venue": "Stamford Bridge",
+       "city": "London",
+       "score": [
+        4,
+        0
+       ],
+       "aet": false,
+       "attendance": 50000,
+       "pens": null
+      },
+      "page": "https://en.wikipedia.org/wiki/1908_FA_Charity_Shield",
+      "title": "1908 FA Charity Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "1911-12",
+     "year": 1911,
+     "label": "1911",
+     "shared": false,
+     "final": {
+      "date": "1911-09-25",
+      "opponent": "Swindon Town",
+      "score": [
+       8,
+       4
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Stamford Bridge",
+      "city": "London",
+      "attendance": 10000,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1911_FA_Charity_Shield",
+      "title": "1911 FA Charity Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "1952-53",
+     "year": 1952,
+     "label": "1952",
+     "shared": false,
+     "final": {
+      "date": "1952-09-24",
+      "opponent": "Newcastle United",
+      "score": [
+       4,
+       2
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Old Trafford",
+      "city": "Manchester",
+      "attendance": 11381,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1952_FA_Charity_Shield",
+      "title": "1952 FA Charity Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "1956-57",
+     "year": 1956,
+     "label": "1956",
+     "shared": false,
+     "final": {
+      "date": "1956-10-24",
+      "opponent": "Manchester City",
+      "score": [
+       1,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Maine Road",
+      "city": "Manchester",
+      "attendance": 30495,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1956_FA_Charity_Shield",
+      "title": "1956 FA Charity Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "1957-58",
+     "year": 1957,
+     "label": "1957",
+     "shared": false,
+     "final": {
+      "date": "1957-10-22",
+      "opponent": "Aston Villa",
+      "score": [
+       4,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Old Trafford",
+      "city": "Manchester",
+      "attendance": 27923,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1957_FA_Charity_Shield",
+      "title": "1957 FA Charity Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "1965-66",
+     "year": 1965,
+     "label": "1965",
+     "shared": true,
+     "final": {
+      "date": "1965-08-14",
+      "opponent": "Liverpool",
+      "score": [
+       2,
+       2
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Old Trafford",
+      "city": "Manchester",
+      "attendance": 48502,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1965_FA_Charity_Shield",
+      "title": "1965 FA Charity Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "1967-68",
+     "year": 1967,
+     "label": "1967",
+     "shared": true,
+     "final": {
+      "date": "1967-08-12",
+      "opponent": "Tottenham Hotspur",
+      "score": [
+       3,
+       3
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Old Trafford",
+      "city": "Manchester",
+      "attendance": 54106,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1967_FA_Charity_Shield",
+      "title": "1967 FA Charity Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "1977-78",
+     "year": 1977,
+     "label": "1977",
+     "shared": true,
+     "final": {
+      "date": "1977-08-13",
+      "opponent": "Liverpool",
+      "score": [
+       0,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 82000,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1977_FA_Charity_Shield",
+      "title": "1977 FA Charity Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "1983-84",
+     "year": 1983,
+     "label": "1983",
+     "shared": false,
+     "final": {
+      "date": "1983-08-20",
+      "opponent": "Liverpool",
+      "score": [
+       2,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 92000,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1983_FA_Charity_Shield",
+      "title": "1983 FA Charity Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "1990-91",
+     "year": 1990,
+     "label": "1990",
+     "shared": true,
+     "final": {
+      "date": "1990-08-18",
+      "opponent": "Liverpool",
+      "score": [
+       1,
+       1
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 66558,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1990_FA_Charity_Shield",
+      "title": "1990 FA Charity Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "1993-94",
+     "year": 1993,
+     "label": "1993",
+     "shared": false,
+     "final": {
+      "date": "1993-08-07",
+      "opponent": "Arsenal",
+      "score": [
+       1,
+       1
+      ],
+      "aet": false,
+      "pens": [
+       5,
+       4
+      ],
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 66519,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1993_FA_Charity_Shield",
+      "title": "1993 FA Charity Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "1994-95",
+     "year": 1994,
+     "label": "1994",
+     "shared": false,
+     "final": {
+      "date": "1994-08-14",
+      "opponent": "Blackburn Rovers",
+      "score": [
+       2,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 60402,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1994_FA_Charity_Shield",
+      "title": "1994 FA Charity Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "1996-97",
+     "year": 1996,
+     "label": "1996",
+     "shared": false,
+     "final": {
+      "date": "1996-08-11",
+      "opponent": "Newcastle United",
+      "score": [
+       4,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 73214,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1996_FA_Charity_Shield",
+      "title": "1996 FA Charity Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "1997-98",
+     "year": 1997,
+     "label": "1997",
+     "shared": false,
+     "final": {
+      "date": "1997-08-03",
+      "opponent": "Chelsea",
+      "score": [
+       1,
+       1
+      ],
+      "aet": false,
+      "pens": [
+       4,
+       2
+      ],
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 73636,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1997_FA_Charity_Shield",
+      "title": "1997 FA Charity Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "2003-04",
+     "year": 2003,
+     "label": "2003",
+     "shared": false,
+     "final": {
+      "date": "2003-08-10",
+      "opponent": "Arsenal",
+      "score": [
+       1,
+       1
+      ],
+      "aet": false,
+      "pens": [
+       4,
+       3
+      ],
+      "venue": "Millennium Stadium",
+      "city": "Cardiff",
+      "attendance": 59923,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2003_FA_Community_Shield",
+      "title": "2003 FA Community Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "2007-08",
+     "year": 2007,
+     "label": "2007",
+     "shared": false,
+     "final": {
+      "date": "2007-08-05",
+      "opponent": "Chelsea",
+      "score": [
+       1,
+       1
+      ],
+      "aet": false,
+      "pens": [
+       3,
+       0
+      ],
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 80731,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2007_FA_Community_Shield",
+      "title": "2007 FA Community Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "2008-09",
+     "year": 2008,
+     "label": "2008",
+     "shared": false,
+     "final": {
+      "date": "2008-08-10",
+      "opponent": "Portsmouth",
+      "score": [
+       0,
+       0
+      ],
+      "aet": false,
+      "pens": [
+       3,
+       1
+      ],
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 84808,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2008_FA_Community_Shield",
+      "title": "2008 FA Community Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "2010-11",
+     "year": 2010,
+     "label": "2010",
+     "shared": false,
+     "final": {
+      "date": "2010-08-08",
+      "opponent": "Chelsea",
+      "score": [
+       3,
+       1
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 84623,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2010_FA_Community_Shield",
+      "title": "2010 FA Community Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "2011-12",
+     "year": 2011,
+     "label": "2011",
+     "shared": false,
+     "final": {
+      "date": "2011-08-07",
+      "opponent": "Manchester City",
+      "score": [
+       3,
+       2
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 77169,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2011_FA_Community_Shield",
+      "title": "2011 FA Community Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "2013-14",
+     "year": 2013,
+     "label": "2013",
+     "shared": false,
+     "final": {
+      "date": "2013-08-11",
+      "opponent": "Wigan Athletic",
+      "score": [
+       2,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 80235,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2013_FA_Community_Shield",
+      "title": "2013 FA Community Shield"
+     },
+     "table": null
+    },
+    {
+     "season": "2016-17",
+     "year": 2016,
+     "label": "2016",
+     "shared": false,
+     "final": {
+      "date": "2016-08-07",
+      "opponent": "Leicester City",
+      "score": [
+       2,
+       1
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 85437,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2016_FA_Community_Shield",
+      "title": "2016 FA Community Shield"
+     },
+     "table": null
+    }
+   ]
+  },
+  {
+   "key": "european-cup",
+   "name": "European Cup / Champions League",
+   "type": "europe",
+   "entries": [
+    {
+     "season": "1967-68",
+     "year": 1968,
+     "label": "1967–68",
+     "shared": false,
+     "final": {
+      "date": "1968-05-29",
+      "opponent": "Benfica",
+      "score": [
+       4,
+       1
+      ],
+      "aet": true,
+      "pens": null,
+      "venue": "Wembley Stadium",
+      "city": "London",
+      "attendance": 92225,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1968_European_Cup_final",
+      "title": "1968 European Cup final"
+     },
+     "table": null
+    },
+    {
+     "season": "1998-99",
+     "year": 1999,
+     "label": "1998–99",
+     "shared": false,
+     "final": {
+      "date": "1999-05-26",
+      "opponent": "Bayern Munich",
+      "score": [
+       2,
+       1
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Camp Nou",
+      "city": "Barcelona",
+      "attendance": 90245,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1999_UEFA_Champions_League_final",
+      "title": "1999 UEFA Champions League final"
+     },
+     "table": null
+    },
+    {
+     "season": "2007-08",
+     "year": 2008,
+     "label": "2007–08",
+     "shared": false,
+     "final": {
+      "date": "2008-05-21",
+      "opponent": "Chelsea",
+      "score": [
+       1,
+       1
+      ],
+      "aet": true,
+      "pens": [
+       6,
+       5
+      ],
+      "venue": "Luzhniki Stadium",
+      "city": "Moscow",
+      "attendance": 67310,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2008_UEFA_Champions_League_final",
+      "title": "2008 UEFA Champions League final"
+     },
+     "table": null
+    }
+   ]
+  },
+  {
+   "key": "cup-winners-cup",
+   "name": "European Cup Winners' Cup",
+   "type": "europe",
+   "entries": [
+    {
+     "season": "1990-91",
+     "year": 1991,
+     "label": "1990–91",
+     "shared": false,
+     "final": {
+      "date": "1991-05-15",
+      "opponent": "Barcelona",
+      "score": [
+       2,
+       1
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Stadion Feijenoord",
+      "city": "Rotterdam",
+      "attendance": 43500,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1991_European_Cup_Winners'_Cup_final",
+      "title": "1991 European Cup Winners' Cup final"
+     },
+     "table": null
+    }
+   ]
+  },
+  {
+   "key": "europa-league",
+   "name": "UEFA Europa League",
+   "type": "europe",
+   "entries": [
+    {
+     "season": "2016-17",
+     "year": 2017,
+     "label": "2016–17",
+     "shared": false,
+     "final": {
+      "date": "2017-05-24",
+      "opponent": "Ajax",
+      "score": [
+       2,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Friends Arena",
+      "city": "Solna",
+      "attendance": 46961,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2017_UEFA_Europa_League_Final",
+      "title": "2017 UEFA Europa League final"
+     },
+     "table": null
+    }
+   ]
+  },
+  {
+   "key": "super-cup",
+   "name": "UEFA Super Cup",
+   "type": "europe",
+   "entries": [
+    {
+     "season": "1991-92",
+     "year": 1991,
+     "label": "1991",
+     "shared": false,
+     "final": {
+      "date": "1991-11-19",
+      "opponent": "Red Star Belgrade",
+      "score": [
+       1,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "Old Trafford",
+      "city": "Manchester | man of the match =",
+      "attendance": 22110,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1991_European_Super_Cup",
+      "title": "1991 European Super Cup"
+     },
+     "table": null
+    }
+   ]
+  },
+  {
+   "key": "intercontinental-cup",
+   "name": "Intercontinental Cup",
+   "type": "europe",
+   "entries": [
+    {
+     "season": "1999-00",
+     "year": 1999,
+     "label": "1999",
+     "shared": false,
+     "final": {
+      "date": "1999-11-30",
+      "opponent": "Palmeiras",
+      "score": [
+       1,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "National Stadium",
+      "city": "Tokyo",
+      "attendance": 53372,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/1999_Intercontinental_Cup",
+      "title": "1999 Intercontinental Cup"
+     },
+     "table": null
+    }
+   ]
+  },
+  {
+   "key": "club-world-cup",
+   "name": "FIFA Club World Cup",
+   "type": "europe",
+   "entries": [
+    {
+     "season": "2008-09",
+     "year": 2008,
+     "label": "2008",
+     "shared": false,
+     "final": {
+      "date": "2008-12-21",
+      "opponent": "LDU Quito",
+      "score": [
+       1,
+       0
+      ],
+      "aet": false,
+      "pens": null,
+      "venue": "International Stadium",
+      "city": "Yokohama",
+      "attendance": 68682,
+      "replay": null,
+      "page": "https://en.wikipedia.org/wiki/2008_FIFA_Club_World_Cup_final",
+      "title": "2008 FIFA Club World Cup final"
+     },
+     "table": null
+    }
+   ]
+  }
+ ],
+ "ballonDor": [
+  {
+   "year": 1964,
+   "player": "Denis Law",
+   "club": "Manchester United"
+  },
+  {
+   "year": 1966,
+   "player": "Bobby Charlton",
+   "club": "Manchester United"
+  },
+  {
+   "year": 1968,
+   "player": "George Best",
+   "club": "Manchester United"
+  },
+  {
+   "year": 2008,
+   "player": "Cristiano Ronaldo",
+   "club": "Manchester United"
+  }
+ ],
+ "awards": [
+  {
+   "award": "lma_manager_of_the_year",
+   "label": "LMA Manager of the Year",
+   "season": "1992-93",
+   "winner": "Alex Ferguson",
+   "detail": ""
+  },
+  {
+   "award": "top_assists",
+   "label": "Most assists in the season",
+   "season": "1992-93",
+   "winner": "Eric Cantona",
+   "detail": "16 assists"
+  },
+  {
+   "award": "pfa_young_player",
+   "label": "PFA Young Player of the Year",
+   "season": "1992-93",
+   "winner": "Ryan Giggs",
+   "detail": ""
+  },
+  {
+   "award": "pfa_players_player",
+   "label": "PFA Players' Player of the Year",
+   "season": "1993-94",
+   "winner": "Eric Cantona",
+   "detail": ""
+  },
+  {
+   "award": "manager_of_the_season",
+   "label": "Premier League Manager of the Season",
+   "season": "1993-94",
+   "winner": "Alex Ferguson",
+   "detail": ""
+  },
+  {
+   "award": "fwa_footballer",
+   "label": "FWA Footballer of the Year",
+   "season": "1995-96",
+   "winner": "Eric Cantona",
+   "detail": ""
+  },
+  {
+   "award": "manager_of_the_season",
+   "label": "Premier League Manager of the Season",
+   "season": "1995-96",
+   "winner": "Alex Ferguson",
+   "detail": ""
+  },
+  {
+   "award": "player_of_the_season",
+   "label": "Premier League Player of the Season",
+   "season": "1995-96",
+   "winner": "Peter Schmeichel",
+   "detail": ""
+  },
+  {
+   "award": "top_assists",
+   "label": "Most assists in the season",
+   "season": "1996-97",
+   "winner": "Eric Cantona",
+   "detail": "12 assists"
+  },
+  {
+   "award": "pfa_young_player",
+   "label": "PFA Young Player of the Year",
+   "season": "1996-97",
+   "winner": "David Beckham",
+   "detail": ""
+  },
+  {
+   "award": "goal_of_the_season",
+   "label": "Premier League Goal of the Season",
+   "season": "1996-97",
+   "winner": "David Beckham",
+   "detail": "v Wimbledon (3–0), 17 August 1996"
+  },
+  {
+   "award": "manager_of_the_season",
+   "label": "Premier League Manager of the Season",
+   "season": "1996-97",
+   "winner": "Alex Ferguson",
+   "detail": ""
+  },
+  {
+   "award": "top_assists",
+   "label": "Most assists in the season",
+   "season": "1997-98",
+   "winner": "David Beckham",
+   "detail": "13 assists"
+  },
+  {
+   "award": "lma_manager_of_the_year",
+   "label": "LMA Manager of the Year",
+   "season": "1998-99",
+   "winner": "Alex Ferguson",
+   "detail": ""
+  },
+  {
+   "award": "golden_boot",
+   "label": "Premier League Golden Boot (top scorer)",
+   "season": "1998-99",
+   "winner": "Dwight Yorke",
+   "detail": "18 goals"
+  },
+  {
+   "award": "manager_of_the_season",
+   "label": "Premier League Manager of the Season",
+   "season": "1998-99",
+   "winner": "Alex Ferguson",
+   "detail": ""
+  },
+  {
+   "award": "player_of_the_season",
+   "label": "Premier League Player of the Season",
+   "season": "1998-99",
+   "winner": "Dwight Yorke",
+   "detail": ""
+  },
+  {
+   "award": "fwa_footballer",
+   "label": "FWA Footballer of the Year",
+   "season": "1999-2000",
+   "winner": "Roy Keane",
+   "detail": ""
+  },
+  {
+   "award": "top_assists",
+   "label": "Most assists in the season",
+   "season": "1999-2000",
+   "winner": "David Beckham",
+   "detail": "15 assists"
+  },
+  {
+   "award": "pfa_players_player",
+   "label": "PFA Players' Player of the Year",
+   "season": "1999-2000",
+   "winner": "Roy Keane",
+   "detail": ""
+  },
+  {
+   "award": "manager_of_the_season",
+   "label": "Premier League Manager of the Season",
+   "season": "1999-2000",
+   "winner": "Alex Ferguson",
+   "detail": ""
+  },
+  {
+   "award": "fwa_footballer",
+   "label": "FWA Footballer of the Year",
+   "season": "2000-01",
+   "winner": "Teddy Sheringham",
+   "detail": ""
+  },
+  {
+   "award": "top_assists",
+   "label": "Most assists in the season",
+   "season": "2000-01",
+   "winner": "David Beckham",
+   "detail": "12 assists"
+  },
+  {
+   "award": "pfa_players_player",
+   "label": "PFA Players' Player of the Year",
+   "season": "2000-01",
+   "winner": "Teddy Sheringham",
+   "detail": ""
+  },
+  {
+   "award": "pfa_players_player",
+   "label": "PFA Players' Player of the Year",
+   "season": "2001-02",
+   "winner": "Ruud van Nistelrooy",
+   "detail": ""
+  },
+  {
+   "award": "golden_boot",
+   "label": "Premier League Golden Boot (top scorer)",
+   "season": "2002-03",
+   "winner": "Ruud van Nistelrooy",
+   "detail": "25 goals"
+  },
+  {
+   "award": "manager_of_the_season",
+   "label": "Premier League Manager of the Season",
+   "season": "2002-03",
+   "winner": "Alex Ferguson",
+   "detail": ""
+  },
+  {
+   "award": "player_of_the_season",
+   "label": "Premier League Player of the Season",
+   "season": "2002-03",
+   "winner": "Ruud van Nistelrooy",
+   "detail": ""
+  },
+  {
+   "award": "pfa_young_player",
+   "label": "PFA Young Player of the Year",
+   "season": "2004-05",
+   "winner": "Wayne Rooney",
+   "detail": ""
+  },
+  {
+   "award": "pfa_young_player",
+   "label": "PFA Young Player of the Year",
+   "season": "2005-06",
+   "winner": "Wayne Rooney",
+   "detail": ""
+  },
+  {
+   "award": "fwa_footballer",
+   "label": "FWA Footballer of the Year",
+   "season": "2006-07",
+   "winner": "Cristiano Ronaldo",
+   "detail": ""
+  },
+  {
+   "award": "top_assists",
+   "label": "Most assists in the season",
+   "season": "2006-07",
+   "winner": "Wayne Rooney",
+   "detail": "11 assists"
+  },
+  {
+   "award": "pfa_players_player",
+   "label": "PFA Players' Player of the Year",
+   "season": "2006-07",
+   "winner": "Cristiano Ronaldo",
+   "detail": ""
+  },
+  {
+   "award": "pfa_young_player",
+   "label": "PFA Young Player of the Year",
+   "season": "2006-07",
+   "winner": "Cristiano Ronaldo",
+   "detail": ""
+  },
+  {
+   "award": "goal_of_the_season",
+   "label": "Premier League Goal of the Season",
+   "season": "2006-07",
+   "winner": "Wayne Rooney",
+   "detail": "v Bolton Wanderers (2–0), 17 March 2007"
+  },
+  {
+   "award": "manager_of_the_season",
+   "label": "Premier League Manager of the Season",
+   "season": "2006-07",
+   "winner": "Alex Ferguson",
+   "detail": ""
+  },
+  {
+   "award": "player_of_the_season",
+   "label": "Premier League Player of the Season",
+   "season": "2006-07",
+   "winner": "Cristiano Ronaldo",
+   "detail": ""
+  },
+  {
+   "award": "fwa_footballer",
+   "label": "FWA Footballer of the Year",
+   "season": "2007-08",
+   "winner": "Cristiano Ronaldo",
+   "detail": ""
+  },
+  {
+   "award": "lma_manager_of_the_year",
+   "label": "LMA Manager of the Year",
+   "season": "2007-08",
+   "winner": "Alex Ferguson",
+   "detail": ""
+  },
+  {
+   "award": "pfa_players_player",
+   "label": "PFA Players' Player of the Year",
+   "season": "2007-08",
+   "winner": "Cristiano Ronaldo",
+   "detail": ""
+  },
+  {
+   "award": "golden_boot",
+   "label": "Premier League Golden Boot (top scorer)",
+   "season": "2007-08",
+   "winner": "Cristiano Ronaldo",
+   "detail": "31 goals"
+  },
+  {
+   "award": "manager_of_the_season",
+   "label": "Premier League Manager of the Season",
+   "season": "2007-08",
+   "winner": "Alex Ferguson",
+   "detail": ""
+  },
+  {
+   "award": "player_of_the_season",
+   "label": "Premier League Player of the Season",
+   "season": "2007-08",
+   "winner": "Cristiano Ronaldo",
+   "detail": ""
+  },
+  {
+   "award": "pfa_players_player",
+   "label": "PFA Players' Player of the Year",
+   "season": "2008-09",
+   "winner": "Ryan Giggs",
+   "detail": ""
+  },
+  {
+   "award": "golden_glove",
+   "label": "Premier League Golden Glove (most clean sheets)",
+   "season": "2008-09",
+   "winner": "Edwin van der Sar",
+   "detail": "21 clean sheets"
+  },
+  {
+   "award": "manager_of_the_season",
+   "label": "Premier League Manager of the Season",
+   "season": "2008-09",
+   "winner": "Alex Ferguson",
+   "detail": ""
+  },
+  {
+   "award": "player_of_the_season",
+   "label": "Premier League Player of the Season",
+   "season": "2008-09",
+   "winner": "Nemanja Vidić",
+   "detail": ""
+  },
+  {
+   "award": "fwa_footballer",
+   "label": "FWA Footballer of the Year",
+   "season": "2009-10",
+   "winner": "Wayne Rooney",
+   "detail": ""
+  },
+  {
+   "award": "pfa_players_player",
+   "label": "PFA Players' Player of the Year",
+   "season": "2009-10",
+   "winner": "Wayne Rooney",
+   "detail": ""
+  },
+  {
+   "award": "player_of_the_season",
+   "label": "Premier League Player of the Season",
+   "season": "2009-10",
+   "winner": "Wayne Rooney",
+   "detail": ""
+  },
+  {
+   "award": "lma_manager_of_the_year",
+   "label": "LMA Manager of the Year",
+   "season": "2010-11",
+   "winner": "Alex Ferguson",
+   "detail": ""
+  },
+  {
+   "award": "top_assists",
+   "label": "Most assists in the season",
+   "season": "2010-11",
+   "winner": "Nani",
+   "detail": "14 assists"
+  },
+  {
+   "award": "goal_of_the_season",
+   "label": "Premier League Goal of the Season",
+   "season": "2010-11",
+   "winner": "Wayne Rooney",
+   "detail": "v Manchester City (2–1), 12 February 2011"
+  },
+  {
+   "award": "golden_boot",
+   "label": "Premier League Golden Boot (top scorer)",
+   "season": "2010-11",
+   "winner": "Dimitar Berbatov",
+   "detail": "20 goals"
+  },
+  {
+   "award": "manager_of_the_season",
+   "label": "Premier League Manager of the Season",
+   "season": "2010-11",
+   "winner": "Alex Ferguson",
+   "detail": ""
+  },
+  {
+   "award": "player_of_the_season",
+   "label": "Premier League Player of the Season",
+   "season": "2010-11",
+   "winner": "Nemanja Vidić",
+   "detail": ""
+  },
+  {
+   "award": "lma_manager_of_the_year",
+   "label": "LMA Manager of the Year",
+   "season": "2012-13",
+   "winner": "Alex Ferguson",
+   "detail": ""
+  },
+  {
+   "award": "goal_of_the_season",
+   "label": "Premier League Goal of the Season",
+   "season": "2012-13",
+   "winner": "Robin van Persie",
+   "detail": "v Aston Villa (2–0), 22 April 2013"
+  },
+  {
+   "award": "golden_boot",
+   "label": "Premier League Golden Boot (top scorer)",
+   "season": "2012-13",
+   "winner": "Robin van Persie",
+   "detail": "26 goals"
+  },
+  {
+   "award": "manager_of_the_season",
+   "label": "Premier League Manager of the Season",
+   "season": "2012-13",
+   "winner": "Alex Ferguson",
+   "detail": ""
+  },
+  {
+   "award": "golden_glove",
+   "label": "Premier League Golden Glove (most clean sheets)",
+   "season": "2017-18",
+   "winner": "David de Gea",
+   "detail": "18 clean sheets"
+  },
+  {
+   "award": "golden_glove",
+   "label": "Premier League Golden Glove (most clean sheets)",
+   "season": "2022-23",
+   "winner": "David de Gea",
+   "detail": "17 clean sheets"
+  },
+  {
+   "award": "goal_of_the_season",
+   "label": "Premier League Goal of the Season",
+   "season": "2023-24",
+   "winner": "Alejandro Garnacho",
+   "detail": "v Everton (1–0), 26 November 2023"
+  },
+  {
+   "award": "fwa_footballer",
+   "label": "FWA Footballer of the Year",
+   "season": "2025-26",
+   "winner": "Bruno Fernandes",
+   "detail": ""
+  },
+  {
+   "award": "top_assists",
+   "label": "Most assists in the season",
+   "season": "2025-26",
+   "winner": "Bruno Fernandes",
+   "detail": "21 assists"
+  },
+  {
+   "award": "pfa_players_player",
+   "label": "PFA Players' Player of the Year",
+   "season": "2025-26",
+   "winner": "Bruno Fernandes",
+   "detail": ""
+  },
+  {
+   "award": "player_of_the_season",
+   "label": "Premier League Player of the Season",
+   "season": "2025-26",
+   "winner": "Bruno Fernandes",
+   "detail": ""
+  },
+  {
+   "award": "playmaker_of_the_season",
+   "label": "Premier League Playmaker of the Season",
+   "season": "2025-26",
+   "winner": "Bruno Fernandes",
+   "detail": ""
+  }
+ ]
+}

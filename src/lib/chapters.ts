@@ -57,9 +57,9 @@ export const CHAPTERS: Chapter[] = [
     number: "05",
     title: "Honours & Awards",
     menu: "Honours",
-    teaser: "The trophy cabinet and the individual awards: all time, and since 1992.",
-    planned: ["All-time honours and awards", "A separate list for the Premier League era (since 1992)", "Each trophy with its years and finals"],
-    status: "soon",
+    teaser: "The trophy cabinet, with a picture of each trophy, and the individual awards: all time, and since 1992.",
+    planned: ["Individual awards from before 1992"],
+    status: "live",
   },
   {
     slug: "managers",

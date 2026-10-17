@@ -120,7 +120,14 @@ After deleting `data/app.db`, restart `npm run dev`.
   screenshots of pages that need clicking (talks to Chrome directly, no packages).
   NOT done: shirt numbers and kits through the years (kit images are not free to use). Honours chapter should be built FROM these files (13 FA Cups, 6 League Cups, 20 league titles,
   3 European Cups, 21 Community Shields incl. 4 shared all agree with Wikipedia's summary).
-- Phase 5b, honours, managers, stadium: not started
+- **Phase 5b, Honours & Awards: built (2026-10-17, not pushed when written).** `/honours`: All time / Since 1992 toggle (since 1992 = from the 1992-93 season), Trophies and Individual awards tabs.
+  `scripts/build_honours.py` DERIVES every trophy from data/club/seasons.json + finals.json and stops with an error unless all 11 rows equal the honours table in Wikipedia's club article
+  (70 honours: 20 league titles, 2 Second Division, 13 FA Cup, 6 League Cup, 21 Shield incl. 4 shared, 3 European Cup, Cup Winners' Cup, Europa League, Super Cup, Intercontinental, Club World Cup).
+  Awards: 68 Premier League-era awards from ~/PL-History-Dashboard/data/awards.json (United winners) + Ballon d'Or (Law 1964, Charlton 1966, Best 1968, Ronaldo 2008; Wikipedia, cross-checked with the dashboard).
+  Trophy photos: `scripts/fetch_trophy_photos.py` (10 hand-picked free Commons photos in public/trophies/, credits in src/lib/trophy-photos.json); NO free photo for the Second Division title or the
+  FIFA Club World Cup (the card says so). The First Division picture is an illustration (render) and the European Cup photo shows another club's ribbons: both are captioned.
+  NOT done: individual awards before 1992 (other than the Ballon d'Or).
+- Phase 5c, managers and stadium: not started
 - **Phase 6, Overhead Kicks: built (2026-10-15), then reworked.** `/overhead-kicks` now shows ONLY Rooney v Man City (12 Feb 2011, 2-1, 78'):
   Ethan asked to remove the Garnacho goal and to stop emphasising distances (distance is now one small bullet; ~12 yd is OUR ESTIMATE, labelled so,
   never present it as measured). Facts and sources live in `src/lib/kicks.ts` (the page shows tabs automatically if more goals are added;
