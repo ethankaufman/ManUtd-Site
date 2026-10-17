@@ -43,3 +43,6 @@ next-env.d.ts
 
 # local database (rebuilt by npm run db:migrate)
 /data/app.db*
+
+# Python
+__pycache__/

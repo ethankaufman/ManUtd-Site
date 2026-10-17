@@ -255,6 +255,11 @@ def check_league(y, matches):
         problems.append(f"league matches: ours {len(mine)} vs official {len(off)}")
     for m in mine:
         o = off.get(m["date"])
+        if not o:  # a few official dates are a day out (e.g. 2003-04); the result is what we are checking
+            from datetime import date, timedelta
+
+            d0 = date.fromisoformat(m["date"])
+            o = off.get((d0 - timedelta(days=1)).isoformat()) or off.get((d0 + timedelta(days=1)).isoformat())
         if not o:
             problems.append(f"{m['date']} not in official data")
             continue

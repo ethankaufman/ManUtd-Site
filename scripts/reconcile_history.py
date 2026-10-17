@@ -11,7 +11,9 @@ fixes what ESPN lacks. Two independent sources agreeing is how we know a season 
     python3 scripts/reconcile_history.py            # every past season file
     python3 scripts/reconcile_history.py 2008       # one season
 """
+import csv
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -31,11 +33,47 @@ def key(date, f, a):
     return (date, f, a)
 
 
+def official_league(year):
+    """{date: (United were home, home goals, away goals)} from the dashboard's official data."""
+    out = {}
+    if not os.path.exists(wp.DASH):
+        return out
+    with open(wp.DASH, newline="") as fh:
+        for r in csv.DictReader(fh):
+            if r["season"] == wp.season_label(year) and U in (r["home"], r["away"]):
+                out[r["date"]] = (r["home"] == U, int(r["home_goals"]), int(r["away_goals"]))
+    return out
+
+
 def reconcile(path):
     doc = json.loads(path.read_text())
     year = int(doc["season"][:4])
     label, _title, _comps, wiki = wp.season_matches(year)
     notes = []
+    doc["matches"] = [m for m in doc["matches"] if m.get("src") != "wikipedia"]
+    official = official_league(year)
+
+    def agrees(m):  # does this ESPN league score match the official result?
+        o = official.get(m["kick"][:10])
+        return bool(o) and m["comp"] == "premier-league" and o == (m["home"] == U, m["hg"], m["ag"])
+
+    # games that were never played (a postponed original that was replayed on another day)
+    unplayed = [m for m in doc["matches"] if m["state"] != "finished"]
+    doc["matches"] = [m for m in doc["matches"] if m["state"] == "finished"]
+    if unplayed:
+        notes.append(f"REMOVED {len(unplayed)} unplayed/postponed ESPN entries")
+    # ESPN sometimes lists one fixture twice under different ids (2009-10 does), and the copies can disagree:
+    # keep the one that matches the official league result, then the one with the most detail
+    best = {}
+    for m in doc["matches"]:
+        k = (m["kick"][:10], m["home"], m["away"], m["comp"])
+        score = (agrees(m), len(m.get("goals", [])), len(m.get("cards", [])), len(m.get("lineups", [])))
+        if k not in best or score > best[k][0]:
+            best[k] = (score, m)
+    removed = len(doc["matches"]) - len(best)
+    doc["matches"] = [m for _s, m in best.values()]
+    if removed:
+        notes.append(f"REMOVED {removed} duplicate ESPN entries")
     espn = [m for m in doc["matches"] if m.get("src") != "wikipedia"]
     # pair by (date, United goals, opponent goals); allow the date to differ by a day (late kick-offs, time zones)
     from datetime import date, timedelta
@@ -58,7 +96,7 @@ def reconcile(path):
                     unmatched_wiki.remove(w)
                     break
             else:
-                if m["state"] == "finished":
+                if m["state"] == "finished" and any(w["comp"] == m["comp"] for w in wiki):
                     notes.append(f"ONLY IN ESPN {m['kick'][:10]} {m['comp']}: {m['home']} {m['hg']}-{m['ag']} {m['away']}")
             continue
         unmatched_wiki.remove(hit)
@@ -85,6 +123,9 @@ def reconcile(path):
     for c in doc["competitions"]:
         c["matches"] = sum(1 for m in doc["matches"] if m["comp"] == c["slug"])
     doc["matches"].sort(key=lambda m: m["kick"])
+    for comp in sorted({m["comp"] for m in doc["matches"]} - {w["comp"] for w in wiki}):
+        notes.append(f"NOTE Wikipedia's page gave no {comp} matches to compare (layout differs); not cross-checked against it")
+    notes += [f"LEAGUE vs OFFICIAL: {p}" for p in wp.check_league(year, [{**m, "date": m["kick"][:10]} for m in doc["matches"]])]
     doc["reconciled"] = True
     path.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n")
     AUDIT.mkdir(parents=True, exist_ok=True)
@@ -95,7 +136,8 @@ def reconcile(path):
 
 
 def main():
-    files = sorted(p for p in SEASONS.glob("*.json") if json.loads(p.read_text()).get("past"))
+    # only the ESPN back-filled seasons (safe to re-run: the Wikipedia friendlies added last time are removed first): the 1992-2001 files already come from Wikipedia, so there is nothing to compare
+    files = sorted(p for p in SEASONS.glob("*.json") if (lambda d: d.get("past") and "ESPN" in d.get("source", ""))(json.loads(p.read_text())))
     if len(sys.argv) > 1:
         files = [p for p in files if p.name.startswith(sys.argv[1])]
     for p in files:
