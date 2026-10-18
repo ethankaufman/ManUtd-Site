@@ -17,12 +17,11 @@ A fan-made website about Manchester United, in the club's red, black and white. 
 * **Famous victories**: a slideshow of seven free-licensed photos, each with the match, date, result and photo credit.
 ![Famous victories slideshow](docs/slideshow.jpg)
 
-* **01 This Season**: every competition United play in (Premier League, Champions League, Carabao Cup, FA Cup and the rest), with tables, results with scorers, fixtures, the next match and player stats. Refreshed automatically twice a day.
+* **01 This Season**: every competition United play in, with tables, results with scorers, fixtures, the next match and player stats. Refreshed automatically twice a day.
 * **02 The Squad**: the first team by position, and a page for every player with their season numbers and every match they played.
-* **The Legends**: twenty of the club's greats, each with a portrait, their story, how long they stayed and every trophy they won at United. Wayne Rooney's page includes the 3D overhead kick against Manchester City.
-* Still to come: Every Match, History, Honours, Managers and Old Trafford.
+* **08 The Legends**: twenty of the club's greats, each with a portrait, their story, how long they stayed and every trophy they won at United. Wayne Rooney's page includes the 3D overhead kick against Manchester City.
 
-![Overhead Kicks chapter](docs/overhead-kick.jpg)
+![Wayne Rooney's overhead kick in 3D, on his Legends page](docs/overhead-kick.jpg)
 
 ## How it is built
 
@@ -45,7 +44,7 @@ npm run dev                              # http://localhost:3000
 ## Credits and notes
 
 * This is an **unofficial** fan project. It is not affiliated with, or endorsed by, Manchester United Football Club. Club names and marks belong to their owners, and no club crest is used.
-* **The Legends**: twenty of the club's greats, each with a portrait, their story, how long they stayed and every trophy they won at United. Wayne Rooney's page includes the 3D overhead kick against Manchester City.
+* Match data: ESPN's public soccer service (current season and 2001–02 onward), checked against Wikipedia and the Premier League's official results; 1992–2001 from Wikipedia. Match and goal facts for the overhead kick on Wayne Rooney's page come from the sources listed there.
 * Trophy photos (`public/trophies/`) are free-licensed pictures from Wikimedia Commons chosen by hand and downloaded with `scripts/fetch_trophy_photos.py`; the credit for each is shown on its card and kept in `src/lib/trophy-photos.json`.
 * Manager photos (`public/managers/`) are free-licensed Wikimedia Commons pictures (`scripts/fetch_manager_photos.py`); Matt Busby and Jimmy Murphy are shown by their statues, and every photo is captioned with what it shows and credited on the page.
 * Stadium photos (`public/stadium/`) are free-licensed Wikimedia Commons pictures (`scripts/fetch_stadium_photos.py`), credited under each picture. The club's and Foster + Partners' images of the new stadium design are not free to use, so they are described and linked, not shown.
