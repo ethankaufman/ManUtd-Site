@@ -1,10 +1,11 @@
 {
  "tom-heaton": {
-  "title": "Tom_Heaton_playing_for_Burnley_(cropped).jpg",
-  "author": "Kelvin Stuttard",
+  "shows": "In United kit against BSC Young Boys, 8 December 2021",
+  "title": "Tom Heaton 2021.jpg",
+  "author": "Ardfern",
   "licence": "CC BY-SA 4.0",
   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Tom_Heaton_playing_for_Burnley_(cropped).jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Tom_Heaton_2021.jpg"
  },
  "karl-darlow": {
   "title": "Karl_Darlow_13092025_(3).jpg",
@@ -21,32 +22,36 @@
   "page": "https://commons.wikimedia.org/wiki/File:Senne_Lammens_USMNT_v_Belgium_Mar_28_2026-98_(cropped).jpg"
  },
  "harry-maguire": {
-  "title": "Harry_Maguire_2023_(cropped).jpg",
-  "author": "UK Prime Minister",
-  "licence": "CC BY 2.0",
-  "licence_url": "https://creativecommons.org/licenses/by/2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Harry_Maguire_2023_(cropped).jpg"
+  "shows": "In United kit against Norwich City, 16 April 2022",
+  "title": "Harry Maguire Manchester United 16 April 2022.jpg",
+  "author": "Ardfern",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Harry_Maguire_Manchester_United_16_April_2022.jpg"
  },
  "luke-shaw": {
   "title": "Luke_Shaw,_Manchester_United_v_Newcastle_United,_11_September_2021_(44)_(cropped).jpg",
   "author": "Ardfern",
   "licence": "CC BY-SA 4.0",
   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Luke_Shaw,_Manchester_United_v_Newcastle_United,_11_September_2021_(44)_(cropped).jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Luke_Shaw,_Manchester_United_v_Newcastle_United,_11_September_2021_(44)_(cropped).jpg",
+  "shows": "In United kit against Newcastle United, 11 September 2021"
  },
  "lisandro-martinez": {
-  "title": "Lisandro_Martinez_Argentina_v_Egypt_7_July_2026-343_(cropped).jpg",
-  "author": "Bryan Berlin",
+  "shows": "In United kit against Arsenal, 4 September 2022",
+  "title": "Lisandro Martinez 2022.jpg",
+  "author": "Ardfern",
   "licence": "CC BY-SA 4.0",
   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Lisandro_Martinez_Argentina_v_Egypt_7_July_2026-343_(cropped).jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Lisandro_Martinez_2022.jpg"
  },
  "diogo-dalot": {
-  "title": "Diogo_Dalot_USMNT_v_Portugal_Mar_31_2026-12.jpg",
-  "author": "Bryan Berlin",
+  "shows": "In United kit against Norwich City, 16 April 2022",
+  "title": "Diogo Dalot 2022 (cropped).jpg",
+  "author": "Ardfern",
   "licence": "CC BY-SA 4.0",
   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Diogo_Dalot_USMNT_v_Portugal_Mar_31_2026-12.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Diogo_Dalot_2022_(cropped).jpg"
  },
  "noussair-mazraoui": {
   "title": "Noussair_Mazraoui_France_v_Morocco_9_July_2026-125_(cropped).jpg",
@@ -77,11 +82,12 @@
   "page": "https://commons.wikimedia.org/wiki/File:Patrick_Dorgu_Como-Lecce_30_Dec_2024.jpg"
  },
  "bruno-fernandes": {
-  "title": "Bruno_Fernandes_USMNT_v_Portugal_Mar_31_2026-27_(cropped).jpg",
-  "author": "Bryan Berlin",
-  "licence": "CC BY-SA 4.0",
-  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Bruno_Fernandes_USMNT_v_Portugal_Mar_31_2026-27_(cropped).jpg"
+  "shows": "In United kit against Bournemouth, 15 December 2025 (a frame from AFC Bournemouth’s video)",
+  "title": "Bruno Fernandes 00-07-14.16.png",
+  "author": "AFC Bournemouth",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bruno_Fernandes_00-07-14.16.png"
  },
  "youri-tielemans": {
   "title": "Youri_Tielemans_USMNT_v_Belgium_Mar_28_2026-20_(cropped).jpg",
@@ -144,7 +150,8 @@
   "author": "AFC Bournemouth",
   "licence": "CC BY 3.0",
   "licence_url": "https://creativecommons.org/licenses/by/3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Bryan_Mbeumo_00-02-31.18.png"
+  "page": "https://commons.wikimedia.org/wiki/File:Bryan_Mbeumo_00-02-31.18.png",
+  "shows": "In United kit against Bournemouth, 15 December 2025 (a frame from AFC Bournemouth’s video)"
  },
  "joshua-zirkzee": {
   "title": "Joshua_Zirkzee_2019.jpg",
@@ -161,10 +168,11 @@
   "page": "https://commons.wikimedia.org/wiki/File:FC_RB_Salzburg_gegen_SK_Austria_Klagenfurt_(2023-05-28)_38_(cropped).jpg"
  },
  "amad-diallo": {
-  "title": "Amad_Diallo_Cote_D'Ivoire_v_Ecuador_14_June_2026-256_(cropped_2).jpg",
-  "author": "Bryan Berlin",
+  "shows": "In United kit against BSC Young Boys, 8 December 2021",
+  "title": "Manchester United v BSC Young Boys, 8 December 2021 (15).jpg",
+  "author": "Ardfern",
   "licence": "CC BY-SA 4.0",
   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Amad_Diallo_Cote_D%27Ivoire_v_Ecuador_14_June_2026-256_(cropped_2).jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Manchester_United_v_BSC_Young_Boys,_8_December_2021_(15).jpg"
  }
 }

@@ -70,8 +70,8 @@ export default function SquadGrid({ players }: { players: SquadPlayer[] }) {
       })}
       <p className="text-center text-xs leading-relaxed text-white/40">
         Appearances, goals and assists are for this season in every competition, not counting pre-season friendlies.
-        Positions are as listed by the data provider. Photos are free-licensed pictures from Wikimedia Commons and may show a player
-        with a previous club or country; each player&apos;s page credits the photographer.
+        Positions are as listed by the data provider. Photos are free-licensed pictures from Wikimedia Commons. Where a free picture of the player in a United shirt exists it is used; free
+        photos from recent seasons are scarce, so many players are shown with a previous club or their country. Each player&apos;s page says what the photo shows and credits the photographer.
       </p>
     </div>
   );

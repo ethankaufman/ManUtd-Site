@@ -39,7 +39,7 @@ export default async function Page(props: PageProps<"/squad/[slug]">) {
               <img src={photo.src} alt={player.name} className="h-full w-full object-cover object-top" />
             </div>
             <figcaption className="mt-2 text-[11px] leading-snug text-white/45">
-              Photo: {photo.author || "unknown"},{" "}
+              {photo.shows ? `${photo.shows}. ` : ""}Photo: {photo.author || "unknown"},{" "}
               <a href={photo.licenceUrl || photo.page} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-white">
                 {photo.licence}
               </a>

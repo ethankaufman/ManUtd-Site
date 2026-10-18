@@ -98,6 +98,9 @@ After deleting `data/app.db`, restart `npm run dev`.
   generateStaticParams, `dynamicParams = false`). Roster comes from ESPN's roster endpoint (saved in the season JSON as `squad`, table
   `squad_member`); each player's apps/starts/goals/assists/cards are WORKED OUT from the stored match line-ups and events (matched by ESPN player id /
   name) in `loadSquad()` in src/lib/data.ts. No photos (ESPN headshots belong to others); ignore ESPN's `coach` field (it returns junk).
+  KIT PHOTOS (2026-10-17): `scripts/find_kit_photos.py` + `apply_kit_photos.py` swapped in free photos of the player IN A UNITED SHIRT where Commons has one: Heaton, Maguire, Martinez, Dalot, Fernandes, Amad
+  (Shaw and Mbeumo already were). Commons has almost NO free United match photos after 2022 (one photographer, Ardfern, stopped; the only 2025 ones are frames from AFC Bournemouth's video of the 4-4, CC BY 3.0),
+  so ~17 players still show a previous club/country. Each credit has a `shows` note. Do not re-run find_kit_photos expecting more; check Commons for new uploads first.
   NOT done yet: career stats and past players (needs another data source; belongs with the History chapter), minutes played.
 - **Phase 4, Every Match: built (2026-10-17, not yet pushed when written).** `/matches` and `/matches/<season>/` (one static page per season, 35 seasons,
   2,210 matches, 1992-93 to now, EVERY competition). Season dropdown, competition chips, each match a native `<details>` that opens to goals, cards, line-ups
