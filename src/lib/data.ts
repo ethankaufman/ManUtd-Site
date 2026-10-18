@@ -77,7 +77,7 @@ function describeStatus(
       const res = unitedResult(last);
       const lostOnPens = res === "D" && v.pensFor !== null && v.pensAgainst !== null && v.pensFor < v.pensAgainst;
       if (res === "L" || lostOnPens) {
-        return `Knocked out in the ${last.round.toLowerCase()}, losing ${v.goalsFor}–${v.goalsAgainst} ${v.home ? "at home to" : "away to"} ${v.opponent}.`;
+        return `Knocked out in the ${last.round.split(" / ")[0].toLowerCase()}, losing ${v.goalsFor}–${v.goalsAgainst} ${v.home ? "at home to" : "away to"} ${v.opponent}.`;
       }
     }
     if (upcoming.length) return `Still in. Next: ${upcoming[0].round}.`;

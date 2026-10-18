@@ -512,7 +512,7 @@
   {
    "id": "107317",
    "espn": "eng.charity",
-   "round": "2003 English FA Community Shield",
+   "round": "",
    "kick": "2003-08-10T13:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -5447,7 +5447,7 @@
   {
    "id": "129279",
    "espn": "eng.league_cup",
-   "round": "Round 3",
+   "round": "Third Round",
    "kick": "2003-10-28T19:45Z",
    "state": "finished",
    "home": "Leeds United",
@@ -7927,7 +7927,7 @@
   {
    "id": "131589",
    "espn": "eng.league_cup",
-   "round": "Round 4",
+   "round": "Fourth Round",
    "kick": "2003-12-03T20:00Z",
    "state": "finished",
    "home": "West Bromwich Albion",
@@ -13887,7 +13887,7 @@
    "hg": 2,
    "ag": 1,
    "pens": null,
-   "venue": "Estadio das Antas ",
+   "venue": "Estadio das Antas",
    "city": null,
    "att": 49977,
    "neutral": false,

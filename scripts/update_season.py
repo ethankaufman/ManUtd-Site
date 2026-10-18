@@ -25,6 +25,8 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
+import names  # one spelling for club names and cup rounds (scripts/names.py)
+
 TEAM_ID = "360"  # Manchester United on ESPN
 TEAM_NAME = "Manchester United"
 SITE = "https://site.api.espn.com/apis/site/v2/sports/soccer"
@@ -326,7 +328,7 @@ def main():
     for slug in ("champions-league", "europa-league", "conference-league"):
         league_phase = sorted((m for m in matches if m["comp"] == slug and m["round"] == "League Phase"), key=lambda m: m["kick"])
         for i, m in enumerate(league_phase, 1):
-            m["round"] = f"League phase · Matchday {i}"
+            m["round"] = f"League Phase · Matchday {i}"
 
     matches.sort(key=lambda m: m["kick"])
     tables = {}
@@ -347,7 +349,7 @@ def main():
     for m in matches:
         m.pop("comp_kind", None)
     comps = [c for c in comps if c["matches"] or c["espn"] in ("eng.fa",)]  # FA Cup is shown even before it starts
-    payload = {
+    payload = names.tidy_season_file({
         "season": season,
         "updated": now.strftime("%Y-%m-%dT%H:%MZ"),
         "source": "ESPN public soccer service (unofficial)",
@@ -355,7 +357,7 @@ def main():
         "tables": tables,
         "squad": squad,
         "matches": matches,
-    }
+    })
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     text = json.dumps(payload, ensure_ascii=False, indent=1)
     # keep the file (and git history) quiet when nothing changed except the timestamp

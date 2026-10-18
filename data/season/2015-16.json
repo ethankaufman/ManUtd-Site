@@ -4081,7 +4081,7 @@
   {
    "id": "434049",
    "espn": "eng.league_cup",
-   "round": "Round 3",
+   "round": "Third Round",
    "kick": "2015-09-23T19:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -6883,7 +6883,7 @@
   {
    "id": "436010",
    "espn": "eng.league_cup",
-   "round": "Round 4",
+   "round": "Fourth Round",
    "kick": "2015-10-28T20:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -12735,7 +12735,7 @@
    "hg": 3,
    "ag": 3,
    "pens": null,
-   "venue": "St. James' Park",
+   "venue": "St James' Park",
    "city": "Newcastle-upon-Tyne",
    "att": 49673,
    "neutral": false,

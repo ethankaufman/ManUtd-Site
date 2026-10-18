@@ -2715,7 +2715,7 @@
    "hg": 1,
    "ag": 4,
    "pens": null,
-   "venue": "St. James' Park",
+   "venue": "St James' Park",
    "city": "Newcastle-upon-Tyne",
    "att": null,
    "neutral": false,
@@ -9718,7 +9718,7 @@
   {
    "id": "586001",
    "espn": "eng.league_cup",
-   "round": "Quarterfinals",
+   "round": "Quarter-final",
    "kick": "2020-12-23T20:00Z",
    "state": "finished",
    "home": "Everton",
@@ -11422,7 +11422,7 @@
   {
    "id": "591321",
    "espn": "eng.league_cup",
-   "round": "Semifinals",
+   "round": "Semi-final",
    "kick": "2021-01-06T19:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -21422,7 +21422,7 @@
   {
    "id": "596896",
    "espn": "uefa.europa",
-   "round": "Quarterfinals",
+   "round": "Quarter-final",
    "kick": "2021-04-08T19:00Z",
    "state": "finished",
    "home": "Granada",
@@ -22365,7 +22365,7 @@
   {
    "id": "596895",
    "espn": "uefa.europa",
-   "round": "Quarterfinals",
+   "round": "Quarter-final",
    "kick": "2021-04-15T19:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -23690,7 +23690,7 @@
   {
    "id": "600806",
    "espn": "uefa.europa",
-   "round": "Semifinals",
+   "round": "Semi-final",
    "kick": "2021-04-29T19:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -24198,7 +24198,7 @@
   {
    "id": "600803",
    "espn": "uefa.europa",
-   "round": "Semifinals",
+   "round": "Semi-final",
    "kick": "2021-05-06T19:00Z",
    "state": "finished",
    "home": "AS Roma",

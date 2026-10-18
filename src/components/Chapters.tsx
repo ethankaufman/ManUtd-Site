@@ -42,6 +42,16 @@ export default function Chapters() {
           </li>
         ))}
       </ol>
+
+      <div className="relative mx-auto mt-10 flex max-w-3xl flex-wrap items-center justify-center gap-x-8 gap-y-3 font-mono text-xs uppercase tracking-widest">
+        <span className="text-white/50">And also</span>
+        <Link href="/on-this-day/" className="text-white transition hover:text-united-red">
+          On this day →
+        </Link>
+        <Link href="/head-to-head/" className="text-white transition hover:text-united-red">
+          Head to head →
+        </Link>
+      </div>
     </section>
   );
 }

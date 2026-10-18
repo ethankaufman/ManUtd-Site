@@ -554,7 +554,7 @@
    },
    {
     "rank": 23,
-    "team": "Feyenoord Rotterdam",
+    "team": "Feyenoord",
     "p": 2,
     "w": 1,
     "d": 0,
@@ -614,7 +614,7 @@
    },
    {
     "rank": 28,
-    "team": "Fenerbahce",
+    "team": "Fenerbahçe",
     "p": 2,
     "w": 0,
     "d": 1,
@@ -1596,7 +1596,7 @@
    "hg": 0,
    "ag": 5,
    "pens": null,
-   "venue": "Lerkendal Stadion",
+   "venue": "Lerkendal Stadium",
    "city": "Trondheim",
    "att": null,
    "neutral": false,
@@ -5474,7 +5474,7 @@
   {
    "id": "401915442",
    "espn": "uefa.champions",
-   "round": "League phase · Matchday 1",
+   "round": "League Phase · Matchday 1",
    "kick": "2026-09-10T19:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -7733,7 +7733,7 @@
   {
    "id": "401915412",
    "espn": "uefa.champions",
-   "round": "League phase · Matchday 2",
+   "round": "League Phase · Matchday 2",
    "kick": "2026-10-13T19:00Z",
    "state": "finished",
    "home": "Atlético Madrid",
@@ -8235,7 +8235,7 @@
   {
    "id": "401915395",
    "espn": "uefa.champions",
-   "round": "League phase · Matchday 3",
+   "round": "League Phase · Matchday 3",
    "kick": "2026-10-21T16:45Z",
    "state": "scheduled",
    "home": "Como",
@@ -8289,7 +8289,7 @@
   {
    "id": "401915308",
    "espn": "uefa.champions",
-   "round": "League phase · Matchday 4",
+   "round": "League Phase · Matchday 4",
    "kick": "2026-11-03T20:00Z",
    "state": "scheduled",
    "home": "Manchester United",
@@ -8343,7 +8343,7 @@
   {
    "id": "401915373",
    "espn": "uefa.champions",
-   "round": "League phase · Matchday 5",
+   "round": "League Phase · Matchday 5",
    "kick": "2026-11-25T20:00Z",
    "state": "scheduled",
    "home": "Sporting CP",
@@ -8387,7 +8387,7 @@
    "hg": null,
    "ag": null,
    "pens": null,
-   "venue": "St. James' Park",
+   "venue": "St James' Park",
    "city": "Newcastle-upon-Tyne",
    "att": null,
    "neutral": false,
@@ -8415,7 +8415,7 @@
   {
    "id": "401915371",
    "espn": "uefa.champions",
-   "round": "League phase · Matchday 6",
+   "round": "League Phase · Matchday 6",
    "kick": "2026-12-08T20:00Z",
    "state": "scheduled",
    "home": "Manchester United",
@@ -8559,7 +8559,7 @@
   {
    "id": "401915357",
    "espn": "uefa.champions",
-   "round": "League phase · Matchday 7",
+   "round": "League Phase · Matchday 7",
    "kick": "2027-01-20T20:00Z",
    "state": "scheduled",
    "home": "Manchester United",
@@ -8595,7 +8595,7 @@
   {
    "id": "401915349",
    "espn": "uefa.champions",
-   "round": "League phase · Matchday 8",
+   "round": "League Phase · Matchday 8",
    "kick": "2027-01-27T20:00Z",
    "state": "scheduled",
    "home": "Villarreal",

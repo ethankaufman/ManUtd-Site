@@ -12906,7 +12906,7 @@
    "hg": 0,
    "ag": 2,
    "pens": null,
-   "venue": "St. James' Park",
+   "venue": "St James' Park",
    "city": "Newcastle-upon-Tyne",
    "att": 52217,
    "neutral": false,
@@ -20241,7 +20241,7 @@
   {
    "id": "538691",
    "espn": "uefa.champions",
-   "round": "Quarterfinals",
+   "round": "Quarter-final",
    "kick": "2019-04-10T19:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -21035,7 +21035,7 @@
   {
    "id": "538697",
    "espn": "uefa.champions",
-   "round": "Quarterfinals",
+   "round": "Quarter-final",
    "kick": "2019-04-16T19:00Z",
    "state": "finished",
    "home": "Barcelona",

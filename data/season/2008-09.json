@@ -587,7 +587,7 @@
   {
    "id": "248084",
    "espn": "eng.charity",
-   "round": "2008 English FA Community Shield",
+   "round": "",
    "kick": "2008-08-10T14:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -1702,7 +1702,7 @@
   {
    "id": "248255",
    "espn": "uefa.super_cup",
-   "round": "2008 UEFA Super Cup",
+   "round": "",
    "kick": "2008-08-29T18:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -3219,7 +3219,7 @@
   {
    "id": "254966",
    "espn": "eng.league_cup",
-   "round": "Round 3",
+   "round": "Third Round",
    "kick": "2008-09-23T19:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -7450,7 +7450,7 @@
   {
    "id": "256352",
    "espn": "eng.league_cup",
-   "round": "Round 4",
+   "round": "Fourth Round",
    "kick": "2008-11-11T20:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -9311,7 +9311,7 @@
   {
    "id": "258790",
    "espn": "eng.league_cup",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2008-12-03T20:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -10852,7 +10852,7 @@
   {
    "id": "258899",
    "espn": "fifa.cwc",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2008-12-18T10:30Z",
    "state": "finished",
    "home": "Gamba Osaka",
@@ -12966,7 +12966,7 @@
   {
    "id": "259223",
    "espn": "eng.league_cup",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2009-01-07T19:45Z",
    "state": "finished",
    "home": "Derby County",
@@ -14471,7 +14471,7 @@
   {
    "id": "259086",
    "espn": "eng.league_cup",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2009-01-20T20:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -18349,7 +18349,7 @@
    "hg": 1,
    "ag": 2,
    "pens": null,
-   "venue": "St. James' Park",
+   "venue": "St James' Park",
    "city": "Newcastle-upon-Tyne",
    "att": 51636,
    "neutral": false,
@@ -20685,7 +20685,7 @@
   {
    "id": "265556",
    "espn": "uefa.champions",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2009-04-07T18:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -21456,7 +21456,7 @@
   {
    "id": "265555",
    "espn": "uefa.champions",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2009-04-15T18:45Z",
    "state": "finished",
    "home": "FC Porto",
@@ -23003,7 +23003,7 @@
   {
    "id": "266496",
    "espn": "uefa.champions",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2009-04-29T18:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -23746,7 +23746,7 @@
   {
    "id": "266495",
    "espn": "uefa.champions",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2009-05-05T18:45Z",
    "state": "finished",
    "home": "Arsenal",

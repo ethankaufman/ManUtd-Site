@@ -612,7 +612,7 @@
   {
    "id": "187713",
    "espn": "uefa.champions",
-   "round": "Qualifying Third Round",
+   "round": "Third Qualifying Round",
    "kick": "2005-08-09T19:05Z",
    "state": "finished",
    "home": "Manchester United",
@@ -1665,7 +1665,7 @@
   {
    "id": "187774",
    "espn": "uefa.champions",
-   "round": "Qualifying Third Round",
+   "round": "Third Qualifying Round",
    "kick": "2005-08-24T18:30Z",
    "state": "finished",
    "home": "Debrecen",
@@ -5549,7 +5549,7 @@
   {
    "id": "189550",
    "espn": "eng.league_cup",
-   "round": "Round 3",
+   "round": "Third Round",
    "kick": "2005-10-26T19:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -8028,7 +8028,7 @@
   {
    "id": "190351",
    "espn": "eng.league_cup",
-   "round": "Round 4",
+   "round": "Fourth Round",
    "kick": "2005-11-30T20:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -10140,7 +10140,7 @@
   {
    "id": "192054",
    "espn": "eng.league_cup",
-   "round": "Round 5",
+   "round": "Fifth Round",
    "kick": "2005-12-20T19:45Z",
    "state": "finished",
    "home": "Birmingham City",
@@ -12209,7 +12209,7 @@
   {
    "id": "192403",
    "espn": "eng.league_cup",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2006-01-11T20:00Z",
    "state": "finished",
    "home": "Blackburn Rovers",
@@ -13593,7 +13593,7 @@
   {
    "id": "192404",
    "espn": "eng.league_cup",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2006-01-25T20:00Z",
    "state": "finished",
    "home": "Manchester United",

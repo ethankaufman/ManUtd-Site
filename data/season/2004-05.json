@@ -451,7 +451,7 @@
   {
    "id": "152313",
    "espn": "eng.charity",
-   "round": "2004 English FA Community Shield",
+   "round": "",
    "kick": "2004-08-08T14:00Z",
    "state": "finished",
    "home": "Arsenal",
@@ -840,7 +840,7 @@
   {
    "id": "156718",
    "espn": "uefa.champions",
-   "round": "Qualifying Third Round",
+   "round": "Third Qualifying Round",
    "kick": "2004-08-11T18:45Z",
    "state": "finished",
    "home": "Dinamo Bucuresti",
@@ -1942,7 +1942,7 @@
   {
    "id": "158355",
    "espn": "uefa.champions",
-   "round": "Qualifying Third Round",
+   "round": "Third Qualifying Round",
    "kick": "2004-08-25T19:10Z",
    "state": "finished",
    "home": "Manchester United",
@@ -4411,7 +4411,7 @@
    "kick": "2004-09-28T18:45Z",
    "state": "finished",
    "home": "Manchester United",
-   "away": "Fenerbahce",
+   "away": "Fenerbahçe",
    "hg": 6,
    "ag": 2,
    "pens": null,
@@ -4445,7 +4445,7 @@
     },
     {
      "min": "47",
-     "team": "Fenerbahce",
+     "team": "Fenerbahçe",
      "player": "Ferreira Marcio Nobre",
      "assist": null,
      "kind": "Goal"
@@ -4459,7 +4459,7 @@
     },
     {
      "min": "60",
-     "team": "Fenerbahce",
+     "team": "Fenerbahçe",
      "player": "Tuncay Sanli",
      "assist": null,
      "kind": "Goal"
@@ -4651,7 +4651,7 @@
      ]
     },
     {
-     "team": "Fenerbahce",
+     "team": "Fenerbahçe",
      "side": "away",
      "formation": null,
      "players": [
@@ -6186,7 +6186,7 @@
   {
    "id": "167401",
    "espn": "eng.league_cup",
-   "round": "Round 3",
+   "round": "Third Round",
    "kick": "2004-10-26T18:45Z",
    "state": "finished",
    "home": "Crewe Alexandra",
@@ -7591,7 +7591,7 @@
   {
    "id": "168773",
    "espn": "eng.league_cup",
-   "round": "Round 4",
+   "round": "Fourth Round",
    "kick": "2004-11-10T20:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -9350,7 +9350,7 @@
   {
    "id": "169414",
    "espn": "eng.league_cup",
-   "round": "Round 5",
+   "round": "Fifth Round",
    "kick": "2004-12-01T19:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -10031,12 +10031,12 @@
    "round": "Group Stage",
    "kick": "2004-12-08T19:45Z",
    "state": "finished",
-   "home": "Fenerbahce",
+   "home": "Fenerbahçe",
    "away": "Manchester United",
    "hg": 3,
    "ag": 0,
    "pens": null,
-   "venue": "Sukru Saracoglu Stadium ",
+   "venue": "Şükrü Saracoğlu Stadium",
    "city": null,
    "att": 35000,
    "neutral": false,
@@ -10045,21 +10045,21 @@
    "goals": [
     {
      "min": "46",
-     "team": "Fenerbahce",
+     "team": "Fenerbahçe",
      "player": "Tuncay Sanli",
      "assist": null,
      "kind": "Goal"
     },
     {
      "min": "62",
-     "team": "Fenerbahce",
+     "team": "Fenerbahçe",
      "player": "Tuncay Sanli",
      "assist": null,
      "kind": "Goal"
     },
     {
      "min": "90",
-     "team": "Fenerbahce",
+     "team": "Fenerbahçe",
      "player": "Tuncay Sanli",
      "assist": null,
      "kind": "Goal"
@@ -10068,7 +10068,7 @@
    "cards": [],
    "lineups": [
     {
-     "team": "Fenerbahce",
+     "team": "Fenerbahçe",
      "side": "home",
      "formation": null,
      "players": [
@@ -12781,7 +12781,7 @@
   {
    "id": "169873",
    "espn": "eng.league_cup",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2005-01-12T20:00Z",
    "state": "finished",
    "home": "Chelsea",
@@ -13445,7 +13445,7 @@
    "hg": 0,
    "ag": 2,
    "pens": null,
-   "venue": "St. James' Park",
+   "venue": "St James' Park",
    "city": "Newcastle-upon-Tyne",
    "att": 9033,
    "neutral": false,
@@ -14129,7 +14129,7 @@
   {
    "id": "169913",
    "espn": "eng.league_cup",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2005-01-26T20:00Z",
    "state": "finished",
    "home": "Manchester United",

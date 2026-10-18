@@ -560,7 +560,7 @@
   {
    "id": "296926",
    "espn": "eng.charity",
-   "round": "2010 English FA Community Shield",
+   "round": "",
    "kick": "2010-08-08T14:00Z",
    "state": "finished",
    "home": "Chelsea",
@@ -3270,7 +3270,7 @@
   {
    "id": "307977",
    "espn": "eng.league_cup",
-   "round": "Round 3",
+   "round": "Third Round",
    "kick": "2010-09-22T18:45Z",
    "state": "finished",
    "home": "Scunthorpe United",
@@ -5954,7 +5954,7 @@
   {
    "id": "308963",
    "espn": "eng.league_cup",
-   "round": "Round 4",
+   "round": "Fourth Round",
    "kick": "2010-10-26T19:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -9396,7 +9396,7 @@
   {
    "id": "309506",
    "espn": "eng.league_cup",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2010-11-30T19:45Z",
    "state": "finished",
    "home": "West Ham United",
@@ -18590,7 +18590,7 @@
   {
    "id": "315215",
    "espn": "uefa.champions",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2011-04-06T18:45Z",
    "state": "finished",
    "home": "Chelsea",
@@ -19333,7 +19333,7 @@
   {
    "id": "315210",
    "espn": "uefa.champions",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2011-04-12T18:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -20122,7 +20122,7 @@
    "hg": 0,
    "ag": 0,
    "pens": null,
-   "venue": "St. James' Park",
+   "venue": "St James' Park",
    "city": null,
    "att": 49025,
    "neutral": false,
@@ -20842,7 +20842,7 @@
   {
    "id": "315489",
    "espn": "uefa.champions",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2011-04-26T18:45Z",
    "state": "finished",
    "home": "Schalke 04",
@@ -21585,7 +21585,7 @@
   {
    "id": "315490",
    "espn": "uefa.champions",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2011-05-04T18:45Z",
    "state": "finished",
    "home": "Manchester United",

@@ -25,8 +25,12 @@ function Score({ m }: { m: DayMatch }) {
   );
 }
 
-function Item({ item }: { item: DayItem }) {
+const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+/** `dated` adds the day and month under the year (the head-to-head list spans many years of the same opponent). */
+function Item({ item, dated }: { item: DayItem; dated: boolean }) {
   const year = item.date.slice(0, 4);
+  const dayMonth = `${Number(item.date.slice(8, 10))} ${MON[Number(item.date.slice(5, 7)) - 1]}`;
   if (item.kind === "moment") {
     return (
       <li className="flex gap-4 border-b border-white/10 py-5 last:border-b-0 sm:gap-6">
@@ -42,7 +46,10 @@ function Item({ item }: { item: DayItem }) {
   const extra = [item.aet ? "after extra time" : null, item.pens ? `${item.pens[0] > item.pens[1] ? "won" : "lost"} ${item.pens[0]}–${item.pens[1]} on penalties` : null].filter(Boolean).join(", ");
   return (
     <li className="flex gap-4 border-b border-white/10 py-5 last:border-b-0 sm:gap-6">
-      <span className="w-16 flex-none font-display text-2xl leading-none text-white sm:w-20 sm:text-3xl">{year}</span>
+      <span className="w-16 flex-none sm:w-20">
+        <span className="block font-display text-2xl leading-none text-white sm:text-3xl">{year}</span>
+        {dated ? <span className="mt-1.5 block font-mono text-[10px] uppercase tracking-wider text-white/45">{dayMonth}</span> : null}
+      </span>
       <div className="min-w-0 flex-1">
         <div className="flex items-start justify-between gap-3">
           <p className="font-mono text-[11px] uppercase tracking-widest text-white/55">
@@ -68,11 +75,11 @@ function Item({ item }: { item: DayItem }) {
   );
 }
 
-export default function DayItems({ items }: { items: DayItem[] }) {
+export default function DayItems({ items, dated = false }: { items: DayItem[]; dated?: boolean }) {
   return (
     <ul>
       {items.map((it, i) => (
-        <Item key={`${it.date}-${i}`} item={it} />
+        <Item key={`${it.date}-${i}`} item={it} dated={dated} />
       ))}
     </ul>
   );

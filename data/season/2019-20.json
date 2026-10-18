@@ -5757,7 +5757,7 @@
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "venue": "St. James' Park",
+   "venue": "St James' Park",
    "city": "Newcastle-upon-Tyne",
    "att": 51198,
    "neutral": false,
@@ -14284,7 +14284,7 @@
   {
    "id": "561398",
    "espn": "eng.league_cup",
-   "round": "Semifinals",
+   "round": "Semi-final",
    "kick": "2020-01-07T20:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -16690,7 +16690,7 @@
   {
    "id": "561396",
    "espn": "eng.league_cup",
-   "round": "Semifinals",
+   "round": "Semi-final",
    "kick": "2020-01-29T19:45Z",
    "state": "finished",
    "home": "Manchester City",
@@ -26070,7 +26070,7 @@
   {
    "id": "573705",
    "espn": "uefa.europa",
-   "round": "Quarterfinals",
+   "round": "Quarter-final",
    "kick": "2020-08-10T19:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -26541,7 +26541,7 @@
   {
    "id": "573709",
    "espn": "uefa.europa",
-   "round": "Semifinals",
+   "round": "Semi-final",
    "kick": "2020-08-16T19:00Z",
    "state": "finished",
    "home": "Sevilla",

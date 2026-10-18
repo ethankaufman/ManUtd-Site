@@ -1830,7 +1830,7 @@
   {
    "id": "405440",
    "espn": "eng.league_cup",
-   "round": "Round 2",
+   "round": "Second Round",
    "kick": "2014-08-26T19:00Z",
    "state": "finished",
    "home": "Milton Keynes Dons",
@@ -13621,7 +13621,7 @@
    "hg": 0,
    "ag": 1,
    "pens": null,
-   "venue": "St. James' Park",
+   "venue": "St James' Park",
    "city": "Newcastle-upon-Tyne",
    "att": 49801,
    "neutral": false,

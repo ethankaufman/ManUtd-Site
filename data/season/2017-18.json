@@ -2457,7 +2457,7 @@
   {
    "id": "479569",
    "espn": "uefa.super_cup",
-   "round": "2017 UEFA Super Cup",
+   "round": "",
    "kick": "2017-08-08T18:45Z",
    "state": "finished",
    "home": "Real Madrid",
@@ -17756,7 +17756,7 @@
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "venue": "St. James' Park",
+   "venue": "St James' Park",
    "city": "Newcastle-upon-Tyne",
    "att": 52309,
    "neutral": false,

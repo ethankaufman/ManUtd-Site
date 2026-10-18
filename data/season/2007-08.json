@@ -602,7 +602,7 @@
   {
    "id": "223506",
    "espn": "eng.charity",
-   "round": "2007 English FA Community Shield",
+   "round": "",
    "kick": "2007-08-05T14:00Z",
    "state": "finished",
    "home": "Chelsea",
@@ -3768,7 +3768,7 @@
   {
    "id": "229171",
    "espn": "eng.league_cup",
-   "round": "Round 3",
+   "round": "Third Round",
    "kick": "2007-09-26T19:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -17047,7 +17047,7 @@
   {
    "id": "238331",
    "espn": "uefa.champions",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2008-04-01T18:45Z",
    "state": "finished",
    "home": "AS Roma",
@@ -17800,7 +17800,7 @@
   {
    "id": "238308",
    "espn": "uefa.champions",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2008-04-09T18:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -18915,7 +18915,7 @@
   {
    "id": "239745",
    "espn": "uefa.champions",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2008-04-23T18:45Z",
    "state": "finished",
    "home": "Barcelona",
@@ -19664,7 +19664,7 @@
   {
    "id": "239781",
    "espn": "uefa.champions",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2008-04-29T18:45Z",
    "state": "finished",
    "home": "Manchester United",

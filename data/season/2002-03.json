@@ -642,7 +642,7 @@
   {
    "id": "55235",
    "espn": "uefa.champions",
-   "round": "Qualifying Third Round",
+   "round": "Third Qualifying Round",
    "kick": "2002-08-14T18:45Z",
    "state": "finished",
    "home": "Zalaegerszegi TE",
@@ -1695,7 +1695,7 @@
   {
    "id": "58394",
    "espn": "uefa.champions",
-   "round": "Qualifying Third Round",
+   "round": "Third Qualifying Round",
    "kick": "2002-08-27T19:10Z",
    "state": "finished",
    "home": "Manchester United",
@@ -7440,7 +7440,7 @@
   {
    "id": "69742",
    "espn": "eng.league_cup",
-   "round": "Round 3",
+   "round": "Third Round",
    "kick": "2002-11-05T20:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -9227,7 +9227,7 @@
   {
    "id": "71351",
    "espn": "uefa.champions",
-   "round": "2002 Second Phase",
+   "round": "Second Group Stage",
    "kick": "2002-11-26T19:45Z",
    "state": "finished",
    "home": "FC Basel",
@@ -9235,7 +9235,7 @@
    "hg": 1,
    "ag": 3,
    "pens": null,
-   "venue": "St Jakob Park",
+   "venue": "St. Jakob-Park",
    "city": null,
    "att": 35000,
    "neutral": false,
@@ -9962,7 +9962,7 @@
   {
    "id": "71396",
    "espn": "eng.league_cup",
-   "round": "Round 4",
+   "round": "Fourth Round",
    "kick": "2002-12-03T19:45Z",
    "state": "finished",
    "home": "Burnley",
@@ -10640,7 +10640,7 @@
   {
    "id": "71449",
    "espn": "uefa.champions",
-   "round": "2002 Second Phase",
+   "round": "Second Group Stage",
    "kick": "2002-12-11T19:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -11361,7 +11361,7 @@
   {
    "id": "71723",
    "espn": "eng.league_cup",
-   "round": "Round 5",
+   "round": "Fifth Round",
    "kick": "2002-12-17T20:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -13423,7 +13423,7 @@
   {
    "id": "71893",
    "espn": "eng.league_cup",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2003-01-07T20:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -14461,7 +14461,7 @@
   {
    "id": "73707",
    "espn": "eng.league_cup",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2003-01-22T20:00Z",
    "state": "finished",
    "home": "Blackburn Rovers",
@@ -16530,7 +16530,7 @@
   {
    "id": "71486",
    "espn": "uefa.champions",
-   "round": "2002 Second Phase",
+   "round": "Second Group Stage",
    "kick": "2003-02-19T19:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -17242,7 +17242,7 @@
   {
    "id": "71494",
    "espn": "uefa.champions",
-   "round": "2002 Second Phase",
+   "round": "Second Group Stage",
    "kick": "2003-02-25T19:45Z",
    "state": "finished",
    "home": "Juventus",
@@ -18309,7 +18309,7 @@
   {
    "id": "86152",
    "espn": "uefa.champions",
-   "round": "2002 Second Phase",
+   "round": "Second Group Stage",
    "kick": "2003-03-12T19:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -19016,7 +19016,7 @@
   {
    "id": "87046",
    "espn": "uefa.champions",
-   "round": "2002 Second Phase",
+   "round": "Second Group Stage",
    "kick": "2003-03-18T19:45Z",
    "state": "finished",
    "home": "Deportivo",
@@ -20090,7 +20090,7 @@
   {
    "id": "94850",
    "espn": "uefa.champions",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2003-04-08T18:45Z",
    "state": "finished",
    "home": "Real Madrid",
@@ -21566,7 +21566,7 @@
   {
    "id": "97000",
    "espn": "uefa.champions",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2003-04-23T18:45Z",
    "state": "finished",
    "home": "Manchester United",

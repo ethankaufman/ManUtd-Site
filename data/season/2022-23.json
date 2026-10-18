@@ -15720,7 +15720,7 @@
   {
    "id": "660275",
    "espn": "eng.league_cup",
-   "round": "Quarterfinals",
+   "round": "Quarter-final",
    "kick": "2023-01-10T20:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -17469,7 +17469,7 @@
   {
    "id": "662162",
    "espn": "eng.league_cup",
-   "round": "Semifinals",
+   "round": "Semi-final",
    "kick": "2023-01-25T20:00Z",
    "state": "finished",
    "home": "Nottingham Forest",
@@ -18338,7 +18338,7 @@
   {
    "id": "662165",
    "espn": "eng.league_cup",
-   "round": "Semifinals",
+   "round": "Semi-final",
    "kick": "2023-02-01T20:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -24690,7 +24690,7 @@
    "hg": 2,
    "ag": 0,
    "pens": null,
-   "venue": "St. James' Park",
+   "venue": "St James' Park",
    "city": "Newcastle-upon-Tyne",
    "att": 52268,
    "neutral": false,
@@ -25939,7 +25939,7 @@
   {
    "id": "667488",
    "espn": "uefa.europa",
-   "round": "Quarterfinals",
+   "round": "Quarter-final",
    "kick": "2023-04-13T19:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -26885,7 +26885,7 @@
   {
    "id": "667490",
    "espn": "uefa.europa",
-   "round": "Quarterfinals",
+   "round": "Quarter-final",
    "kick": "2023-04-20T19:00Z",
    "state": "finished",
    "home": "Sevilla",

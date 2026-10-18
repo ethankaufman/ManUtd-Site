@@ -650,7 +650,7 @@
   {
    "id": "18092",
    "espn": "eng.charity",
-   "round": "2001 English FA Community Shield",
+   "round": "",
    "kick": "2001-08-12T13:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -7221,7 +7221,7 @@
   {
    "id": "21534",
    "espn": "eng.league_cup",
-   "round": "Round 3",
+   "round": "Third Round",
    "kick": "2001-11-05T19:45Z",
    "state": "finished",
    "home": "Arsenal",
@@ -7954,7 +7954,7 @@
   {
    "id": "25996",
    "espn": "uefa.champions",
-   "round": "2001 Second Phase",
+   "round": "Second Group Stage",
    "kick": "2001-11-20T19:45Z",
    "state": "finished",
    "home": "Bayern Munich",
@@ -9028,7 +9028,7 @@
   {
    "id": "26291",
    "espn": "uefa.champions",
-   "round": "2001 Second Phase",
+   "round": "Second Group Stage",
    "kick": "2001-12-05T19:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -14642,7 +14642,7 @@
   {
    "id": "38120",
    "espn": "uefa.champions",
-   "round": "2001 Second Phase",
+   "round": "Second Group Stage",
    "kick": "2002-02-20T19:45Z",
    "state": "finished",
    "home": "Nantes",
@@ -15349,7 +15349,7 @@
   {
    "id": "38136",
    "espn": "uefa.champions",
-   "round": "2001 Second Phase",
+   "round": "Second Group Stage",
    "kick": "2002-02-26T19:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -16458,7 +16458,7 @@
   {
    "id": "38182",
    "espn": "uefa.champions",
-   "round": "2001 Second Phase",
+   "round": "Second Group Stage",
    "kick": "2002-03-13T19:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -17199,7 +17199,7 @@
   {
    "id": "38196",
    "espn": "uefa.champions",
-   "round": "2001 Second Phase",
+   "round": "Second Group Stage",
    "kick": "2002-03-19T19:45Z",
    "state": "finished",
    "home": "Boavista",
@@ -18287,7 +18287,7 @@
   {
    "id": "46178",
    "espn": "uefa.champions",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2002-04-02T18:45Z",
    "state": "finished",
    "home": "Deportivo",
@@ -18994,7 +18994,7 @@
   {
    "id": "47077",
    "espn": "uefa.champions",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2002-04-10T18:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -19745,7 +19745,7 @@
   {
    "id": "48100",
    "espn": "uefa.champions",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2002-04-24T18:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -20466,7 +20466,7 @@
   {
    "id": "48356",
    "espn": "uefa.champions",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2002-04-30T18:45Z",
    "state": "finished",
    "home": "Bayer Leverkusen",

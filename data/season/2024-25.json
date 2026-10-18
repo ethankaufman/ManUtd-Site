@@ -2874,7 +2874,7 @@
   {
    "id": "702836",
    "espn": "eng.charity",
-   "round": "2024 English FA Community Shield",
+   "round": "",
    "kick": "2024-08-10T14:00Z",
    "state": "finished",
    "home": "Manchester City",
@@ -8311,7 +8311,7 @@
    "round": "League Phase",
    "kick": "2024-10-24T19:00Z",
    "state": "finished",
-   "home": "Fenerbahce",
+   "home": "Fenerbahçe",
    "away": "Manchester United",
    "hg": 1,
    "ag": 1,
@@ -8332,7 +8332,7 @@
     },
     {
      "min": "49",
-     "team": "Fenerbahce",
+     "team": "Fenerbahçe",
      "player": "Youssef En-Nesyri",
      "assist": "Allan Saint-Maximin",
      "kind": "Goal"
@@ -8347,20 +8347,20 @@
     },
     {
      "min": "60",
-     "team": "Fenerbahce",
+     "team": "Fenerbahçe",
      "player": "Bright Osayi-Samuel",
      "kind": "Yellow"
     },
     {
      "min": "90+2",
-     "team": "Fenerbahce",
+     "team": "Fenerbahçe",
      "player": "Mert Müldür",
      "kind": "Yellow"
     }
    ],
    "lineups": [
     {
-     "team": "Fenerbahce",
+     "team": "Fenerbahçe",
      "side": "home",
      "formation": "4-3-3",
      "players": [
@@ -14181,7 +14181,7 @@
   {
    "id": "722972",
    "espn": "eng.league_cup",
-   "round": "Quarterfinals",
+   "round": "Quarter-final",
    "kick": "2024-12-19T20:00Z",
    "state": "finished",
    "home": "Tottenham Hotspur",
@@ -24424,7 +24424,7 @@
   {
    "id": "734500",
    "espn": "uefa.europa",
-   "round": "Quarterfinals",
+   "round": "Quarter-final",
    "kick": "2025-04-10T19:00Z",
    "state": "finished",
    "home": "Lyon",
@@ -24942,7 +24942,7 @@
    "hg": 4,
    "ag": 1,
    "pens": null,
-   "venue": "St. James' Park",
+   "venue": "St James' Park",
    "city": "Newcastle-upon-Tyne",
    "att": 52252,
    "neutral": false,
@@ -25379,7 +25379,7 @@
   {
    "id": "734499",
    "espn": "uefa.europa",
-   "round": "Quarterfinals",
+   "round": "Quarter-final",
    "kick": "2025-04-17T19:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -26804,7 +26804,7 @@
   {
    "id": "733646",
    "espn": "uefa.europa",
-   "round": "Semifinals",
+   "round": "Semi-final",
    "kick": "2025-05-01T19:00Z",
    "state": "finished",
    "home": "Athletic Club",
@@ -27778,7 +27778,7 @@
   {
    "id": "733648",
    "espn": "uefa.europa",
-   "round": "Semifinals",
+   "round": "Semi-final",
    "kick": "2025-05-08T19:00Z",
    "state": "finished",
    "home": "Manchester United",

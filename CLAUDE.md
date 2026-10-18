@@ -163,4 +163,11 @@ After deleting `data/app.db`, restart `npm run dev`.
   (`src/app/on-this-day.json/route.ts` -> `out/on-this-day.json`, ~490 KB, ~58 KB zipped) and `src/components/onthisday/` fetches it. Contents: every finished COMPETITIVE match since 1992 (1,928; friendlies excluded) from the match database,
   the 31 finals/replays before 1992 from data/club/finals.json, and the 14 dated entries of data/club/timeline.json (a final is left out when the timeline already tells that day). Scores are home-side first (neutral finals: United first);
   shoot-outs are judged from the penalty score, not the W/D/L chip. 308 of 366 dates have something; the page says so when a date is empty. Not in it: friendlies, births/deaths of legends (not verified).
+- **Phase 7b, Head to head (2026-10-18, built; not pushed when written).** `/head-to-head`: quick-pick chips (Liverpool, Manchester City, Arsenal, Chelsea, Leeds, Tottenham, Newcastle, Everton), a menu of all 178 clubs United have met in a
+  competitive match since 1992-93, and for the chosen club: P/W/D/L/goals/win rate, W-D-L bar, last five, biggest win, heaviest defeat, first and latest meeting, top five United scorers against them (counted by SURNAME, the early seasons list
+  only surnames), home/away and by-competition tables, and every meeting (filter by competition, newest first). Club kept in the address (`#liverpool`). No new data file: it reads the same `/on-this-day.json` index (matches with season >= 1992-93),
+  grouped in the browser (`src/lib/h2h.ts`). Not all-time: pre-1992 meetings are not in our data and the page says so. Shoot-outs count as draws. Totals were cross-checked against a separate count from data/season for four clubs.
+  NAME TIDY: `scripts/names.py` gives ONE spelling to clubs (Fenerbahce/Fenerbahçe, Feyenoord Rotterdam, Porto/FC Porto), grounds (St James' Park, Şükrü Saracoğlu Stadium ...) and cup rounds ("Round 3" -> "Third Round",
+  "Quarterfinals" -> "Quarter-final", "Round 5 replay" -> "Fifth Round / Replay"); `update_season.py` applies it to everything it writes, and `python3 scripts/names.py` re-tidies every data/season file (safe to repeat). Without it
+  the two sources split the totals. Remember `npm run db:reset` after changing season data.
 - Phase 7, extras and polish

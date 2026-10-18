@@ -2879,7 +2879,7 @@
   {
    "id": "355892",
    "espn": "eng.league_cup",
-   "round": "Round 3",
+   "round": "Third Round",
    "kick": "2012-09-26T18:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -4067,7 +4067,7 @@
    "hg": 0,
    "ag": 3,
    "pens": null,
-   "venue": "St. James' Park",
+   "venue": "St James' Park",
    "city": "Newcastle-upon-Tyne",
    "att": 52203,
    "neutral": false,
@@ -5748,7 +5748,7 @@
   {
    "id": "356584",
    "espn": "eng.league_cup",
-   "round": "Round 4",
+   "round": "Fourth Round",
    "kick": "2012-10-31T19:45Z",
    "state": "finished",
    "home": "Chelsea",

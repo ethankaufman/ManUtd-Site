@@ -21,6 +21,10 @@ export default function Footer() {
         <Link href="/on-this-day/" className="underline underline-offset-4 hover:text-white">
           On this day
         </Link>
+        {" · "}
+        <Link href="/head-to-head/" className="underline underline-offset-4 hover:text-white">
+          Head to head
+        </Link>
       </p>
     </footer>
   );

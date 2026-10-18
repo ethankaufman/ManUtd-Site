@@ -565,7 +565,7 @@
   {
    "id": "366626",
    "espn": "eng.charity",
-   "round": "2013 English FA Community Shield",
+   "round": "",
    "kick": "2013-08-11T13:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -3395,7 +3395,7 @@
   {
    "id": "380821",
    "espn": "eng.league_cup",
-   "round": "Round 3",
+   "round": "Third Round",
    "kick": "2013-09-25T18:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -6258,7 +6258,7 @@
   {
    "id": "382063",
    "espn": "eng.league_cup",
-   "round": "Round 4",
+   "round": "Fourth Round",
    "kick": "2013-10-29T19:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -10656,7 +10656,7 @@
   {
    "id": "382597",
    "espn": "eng.league_cup",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2013-12-18T19:45Z",
    "state": "finished",
    "home": "Stoke City",
@@ -13110,7 +13110,7 @@
   {
    "id": "384251",
    "espn": "eng.league_cup",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2014-01-07T19:45Z",
    "state": "finished",
    "home": "Sunderland",
@@ -14343,7 +14343,7 @@
   {
    "id": "384255",
    "espn": "eng.league_cup",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2014-01-22T19:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -19583,7 +19583,7 @@
   {
    "id": "391325",
    "espn": "uefa.champions",
-   "round": "Quarterfinals",
+   "round": "Quarter-final",
    "kick": "2014-04-01T18:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -19997,7 +19997,7 @@
    "hg": 0,
    "ag": 4,
    "pens": null,
-   "venue": "St. James' Park",
+   "venue": "St James' Park",
    "city": "Newcastle-upon-Tyne",
    "att": 52081,
    "neutral": false,
@@ -20385,7 +20385,7 @@
   {
    "id": "391319",
    "espn": "uefa.champions",
-   "round": "Quarterfinals",
+   "round": "Quarter-final",
    "kick": "2014-04-09T18:45Z",
    "state": "finished",
    "home": "Bayern Munich",

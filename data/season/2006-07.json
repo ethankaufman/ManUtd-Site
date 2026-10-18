@@ -508,7 +508,7 @@
    "kick": "2006-08-04",
    "state": "finished",
    "home": "Manchester United",
-   "away": "Porto",
+   "away": "FC Porto",
    "hg": 3,
    "ag": 1,
    "pens": null,
@@ -4913,7 +4913,7 @@
   {
    "id": "206645",
    "espn": "eng.league_cup",
-   "round": "Round 3",
+   "round": "Third Round",
    "kick": "2006-10-25T18:45Z",
    "state": "finished",
    "home": "Crewe Alexandra",
@@ -5620,7 +5620,7 @@
    "hg": 1,
    "ag": 0,
    "pens": null,
-   "venue": "Parken Stadion",
+   "venue": "Parken",
    "city": null,
    "att": 40000,
    "neutral": false,
@@ -6308,7 +6308,7 @@
   {
    "id": "209884",
    "espn": "eng.league_cup",
-   "round": "Round 4",
+   "round": "Fourth Round",
    "kick": "2006-11-07T20:00Z",
    "state": "finished",
    "home": "Southend United",
@@ -17205,7 +17205,7 @@
   {
    "id": "215114",
    "espn": "uefa.champions",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2007-04-04T18:45Z",
    "state": "finished",
    "home": "AS Roma",
@@ -17933,7 +17933,7 @@
   {
    "id": "215089",
    "espn": "uefa.champions",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2007-04-10T18:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -19397,7 +19397,7 @@
   {
    "id": "216236",
    "espn": "uefa.champions",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2007-04-24T18:45Z",
    "state": "finished",
    "home": "Manchester United",
@@ -20160,7 +20160,7 @@
   {
    "id": "216259",
    "espn": "uefa.champions",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2007-05-02T18:45Z",
    "state": "finished",
    "home": "AC Milan",

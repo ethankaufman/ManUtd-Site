@@ -589,7 +589,7 @@
   {
    "id": "275374",
    "espn": "eng.charity",
-   "round": "2009 English FA Community Shield",
+   "round": "",
    "kick": "2009-08-09T14:00Z",
    "state": "finished",
    "home": "Chelsea",
@@ -3696,7 +3696,7 @@
   {
    "id": "283587",
    "espn": "eng.league_cup",
-   "round": "Round 3",
+   "round": "Third Round",
    "kick": "2009-09-23T19:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -6047,7 +6047,7 @@
   {
    "id": "284284",
    "espn": "eng.league_cup",
-   "round": "Round 4",
+   "round": "Fourth Round",
    "kick": "2009-10-27T19:45Z",
    "state": "finished",
    "home": "Barnsley",
@@ -8751,7 +8751,7 @@
   {
    "id": "284830",
    "espn": "eng.league_cup",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2009-12-01T20:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -12999,7 +12999,7 @@
   {
    "id": "286319",
    "espn": "eng.league_cup",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2010-01-19T20:00Z",
    "state": "finished",
    "home": "Manchester City",
@@ -13798,7 +13798,7 @@
   {
    "id": "287663",
    "espn": "eng.league_cup",
-   "round": "Semi-finals",
+   "round": "Semi-final",
    "kick": "2010-01-27T20:00Z",
    "state": "finished",
    "home": "Manchester United",
@@ -18850,7 +18850,7 @@
   {
    "id": "290167",
    "espn": "uefa.champions",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2010-03-30T18:45Z",
    "state": "finished",
    "home": "Bayern Munich",
@@ -19614,7 +19614,7 @@
   {
    "id": "290165",
    "espn": "uefa.champions",
-   "round": "Quarter-finals",
+   "round": "Quarter-final",
    "kick": "2010-04-07T18:45Z",
    "state": "finished",
    "home": "Manchester United",

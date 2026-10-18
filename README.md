@@ -21,6 +21,7 @@ A fan-made website about Manchester United, in the club's red, black and white. 
 * **02 The Squad**: the first team by position, and a page for every player with their season numbers and every match they played.
 * **08 The Legends**: twenty of the club's greats, each with a portrait, their story, how long they stayed and every trophy they won at United. Wayne Rooney's page includes the 3D overhead kick against Manchester City.
 * **On this day**: pick any date (the home page shows today's) and see every match United played on it since 1992, every earlier cup final, and the dated moments from the club's history.
+* **Head to head**: pick any club United have played since 1992 and see the record, biggest win and defeat, top scorers against them and every meeting.
 
 ![Wayne Rooney's overhead kick in 3D, on his Legends page](docs/overhead-kick.jpg)
 
