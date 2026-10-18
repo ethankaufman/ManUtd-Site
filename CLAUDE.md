@@ -158,4 +158,9 @@ After deleting `data/app.db`, restart `npm run dev`.
   Result: no page scrolls sideways, no broken images or console errors (the audit still lists the intro's decorative SVG shapes and a screen-reader-only label: both are fine). Fixed on the way: Legends years
   (career-table years + first-team note), duplicate ESPN goal events (deduped in update_season.py), team names cut off on phones (match rows use wrapping, not `truncate`), "Carabao Cup" -> "League Cup" everywhere,
   History season table cup codes made readable (Qual. 2, Int. round) with a key. After changing season data run `npm run db:reset` before building, or the pages show the old database.
+- **Phase 7a, On this day (2026-10-18, built; not pushed when written).** `/on-this-day` (browse any date: month/day pickers, day arrows, Today; date kept in the address as `#02-06`) and an "On this day" section on the home page
+  between the slideshow and the chapters (today's UK date, up to 3 items, link to the full page). Static site, so "today" is worked out in the visitor's browser: `src/lib/onthisday.ts` builds ONE index at build time
+  (`src/app/on-this-day.json/route.ts` -> `out/on-this-day.json`, ~490 KB, ~58 KB zipped) and `src/components/onthisday/` fetches it. Contents: every finished COMPETITIVE match since 1992 (1,928; friendlies excluded) from the match database,
+  the 31 finals/replays before 1992 from data/club/finals.json, and the 14 dated entries of data/club/timeline.json (a final is left out when the timeline already tells that day). Scores are home-side first (neutral finals: United first);
+  shoot-outs are judged from the penalty score, not the W/D/L chip. 308 of 366 dates have something; the page says so when a date is empty. Not in it: friendlies, births/deaths of legends (not verified).
 - Phase 7, extras and polish
