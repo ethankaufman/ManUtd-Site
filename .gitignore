@@ -46,3 +46,6 @@ next-env.d.ts
 
 # Python
 __pycache__/
+
+# local download cache
+data/club/_cache/

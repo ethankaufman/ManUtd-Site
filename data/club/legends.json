@@ -1,0 +1,2365 @@
+{
+ "duncan-edwards": {
+  "name": "Duncan Edwards",
+  "wikipedia": "Duncan Edwards",
+  "nation": "ENG",
+  "pos": "HB",
+  "spells": [
+   "1953–1958"
+  ],
+  "starts": 177,
+  "subs": 0,
+  "apps": 177,
+  "goals": 21,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Football League First Division",
+    "label": "1955–56",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Football League First Division",
+    "label": "1956–57",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1956",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1957",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": []
+ },
+ "bobby-charlton": {
+  "name": "Bobby Charlton",
+  "wikipedia": "Bobby Charlton",
+  "nation": "ENG",
+  "pos": "FW",
+  "spells": [
+   "1956–1973"
+  ],
+  "starts": 756,
+  "subs": 2,
+  "apps": 758,
+  "goals": 249,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Football League First Division",
+    "label": "1956–57",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Football League First Division",
+    "label": "1964–65",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Football League First Division",
+    "label": "1966–67",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1962–63",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1965",
+    "shared": true,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1967",
+    "shared": true,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "1967–68",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [
+   {
+    "text": "FA Youth Cup: 1953–54, 1954–55, 1955–56"
+   }
+  ],
+  "awards": [
+   {
+    "label": "Ballon d’Or",
+    "season": "1966",
+    "detail": ""
+   }
+  ]
+ },
+ "denis-law": {
+  "name": "Denis Law",
+  "wikipedia": "Denis Law",
+  "nation": "SCO",
+  "pos": "FW",
+  "spells": [
+   "1962–1973"
+  ],
+  "starts": 398,
+  "subs": 6,
+  "apps": 404,
+  "goals": 237,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Football League First Division",
+    "label": "1964–65",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Football League First Division",
+    "label": "1966–67",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1962–63",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1965",
+    "shared": true,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1967",
+    "shared": true,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": [
+   {
+    "label": "Ballon d’Or",
+    "season": "1964",
+    "detail": ""
+   }
+  ]
+ },
+ "george-best": {
+  "name": "George Best",
+  "wikipedia": "George Best",
+  "nation": "NIR",
+  "pos": "FW",
+  "spells": [
+   "1963–1974"
+  ],
+  "starts": 470,
+  "subs": 0,
+  "apps": 470,
+  "goals": 179,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Football League First Division",
+    "label": "1964–65",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Football League First Division",
+    "label": "1966–67",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1965",
+    "shared": true,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1967",
+    "shared": true,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "1967–68",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": [
+   {
+    "label": "Ballon d’Or",
+    "season": "1968",
+    "detail": ""
+   }
+  ]
+ },
+ "nobby-stiles": {
+  "name": "Nobby Stiles",
+  "wikipedia": "Nobby Stiles",
+  "nation": "ENG",
+  "pos": "HB",
+  "spells": [
+   "1959–1971"
+  ],
+  "starts": 395,
+  "subs": 0,
+  "apps": 395,
+  "goals": 19,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Football League First Division",
+    "label": "1964–65",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Football League First Division",
+    "label": "1966–67",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1965",
+    "shared": true,
+    "listedShared": true
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1967",
+    "shared": true,
+    "listedShared": true
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "1967–68",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": []
+ },
+ "bryan-robson": {
+  "name": "Bryan Robson",
+  "wikipedia": "Bryan Robson",
+  "nation": "ENG",
+  "pos": "MF",
+  "spells": [
+   "1981–1994"
+  ],
+  "starts": 437,
+  "subs": 24,
+  "apps": 461,
+  "goals": 99,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1992–93",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1993–94",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1982–83",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1984–85",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1989–90",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1983",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1993",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "cup-winners-cup",
+    "trophy": "European Cup Winners' Cup",
+    "label": "1990–91",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": []
+ },
+ "mark-hughes": {
+  "name": "Mark Hughes",
+  "wikipedia": "Mark Hughes",
+  "nation": "WAL",
+  "pos": "FW",
+  "spells": [
+   "1983–1986",
+   "1988–1995"
+  ],
+  "starts": 453,
+  "subs": 14,
+  "apps": 467,
+  "goals": 163,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1992–93",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1993–94",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1984–85",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1989–90",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1993–94",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "1991–92",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1990",
+    "shared": true,
+    "listedShared": true
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1993",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1994",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "cup-winners-cup",
+    "trophy": "European Cup Winners' Cup",
+    "label": "1990–91",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "super-cup",
+    "trophy": "UEFA Super Cup",
+    "label": "1991",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": []
+ },
+ "peter-schmeichel": {
+  "name": "Peter Schmeichel",
+  "wikipedia": "Peter Schmeichel",
+  "nation": "DEN",
+  "pos": "GK",
+  "spells": [
+   "1991–1999"
+  ],
+  "starts": 398,
+  "subs": 0,
+  "apps": 398,
+  "goals": 1,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1992–93",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1993–94",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1995–96",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1996–97",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1993–94",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1995–96",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "1991–92",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1993",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1994",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1996",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1997",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "super-cup",
+    "trophy": "UEFA Super Cup",
+    "label": "1991",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": [
+   {
+    "label": "Premier League Player of the Season",
+    "season": "1995–96",
+    "detail": ""
+   }
+  ]
+ },
+ "eric-cantona": {
+  "name": "Eric Cantona",
+  "wikipedia": "Eric Cantona",
+  "nation": "FRA",
+  "pos": "FW",
+  "spells": [
+   "1992–1997"
+  ],
+  "starts": 184,
+  "subs": 1,
+  "apps": 185,
+  "goals": 82,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1992–93",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1993–94",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1995–96",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1996–97",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1993–94",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1995–96",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1993",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1994",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1996",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": [
+   {
+    "label": "Most assists in the season",
+    "season": "1992–93",
+    "detail": "16 assists"
+   },
+   {
+    "label": "PFA Players' Player of the Year",
+    "season": "1993–94",
+    "detail": ""
+   },
+   {
+    "label": "FWA Footballer of the Year",
+    "season": "1995–96",
+    "detail": ""
+   },
+   {
+    "label": "Most assists in the season",
+    "season": "1996–97",
+    "detail": "12 assists"
+   }
+  ]
+ },
+ "roy-keane": {
+  "name": "Roy Keane",
+  "wikipedia": "Roy Keane",
+  "nation": "IRL",
+  "pos": "MF",
+  "spells": [
+   "1993–2005"
+  ],
+  "starts": 458,
+  "subs": 22,
+  "apps": 480,
+  "goals": 51,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1993–94",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1995–96",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1996–97",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1999–00",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2000–01",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2002–03",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1993–94",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1995–96",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "2003–04",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1993",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1996",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1997",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2003",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "intercontinental-cup",
+    "trophy": "Intercontinental Cup",
+    "label": "1999",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": [
+   {
+    "label": "FWA Footballer of the Year",
+    "season": "1999–2000",
+    "detail": ""
+   },
+   {
+    "label": "PFA Players' Player of the Year",
+    "season": "1999–2000",
+    "detail": ""
+   }
+  ]
+ },
+ "gary-neville": {
+  "name": "Gary Neville",
+  "wikipedia": "Gary Neville",
+  "nation": "ENG",
+  "pos": "DF",
+  "spells": [
+   "1992–2011"
+  ],
+  "starts": 566,
+  "subs": 36,
+  "apps": 602,
+  "goals": 7,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1995–96",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1996–97",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1999–00",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2000–01",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2002–03",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2006–07",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2008–09",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1995–96",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "2003–04",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2005–06",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2008–09",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2009–10",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1996",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1997",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2008",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "2007–08",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "intercontinental-cup",
+    "trophy": "Intercontinental Cup",
+    "label": "1999",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "club-world-cup",
+    "trophy": "FIFA Club World Cup",
+    "label": "2008",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": []
+ },
+ "paul-scholes": {
+  "name": "Paul Scholes",
+  "wikipedia": "Paul Scholes",
+  "nation": "ENG",
+  "pos": "MF",
+  "spells": [
+   "1994–2011",
+   "2012–2013"
+  ],
+  "starts": 577,
+  "subs": 141,
+  "apps": 718,
+  "goals": 155,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1995–96",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1996–97",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1999–00",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2000–01",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2002–03",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2006–07",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2007–08",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2008–09",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2010–11",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2012–13",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1995–96",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "2003–04",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2008–09",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2009–10",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1996",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1997",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2003",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2008",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2010",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "2007–08",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "intercontinental-cup",
+    "trophy": "Intercontinental Cup",
+    "label": "1999",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "club-world-cup",
+    "trophy": "FIFA Club World Cup",
+    "label": "2008",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": []
+ },
+ "ryan-giggs": {
+  "name": "Ryan Giggs",
+  "wikipedia": "Ryan Giggs",
+  "nation": "WAL",
+  "pos": "MF",
+  "spells": [
+   "1991–2014"
+  ],
+  "starts": 802,
+  "subs": 161,
+  "apps": 963,
+  "goals": 168,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1992–93",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1993–94",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1995–96",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1996–97",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1999–00",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2000–01",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2002–03",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2006–07",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2007–08",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2008–09",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2010–11",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2012–13",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1993–94",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1995–96",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "2003–04",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "1991–92",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2005–06",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2008–09",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2009–10",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1993",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1994",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1996",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1997",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2003",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2007",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2008",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2010",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2011",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2013",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "2007–08",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "super-cup",
+    "trophy": "UEFA Super Cup",
+    "label": "1991",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "intercontinental-cup",
+    "trophy": "Intercontinental Cup",
+    "label": "1999",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "club-world-cup",
+    "trophy": "FIFA Club World Cup",
+    "label": "2008",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": [
+   {
+    "label": "PFA Young Player of the Year",
+    "season": "1992–93",
+    "detail": ""
+   },
+   {
+    "label": "PFA Players' Player of the Year",
+    "season": "2008–09",
+    "detail": ""
+   }
+  ]
+ },
+ "david-beckham": {
+  "name": "David Beckham",
+  "wikipedia": "David Beckham",
+  "nation": "ENG",
+  "pos": "MF",
+  "spells": [
+   "1992–2003"
+  ],
+  "starts": 356,
+  "subs": 38,
+  "apps": 394,
+  "goals": 85,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1995–96",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1996–97",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1999–00",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2000–01",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2002–03",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1995–96",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1996",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1997",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "intercontinental-cup",
+    "trophy": "Intercontinental Cup",
+    "label": "1999",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": [
+   {
+    "label": "PFA Young Player of the Year",
+    "season": "1996–97",
+    "detail": ""
+   },
+   {
+    "label": "Premier League Goal of the Season",
+    "season": "1996–97",
+    "detail": "v Wimbledon (3–0), 17 August 1996"
+   },
+   {
+    "label": "Most assists in the season",
+    "season": "1997–98",
+    "detail": "13 assists"
+   },
+   {
+    "label": "Most assists in the season",
+    "season": "1999–2000",
+    "detail": "15 assists"
+   },
+   {
+    "label": "Most assists in the season",
+    "season": "2000–01",
+    "detail": "12 assists"
+   }
+  ]
+ },
+ "ole-gunnar-solskjaer": {
+  "name": "Ole Gunnar Solskjær",
+  "wikipedia": "Ole Gunnar Solskjær",
+  "nation": "NOR",
+  "pos": "FW",
+  "spells": [
+   "1996–2007"
+  ],
+  "starts": 216,
+  "subs": 150,
+  "apps": 366,
+  "goals": 126,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1996–97",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "1999–00",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2000–01",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2002–03",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2006–07",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "2003–04",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "1996",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2003",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "1998–99",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "intercontinental-cup",
+    "trophy": "Intercontinental Cup",
+    "label": "1999",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": []
+ },
+ "cristiano-ronaldo": {
+  "name": "Cristiano Ronaldo",
+  "wikipedia": "Cristiano Ronaldo",
+  "nation": "POR",
+  "pos": "MF",
+  "spells": [
+   "2003–2009",
+   "2021–2022"
+  ],
+  "starts": 289,
+  "subs": 57,
+  "apps": 346,
+  "goals": 145,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2006–07",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2007–08",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2008–09",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "2003–04",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2005–06",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2008–09",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2007",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "2007–08",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "club-world-cup",
+    "trophy": "FIFA Club World Cup",
+    "label": "2008",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": [
+   {
+    "label": "FWA Footballer of the Year",
+    "season": "2006–07",
+    "detail": ""
+   },
+   {
+    "label": "PFA Players' Player of the Year",
+    "season": "2006–07",
+    "detail": ""
+   },
+   {
+    "label": "PFA Young Player of the Year",
+    "season": "2006–07",
+    "detail": ""
+   },
+   {
+    "label": "Premier League Player of the Season",
+    "season": "2006–07",
+    "detail": ""
+   },
+   {
+    "label": "FWA Footballer of the Year",
+    "season": "2007–08",
+    "detail": ""
+   },
+   {
+    "label": "PFA Players' Player of the Year",
+    "season": "2007–08",
+    "detail": ""
+   },
+   {
+    "label": "Premier League Golden Boot (top scorer)",
+    "season": "2007–08",
+    "detail": "31 goals"
+   },
+   {
+    "label": "Premier League Player of the Season",
+    "season": "2007–08",
+    "detail": ""
+   },
+   {
+    "label": "Ballon d’Or",
+    "season": "2008",
+    "detail": ""
+   }
+  ]
+ },
+ "wayne-rooney": {
+  "name": "Wayne Rooney",
+  "wikipedia": "Wayne Rooney",
+  "nation": "ENG",
+  "pos": "FW",
+  "spells": [
+   "2004–2017"
+  ],
+  "starts": 497,
+  "subs": 62,
+  "apps": 559,
+  "goals": 253,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2006–07",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2007–08",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2008–09",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2010–11",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2012–13",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "fa-cup",
+    "trophy": "FA Cup",
+    "label": "2015–16",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2005–06",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2009–10",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2016–17",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2007",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2010",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2011",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2016",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "2007–08",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "europa-league",
+    "trophy": "UEFA Europa League",
+    "label": "2016–17",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "club-world-cup",
+    "trophy": "FIFA Club World Cup",
+    "label": "2008",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": [
+   {
+    "label": "PFA Young Player of the Year",
+    "season": "2004–05",
+    "detail": ""
+   },
+   {
+    "label": "PFA Young Player of the Year",
+    "season": "2005–06",
+    "detail": ""
+   },
+   {
+    "label": "Most assists in the season",
+    "season": "2006–07",
+    "detail": "11 assists"
+   },
+   {
+    "label": "Premier League Goal of the Season",
+    "season": "2006–07",
+    "detail": "v Bolton Wanderers (2–0), 17 March 2007"
+   },
+   {
+    "label": "FWA Footballer of the Year",
+    "season": "2009–10",
+    "detail": ""
+   },
+   {
+    "label": "PFA Players' Player of the Year",
+    "season": "2009–10",
+    "detail": ""
+   },
+   {
+    "label": "Premier League Player of the Season",
+    "season": "2009–10",
+    "detail": ""
+   },
+   {
+    "label": "Premier League Goal of the Season",
+    "season": "2010–11",
+    "detail": "v Manchester City (2–1), 12 February 2011"
+   }
+  ]
+ },
+ "rio-ferdinand": {
+  "name": "Rio Ferdinand",
+  "wikipedia": "Rio Ferdinand",
+  "nation": "ENG",
+  "pos": "DF",
+  "spells": [
+   "2002–2014"
+  ],
+  "starts": 444,
+  "subs": 11,
+  "apps": 455,
+  "goals": 8,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2002–03",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2006–07",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2007–08",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2008–09",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2010–11",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2012–13",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2005–06",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2008–09",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2003",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2007",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2008",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2011",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "2007–08",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "club-world-cup",
+    "trophy": "FIFA Club World Cup",
+    "label": "2008",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": []
+ },
+ "nemanja-vidic": {
+  "name": "Nemanja Vidić",
+  "wikipedia": "Nemanja Vidić",
+  "nation": "SCG",
+  "pos": "DF",
+  "spells": [
+   "2006–2014"
+  ],
+  "starts": 290,
+  "subs": 10,
+  "apps": 300,
+  "goals": 21,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2006–07",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2007–08",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2008–09",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2010–11",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2012–13",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2005–06",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2008–09",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2009–10",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2007",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2008",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2010",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2011",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2013",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "2007–08",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "club-world-cup",
+    "trophy": "FIFA Club World Cup",
+    "label": "2008",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": [
+   {
+    "label": "Premier League Player of the Season",
+    "season": "2008–09",
+    "detail": ""
+   },
+   {
+    "label": "Premier League Player of the Season",
+    "season": "2010–11",
+    "detail": ""
+   }
+  ]
+ },
+ "edwin-van-der-sar": {
+  "name": "Edwin van der Sar",
+  "wikipedia": "Edwin van der Sar",
+  "nation": "NED",
+  "pos": "GK",
+  "spells": [
+   "2005–2011"
+  ],
+  "starts": 266,
+  "subs": 0,
+  "apps": 266,
+  "goals": 0,
+  "trophies": [
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2006–07",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2007–08",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2008–09",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league",
+    "trophy": "Premier League",
+    "label": "2010–11",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2005–06",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "league-cup",
+    "trophy": "League Cup",
+    "label": "2009–10",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2007",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2008",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "community-shield",
+    "trophy": "Charity / Community Shield",
+    "label": "2010",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "european-cup",
+    "trophy": "European Cup / Champions League",
+    "label": "2007–08",
+    "shared": false,
+    "listedShared": false
+   },
+   {
+    "key": "club-world-cup",
+    "trophy": "FIFA Club World Cup",
+    "label": "2008",
+    "shared": false,
+    "listedShared": false
+   }
+  ],
+  "otherHonours": [],
+  "youthHonours": [],
+  "awards": [
+   {
+    "label": "Premier League Golden Glove (most clean sheets)",
+    "season": "2008–09",
+    "detail": "21 clean sheets"
+   }
+  ]
+ }
+}

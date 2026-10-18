@@ -1,0 +1,265 @@
+{
+ "duncan-edwards": {
+  "name": "Duncan Edwards",
+  "wikipedia": "Duncan Edwards",
+  "nation": "ENG",
+  "pos": "HB",
+  "spells": [
+   "1953–1958"
+  ],
+  "starts": 177,
+  "subs": 0,
+  "apps": 177,
+  "goals": 21
+ },
+ "bobby-charlton": {
+  "name": "Bobby Charlton",
+  "wikipedia": "Bobby Charlton",
+  "nation": "ENG",
+  "pos": "FW",
+  "spells": [
+   "1956–1973"
+  ],
+  "starts": 756,
+  "subs": 2,
+  "apps": 758,
+  "goals": 249
+ },
+ "denis-law": {
+  "name": "Denis Law",
+  "wikipedia": "Denis Law",
+  "nation": "SCO",
+  "pos": "FW",
+  "spells": [
+   "1962–1973"
+  ],
+  "starts": 398,
+  "subs": 6,
+  "apps": 404,
+  "goals": 237
+ },
+ "george-best": {
+  "name": "George Best",
+  "wikipedia": "George Best",
+  "nation": "NIR",
+  "pos": "FW",
+  "spells": [
+   "1963–1974"
+  ],
+  "starts": 470,
+  "subs": 0,
+  "apps": 470,
+  "goals": 179
+ },
+ "nobby-stiles": {
+  "name": "Nobby Stiles",
+  "wikipedia": "Nobby Stiles",
+  "nation": "ENG",
+  "pos": "HB",
+  "spells": [
+   "1959–1971"
+  ],
+  "starts": 395,
+  "subs": 0,
+  "apps": 395,
+  "goals": 19
+ },
+ "bryan-robson": {
+  "name": "Bryan Robson",
+  "wikipedia": "Bryan Robson",
+  "nation": "ENG",
+  "pos": "MF",
+  "spells": [
+   "1981–1994"
+  ],
+  "starts": 437,
+  "subs": 24,
+  "apps": 461,
+  "goals": 99
+ },
+ "mark-hughes": {
+  "name": "Mark Hughes",
+  "wikipedia": "Mark Hughes",
+  "nation": "WAL",
+  "pos": "FW",
+  "spells": [
+   "1983–1986",
+   "1988–1995"
+  ],
+  "starts": 453,
+  "subs": 14,
+  "apps": 467,
+  "goals": 163
+ },
+ "peter-schmeichel": {
+  "name": "Peter Schmeichel",
+  "wikipedia": "Peter Schmeichel",
+  "nation": "DEN",
+  "pos": "GK",
+  "spells": [
+   "1991–1999"
+  ],
+  "starts": 398,
+  "subs": 0,
+  "apps": 398,
+  "goals": 1
+ },
+ "eric-cantona": {
+  "name": "Eric Cantona",
+  "wikipedia": "Eric Cantona",
+  "nation": "FRA",
+  "pos": "FW",
+  "spells": [
+   "1992–1997"
+  ],
+  "starts": 184,
+  "subs": 1,
+  "apps": 185,
+  "goals": 82
+ },
+ "roy-keane": {
+  "name": "Roy Keane",
+  "wikipedia": "Roy Keane",
+  "nation": "IRL",
+  "pos": "MF",
+  "spells": [
+   "1993–2005"
+  ],
+  "starts": 458,
+  "subs": 22,
+  "apps": 480,
+  "goals": 51
+ },
+ "gary-neville": {
+  "name": "Gary Neville",
+  "wikipedia": "Gary Neville",
+  "nation": "ENG",
+  "pos": "DF",
+  "spells": [
+   "1992–2011"
+  ],
+  "starts": 566,
+  "subs": 36,
+  "apps": 602,
+  "goals": 7
+ },
+ "paul-scholes": {
+  "name": "Paul Scholes",
+  "wikipedia": "Paul Scholes",
+  "nation": "ENG",
+  "pos": "MF",
+  "spells": [
+   "1994–2011",
+   "2012–2013"
+  ],
+  "starts": 577,
+  "subs": 141,
+  "apps": 718,
+  "goals": 155
+ },
+ "ryan-giggs": {
+  "name": "Ryan Giggs",
+  "wikipedia": "Ryan Giggs",
+  "nation": "WAL",
+  "pos": "MF",
+  "spells": [
+   "1991–2014"
+  ],
+  "starts": 802,
+  "subs": 161,
+  "apps": 963,
+  "goals": 168
+ },
+ "david-beckham": {
+  "name": "David Beckham",
+  "wikipedia": "David Beckham",
+  "nation": "ENG",
+  "pos": "MF",
+  "spells": [
+   "1992–2003"
+  ],
+  "starts": 356,
+  "subs": 38,
+  "apps": 394,
+  "goals": 85
+ },
+ "ole-gunnar-solskjaer": {
+  "name": "Ole Gunnar Solskjær",
+  "wikipedia": "Ole Gunnar Solskjær",
+  "nation": "NOR",
+  "pos": "FW",
+  "spells": [
+   "1996–2007"
+  ],
+  "starts": 216,
+  "subs": 150,
+  "apps": 366,
+  "goals": 126
+ },
+ "cristiano-ronaldo": {
+  "name": "Cristiano Ronaldo",
+  "wikipedia": "Cristiano Ronaldo",
+  "nation": "POR",
+  "pos": "MF",
+  "spells": [
+   "2003–2009",
+   "2021–2022"
+  ],
+  "starts": 289,
+  "subs": 57,
+  "apps": 346,
+  "goals": 145
+ },
+ "wayne-rooney": {
+  "name": "Wayne Rooney",
+  "wikipedia": "Wayne Rooney",
+  "nation": "ENG",
+  "pos": "FW",
+  "spells": [
+   "2004–2017"
+  ],
+  "starts": 497,
+  "subs": 62,
+  "apps": 559,
+  "goals": 253
+ },
+ "rio-ferdinand": {
+  "name": "Rio Ferdinand",
+  "wikipedia": "Rio Ferdinand",
+  "nation": "ENG",
+  "pos": "DF",
+  "spells": [
+   "2002–2014"
+  ],
+  "starts": 444,
+  "subs": 11,
+  "apps": 455,
+  "goals": 8
+ },
+ "nemanja-vidic": {
+  "name": "Nemanja Vidić",
+  "wikipedia": "Nemanja Vidić",
+  "nation": "SCG",
+  "pos": "DF",
+  "spells": [
+   "2006–2014"
+  ],
+  "starts": 290,
+  "subs": 10,
+  "apps": 300,
+  "goals": 21
+ },
+ "edwin-van-der-sar": {
+  "name": "Edwin van der Sar",
+  "wikipedia": "Edwin van der Sar",
+  "nation": "NED",
+  "pos": "GK",
+  "spells": [
+   "2005–2011"
+  ],
+  "starts": 266,
+  "subs": 0,
+  "apps": 266,
+  "goals": 0
+ }
+}
