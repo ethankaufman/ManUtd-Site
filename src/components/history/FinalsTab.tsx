@@ -35,8 +35,8 @@ function FinalRow({ f }: { f: Final }) {
         <summary className="flex cursor-pointer list-none items-center gap-3 py-3 pr-1 hover:bg-white/[0.03] [&::-webkit-details-marker]:hidden">
           <span className="w-24 flex-none font-mono text-[11px] uppercase tracking-wider text-white/55 sm:w-28">{new Date(f.date).getUTCFullYear()}</span>
           <span className="min-w-0 flex-1">
-            <span className="block truncate font-display text-lg uppercase tracking-wide text-white">{f.comp_name}</span>
-            <span className="block truncate text-sm text-white/65">
+            <span className="block font-display text-lg uppercase tracking-wide text-white">{f.comp_name}</span>
+            <span className="block text-sm text-white/65">
               v {f.opponent}
               <span className="ml-2 font-mono text-xs text-white/45">{f.replay ? `${scoreText(f.score)}, ${f.replay.kind === "second leg" ? "second leg" : "replay"} ${scoreText(f.replay.score)}` : scoreText(f.score)}</span>
             </span>

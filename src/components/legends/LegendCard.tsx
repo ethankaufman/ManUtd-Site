@@ -19,7 +19,7 @@ export default function LegendCard({ l }: { l: Legend }) {
         <div className="flex flex-1 flex-col p-4">
           <h3 className="font-display text-2xl uppercase leading-tight tracking-wide text-white">{l.name}</h3>
           <p className="mt-0.5 font-mono text-[11px] uppercase tracking-wider text-united-red">
-            {positionName(l.pos)} · {spellText(l.spells)}
+            {positionName(l.pos)} · <span className="whitespace-nowrap">{spellText(l.career)}</span>
           </p>
           <p className="mt-2 flex-1 text-sm leading-snug text-white/65">{l.tagline}</p>
           <p className="mt-3 font-mono text-[11px] uppercase tracking-widest text-white/50">

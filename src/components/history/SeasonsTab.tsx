@@ -4,8 +4,12 @@ import { dashed, decadeOf, SEASONS, type SeasonRow } from "@/lib/club";
 
 const DECADES = Array.from(new Set(SEASONS.map((s) => decadeOf(s.season)))).sort((a, b) => b - a);
 
-const CUP: Record<string, string> = { Winners: "Won", "Runners-up": "Final" };
-const cupText = (v: string) => (v === "" || v === "N/A" ? "–" : (CUP[v] ?? v));
+const CUP: Record<string, string> = { Winners: "Won", "Runners-up": "Final", RInt: "Int. round", "Third place": "3rd place" };
+const cupText = (v: string) => {
+  if (v === "" || v === "N/A" || v === "—") return "–";
+  const qual = v.match(/^QR(\d)$/);
+  return qual ? `Qual. ${qual[1]}` : (CUP[v] ?? v);
+};
 const isTitle = (s: SeasonRow) => s.pos === "1st" && (s.division === "Div 1" || s.division === "Prem");
 
 function Cell({ children, right }: { children: React.ReactNode; right?: boolean }) {
@@ -52,7 +56,7 @@ export default function SeasonsTab() {
     <div>
       <p className="mb-4 text-sm text-white/60">
         League record, cup runs and top scorer for every season. Open a decade to see its seasons; from 1992–93 the season links to every match. A gold position is a
-        league title.
+        league title. In the cup columns, R1, R2 … is the round United went out in (Qual. = qualifying round, Int. = intermediate round, SF = semi-final).
       </p>
       <div className="border-y border-white/15">
         {DECADES.map((dec, i) => {

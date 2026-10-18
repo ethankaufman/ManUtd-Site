@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 
+import { longDate } from "@/lib/format";
 import { AS_OF, isPermanent, MANAGERS, type Manager } from "@/lib/managers";
 import ManagerRow from "./ManagerRow";
 
@@ -93,7 +94,7 @@ export default function ManagersView({ live }: { live: Live | null }) {
         ))}
       </ul>
       <p className="mt-3 text-xs leading-relaxed text-white/45">
-        Click a manager to open the photo, the story, the record and the trophies. Records count every competitive match and no friendlies, as Wikipedia’s list does; they are as of {AS_OF}, and the
+        Click a manager to open the photo, the story, the record and the trophies. Records count every competitive match and no friendlies, as Wikipedia’s list does; they are as of {longDate(AS_OF)}, and the
         current manager’s record is updated automatically as results come in. “Appointed managers” includes the early secretary-managers (the secretary of the committee that chose the team) and
         one player-manager; the acting secretary T. J. Wallworth was never an official manager. Win rates for caretakers are based on very few matches.
       </p>

@@ -27,7 +27,7 @@ export function EntryList({ entries, render }: { entries: (Entry & { status?: st
           <details className="group">
             <summary className="flex cursor-pointer list-none items-baseline gap-4 py-3 pr-1 hover:bg-white/[0.03] [&::-webkit-details-marker]:hidden">
               <span className="w-36 flex-none font-mono text-[11px] uppercase tracking-wider text-united-red sm:w-44">{e.when}</span>
-              <span className="min-w-0 flex-1 truncate text-sm text-white/80 sm:text-base">{e.text.split(/(?<=[.;])\s/)[0]}</span>
+              <span className="min-w-0 flex-1 text-sm leading-snug text-white/80 sm:text-base">{e.text.split(/(?<=[.;])\s/)[0]}</span>
               <span aria-hidden="true" className="w-4 flex-none text-center text-white/50 transition-transform group-open:rotate-90">
                 ›
               </span>

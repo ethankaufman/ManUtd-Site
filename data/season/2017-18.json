@@ -325,24 +325,10 @@
      "kind": "Goal"
     },
     {
-     "min": "2",
-     "team": "Manchester United",
-     "player": "Marcus Rashford",
-     "assist": null,
-     "kind": "Goal"
-    },
-    {
      "min": "20",
      "team": "Manchester United",
      "player": "Marcus Rashford",
      "assist": "Juan Mata",
-     "kind": "Goal"
-    },
-    {
-     "min": "20",
-     "team": "Manchester United",
-     "player": "Marcus Rashford",
-     "assist": null,
      "kind": "Goal"
     },
     {
@@ -353,24 +339,10 @@
      "kind": "Goal"
     },
     {
-     "min": "26",
-     "team": "Manchester United",
-     "player": "Marouane Fellaini",
-     "assist": null,
-     "kind": "Goal"
-    },
-    {
      "min": "67",
      "team": "Manchester United",
      "player": "Henrikh Mkhitaryan",
      "assist": "Anthony Martial",
-     "kind": "Goal"
-    },
-    {
-     "min": "67",
-     "team": "Manchester United",
-     "player": "Henrikh Mkhitaryan",
-     "assist": null,
      "kind": "Goal"
     },
     {
@@ -381,13 +353,6 @@
      "kind": "Goal"
     },
     {
-     "min": "72",
-     "team": "Manchester United",
-     "player": "Anthony Martial",
-     "assist": null,
-     "kind": "Goal"
-    },
-    {
      "min": "79",
      "team": "LA Galaxy",
      "player": "Giovani Dos Santos",
@@ -395,24 +360,10 @@
      "kind": "Goal"
     },
     {
-     "min": "79",
-     "team": "LA Galaxy",
-     "player": "Giovani Dos Santos",
-     "assist": null,
-     "kind": "Goal"
-    },
-    {
      "min": "88",
      "team": "LA Galaxy",
      "player": "Giovani Dos Santos",
      "assist": "Dave Romney",
-     "kind": "Goal"
-    },
-    {
-     "min": "88",
-     "team": "LA Galaxy",
-     "player": "Giovani Dos Santos",
-     "assist": null,
      "kind": "Goal"
     }
    ],

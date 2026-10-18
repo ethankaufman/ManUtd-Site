@@ -153,4 +153,9 @@ After deleting `data/app.db`, restart `npm run dev`.
   Edwards = statue, Stiles = 1966 Panini card, Hughes/Cantona/Robson etc. = later portraits; in a United shirt: Neville, Scholes, Giggs, Beckham (1999 FA Cup final, cropped), Ronaldo, Rooney, Vidic, van der Sar, Ferdinand).
   Rooney's page embeds the 3D overhead kick (`src/components/kick3d/OverheadKicks.tsx`, `src/lib/kicks.ts`: still ONLY Rooney's goal, ~12 yd distance is OUR ESTIMATE). `/overhead-kicks` now just forwards to `/legends/wayne-rooney`.
   Not covered: individual awards before 1992 (except the Ballon d'Or). `data/club/_cache/` (downloaded Wikipedia wikitext) is git-ignored; re-run import scripts to rebuild it.
+- **Full-site check (2026-10-17).** Three tools, run them again before any big release: `node scripts/audit_pages.mjs http://localhost:8766 report.json` (every page at 1280 and 390 px: sideways overflow, cut-off text,
+  broken images, console errors), `python3 scripts/check_site.py [--no-web]` (internal links, images, outside links, data agreeing across chapters) and `node scripts/dump_text.mjs` (all text of every tab, for spell-checking).
+  Result: no page scrolls sideways, no broken images or console errors (the audit still lists the intro's decorative SVG shapes and a screen-reader-only label: both are fine). Fixed on the way: Legends years
+  (career-table years + first-team note), duplicate ESPN goal events (deduped in update_season.py), team names cut off on phones (match rows use wrapping, not `truncate`), "Carabao Cup" -> "League Cup" everywhere,
+  History season table cup codes made readable (Qual. 2, Int. round) with a key. After changing season data run `npm run db:reset` before building, or the pages show the old database.
 - Phase 7, extras and polish

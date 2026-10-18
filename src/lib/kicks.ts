@@ -60,7 +60,7 @@ export const KICKS: Kick[] = [
       { label: "Al Jazeera match report", url: "https://www.aljazeera.com/sports/2011/2/12/brilliant-rooney-downs-city" },
       { label: "Premier League: memorable Manchester derby moments", url: "https://www.premierleague.com/news/4193513" },
       { label: "Manchester United: five Reds look back on the goal", url: "https://www.manutd.com/en/news/detail/five-reds-look-back-on-wayne-rooney-overhead-kick-v-man-city" },
-      { label: "Premier League: Rooney, out of this world", url: "https://Premierleague.Com/pl30/rooney-out-of-this-world" },
+      { label: "Premier League: 2010/11 season review (the goal voted best in the 20 Seasons Awards)", url: "https://www.premierleague.com/en/news/693661" },
       { label: "Scorers and minutes: ESPN match data (event 292922)", url: "https://www.espn.com/soccer/match/_/gameId/292922" },
     ],
     model: { contactX: 1.0, contactZ: 11.0, crossFrom: [30, 2.0, 24], target: [2.6, 2.1, 0] },

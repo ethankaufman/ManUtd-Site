@@ -53,6 +53,16 @@ def lead_image(name):
     return None
 
 
+def tidy_author(a):
+    """Commons' author field is sometimes messy: 'Unknown authorUnknown author', ' , ', long lists. Make it a clean credit."""
+    a = re.sub(r"(Unknown author)+", "Unknown author", a)
+    a = re.sub(r"\s+,", ",", a)
+    a = re.split(r"\s/\s|;", a)[0].strip()
+    if "Anefo" in a:
+        a = re.sub(r"\s*,?\s*NL-HaNA.*$", "", a).strip(" ,")
+    return a
+
+
 def commons_info(filename):
     d = api("commons.wikimedia.org", action="query", titles=f"File:{filename}", prop="imageinfo", iiprop="url|extmetadata|size", iiurlwidth=640)
     pages = d.get("query", {}).get("pages", [])
@@ -66,7 +76,7 @@ def commons_info(filename):
         "width": info.get("width"),
         "licence": strip(m.get("LicenseShortName", {}).get("value")),
         "licence_url": strip(m.get("LicenseUrl", {}).get("value")),
-        "author": strip(m.get("Artist", {}).get("value")),
+        "author": tidy_author(strip(m.get("Artist", {}).get("value"))),
         "title": filename,
     }
 

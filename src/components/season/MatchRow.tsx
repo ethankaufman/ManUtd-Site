@@ -33,12 +33,12 @@ export default function MatchRow({ m, label, withYear }: { m: HubMatch; label: s
       </div>
 
       <div className="mt-2 flex items-center gap-3">
-        <div className="grid min-w-0 flex-1 grid-cols-[1fr_auto_1fr] items-center gap-3 text-base sm:text-lg">
-          <span className={`truncate text-right ${homeIsUnited ? "font-bold text-white" : "text-white/75"}`}>{m.home}</span>
-          <span className="min-w-[4.5rem] text-center font-display text-xl tracking-wide text-white">
+        <div className="grid min-w-0 flex-1 grid-cols-[1fr_auto_1fr] items-center gap-2 text-sm sm:gap-3 sm:text-lg">
+          <span className={`break-words text-right ${homeIsUnited ? "font-bold text-white" : "text-white/75"}`}>{m.home}</span>
+          <span className="min-w-[3.5rem] text-center font-display text-xl sm:min-w-[4.5rem] tracking-wide text-white">
             {finished ? `${m.homeGoals} – ${m.awayGoals}` : timeLabel(m.kickoff)}
           </span>
-          <span className={`truncate ${homeIsUnited ? "text-white/75" : "font-bold text-white"}`}>{m.away}</span>
+          <span className={`break-words ${homeIsUnited ? "text-white/75" : "font-bold text-white"}`}>{m.away}</span>
         </div>
         {res ? <span className={`flex h-7 w-7 flex-none items-center justify-center font-mono text-xs font-bold ${CHIP[res]}`}>{res}</span> : <span className="w-7 flex-none" />}
       </div>

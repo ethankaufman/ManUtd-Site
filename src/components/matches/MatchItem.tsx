@@ -69,18 +69,18 @@ export default function MatchItem({ m, competition }: { m: FullMatch; competitio
   return (
     <li className="border-b border-white/10 last:border-b-0">
       <details className="group">
-        <summary className="flex cursor-pointer list-none items-center gap-3 py-3 pr-1 hover:bg-white/[0.03] [&::-webkit-details-marker]:hidden">
-          <span className="w-24 flex-none font-mono text-[11px] uppercase tracking-wider text-white/55 sm:w-28">{dayLabel(m.kickoff, true)}</span>
-          <span className="grid min-w-0 flex-1 grid-cols-[1fr_auto_1fr] items-center gap-2 text-sm sm:gap-3 sm:text-base">
-            <span className={`truncate text-right ${homeIsUnited ? "font-bold text-white" : "text-white/75"}`}>{m.home}</span>
-            <span className="min-w-[3.5rem] text-center font-display text-lg tracking-wide text-white">
-              {finished ? `${m.homeGoals} – ${m.awayGoals}` : "v"}
+        <summary className="flex cursor-pointer list-none flex-wrap items-center gap-x-3 gap-y-1.5 py-3 pr-1 hover:bg-white/[0.03] sm:flex-nowrap [&::-webkit-details-marker]:hidden">
+          <span className="flex-1 font-mono text-[11px] uppercase tracking-wider text-white/55 sm:w-28 sm:flex-none">{dayLabel(m.kickoff, true)}</span>
+          <span className="order-2 flex flex-none items-center gap-3 sm:order-3">
+            {res ? <span className={`flex h-6 w-6 flex-none items-center justify-center font-mono text-xs font-bold ${CHIP[res]}`}>{res}</span> : <span className="w-6 flex-none" />}
+            <span aria-hidden="true" className="w-4 flex-none text-center text-white/50 transition-transform group-open:rotate-90">
+              ›
             </span>
-            <span className={`truncate ${homeIsUnited ? "text-white/75" : "font-bold text-white"}`}>{m.away}</span>
           </span>
-          {res ? <span className={`flex h-6 w-6 flex-none items-center justify-center font-mono text-xs font-bold ${CHIP[res]}`}>{res}</span> : <span className="w-6 flex-none" />}
-          <span aria-hidden="true" className="w-4 flex-none text-center text-white/50 transition-transform group-open:rotate-90">
-            ›
+          <span className="order-3 grid basis-full grid-cols-[1fr_auto_1fr] items-center gap-2 text-sm sm:order-2 sm:basis-0 sm:flex-1 sm:gap-3 sm:text-base">
+            <span className={`break-words text-right ${homeIsUnited ? "font-bold text-white" : "text-white/75"}`}>{m.home}</span>
+            <span className="min-w-[3.5rem] text-center font-display text-lg tracking-wide text-white">{finished ? `${m.homeGoals} – ${m.awayGoals}` : "v"}</span>
+            <span className={`break-words ${homeIsUnited ? "text-white/75" : "font-bold text-white"}`}>{m.away}</span>
           </span>
         </summary>
 

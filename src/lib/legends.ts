@@ -17,7 +17,8 @@ export type Legend = {
   wikipedia: string;
   nation: string | null;
   pos: string | null;
-  spells: string[]; // e.g. ["1994–2011", "2012–2013"]
+  spells: string[]; // first-team years from the 100+ appearances list, e.g. ["1994–2011", "2012–2013"]
+  career: string[]; // years at United from the career table (signing to leaving), e.g. ["1993–2011", "2012–2013"]
   starts: number;
   subs: number;
   apps: number;
@@ -55,8 +56,8 @@ const POSITIONS: Record<string, string> = { GK: "Goalkeeper", FB: "Full-back", H
 export const nationName = (c: string | null) => (c ? (NATIONS[c] ?? c) : "");
 export const positionName = (p: string | null) => (p ? (POSITIONS[p] ?? p) : "");
 
-/** "1994–2011" -> "1994–2011"; the second year is kept in full: spells are short strings already. */
-export const spellText = (spells: string[]) => spells.map((s) => s.replace(/^(\d{2})(\d{2})–(\d{2})(\d{2})$/, (_m, a, b, c, d) => (a === c ? `${a}${b}–${d}` : s))).join(" and ");
+/** The years of the spells as written, always in full: "1993–2011, 2012–2013". */
+export const spellText = (spells: string[]) => spells.join(", ");
 
 /** About how many years the player was at United, from the years of his spells. */
 export function yearsAtClub(spells: string[]): number {
@@ -66,7 +67,7 @@ export function yearsAtClub(spells: string[]): number {
   }, 0);
 }
 
-export const firstYear = (l: Legend) => parseInt(l.spells[0], 10);
+export const firstYear = (l: Legend) => parseInt(l.career[0], 10);
 
 /** The legends in era groups for the index page. */
 export const ERAS: { title: string; test: (l: Legend) => boolean }[] = [

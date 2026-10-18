@@ -4,7 +4,7 @@ Refresh Manchester United's current season: EVERY competition they play in, not 
 
 What it does (in plain words):
   1. Asks ESPN's public soccer service for United's results and upcoming fixtures in each competition
-     (Premier League, Champions League, Europa League, Conference League, Carabao Cup, FA Cup,
+     (Premier League, Champions League, Europa League, Conference League, League Cup (sponsored as the Carabao Cup), FA Cup,
      Community Shield, pre-season friendlies). Competitions United are not in simply come back empty.
   2. For each finished match, fetches the match detail: scorers, assists, cards, line-ups.
   3. Fetches the league tables (Premier League, and the Champions League league phase if United are in it).
@@ -37,7 +37,7 @@ COMPETITIONS = [
     ("uefa.champions", "champions-league", "UEFA Champions League", "europe"),
     ("uefa.europa", "europa-league", "UEFA Europa League", "europe"),
     ("uefa.europa.conf", "conference-league", "UEFA Conference League", "europe"),
-    ("eng.league_cup", "carabao-cup", "Carabao Cup", "cup"),
+    ("eng.league_cup", "carabao-cup", "League Cup", "cup"),
     ("eng.fa", "fa-cup", "FA Cup", "cup"),
     ("eng.charity", "community-shield", "FA Community Shield", "cup"),
     ("club.friendly", "friendlies", "Pre-season friendlies", "friendly"),
@@ -128,6 +128,16 @@ def clock_text(ev):
 GOAL_KINDS = {"goal": "Goal", "goal---header": "Goal", "goal---free-kick": "Goal", "own-goal": "Own goal", "penalty---scored": "Penalty"}
 
 
+def dedupe(events):
+    """One entry per (minute, team, player, kind), keeping the copy that names an assist if only one does."""
+    best = {}
+    for e in events:
+        k = (e["min"], e["team"], e["player"], e["kind"])
+        if k not in best or (e.get("assist") and not best[k].get("assist")):
+            best[k] = e
+    return list(best.values())
+
+
 def parse_details(summary):
     """Goals, cards and line-ups from an ESPN match summary."""
     goals, cards = [], []
@@ -150,6 +160,10 @@ def parse_details(summary):
             )
         elif t in ("yellow-card", "red-card", "yellow-red-card"):
             cards.append({"min": clock_text(ev), "team": team, "player": who[0] if who else None, "kind": {"yellow-card": "Yellow", "red-card": "Red", "yellow-red-card": "Second yellow"}[t]})
+    # ESPN sometimes lists the same event twice (seen in 2013-14 and 2017-18): the same minute, team, player and kind
+    # twice is never real, so keep the first
+    goals = dedupe(goals)
+    cards = dedupe(cards)
     lineups = []
     for r in summary.get("rosters", []):
         players = []

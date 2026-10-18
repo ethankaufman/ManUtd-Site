@@ -7,12 +7,18 @@ function Heading({ children }: { children: string }) {
   return <h2 className="mb-4 font-display text-2xl uppercase tracking-wide text-white sm:text-3xl">{children}</h2>;
 }
 
-function Stat({ value, label }: { value: string | number; label: string }) {
-  // a word joiner after each dash stops "2004–2017" breaking across two lines
-  const text = typeof value === "string" ? value.replace(/–/g, "–\u2060") : value;
+function Stat({ value, label }: { value: string | number | string[]; label: string }) {
   return (
-    <div className="border border-white/15 bg-[#0c0c0c] px-3 py-4 text-center">
-      <div className="font-display text-2xl leading-none text-united-gold sm:text-3xl">{text}</div>
+    <div className="border border-white/15 bg-[#0c0c0c] px-2 py-4 text-center">
+      <div className="font-display text-2xl leading-tight text-united-gold sm:text-3xl">
+        {Array.isArray(value)
+          ? value.map((v) => (
+              <span key={v} className="block whitespace-nowrap">
+                {v}
+              </span>
+            ))
+          : value}
+      </div>
       <div className="mt-2 font-mono text-[10px] uppercase tracking-[0.2em] text-white/55">{label}</div>
     </div>
   );
@@ -25,7 +31,8 @@ export default function LegendView({ l }: { l: Legend }) {
   const next = LEGENDS[(i + 1) % LEGENDS.length];
   const groups = groupTrophies(l.trophies);
   const hasShared = l.trophies.some((t) => t.shared);
-  const years = yearsAtClub(l.spells);
+  const years = yearsAtClub(l.career);
+  const firstTeamDiffers = spellText(l.spells) !== spellText(l.career);
 
   return (
     <>
@@ -57,14 +64,15 @@ export default function LegendView({ l }: { l: Legend }) {
             {positionName(l.pos)} · {nationName(l.nation)}
           </p>
           <div className="mt-6 grid grid-cols-2 gap-2 sm:grid-cols-5">
-            <Stat value={spellText(l.spells)} label="At United" />
+            <Stat value={l.career} label="At United" />
             <Stat value={`~${years}`} label="Years" />
             <Stat value={l.apps} label="Appearances" />
             <Stat value={l.goals} label="Goals" />
             <Stat value={l.trophies.length} label="Trophies" />
           </div>
           <p className="mt-2 text-xs leading-relaxed text-white/40">
-            Appearances and goals are in all competitions ({l.starts} starts, {l.subs} as a substitute), from Wikipedia’s list of players with 100 or more appearances.
+            Years at United are from the player’s Wikipedia career table (from signing to leaving).{firstTeamDiffers ? ` His first-team years, from his debut, were ${spellText(l.spells)}.` : ""} Appearances and goals are in all
+            competitions ({l.starts} starts, {l.subs} as a substitute), from Wikipedia’s list of players with 100 or more appearances.
           </p>
           <div className="mt-8 max-w-3xl space-y-4 text-base leading-relaxed text-white/85">
             {l.story.map((p) => (

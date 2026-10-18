@@ -15,7 +15,7 @@ const SHORT: Record<string, string> = {
   "champions-league": "UCL",
   "europa-league": "UEL",
   "conference-league": "UECL",
-  "carabao-cup": "Carabao",
+  "carabao-cup": "League Cup",
   "fa-cup": "FA Cup",
   "community-shield": "Shield",
   friendlies: "Friendly",

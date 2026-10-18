@@ -69,6 +69,20 @@ def parse_line(ln):
     return comp_text, list(zip(labels, shared_flags))
 
 
+def career_years(text, fallback):
+    """The years at Manchester United from the player's career table (when he signed, to when he left), e.g. ['1993–2011', '2012–2013'].
+
+    The 100+ appearances list gives first-team years (debut to last game), which can start a year or three later.
+    If the infobox is in a different layout, fall back to the list's years."""
+    ib = text[: text.index("\n}}")] if "\n}}" in text else text[:6000]
+    rows = {}
+    for k, val in re.findall(r"\|\s*(years\d*|clubs\d*)\s*=\s*([^\n|]*)", ib):
+        n = re.sub(r"\D", "", k) or "0"
+        rows.setdefault(n, {})[re.sub(r"\d", "", k)] = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r"\1", val).strip()
+    out = [r["years"].replace("-", "–") for r in rows.values() if "Manchester United" in r.get("clubs", "") and "(loan)" not in r.get("clubs", "") and re.match(r"^\d{4}–\d{4}$", r.get("years", ""))]
+    return out or fallback
+
+
 def main():
     raw = json.loads((CLUB / "legends_raw.json").read_text())
     honours = json.loads((CLUB / "honours.json").read_text())
@@ -124,7 +138,7 @@ def main():
                 youth.append({"text": f"{parsed[0].strip()}: {', '.join(l for l, _s in parsed[1])}"})
         awards = [{"label": a["label"], "season": a["season"].replace("-", "–"), "detail": a["detail"]} for a in honours["awards"] if norm(a["winner"]) == norm(r["name"])]
         awards += [{"label": "Ballon d’Or", "season": str(b["year"]), "detail": ""} for b in honours["ballonDor"] if norm(b["player"]) == norm(r["name"])]
-        out[slug] = {**r, "trophies": trophies, "otherHonours": other, "youthHonours": youth, "awards": awards}
+        out[slug] = {**r, "career": career_years(text, r["spells"]), "trophies": trophies, "otherHonours": other, "youthHonours": youth, "awards": awards}
         print(f"{r['name']:<22} {len(trophies):>3} trophies  awards: {len(awards):>2}  youth: {[y['text'] for y in youth]}")
     (CLUB / "legends.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
     print("\nPROBLEMS:", *problems, sep="\n  ")
