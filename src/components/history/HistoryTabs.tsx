@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useHashTab } from "@/lib/useHashTab";
 
 import CaptainsTab from "./CaptainsTab";
 import CompetitionsTab from "./CompetitionsTab";
@@ -18,7 +18,7 @@ const TABS = [
 
 /** The History page body: five tabs, each with collapsed groups so nothing is an endless scroll. */
 export default function HistoryTabs() {
-  const [tab, setTab] = useState("timeline");
+  const [tab, setTab] = useHashTab(TABS.map((t) => t.key), "timeline");
   const current = TABS.find((t) => t.key === tab) ?? TABS[0];
   return (
     <div className="mx-auto w-full max-w-5xl px-4 pb-24 text-left">

@@ -170,4 +170,9 @@ After deleting `data/app.db`, restart `npm run dev`.
   NAME TIDY: `scripts/names.py` gives ONE spelling to clubs (Fenerbahce/Fenerbahçe, Feyenoord Rotterdam, Porto/FC Porto), grounds (St James' Park, Şükrü Saracoğlu Stadium ...) and cup rounds ("Round 3" -> "Third Round",
   "Quarterfinals" -> "Quarter-final", "Round 5 replay" -> "Fifth Round / Replay"); `update_season.py` applies it to everything it writes, and `python3 scripts/names.py` re-tidies every data/season file (safe to repeat). Without it
   the two sources split the totals. Remember `npm run db:reset` after changing season data.
+- **Phase 7c, Site search (2026-10-18, built; not pushed when written).** A Search button in the menu bar (and the `/` key anywhere) opens a search window (`src/components/search/`): type, arrow keys + Enter or tap, Esc closes.
+  ONE build-time file `/search-index.json` (`src/lib/searchindex.ts` + `src/app/search-index.json/route.ts`, ~574 entries, ~15 KB zipped) holds players, legends, managers, seasons (1992-93+ link to /matches/<season>, older to the History table),
+  all clubs (head to head), finals, captains, timeline moments, honours, chapters, the History and Stadium tabs. Matching is in `src/lib/search.ts` (accents and ae/o ignored, "2008/09" = "2008-09", plural finds singular,
+  every typed word must START a word, names rank above events that only mention them); a typed date ("6 feb") adds an On this day result. DEEP LINKS were added so results land in the right place: `src/lib/useHashTab.ts`
+  (History and Stadium tabs open from `#finals`, `#new` ...), manager rows open from `/managers/#alex-ferguson`, head to head `#liverpool`, on this day `#02-06`. If a page, player or tab is added, add it to searchindex.ts.
 - Phase 7, extras and polish

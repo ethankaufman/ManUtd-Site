@@ -1,3 +1,7 @@
+"use client";
+
+import { useEffect, useRef } from "react";
+
 import { managerPhoto, STATUS_LABEL, when, type Manager } from "@/lib/managers";
 
 const pct = (n: number | null) => (n === null ? "–" : `${n.toFixed(1)}%`);
@@ -48,12 +52,27 @@ function Trophies({ m }: { m: Manager }) {
 
 /** One manager: a collapsed line (name, years, record) that opens to the photo, the story, each spell and the trophies. */
 export default function ManagerRow({ m }: { m: Manager }) {
+  // /managers/#alex-ferguson (from the site search) opens this row and scrolls to it
+  const ref = useRef<HTMLDetailsElement>(null);
+  useEffect(() => {
+    const openFromAddress = () => {
+      if (window.location.hash.slice(1) !== m.slug || !ref.current) return;
+      ref.current.open = true;
+      ref.current.scrollIntoView({ block: "start" });
+    };
+    const t = window.setTimeout(openFromAddress, 100);
+    window.addEventListener("hashchange", openFromAddress);
+    return () => {
+      window.clearTimeout(t);
+      window.removeEventListener("hashchange", openFromAddress);
+    };
+  }, [m.slug]);
   const photo = managerPhoto(m.slug);
   const t = m.totals;
   const hasShared = m.honours.some((h) => h.shared);
   return (
     <li className="border-b border-white/10 last:border-b-0">
-      <details className="group">
+      <details ref={ref} className="group scroll-mt-20">
         <summary className="flex cursor-pointer list-none items-center gap-3 py-3 pr-1 hover:bg-white/[0.03] [&::-webkit-details-marker]:hidden">
           <span className="relative block h-12 w-12 flex-none overflow-hidden border border-white/10 bg-black">
             {photo ? (

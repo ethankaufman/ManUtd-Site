@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useHashTab } from "@/lib/useHashTab";
 
 import CarringtonTab from "./CarringtonTab";
 import GroundsTab from "./GroundsTab";
@@ -16,7 +16,7 @@ const TABS = [
 
 /** The stadium chapter body: four tabs. */
 export default function StadiumTabs() {
-  const [tab, setTab] = useState("old");
+  const [tab, setTab] = useHashTab(TABS.map((t) => t.key), "old");
   const current = TABS.find((t) => t.key === tab) ?? TABS[0];
   return (
     <div className="mx-auto w-full max-w-5xl px-4 pb-24 text-left">

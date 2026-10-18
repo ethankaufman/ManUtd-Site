@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 import { CHAPTERS } from "@/lib/chapters";
+import SearchButton from "./search/SearchButton";
 
 /**
  * The menu bar across the top. On the home page it stays out of the way during the zoom intro and
@@ -64,15 +65,18 @@ export default function SiteNav() {
           })}
         </ul>
 
-        <button
-          type="button"
-          className="border border-white/40 px-3 py-1 font-mono text-xs uppercase tracking-widest xl:hidden"
-          aria-expanded={open}
-          aria-controls="mobile-menu"
-          onClick={() => setOpen((o) => !o)}
-        >
-          {open ? "Close ✕" : "Menu ☰"}
-        </button>
+        <div className="flex items-center gap-2">
+          <SearchButton />
+          <button
+            type="button"
+            className="border border-white/40 px-3 py-1 font-mono text-xs uppercase tracking-widest xl:hidden"
+            aria-expanded={open}
+            aria-controls="mobile-menu"
+            onClick={() => setOpen((o) => !o)}
+          >
+            {open ? "Close ✕" : "Menu ☰"}
+          </button>
+        </div>
       </nav>
 
       {open ? (
