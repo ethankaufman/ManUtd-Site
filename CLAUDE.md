@@ -145,11 +145,12 @@ After deleting `data/app.db`, restart `npm run dev`.
   United keep playing there during construction). Carrington: <10 miles from Old Trafford, 108 acres (85 used), opened 2000, GBP50m Foster + Partners first-team building upgrade inaugurated 8 Aug 2025; NO street address is
   given (not verified). Photos: scripts/fetch_stadium_photos.py (10; none free for Bank Street). NOTE the Commons file "Carrington Training Centre - geograph 4201045" is MANCHESTER CITY's, not United's: do not use.
   This is a live project: re-read the sources before changing any new-stadium fact.
-- **Phase 6, Overhead Kicks: built (2026-10-15), then reworked.** `/overhead-kicks` now shows ONLY Rooney v Man City (12 Feb 2011, 2-1, 78'):
-  Ethan asked to remove the Garnacho goal and to stop emphasising distances (distance is now one small bullet; ~12 yd is OUR ESTIMATE, labelled so,
-  never present it as measured). Facts and sources live in `src/lib/kicks.ts` (the page shows tabs automatically if more goals are added;
-  Berbatov v Liverpool 19 Sep 2010 3-2, 59', is verified and could be added). 3D = `src/components/kick3d/`: figure.ts (smooth mannequin: rounded
-  limbs, red shirt with number 10, white shorts, black socks/boots; faceless), motion.ts (key poses + Hermite spline), backdrop.ts (striped turf, crowd stands
-  behind the goal and along the sides, ad boards, floodlight glows), scene.ts (goal, ball with glow, gold trail, shadows, OrbitControls), KickViewer.tsx
-  (play/replay/slider/speed/reset), OverheadKicks.tsx (page body). Movement is illustrative and says so on the page. Verified in headless SwiftShader only.
+- **Phase 6 became LEGENDS (2026-10-17).** Ethan took the Overhead Kicks chapter "in another direction": chapter 08 is now `/legends` (index of 20 portrait cards by era) and `/legends/<slug>` (a page each).
+  Legends (Ethan chose "20 legends, recommended"): Edwards, Charlton, Law, Best, Stiles, Robson, Hughes, Schmeichel, Cantona, Keane, Neville, Scholes, Giggs, Beckham, Solskjaer, Ronaldo, Rooney, Ferdinand, Vidic, van der Sar.
+  Data: `scripts/import_legends.py` (years/apps/goals, all competitions, from Wikipedia's 100+ appearances list; cross-checked within 1-2 apps for the five whose whole career is in our ESPN data),
+  `build_legends.py` (trophies = the "Manchester United" block of each player's Wikipedia Honours section, EVERY entry verified against honours.json: participation-based, so Neville has 8 league titles not 12; awards from our awards data + Ballon d'Or),
+  `data/club/legend_stories.json` (stories written ONLY from sentences in each Wikipedia article; keep it that way), `find_legend_photos.py` + `apply_legend_photos.py` (portraits in public/legends/, captions say exactly what each shows:
+  Edwards = statue, Stiles = 1966 Panini card, Hughes/Cantona/Robson etc. = later portraits; in a United shirt: Neville, Scholes, Giggs, Beckham (1999 FA Cup final, cropped), Ronaldo, Rooney, Vidic, van der Sar, Ferdinand).
+  Rooney's page embeds the 3D overhead kick (`src/components/kick3d/OverheadKicks.tsx`, `src/lib/kicks.ts`: still ONLY Rooney's goal, ~12 yd distance is OUR ESTIMATE). `/overhead-kicks` now just forwards to `/legends/wayne-rooney`.
+  Not covered: individual awards before 1992 (except the Ballon d'Or). `data/club/_cache/` (downloaded Wikipedia wikitext) is git-ignored; re-run import scripts to rebuild it.
 - Phase 7, extras and polish

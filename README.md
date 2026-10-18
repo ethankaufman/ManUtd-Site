@@ -19,7 +19,7 @@ A fan-made website about Manchester United, in the club's red, black and white. 
 
 * **01 This Season**: every competition United play in (Premier League, Champions League, Carabao Cup, FA Cup and the rest), with tables, results with scorers, fixtures, the next match and player stats. Refreshed automatically twice a day.
 * **02 The Squad**: the first team by position, and a page for every player with their season numbers and every match they played.
-* **08 Overhead Kicks**: an interactive 3D reconstruction of Wayne Rooney's overhead kick against Manchester City (12 February 2011), with the story of the match and its sources.
+* **The Legends**: twenty of the club's greats, each with a portrait, their story, how long they stayed and every trophy they won at United. Wayne Rooney's page includes the 3D overhead kick against Manchester City.
 * Still to come: Every Match, History, Honours, Managers and Old Trafford.
 
 ![Overhead Kicks chapter](docs/overhead-kick.jpg)
@@ -45,10 +45,11 @@ npm run dev                              # http://localhost:3000
 ## Credits and notes
 
 * This is an **unofficial** fan project. It is not affiliated with, or endorsed by, Manchester United Football Club. Club names and marks belong to their owners, and no club crest is used.
-* Match data: ESPN's public soccer service. Match and goal facts for the Overhead Kicks page come from the sources listed on that page.
+* **The Legends**: twenty of the club's greats, each with a portrait, their story, how long they stayed and every trophy they won at United. Wayne Rooney's page includes the 3D overhead kick against Manchester City.
 * Trophy photos (`public/trophies/`) are free-licensed pictures from Wikimedia Commons chosen by hand and downloaded with `scripts/fetch_trophy_photos.py`; the credit for each is shown on its card and kept in `src/lib/trophy-photos.json`.
 * Manager photos (`public/managers/`) are free-licensed Wikimedia Commons pictures (`scripts/fetch_manager_photos.py`); Matt Busby and Jimmy Murphy are shown by their statues, and every photo is captioned with what it shows and credited on the page.
 * Stadium photos (`public/stadium/`) are free-licensed Wikimedia Commons pictures (`scripts/fetch_stadium_photos.py`), credited under each picture. The club's and Foster + Partners' images of the new stadium design are not free to use, so they are described and linked, not shown.
+* Legend portraits (`public/legends/`) are free-licensed Wikimedia Commons pictures (`scripts/apply_legend_photos.py`); for the older legends the only free pictures are statues or later portraits, and each page says what its photo shows. Stories are written from Wikipedia's articles and trophies are checked against the site's own finals and titles.
 * Squad photos (`public/players/`) are free-licensed pictures from Wikimedia Commons (CC BY, CC BY-SA or CC0), found with `scripts/fetch_player_photos.py`;
   each player's page shows the photographer, licence and a link, and the full list is in `src/lib/player-photos.json`. Players without a free photo have none.
 * Slideshow photos are from Wikimedia Commons under free licences; each photo's author, licence and link are shown under it (and in `src/lib/slides.ts`).
