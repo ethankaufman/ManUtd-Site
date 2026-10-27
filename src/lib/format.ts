@@ -16,6 +16,17 @@ export function timeLabel(iso: string): string {
   return new Intl.DateTimeFormat("en-GB", { hour: "2-digit", minute: "2-digit", timeZone: TZ }).format(new Date(iso));
 }
 
+/** "2026-10" for a kick-off, in UK time: groups matches by the month a fan would see on the page. */
+export function monthKey(iso: string): string {
+  const p = new Intl.DateTimeFormat("en-GB", { year: "numeric", month: "2-digit", timeZone: TZ }).formatToParts(new Date(iso));
+  return `${p.find((x) => x.type === "year")?.value}-${p.find((x) => x.type === "month")?.value}`;
+}
+
+/** "October 2026" for a kick-off, in UK time. */
+export function monthLabel(iso: string): string {
+  return new Intl.DateTimeFormat("en-GB", { month: "long", year: "numeric", timeZone: TZ }).format(new Date(iso));
+}
+
 export function longDate(iso: string): string {
   return new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: TZ }).format(new Date(iso));
 }
