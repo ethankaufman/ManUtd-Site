@@ -49,6 +49,7 @@ TABLES = {"eng.1", "uefa.champions"}
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "data" / "season"
+CHECKED_FILE = ROOT / "data" / "season-checked.json"  # when we last asked ESPN (read by the site at build time)
 
 
 def get(url, retries=3):
@@ -359,6 +360,9 @@ def main():
         "matches": matches,
     })
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    # The site shows when ESPN was last asked, so this is saved on EVERY successful run, even when no match changed
+    # (the season file's own "updated" only moves when something in it changes).
+    CHECKED_FILE.write_text(json.dumps({"checked": now.strftime("%Y-%m-%dT%H:%MZ")}, indent=1) + "\n")
     text = json.dumps(payload, ensure_ascii=False, indent=1)
     # keep the file (and git history) quiet when nothing changed except the timestamp
     if out_file.exists():

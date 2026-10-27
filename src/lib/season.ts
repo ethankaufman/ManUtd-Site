@@ -55,7 +55,8 @@ export type PlayerStat = { name: string; goals: number; assists: number; yellow:
 
 export type SeasonHub = {
   season: string;
-  updated: string | null;
+  updated: string | null; // when the season data last CHANGED
+  checked: string | null; // when ESPN was last asked (every run of the update job)
   competitions: HubCompetition[];
   matches: HubMatch[]; // every match, in date order
   overall: Record5; // all competitions except pre-season friendlies

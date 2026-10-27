@@ -1,6 +1,7 @@
 import { desc, eq } from "drizzle-orm";
 
 import { db, schema } from "@/db";
+import checkedJson from "../../data/season-checked.json";
 
 /**
  * Everything the website reads from our database goes through this file.
@@ -161,6 +162,7 @@ export async function getSeasonHub(): Promise<SeasonHub | null> {
   return {
     season,
     updated: upd?.value ?? null,
+    checked: checkedJson.checked ?? null,
     competitions,
     matches,
     overall: recordOf(real),

@@ -16,6 +16,13 @@ export function timeLabel(iso: string): string {
   return new Intl.DateTimeFormat("en-GB", { hour: "2-digit", minute: "2-digit", timeZone: TZ }).format(new Date(iso));
 }
 
+/** "27 October 2026, 21:27 UK time" for a timestamp. */
+export function stampLabel(iso: string): string {
+  const d = new Date(iso);
+  const date = new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: TZ }).format(d);
+  return `${date}, ${timeLabel(iso)} UK time`;
+}
+
 /** "2026-10" for a kick-off, in UK time: groups matches by the month a fan would see on the page. */
 export function monthKey(iso: string): string {
   const p = new Intl.DateTimeFormat("en-GB", { year: "numeric", month: "2-digit", timeZone: TZ }).formatToParts(new Date(iso));

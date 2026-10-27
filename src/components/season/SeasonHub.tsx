@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import { longDate } from "@/lib/format";
+import { longDate, stampLabel } from "@/lib/format";
 import type { SeasonHub as Hub } from "@/lib/season";
 import LeagueTable from "./LeagueTable";
 import MatchMonths from "./MatchMonths";
@@ -34,6 +34,7 @@ function Heading({ kicker, title }: { kicker?: string; title: string }) {
 export default function SeasonHub({ hub }: { hub: Hub }) {
   const [tab, setTab] = useState("all");
   const [view, setView] = useState<"results" | "fixtures">("results");
+  const stamp = hub.checked ?? hub.updated;
   const nameOf = (slug: string) => hub.competitions.find((c) => c.slug === slug)?.name ?? slug;
   const friendly = new Set(hub.competitions.filter((c) => c.kind === "friendly").map((c) => c.slug));
 
@@ -60,6 +61,12 @@ export default function SeasonHub({ hub }: { hub: Hub }) {
 
       <section aria-label="Matches and tables">
         <Heading kicker="Every competition" title="Matches and tables" />
+        {stamp ? (
+          <p className="-mt-2 mb-5 text-center font-mono text-[11px] uppercase tracking-widest text-white/55">
+            <span className="mr-2 inline-block h-1.5 w-1.5 rounded-full bg-united-red align-middle" aria-hidden="true" />
+            Data last pulled from ESPN: {stampLabel(stamp)}
+          </p>
+        ) : null}
         <div role="tablist" aria-label="Competition" className="mb-6 flex flex-wrap justify-center gap-2">
           {tabs.map((t) => (
             <button
@@ -116,8 +123,8 @@ export default function SeasonHub({ hub }: { hub: Hub }) {
       </section>
 
       <p className="text-center text-xs leading-relaxed text-white/40">
-        {hub.updated ? `Last updated ${longDate(hub.updated)}. ` : ""}
-        Results come from ESPN’s public soccer data and are refreshed automatically every day, so a match can take a few hours to appear after the final whistle.
+        {hub.updated ? `New results or fixtures were last added on ${longDate(hub.updated)}. ` : ""}
+        Results come from ESPN’s public soccer data and are checked automatically twice a day, in the morning and late at night, so a match can take a few hours to appear after the final whistle.
         Times are UK time.
       </p>
     </div>
