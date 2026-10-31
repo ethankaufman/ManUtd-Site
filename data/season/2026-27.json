@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-10-27T20:27Z",
+ "updated": "2026-10-31T13:30Z",
  "source": "ESPN public soccer service (unofficial)",
  "competitions": [
   {
@@ -1004,7 +1004,7 @@
    "name": "Marcus Rashford",
    "no": "9",
    "pos": "Forward",
-   "age": 28,
+   "age": 29,
    "dob": "1997-10-31",
    "nation": "England",
    "height_cm": 188
@@ -9601,11 +9601,11 @@
    "espn": "eng.1",
    "round": "",
    "kick": "2026-10-31T12:30Z",
-   "state": "scheduled",
+   "state": "live",
    "home": "Chelsea",
    "away": "Manchester United",
-   "hg": null,
-   "ag": null,
+   "hg": 0,
+   "ag": 0,
    "pens": null,
    "venue": "Stamford Bridge",
    "city": "London",
