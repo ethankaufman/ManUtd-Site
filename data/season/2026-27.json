@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-01T02:25Z",
+ "updated": "2026-11-02T02:39Z",
  "source": "ESPN public soccer service (unofficial)",
  "competitions": [
   {
@@ -48,6 +48,18 @@
   "eng.1": [
    {
     "rank": 1,
+    "team": "Arsenal",
+    "p": 9,
+    "w": 8,
+    "d": 0,
+    "l": 1,
+    "gf": 14,
+    "ga": 5,
+    "pts": 24,
+    "zone": "Champions League"
+   },
+   {
+    "rank": 2,
     "team": "Manchester City",
     "p": 9,
     "w": 7,
@@ -55,18 +67,6 @@
     "l": 2,
     "gf": 20,
     "ga": 10,
-    "pts": 21,
-    "zone": "Champions League"
-   },
-   {
-    "rank": 2,
-    "team": "Arsenal",
-    "p": 8,
-    "w": 7,
-    "d": 0,
-    "l": 1,
-    "gf": 13,
-    "ga": 5,
     "pts": 21,
     "zone": "Champions League"
    },
@@ -97,12 +97,12 @@
    {
     "rank": 5,
     "team": "Liverpool",
-    "p": 8,
+    "p": 9,
     "w": 4,
     "d": 3,
-    "l": 1,
+    "l": 2,
     "gf": 11,
-    "ga": 8,
+    "ga": 9,
     "pts": 15,
     "zone": "Europa League"
    },
