@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-03T03:58Z",
+ "updated": "2026-11-04T03:06Z",
  "source": "ESPN public soccer service (unofficial)",
  "competitions": [
   {
@@ -291,29 +291,41 @@
    {
     "rank": 1,
     "team": "Paris Saint-Germain",
-    "p": 3,
-    "w": 3,
+    "p": 4,
+    "w": 4,
     "d": 0,
     "l": 0,
-    "gf": 14,
+    "gf": 20,
     "ga": 5,
-    "pts": 9,
+    "pts": 12,
     "zone": "Qualifies for round of 16"
    },
    {
     "rank": 2,
-    "team": "Aston Villa",
-    "p": 3,
+    "team": "Barcelona",
+    "p": 4,
     "w": 3,
     "d": 0,
-    "l": 0,
-    "gf": 12,
-    "ga": 3,
+    "l": 1,
+    "gf": 14,
+    "ga": 6,
     "pts": 9,
     "zone": "Qualifies for round of 16"
    },
    {
     "rank": 3,
+    "team": "Aston Villa",
+    "p": 4,
+    "w": 3,
+    "d": 0,
+    "l": 1,
+    "gf": 12,
+    "ga": 6,
+    "pts": 9,
+    "zone": "Qualifies for round of 16"
+   },
+   {
+    "rank": 4,
     "team": "Liverpool",
     "p": 3,
     "w": 3,
@@ -325,7 +337,7 @@
     "zone": "Qualifies for round of 16"
    },
    {
-    "rank": 4,
+    "rank": 5,
     "team": "Real Madrid",
     "p": 3,
     "w": 3,
@@ -337,7 +349,19 @@
     "zone": "Qualifies for round of 16"
    },
    {
-    "rank": 5,
+    "rank": 6,
+    "team": "Sporting CP",
+    "p": 4,
+    "w": 3,
+    "d": 0,
+    "l": 1,
+    "gf": 8,
+    "ga": 4,
+    "pts": 9,
+    "zone": "Qualifies for round of 16"
+   },
+   {
+    "rank": 7,
     "team": "Real Betis",
     "p": 3,
     "w": 3,
@@ -349,19 +373,19 @@
     "zone": "Qualifies for round of 16"
    },
    {
-    "rank": 6,
-    "team": "VfB Stuttgart",
-    "p": 3,
+    "rank": 8,
+    "team": "Bayern Munich",
+    "p": 4,
     "w": 2,
-    "d": 1,
+    "d": 2,
     "l": 0,
-    "gf": 7,
-    "ga": 2,
-    "pts": 7,
+    "gf": 12,
+    "ga": 5,
+    "pts": 8,
     "zone": "Qualifies for round of 16"
    },
    {
-    "rank": 7,
+    "rank": 9,
     "team": "Arsenal",
     "p": 3,
     "w": 2,
@@ -370,22 +394,22 @@
     "gf": 6,
     "ga": 2,
     "pts": 7,
-    "zone": "Qualifies for round of 16"
+    "zone": "Knockout phase playoffs - seeded"
    },
    {
-    "rank": 8,
-    "team": "Barcelona",
-    "p": 3,
+    "rank": 10,
+    "team": "VfB Stuttgart",
+    "p": 4,
     "w": 2,
-    "d": 0,
+    "d": 1,
     "l": 1,
-    "gf": 11,
-    "ga": 6,
-    "pts": 6,
-    "zone": "Qualifies for round of 16"
+    "gf": 7,
+    "ga": 4,
+    "pts": 7,
+    "zone": "Knockout phase playoffs - seeded"
    },
    {
-    "rank": 9,
+    "rank": 11,
     "team": "Como",
     "p": 3,
     "w": 2,
@@ -397,7 +421,7 @@
     "zone": "Knockout phase playoffs - seeded"
    },
    {
-    "rank": 10,
+    "rank": 12,
     "team": "Manchester City",
     "p": 3,
     "w": 2,
@@ -409,7 +433,7 @@
     "zone": "Knockout phase playoffs - seeded"
    },
    {
-    "rank": 11,
+    "rank": 13,
     "team": "Club Brugge",
     "p": 3,
     "w": 2,
@@ -421,19 +445,31 @@
     "zone": "Knockout phase playoffs - seeded"
    },
    {
-    "rank": 12,
-    "team": "Sporting CP",
-    "p": 3,
+    "rank": 14,
+    "team": "Internazionale",
+    "p": 4,
     "w": 2,
     "d": 0,
-    "l": 1,
-    "gf": 7,
-    "ga": 4,
+    "l": 2,
+    "gf": 8,
+    "ga": 6,
     "pts": 6,
     "zone": "Knockout phase playoffs - seeded"
    },
    {
-    "rank": 13,
+    "rank": 15,
+    "team": "LASK Linz",
+    "p": 4,
+    "w": 2,
+    "d": 0,
+    "l": 2,
+    "gf": 10,
+    "ga": 9,
+    "pts": 6,
+    "zone": "Knockout phase playoffs - seeded"
+   },
+   {
+    "rank": 16,
     "team": "Borussia Dortmund",
     "p": 3,
     "w": 2,
@@ -445,55 +481,55 @@
     "zone": "Knockout phase playoffs - seeded"
    },
    {
-    "rank": 14,
-    "team": "Bayern Munich",
-    "p": 3,
-    "w": 1,
-    "d": 2,
-    "l": 0,
-    "gf": 10,
-    "ga": 5,
-    "pts": 5,
-    "zone": "Knockout phase playoffs - seeded"
-   },
-   {
-    "rank": 15,
-    "team": "AS Roma",
-    "p": 3,
-    "w": 1,
-    "d": 1,
-    "l": 1,
-    "gf": 8,
-    "ga": 5,
-    "pts": 4,
-    "zone": "Knockout phase playoffs - seeded"
-   },
-   {
-    "rank": 16,
-    "team": "Atlético Madrid",
-    "p": 3,
-    "w": 1,
-    "d": 1,
-    "l": 1,
-    "gf": 4,
-    "ga": 3,
-    "pts": 4,
-    "zone": "Knockout phase playoffs - seeded"
-   },
-   {
     "rank": 17,
-    "team": "Shakhtar Donetsk",
-    "p": 3,
-    "w": 1,
-    "d": 1,
-    "l": 1,
-    "gf": 4,
-    "ga": 3,
-    "pts": 4,
+    "team": "Manchester United",
+    "p": 4,
+    "w": 2,
+    "d": 0,
+    "l": 2,
+    "gf": 8,
+    "ga": 8,
+    "pts": 6,
     "zone": "Knockout phase playoffs - unseeded"
    },
    {
     "rank": 18,
+    "team": "Galatasaray",
+    "p": 4,
+    "w": 2,
+    "d": 0,
+    "l": 2,
+    "gf": 8,
+    "ga": 9,
+    "pts": 6,
+    "zone": "Knockout phase playoffs - unseeded"
+   },
+   {
+    "rank": 19,
+    "team": "AS Roma",
+    "p": 4,
+    "w": 1,
+    "d": 1,
+    "l": 2,
+    "gf": 10,
+    "ga": 8,
+    "pts": 4,
+    "zone": "Knockout phase playoffs - unseeded"
+   },
+   {
+    "rank": 20,
+    "team": "Shakhtar Donetsk",
+    "p": 4,
+    "w": 1,
+    "d": 1,
+    "l": 2,
+    "gf": 4,
+    "ga": 4,
+    "pts": 4,
+    "zone": "Knockout phase playoffs - unseeded"
+   },
+   {
+    "rank": 21,
     "team": "PSV Eindhoven",
     "p": 3,
     "w": 1,
@@ -505,43 +541,31 @@
     "zone": "Knockout phase playoffs - unseeded"
    },
    {
-    "rank": 19,
-    "team": "Villarreal",
-    "p": 3,
-    "w": 1,
-    "d": 0,
-    "l": 2,
-    "gf": 8,
-    "ga": 8,
-    "pts": 3,
-    "zone": "Knockout phase playoffs - unseeded"
-   },
-   {
-    "rank": 20,
-    "team": "Internazionale",
-    "p": 3,
-    "w": 1,
-    "d": 0,
-    "l": 2,
-    "gf": 5,
-    "ga": 6,
-    "pts": 3,
-    "zone": "Knockout phase playoffs - unseeded"
-   },
-   {
-    "rank": 21,
-    "team": "Manchester United",
-    "p": 3,
-    "w": 1,
-    "d": 0,
-    "l": 2,
-    "gf": 5,
-    "ga": 6,
-    "pts": 3,
-    "zone": "Knockout phase playoffs - unseeded"
-   },
-   {
     "rank": 22,
+    "team": "Atlético Madrid",
+    "p": 4,
+    "w": 1,
+    "d": 1,
+    "l": 2,
+    "gf": 4,
+    "ga": 5,
+    "pts": 4,
+    "zone": "Knockout phase playoffs - unseeded"
+   },
+   {
+    "rank": 23,
+    "team": "Bodo/Glimt",
+    "p": 4,
+    "w": 1,
+    "d": 1,
+    "l": 2,
+    "gf": 4,
+    "ga": 9,
+    "pts": 4,
+    "zone": "Knockout phase playoffs - unseeded"
+   },
+   {
+    "rank": 24,
     "team": "Napoli",
     "p": 3,
     "w": 1,
@@ -549,30 +573,6 @@
     "l": 2,
     "gf": 5,
     "ga": 7,
-    "pts": 3,
-    "zone": "Knockout phase playoffs - unseeded"
-   },
-   {
-    "rank": 23,
-    "team": "Galatasaray",
-    "p": 3,
-    "w": 1,
-    "d": 0,
-    "l": 2,
-    "gf": 6,
-    "ga": 9,
-    "pts": 3,
-    "zone": "Knockout phase playoffs - unseeded"
-   },
-   {
-    "rank": 24,
-    "team": "LASK Linz",
-    "p": 3,
-    "w": 1,
-    "d": 0,
-    "l": 2,
-    "gf": 6,
-    "ga": 9,
     "pts": 3,
     "zone": "Knockout phase playoffs - unseeded"
    },
@@ -590,18 +590,6 @@
    },
    {
     "rank": 26,
-    "team": "Feyenoord",
-    "p": 3,
-    "w": 1,
-    "d": 0,
-    "l": 2,
-    "gf": 4,
-    "ga": 8,
-    "pts": 3,
-    "zone": "Eliminated"
-   },
-   {
-    "rank": 27,
     "team": "Lens",
     "p": 3,
     "w": 1,
@@ -613,19 +601,7 @@
     "zone": "Eliminated"
    },
    {
-    "rank": 28,
-    "team": "Bodo/Glimt",
-    "p": 3,
-    "w": 1,
-    "d": 0,
-    "l": 2,
-    "gf": 4,
-    "ga": 9,
-    "pts": 3,
-    "zone": "Eliminated"
-   },
-   {
-    "rank": 29,
+    "rank": 27,
     "team": "AEK Athens",
     "p": 3,
     "w": 1,
@@ -637,7 +613,7 @@
     "zone": "Eliminated"
    },
    {
-    "rank": 30,
+    "rank": 28,
     "team": "RB Leipzig",
     "p": 3,
     "w": 1,
@@ -645,6 +621,30 @@
     "l": 2,
     "gf": 3,
     "ga": 8,
+    "pts": 3,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 29,
+    "team": "Villarreal",
+    "p": 4,
+    "w": 1,
+    "d": 0,
+    "l": 3,
+    "gf": 8,
+    "ga": 14,
+    "pts": 3,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 30,
+    "team": "Feyenoord",
+    "p": 4,
+    "w": 1,
+    "d": 0,
+    "l": 3,
+    "gf": 4,
+    "ga": 11,
     "pts": 3,
     "zone": "Eliminated"
    },
@@ -686,6 +686,18 @@
    },
    {
     "rank": 34,
+    "team": "Lille",
+    "p": 4,
+    "w": 0,
+    "d": 1,
+    "l": 3,
+    "gf": 4,
+    "ga": 10,
+    "pts": 1,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 35,
     "team": "FC Porto",
     "p": 3,
     "w": 0,
@@ -697,26 +709,14 @@
     "zone": "Eliminated"
    },
    {
-    "rank": 35,
-    "team": "Lille",
-    "p": 3,
-    "w": 0,
-    "d": 0,
-    "l": 3,
-    "gf": 4,
-    "ga": 10,
-    "pts": 0,
-    "zone": "Eliminated"
-   },
-   {
     "rank": 36,
     "team": "Slovan Bratislava",
-    "p": 3,
+    "p": 4,
     "w": 0,
     "d": 0,
-    "l": 3,
+    "l": 4,
     "gf": 1,
-    "ga": 13,
+    "ga": 17,
     "pts": 0,
     "zone": "Eliminated"
    }
@@ -10055,18 +10055,508 @@
    "espn": "uefa.champions",
    "round": "League Phase · Matchday 4",
    "kick": "2026-11-03T20:00Z",
-   "state": "scheduled",
+   "state": "finished",
    "home": "Manchester United",
    "away": "AS Roma",
-   "hg": null,
-   "ag": null,
+   "hg": 3,
+   "ag": 2,
    "pens": null,
    "venue": "Old Trafford",
    "city": "Manchester",
-   "att": null,
+   "att": 73747,
    "neutral": false,
    "note": null,
-   "comp": "champions-league"
+   "comp": "champions-league",
+   "goals": [
+    {
+     "min": "11",
+     "team": "AS Roma",
+     "player": "Matìas Soulè",
+     "assist": "Rodrigo Mora",
+     "kind": "Goal"
+    },
+    {
+     "min": "17",
+     "team": "AS Roma",
+     "player": "Donyell Malen",
+     "assist": null,
+     "kind": "Penalty"
+    },
+    {
+     "min": "58",
+     "team": "Manchester United",
+     "player": "Bruno Fernandes",
+     "assist": null,
+     "kind": "Penalty"
+    },
+    {
+     "min": "83",
+     "team": "Manchester United",
+     "player": "Matheus Cunha",
+     "assist": null,
+     "kind": "Goal"
+    },
+    {
+     "min": "86",
+     "team": "Manchester United",
+     "player": "Matheus Cunha",
+     "assist": "Shea Lacey",
+     "kind": "Goal"
+    }
+   ],
+   "cards": [
+    {
+     "min": "20",
+     "team": "AS Roma",
+     "player": "Matìas Soulè",
+     "kind": "Yellow"
+    },
+    {
+     "min": "20",
+     "team": "Manchester United",
+     "player": "Bruno Fernandes",
+     "kind": "Yellow"
+    },
+    {
+     "min": "35",
+     "team": "AS Roma",
+     "player": "Emanuele Lulli",
+     "kind": "Yellow"
+    },
+    {
+     "min": "42",
+     "team": "AS Roma",
+     "player": "Donyell Malen",
+     "kind": "Yellow"
+    },
+    {
+     "min": "70",
+     "team": "Manchester United",
+     "player": "Ayden Heaven",
+     "kind": "Yellow"
+    },
+    {
+     "min": "78",
+     "team": "Manchester United",
+     "player": "Harry Maguire",
+     "kind": "Yellow"
+    },
+    {
+     "min": "87",
+     "team": "Manchester United",
+     "player": "Matheus Cunha",
+     "kind": "Yellow"
+    },
+    {
+     "min": "90+1",
+     "team": "Manchester United",
+     "player": "Matheus Cunha",
+     "kind": "Red"
+    }
+   ],
+   "lineups": [
+    {
+     "team": "Manchester United",
+     "side": "home",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "id": "301425",
+       "name": "Senne Lammens",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "356044",
+       "name": "Ayden Heaven",
+       "no": "26",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "157073",
+       "name": "Harry Maguire",
+       "no": "5",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "238902",
+       "name": "Diogo Dalot",
+       "no": "2",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "340206",
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "124091",
+       "name": "Bruno Fernandes",
+       "no": "8",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "328466",
+       "name": "Kobbie Mainoo",
+       "no": "37",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "338814",
+       "name": "Carlos Baleba",
+       "no": "20",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "271170",
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "259902",
+       "name": "Matheus Cunha",
+       "no": "10",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "291630",
+       "name": "Amad Diallo",
+       "no": "16",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "130877",
+       "name": "Karl Darlow",
+       "no": "12",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "393138",
+       "name": "Tyler Fletcher",
+       "no": "39",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "193297",
+       "name": "Youri Tielemans",
+       "no": "18",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "276327",
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "239349",
+       "name": "Matthijs de Ligt",
+       "no": "4",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "233937",
+       "name": "Lisandro Martínez",
+       "no": "6",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "358180",
+       "name": "Shea Lacey",
+       "no": "31",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "314858",
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "231167",
+       "name": "Mason Mount",
+       "no": "7",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "42250",
+       "name": "Tom Heaton",
+       "no": "22",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "239350",
+       "name": "Noussair Mazraoui",
+       "no": "3",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "356940",
+       "name": "Harry Amass",
+       "no": "41",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "AS Roma",
+     "side": "away",
+     "formation": "3-4-2-1",
+     "players": [
+      {
+       "id": "234300",
+       "name": "Devis Vásquez",
+       "no": "32",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "271555",
+       "name": "Leonardo Balerdi",
+       "no": "26",
+       "pos": "CD",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "222529",
+       "name": "Mario Hermoso",
+       "no": "22",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "212597",
+       "name": "Gianluca Mancini",
+       "no": "23",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "146335",
+       "name": "Marten de Roon",
+       "no": "15",
+       "pos": "CM-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "169213",
+       "name": "Bryan Cristante",
+       "no": "4",
+       "pos": "CM-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "332354",
+       "name": "Wesley",
+       "no": "43",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "297300",
+       "name": "Devyne Rensch",
+       "no": "2",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "259481",
+       "name": "Donyell Malen",
+       "no": "14",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "387204",
+       "name": "Rodrigo Mora",
+       "no": "86",
+       "pos": "CF-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "323974",
+       "name": "Matìas Soulè",
+       "no": "18",
+       "pos": "CF-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "360235",
+       "name": "Niccolò Pisilli",
+       "no": "61",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "250284",
+       "name": "Santiago Castro",
+       "no": "9",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "340705",
+       "name": "Daniele Ghilardi",
+       "no": "87",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "336104",
+       "name": "Konstantinos Koulierakis",
+       "no": "3",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "409371",
+       "name": "Emanuele Lulli",
+       "no": "77",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "398120",
+       "name": "Giorgio De Marzi",
+       "no": "70",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "3098218",
+       "name": "Alessandro Di Nunzio",
+       "no": "63",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "242593",
+       "name": "Evan Ndicka",
+       "no": "5",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "164826",
+       "name": "Nahuel Molina",
+       "no": "20",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "401879240",
