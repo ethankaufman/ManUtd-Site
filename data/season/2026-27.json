@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-04T03:06Z",
+ "updated": "2026-11-05T03:36Z",
  "source": "ESPN public soccer service (unofficial)",
  "competitions": [
   {
@@ -302,6 +302,42 @@
    },
    {
     "rank": 2,
+    "team": "Real Madrid",
+    "p": 4,
+    "w": 4,
+    "d": 0,
+    "l": 0,
+    "gf": 13,
+    "ga": 7,
+    "pts": 12,
+    "zone": "Qualifies for round of 16"
+   },
+   {
+    "rank": 3,
+    "team": "Arsenal",
+    "p": 4,
+    "w": 3,
+    "d": 1,
+    "l": 0,
+    "gf": 8,
+    "ga": 3,
+    "pts": 10,
+    "zone": "Qualifies for round of 16"
+   },
+   {
+    "rank": 4,
+    "team": "Como",
+    "p": 4,
+    "w": 3,
+    "d": 0,
+    "l": 1,
+    "gf": 19,
+    "ga": 6,
+    "pts": 9,
+    "zone": "Qualifies for round of 16"
+   },
+   {
+    "rank": 5,
     "team": "Barcelona",
     "p": 4,
     "w": 3,
@@ -313,7 +349,7 @@
     "zone": "Qualifies for round of 16"
    },
    {
-    "rank": 3,
+    "rank": 6,
     "team": "Aston Villa",
     "p": 4,
     "w": 3,
@@ -325,31 +361,43 @@
     "zone": "Qualifies for round of 16"
    },
    {
-    "rank": 4,
-    "team": "Liverpool",
-    "p": 3,
+    "rank": 7,
+    "team": "Manchester City",
+    "p": 4,
     "w": 3,
     "d": 0,
-    "l": 0,
+    "l": 1,
     "gf": 12,
     "ga": 7,
     "pts": 9,
     "zone": "Qualifies for round of 16"
    },
    {
-    "rank": 5,
-    "team": "Real Madrid",
-    "p": 3,
+    "rank": 8,
+    "team": "Liverpool",
+    "p": 4,
     "w": 3,
     "d": 0,
-    "l": 0,
-    "gf": 10,
-    "ga": 5,
+    "l": 1,
+    "gf": 14,
+    "ga": 10,
     "pts": 9,
     "zone": "Qualifies for round of 16"
    },
    {
-    "rank": 6,
+    "rank": 9,
+    "team": "Club Brugge",
+    "p": 4,
+    "w": 3,
+    "d": 0,
+    "l": 1,
+    "gf": 11,
+    "ga": 7,
+    "pts": 9,
+    "zone": "Knockout phase playoffs - seeded"
+   },
+   {
+    "rank": 10,
     "team": "Sporting CP",
     "p": 4,
     "w": 3,
@@ -358,22 +406,34 @@
     "gf": 8,
     "ga": 4,
     "pts": 9,
-    "zone": "Qualifies for round of 16"
+    "zone": "Knockout phase playoffs - seeded"
    },
    {
-    "rank": 7,
+    "rank": 11,
     "team": "Real Betis",
-    "p": 3,
+    "p": 4,
     "w": 3,
     "d": 0,
-    "l": 0,
-    "gf": 7,
-    "ga": 4,
+    "l": 1,
+    "gf": 8,
+    "ga": 6,
     "pts": 9,
-    "zone": "Qualifies for round of 16"
+    "zone": "Knockout phase playoffs - seeded"
    },
    {
-    "rank": 8,
+    "rank": 12,
+    "team": "Borussia Dortmund",
+    "p": 4,
+    "w": 3,
+    "d": 0,
+    "l": 1,
+    "gf": 7,
+    "ga": 5,
+    "pts": 9,
+    "zone": "Knockout phase playoffs - seeded"
+   },
+   {
+    "rank": 13,
     "team": "Bayern Munich",
     "p": 4,
     "w": 2,
@@ -382,22 +442,10 @@
     "gf": 12,
     "ga": 5,
     "pts": 8,
-    "zone": "Qualifies for round of 16"
-   },
-   {
-    "rank": 9,
-    "team": "Arsenal",
-    "p": 3,
-    "w": 2,
-    "d": 1,
-    "l": 0,
-    "gf": 6,
-    "ga": 2,
-    "pts": 7,
     "zone": "Knockout phase playoffs - seeded"
    },
    {
-    "rank": 10,
+    "rank": 14,
     "team": "VfB Stuttgart",
     "p": 4,
     "w": 2,
@@ -409,43 +457,7 @@
     "zone": "Knockout phase playoffs - seeded"
    },
    {
-    "rank": 11,
-    "team": "Como",
-    "p": 3,
-    "w": 2,
-    "d": 0,
-    "l": 1,
-    "gf": 10,
-    "ga": 5,
-    "pts": 6,
-    "zone": "Knockout phase playoffs - seeded"
-   },
-   {
-    "rank": 12,
-    "team": "Manchester City",
-    "p": 3,
-    "w": 2,
-    "d": 0,
-    "l": 1,
-    "gf": 9,
-    "ga": 5,
-    "pts": 6,
-    "zone": "Knockout phase playoffs - seeded"
-   },
-   {
-    "rank": 13,
-    "team": "Club Brugge",
-    "p": 3,
-    "w": 2,
-    "d": 0,
-    "l": 1,
-    "gf": 9,
-    "ga": 6,
-    "pts": 6,
-    "zone": "Knockout phase playoffs - seeded"
-   },
-   {
-    "rank": 14,
+    "rank": 15,
     "team": "Internazionale",
     "p": 4,
     "w": 2,
@@ -457,7 +469,7 @@
     "zone": "Knockout phase playoffs - seeded"
    },
    {
-    "rank": 15,
+    "rank": 16,
     "team": "LASK Linz",
     "p": 4,
     "w": 2,
@@ -465,18 +477,6 @@
     "l": 2,
     "gf": 10,
     "ga": 9,
-    "pts": 6,
-    "zone": "Knockout phase playoffs - seeded"
-   },
-   {
-    "rank": 16,
-    "team": "Borussia Dortmund",
-    "p": 3,
-    "w": 2,
-    "d": 0,
-    "l": 1,
-    "gf": 5,
-    "ga": 4,
     "pts": 6,
     "zone": "Knockout phase playoffs - seeded"
    },
@@ -506,6 +506,18 @@
    },
    {
     "rank": 19,
+    "team": "Fenerbahçe",
+    "p": 4,
+    "w": 1,
+    "d": 2,
+    "l": 1,
+    "gf": 6,
+    "ga": 11,
+    "pts": 5,
+    "zone": "Knockout phase playoffs - unseeded"
+   },
+   {
+    "rank": 20,
     "team": "AS Roma",
     "p": 4,
     "w": 1,
@@ -517,7 +529,7 @@
     "zone": "Knockout phase playoffs - unseeded"
    },
    {
-    "rank": 20,
+    "rank": 21,
     "team": "Shakhtar Donetsk",
     "p": 4,
     "w": 1,
@@ -529,19 +541,19 @@
     "zone": "Knockout phase playoffs - unseeded"
    },
    {
-    "rank": 21,
-    "team": "PSV Eindhoven",
-    "p": 3,
+    "rank": 22,
+    "team": "Viking FK",
+    "p": 4,
     "w": 1,
     "d": 1,
-    "l": 1,
-    "gf": 2,
-    "ga": 2,
+    "l": 2,
+    "gf": 9,
+    "ga": 10,
     "pts": 4,
     "zone": "Knockout phase playoffs - unseeded"
    },
    {
-    "rank": 22,
+    "rank": 23,
     "team": "Atlético Madrid",
     "p": 4,
     "w": 1,
@@ -553,7 +565,19 @@
     "zone": "Knockout phase playoffs - unseeded"
    },
    {
-    "rank": 23,
+    "rank": 24,
+    "team": "PSV Eindhoven",
+    "p": 4,
+    "w": 1,
+    "d": 1,
+    "l": 2,
+    "gf": 3,
+    "ga": 4,
+    "pts": 4,
+    "zone": "Knockout phase playoffs - unseeded"
+   },
+   {
+    "rank": 25,
     "team": "Bodo/Glimt",
     "p": 4,
     "w": 1,
@@ -562,70 +586,34 @@
     "gf": 4,
     "ga": 9,
     "pts": 4,
-    "zone": "Knockout phase playoffs - unseeded"
-   },
-   {
-    "rank": 24,
-    "team": "Napoli",
-    "p": 3,
-    "w": 1,
-    "d": 0,
-    "l": 2,
-    "gf": 5,
-    "ga": 7,
-    "pts": 3,
-    "zone": "Knockout phase playoffs - unseeded"
-   },
-   {
-    "rank": 25,
-    "team": "Sabah FK",
-    "p": 3,
-    "w": 1,
-    "d": 0,
-    "l": 2,
-    "gf": 3,
-    "ga": 6,
-    "pts": 3,
     "zone": "Eliminated"
    },
    {
     "rank": 26,
-    "team": "Lens",
-    "p": 3,
+    "team": "FC Porto",
+    "p": 4,
     "w": 1,
     "d": 0,
-    "l": 2,
-    "gf": 3,
+    "l": 3,
+    "gf": 6,
     "ga": 7,
     "pts": 3,
     "zone": "Eliminated"
    },
    {
     "rank": 27,
-    "team": "AEK Athens",
-    "p": 3,
+    "team": "Napoli",
+    "p": 4,
     "w": 1,
     "d": 0,
-    "l": 2,
-    "gf": 3,
-    "ga": 8,
+    "l": 3,
+    "gf": 6,
+    "ga": 11,
     "pts": 3,
     "zone": "Eliminated"
    },
    {
     "rank": 28,
-    "team": "RB Leipzig",
-    "p": 3,
-    "w": 1,
-    "d": 0,
-    "l": 2,
-    "gf": 3,
-    "ga": 8,
-    "pts": 3,
-    "zone": "Eliminated"
-   },
-   {
-    "rank": 29,
     "team": "Villarreal",
     "p": 4,
     "w": 1,
@@ -637,7 +625,43 @@
     "zone": "Eliminated"
    },
    {
+    "rank": 29,
+    "team": "AEK Athens",
+    "p": 4,
+    "w": 1,
+    "d": 0,
+    "l": 3,
+    "gf": 5,
+    "ga": 11,
+    "pts": 3,
+    "zone": "Eliminated"
+   },
+   {
     "rank": 30,
+    "team": "RB Leipzig",
+    "p": 4,
+    "w": 1,
+    "d": 0,
+    "l": 3,
+    "gf": 5,
+    "ga": 11,
+    "pts": 3,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 31,
+    "team": "Sabah FK",
+    "p": 4,
+    "w": 1,
+    "d": 0,
+    "l": 3,
+    "gf": 4,
+    "ga": 10,
+    "pts": 3,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 32,
     "team": "Feyenoord",
     "p": 4,
     "w": 1,
@@ -649,43 +673,31 @@
     "zone": "Eliminated"
    },
    {
-    "rank": 31,
-    "team": "Fenerbahçe",
-    "p": 3,
-    "w": 0,
-    "d": 2,
-    "l": 1,
-    "gf": 3,
-    "ga": 9,
-    "pts": 2,
-    "zone": "Eliminated"
-   },
-   {
-    "rank": 32,
-    "team": "Slavia Prague",
-    "p": 3,
-    "w": 0,
-    "d": 1,
-    "l": 2,
-    "gf": 4,
-    "ga": 7,
-    "pts": 1,
-    "zone": "Eliminated"
-   },
-   {
     "rank": 33,
-    "team": "Viking FK",
-    "p": 3,
+    "team": "Lens",
+    "p": 4,
+    "w": 1,
+    "d": 0,
+    "l": 3,
+    "gf": 4,
+    "ga": 16,
+    "pts": 3,
+    "zone": "Eliminated"
+   },
+   {
+    "rank": 34,
+    "team": "Slavia Prague",
+    "p": 4,
     "w": 0,
     "d": 1,
-    "l": 2,
+    "l": 3,
     "gf": 5,
     "ga": 9,
     "pts": 1,
     "zone": "Eliminated"
    },
    {
-    "rank": 34,
+    "rank": 35,
     "team": "Lille",
     "p": 4,
     "w": 0,
@@ -694,18 +706,6 @@
     "gf": 4,
     "ga": 10,
     "pts": 1,
-    "zone": "Eliminated"
-   },
-   {
-    "rank": 35,
-    "team": "FC Porto",
-    "p": 3,
-    "w": 0,
-    "d": 0,
-    "l": 3,
-    "gf": 2,
-    "ga": 6,
-    "pts": 0,
     "zone": "Eliminated"
    },
    {
