@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-08T14:12Z",
+ "updated": "2026-11-09T02:52Z",
  "source": "ESPN public soccer service (unofficial)",
  "competitions": [
   {
@@ -60,6 +60,18 @@
    },
    {
     "rank": 2,
+    "team": "Brighton & Hove Albion",
+    "p": 10,
+    "w": 7,
+    "d": 1,
+    "l": 2,
+    "gf": 26,
+    "ga": 7,
+    "pts": 22,
+    "zone": "Champions League"
+   },
+   {
+    "rank": 3,
     "team": "Manchester City",
     "p": 10,
     "w": 7,
@@ -71,31 +83,31 @@
     "zone": "Champions League"
    },
    {
-    "rank": 3,
-    "team": "Brighton & Hove Albion",
-    "p": 9,
-    "w": 6,
-    "d": 1,
-    "l": 2,
-    "gf": 24,
-    "ga": 7,
-    "pts": 19,
-    "zone": "Champions League"
-   },
-   {
     "rank": 4,
-    "team": "Chelsea",
-    "p": 9,
+    "team": "Liverpool",
+    "p": 10,
     "w": 5,
-    "d": 1,
-    "l": 3,
-    "gf": 19,
-    "ga": 15,
-    "pts": 16,
+    "d": 3,
+    "l": 2,
+    "gf": 14,
+    "ga": 10,
+    "pts": 18,
     "zone": "Champions League"
    },
    {
     "rank": 5,
+    "team": "Chelsea",
+    "p": 10,
+    "w": 5,
+    "d": 1,
+    "l": 4,
+    "gf": 19,
+    "ga": 16,
+    "pts": 16,
+    "zone": "Europa League"
+   },
+   {
+    "rank": 6,
     "team": "Everton",
     "p": 10,
     "w": 4,
@@ -104,34 +116,34 @@
     "gf": 12,
     "ga": 10,
     "pts": 16,
-    "zone": "Europa League"
-   },
-   {
-    "rank": 6,
-    "team": "Liverpool",
-    "p": 9,
-    "w": 4,
-    "d": 3,
-    "l": 2,
-    "gf": 11,
-    "ga": 9,
-    "pts": 15,
     "zone": null
    },
    {
     "rank": 7,
-    "team": "Brentford",
-    "p": 9,
-    "w": 3,
-    "d": 5,
-    "l": 1,
+    "team": "AFC Bournemouth",
+    "p": 10,
+    "w": 4,
+    "d": 3,
+    "l": 3,
     "gf": 16,
-    "ga": 9,
-    "pts": 14,
+    "ga": 14,
+    "pts": 15,
     "zone": null
    },
    {
     "rank": 8,
+    "team": "Brentford",
+    "p": 10,
+    "w": 3,
+    "d": 5,
+    "l": 2,
+    "gf": 16,
+    "ga": 11,
+    "pts": 14,
+    "zone": null
+   },
+   {
+    "rank": 9,
     "team": "Leeds United",
     "p": 10,
     "w": 3,
@@ -143,19 +155,19 @@
     "zone": null
    },
    {
-    "rank": 9,
-    "team": "AFC Bournemouth",
-    "p": 9,
+    "rank": 10,
+    "team": "Aston Villa",
+    "p": 10,
     "w": 3,
-    "d": 3,
+    "d": 4,
     "l": 3,
     "gf": 14,
-    "ga": 13,
-    "pts": 12,
+    "ga": 17,
+    "pts": 13,
     "zone": null
    },
    {
-    "rank": 10,
+    "rank": 11,
     "team": "Tottenham Hotspur",
     "p": 10,
     "w": 3,
@@ -167,7 +179,7 @@
     "zone": null
    },
    {
-    "rank": 11,
+    "rank": 12,
     "team": "Newcastle United",
     "p": 10,
     "w": 3,
@@ -175,18 +187,6 @@
     "l": 4,
     "gf": 13,
     "ga": 16,
-    "pts": 12,
-    "zone": null
-   },
-   {
-    "rank": 12,
-    "team": "Aston Villa",
-    "p": 9,
-    "w": 3,
-    "d": 3,
-    "l": 3,
-    "gf": 10,
-    "ga": 13,
     "pts": 12,
     "zone": null
    },
@@ -205,12 +205,12 @@
    {
     "rank": 14,
     "team": "Ipswich Town",
-    "p": 9,
+    "p": 10,
     "w": 3,
     "d": 2,
-    "l": 4,
-    "gf": 14,
-    "ga": 18,
+    "l": 5,
+    "gf": 15,
+    "ga": 20,
     "pts": 11,
     "zone": null
    },
@@ -253,37 +253,37 @@
    {
     "rank": 18,
     "team": "Manchester United",
-    "p": 9,
+    "p": 10,
     "w": 1,
-    "d": 4,
+    "d": 5,
     "l": 4,
-    "gf": 10,
-    "ga": 15,
-    "pts": 7,
+    "gf": 14,
+    "ga": 19,
+    "pts": 8,
     "zone": "Relegation"
    },
    {
     "rank": 19,
-    "team": "Crystal Palace",
-    "p": 9,
+    "team": "Sunderland",
+    "p": 10,
     "w": 2,
-    "d": 1,
+    "d": 2,
     "l": 6,
-    "gf": 9,
-    "ga": 21,
-    "pts": 7,
+    "gf": 8,
+    "ga": 17,
+    "pts": 8,
     "zone": "Relegation"
    },
    {
     "rank": 20,
-    "team": "Sunderland",
-    "p": 9,
-    "w": 1,
-    "d": 2,
-    "l": 6,
-    "gf": 7,
-    "ga": 17,
-    "pts": 5,
+    "team": "Crystal Palace",
+    "p": 10,
+    "w": 2,
+    "d": 1,
+    "l": 7,
+    "gf": 10,
+    "ga": 24,
+    "pts": 7,
     "zone": "Relegation"
    }
   ],
@@ -10563,18 +10563,466 @@
    "espn": "eng.1",
    "round": "",
    "kick": "2026-11-08T16:30Z",
-   "state": "scheduled",
+   "state": "finished",
    "home": "Manchester United",
    "away": "Aston Villa",
-   "hg": null,
-   "ag": null,
+   "hg": 4,
+   "ag": 4,
    "pens": null,
    "venue": "Old Trafford",
    "city": "Manchester",
-   "att": null,
+   "att": 74149,
    "neutral": false,
    "note": null,
-   "comp": "premier-league"
+   "comp": "premier-league",
+   "goals": [
+    {
+     "min": "1",
+     "team": "Aston Villa",
+     "player": "Alysson",
+     "assist": "John McGinn",
+     "kind": "Goal"
+    },
+    {
+     "min": "4",
+     "team": "Aston Villa",
+     "player": "Nicolas Jackson",
+     "assist": null,
+     "kind": "Goal"
+    },
+    {
+     "min": "16",
+     "team": "Manchester United",
+     "player": "Bruno Fernandes",
+     "assist": null,
+     "kind": "Penalty"
+    },
+    {
+     "min": "44",
+     "team": "Manchester United",
+     "player": "Youri Tielemans",
+     "assist": "Noussair Mazraoui",
+     "kind": "Goal"
+    },
+    {
+     "min": "48",
+     "team": "Aston Villa",
+     "player": "John McGinn",
+     "assist": null,
+     "kind": "Penalty"
+    },
+    {
+     "min": "53",
+     "team": "Aston Villa",
+     "player": "Leon Goretzka",
+     "assist": "Nicolas Jackson",
+     "kind": "Goal"
+    },
+    {
+     "min": "90+2",
+     "team": "Manchester United",
+     "player": "Joshua Zirkzee",
+     "assist": "Patrick Dorgu",
+     "kind": "Goal"
+    },
+    {
+     "min": "90+6",
+     "team": "Manchester United",
+     "player": "Patrick Dorgu",
+     "assist": "Bruno Fernandes",
+     "kind": "Goal"
+    }
+   ],
+   "cards": [
+    {
+     "min": "57",
+     "team": "Manchester United",
+     "player": "Ayden Heaven",
+     "kind": "Yellow"
+    },
+    {
+     "min": "90+7",
+     "team": "Aston Villa",
+     "player": "Zion Suzuki",
+     "kind": "Yellow"
+    }
+   ],
+   "lineups": [
+    {
+     "team": "Manchester United",
+     "side": "home",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "id": "301425",
+       "name": "Senne Lammens",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "157073",
+       "name": "Harry Maguire",
+       "no": "5",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "340206",
+       "name": "Leny Yoro",
+       "no": "15",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "238902",
+       "name": "Diogo Dalot",
+       "no": "2",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "239350",
+       "name": "Noussair Mazraoui",
+       "no": "3",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "124091",
+       "name": "Bruno Fernandes",
+       "no": "8",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "328466",
+       "name": "Kobbie Mainoo",
+       "no": "37",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "193297",
+       "name": "Youri Tielemans",
+       "no": "18",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "271170",
+       "name": "Bryan Mbeumo",
+       "no": "19",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "259902",
+       "name": "Matheus Cunha",
+       "no": "10",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "291630",
+       "name": "Amad Diallo",
+       "no": "16",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "231167",
+       "name": "Mason Mount",
+       "no": "7",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "366781",
+       "name": "Patrick Dorgu",
+       "no": "13",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "314858",
+       "name": "Andrey Santos",
+       "no": "17",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "276327",
+       "name": "Joshua Zirkzee",
+       "no": "11",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "356044",
+       "name": "Ayden Heaven",
+       "no": "26",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "239349",
+       "name": "Matthijs de Ligt",
+       "no": "4",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "205081",
+       "name": "Jack Fletcher",
+       "no": "38",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "130877",
+       "name": "Karl Darlow",
+       "no": "12",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "358180",
+       "name": "Shea Lacey",
+       "no": "31",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      }
+     ]
+    },
+    {
+     "team": "Aston Villa",
+     "side": "away",
+     "formation": "4-2-3-1",
+     "players": [
+      {
+       "id": "265958",
+       "name": "Zion Suzuki",
+       "no": "1",
+       "pos": "G",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "251100",
+       "name": "Pau Torres",
+       "no": "14",
+       "pos": "CD-L",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "204679",
+       "name": "Victor Lindelöf",
+       "no": "3",
+       "pos": "CD-R",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "281125",
+       "name": "Ian Maatsen",
+       "no": "22",
+       "pos": "LB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "281121",
+       "name": "Taylor Harwood-Bellis",
+       "no": "4",
+       "pos": "RB",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "162843",
+       "name": "John McGinn",
+       "no": "7",
+       "pos": "AM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "174550",
+       "name": "Leon Goretzka",
+       "no": "27",
+       "pos": "LM",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "250936",
+       "name": "Boubacar Kamara",
+       "no": "8",
+       "pos": "RM",
+       "start": true,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "308524",
+       "name": "Nicolas Jackson",
+       "no": "11",
+       "pos": "F",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "386992",
+       "name": "Johan Manzambi",
+       "no": "44",
+       "pos": "AM-L",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "382839",
+       "name": "Alysson",
+       "no": "47",
+       "pos": "AM-R",
+       "start": true,
+       "on": false,
+       "off": true
+      },
+      {
+       "id": "388522",
+       "name": "Ibrahim Mbaye",
+       "no": "19",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "214375",
+       "name": "Emiliano Buendía",
+       "no": "10",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "132233",
+       "name": "Marco Bizot",
+       "no": "40",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "401451",
+       "name": "Brian Madjo",
+       "no": "39",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "366248",
+       "name": "George Hemmings",
+       "no": "53",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "152469",
+       "name": "Ross Barkley",
+       "no": "6",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "301524",
+       "name": "João Gomes",
+       "no": "35",
+       "pos": "SUB",
+       "start": false,
+       "on": true,
+       "off": false
+      },
+      {
+       "id": "181312",
+       "name": "Tyrone Mings",
+       "no": "5",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      },
+      {
+       "id": "392682",
+       "name": "Modou Cissé",
+       "no": "48",
+       "pos": "SUB",
+       "start": false,
+       "on": false,
+       "off": false
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "401878755",
