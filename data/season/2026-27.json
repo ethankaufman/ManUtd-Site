@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-09T02:52Z",
+ "updated": "2026-11-12T15:54Z",
  "source": "ESPN public soccer service (unofficial)",
  "competitions": [
   {
@@ -783,9 +783,9 @@
    "slug": "luke-shaw",
    "name": "Luke Shaw",
    "no": "23",
-   "pos": "Midfielder",
-   "age": 30,
-   "dob": "1995-11-24",
+   "pos": "Defender",
+   "age": 31,
+   "dob": "1995-07-12",
    "nation": "England",
    "height_cm": 178
   },
