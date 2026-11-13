@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-12T15:54Z",
+ "updated": "2026-11-13T15:15Z",
  "source": "ESPN public soccer service (unofficial)",
  "competitions": [
   {
@@ -839,7 +839,7 @@
    "name": "Leny Yoro",
    "no": "15",
    "pos": "Defender",
-   "age": 20,
+   "age": 21,
    "dob": "2005-11-13",
    "nation": "France",
    "height_cm": 190
