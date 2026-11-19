@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-14T14:02Z",
+ "updated": "2026-11-19T16:28Z",
  "source": "ESPN public soccer service (unofficial)",
  "competitions": [
   {
@@ -11244,7 +11244,7 @@
    "id": "401878725",
    "espn": "eng.1",
    "round": "",
-   "kick": "2027-01-16T15:00Z",
+   "kick": "2027-01-16T17:30Z",
    "state": "scheduled",
    "home": "Aston Villa",
    "away": "Manchester United",
@@ -11280,7 +11280,7 @@
    "id": "401878718",
    "espn": "eng.1",
    "round": "",
-   "kick": "2027-01-23T15:00Z",
+   "kick": "2027-01-24T16:30Z",
    "state": "scheduled",
    "home": "Manchester United",
    "away": "Liverpool",
@@ -11316,7 +11316,7 @@
    "id": "401878715",
    "espn": "eng.1",
    "round": "",
-   "kick": "2027-01-30T15:00Z",
+   "kick": "2027-02-01T20:00Z",
    "state": "scheduled",
    "home": "Brentford",
    "away": "Manchester United",
