@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-20T16:00Z",
+ "updated": "2026-11-21T15:14Z",
  "source": "ESPN public soccer service (unofficial)",
  "competitions": [
   {
@@ -73,13 +73,13 @@
    {
     "rank": 3,
     "team": "Manchester City",
-    "p": 10,
+    "p": 11,
     "w": 7,
-    "d": 0,
+    "d": 1,
     "l": 3,
-    "gf": 21,
-    "ga": 13,
-    "pts": 21,
+    "gf": 22,
+    "ga": 14,
+    "pts": 22,
     "zone": "Champions League"
    },
    {
@@ -204,6 +204,18 @@
    },
    {
     "rank": 14,
+    "team": "Fulham",
+    "p": 11,
+    "w": 2,
+    "d": 5,
+    "l": 4,
+    "gf": 11,
+    "ga": 13,
+    "pts": 11,
+    "zone": null
+   },
+   {
+    "rank": 15,
     "team": "Ipswich Town",
     "p": 10,
     "w": 3,
@@ -212,18 +224,6 @@
     "gf": 15,
     "ga": 20,
     "pts": 11,
-    "zone": null
-   },
-   {
-    "rank": 15,
-    "team": "Fulham",
-    "p": 10,
-    "w": 2,
-    "d": 4,
-    "l": 4,
-    "gf": 10,
-    "ga": 12,
-    "pts": 10,
     "zone": null
    },
    {
