@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-21T15:14Z",
+ "updated": "2026-11-22T03:20Z",
  "source": "ESPN public soccer service (unofficial)",
  "competitions": [
   {
@@ -49,13 +49,13 @@
    {
     "rank": 1,
     "team": "Arsenal",
-    "p": 10,
+    "p": 11,
     "w": 9,
-    "d": 0,
+    "d": 1,
     "l": 1,
-    "gf": 15,
-    "ga": 5,
-    "pts": 27,
+    "gf": 17,
+    "ga": 7,
+    "pts": 28,
     "zone": "Champions League"
    },
    {
@@ -84,6 +84,18 @@
    },
    {
     "rank": 4,
+    "team": "AFC Bournemouth",
+    "p": 11,
+    "w": 5,
+    "d": 3,
+    "l": 3,
+    "gf": 18,
+    "ga": 14,
+    "pts": 18,
+    "zone": "Champions League"
+   },
+   {
+    "rank": 5,
     "team": "Liverpool",
     "p": 10,
     "w": 5,
@@ -92,22 +104,22 @@
     "gf": 14,
     "ga": 10,
     "pts": 18,
-    "zone": "Champions League"
-   },
-   {
-    "rank": 5,
-    "team": "Chelsea",
-    "p": 10,
-    "w": 5,
-    "d": 1,
-    "l": 4,
-    "gf": 19,
-    "ga": 16,
-    "pts": 16,
     "zone": "Europa League"
    },
    {
     "rank": 6,
+    "team": "Leeds United",
+    "p": 11,
+    "w": 4,
+    "d": 5,
+    "l": 2,
+    "gf": 14,
+    "ga": 9,
+    "pts": 17,
+    "zone": null
+   },
+   {
+    "rank": 7,
     "team": "Everton",
     "p": 10,
     "w": 4,
@@ -119,19 +131,31 @@
     "zone": null
    },
    {
-    "rank": 7,
-    "team": "AFC Bournemouth",
-    "p": 10,
+    "rank": 8,
+    "team": "Chelsea",
+    "p": 11,
+    "w": 5,
+    "d": 1,
+    "l": 5,
+    "gf": 20,
+    "ga": 20,
+    "pts": 16,
+    "zone": null
+   },
+   {
+    "rank": 9,
+    "team": "Tottenham Hotspur",
+    "p": 11,
     "w": 4,
     "d": 3,
-    "l": 3,
-    "gf": 16,
-    "ga": 14,
+    "l": 4,
+    "gf": 12,
+    "ga": 11,
     "pts": 15,
     "zone": null
    },
    {
-    "rank": 8,
+    "rank": 10,
     "team": "Brentford",
     "p": 10,
     "w": 3,
@@ -143,55 +167,43 @@
     "zone": null
    },
    {
-    "rank": 9,
-    "team": "Leeds United",
-    "p": 10,
+    "rank": 11,
+    "team": "Aston Villa",
+    "p": 11,
     "w": 3,
     "d": 5,
-    "l": 2,
-    "gf": 10,
-    "ga": 8,
-    "pts": 14,
-    "zone": null
-   },
-   {
-    "rank": 10,
-    "team": "Aston Villa",
-    "p": 10,
-    "w": 3,
-    "d": 4,
     "l": 3,
     "gf": 14,
     "ga": 17,
-    "pts": 13,
-    "zone": null
-   },
-   {
-    "rank": 11,
-    "team": "Tottenham Hotspur",
-    "p": 10,
-    "w": 3,
-    "d": 3,
-    "l": 4,
-    "gf": 10,
-    "ga": 11,
-    "pts": 12,
+    "pts": 14,
     "zone": null
    },
    {
     "rank": 12,
     "team": "Newcastle United",
-    "p": 10,
+    "p": 11,
     "w": 3,
-    "d": 3,
+    "d": 4,
     "l": 4,
-    "gf": 13,
-    "ga": 16,
-    "pts": 12,
+    "gf": 15,
+    "ga": 18,
+    "pts": 13,
     "zone": null
    },
    {
     "rank": 13,
+    "team": "Coventry City",
+    "p": 11,
+    "w": 4,
+    "d": 0,
+    "l": 7,
+    "gf": 13,
+    "ga": 21,
+    "pts": 12,
+    "zone": null
+   },
+   {
+    "rank": 14,
     "team": "Hull City",
     "p": 10,
     "w": 2,
@@ -203,7 +215,7 @@
     "zone": null
    },
    {
-    "rank": 14,
+    "rank": 15,
     "team": "Fulham",
     "p": 11,
     "w": 2,
@@ -215,43 +227,43 @@
     "zone": null
    },
    {
-    "rank": 15,
+    "rank": 16,
     "team": "Ipswich Town",
-    "p": 10,
+    "p": 11,
     "w": 3,
     "d": 2,
-    "l": 5,
+    "l": 6,
     "gf": 15,
-    "ga": 20,
+    "ga": 22,
     "pts": 11,
     "zone": null
    },
    {
-    "rank": 16,
+    "rank": 17,
     "team": "Nottingham Forest",
-    "p": 10,
+    "p": 11,
     "w": 2,
     "d": 3,
-    "l": 5,
+    "l": 6,
     "gf": 9,
-    "ga": 13,
-    "pts": 9,
-    "zone": null
-   },
-   {
-    "rank": 17,
-    "team": "Coventry City",
-    "p": 10,
-    "w": 3,
-    "d": 0,
-    "l": 7,
-    "gf": 10,
-    "ga": 19,
+    "ga": 15,
     "pts": 9,
     "zone": null
    },
    {
     "rank": 18,
+    "team": "Sunderland",
+    "p": 11,
+    "w": 2,
+    "d": 3,
+    "l": 6,
+    "gf": 8,
+    "ga": 17,
+    "pts": 9,
+    "zone": "Relegation"
+   },
+   {
+    "rank": 19,
     "team": "Manchester United",
     "p": 10,
     "w": 1,
@@ -263,26 +275,14 @@
     "zone": "Relegation"
    },
    {
-    "rank": 19,
-    "team": "Sunderland",
-    "p": 10,
-    "w": 2,
-    "d": 2,
-    "l": 6,
-    "gf": 8,
-    "ga": 17,
-    "pts": 8,
-    "zone": "Relegation"
-   },
-   {
     "rank": 20,
     "team": "Crystal Palace",
-    "p": 10,
+    "p": 11,
     "w": 2,
     "d": 1,
-    "l": 7,
-    "gf": 10,
-    "ga": 24,
+    "l": 8,
+    "gf": 12,
+    "ga": 27,
     "pts": 7,
     "zone": "Relegation"
    }
