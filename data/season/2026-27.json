@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-28T04:50Z",
+ "updated": "2026-11-28T16:05Z",
  "source": "ESPN public soccer service (unofficial)",
  "competitions": [
   {
@@ -11968,11 +11968,11 @@
    "espn": "eng.1",
    "round": "",
    "kick": "2026-11-28T15:00Z",
-   "state": "scheduled",
+   "state": "live",
    "home": "Manchester United",
    "away": "Brentford",
-   "hg": null,
-   "ag": null,
+   "hg": 0,
+   "ag": 2,
    "pens": null,
    "venue": "Old Trafford",
    "city": "Manchester",
