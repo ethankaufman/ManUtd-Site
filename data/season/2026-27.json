@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-26T05:17Z",
+ "updated": "2026-11-28T04:50Z",
  "source": "ESPN public soccer service (unofficial)",
  "competitions": [
   {
@@ -133,12 +133,12 @@
    {
     "rank": 8,
     "team": "Chelsea",
-    "p": 11,
+    "p": 12,
     "w": 5,
     "d": 1,
-    "l": 5,
-    "gf": 20,
-    "ga": 20,
+    "l": 6,
+    "gf": 22,
+    "ga": 23,
     "pts": 16,
     "zone": null
    },
@@ -204,6 +204,18 @@
    },
    {
     "rank": 14,
+    "team": "Nottingham Forest",
+    "p": 12,
+    "w": 3,
+    "d": 3,
+    "l": 6,
+    "gf": 12,
+    "ga": 17,
+    "pts": 12,
+    "zone": null
+   },
+   {
+    "rank": 15,
     "team": "Coventry City",
     "p": 11,
     "w": 4,
@@ -215,7 +227,7 @@
     "zone": null
    },
    {
-    "rank": 15,
+    "rank": 16,
     "team": "Fulham",
     "p": 11,
     "w": 2,
@@ -227,7 +239,7 @@
     "zone": null
    },
    {
-    "rank": 16,
+    "rank": 17,
     "team": "Ipswich Town",
     "p": 11,
     "w": 3,
@@ -236,18 +248,6 @@
     "gf": 15,
     "ga": 22,
     "pts": 11,
-    "zone": null
-   },
-   {
-    "rank": 17,
-    "team": "Nottingham Forest",
-    "p": 11,
-    "w": 2,
-    "d": 3,
-    "l": 6,
-    "gf": 9,
-    "ga": 15,
-    "pts": 9,
     "zone": null
    },
    {
